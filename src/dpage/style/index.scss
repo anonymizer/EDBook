@@ -1,0 +1,83 @@
+@use './TextareaWithButton.scss';
+@use './vscode-vars.scss' as vsc;
+@use './components.scss';
+@use './common.scss' as common;
+@use './cells.scss' as cells;
+@use './code-files.scss' as code-files;
+@use './header.scss' as header;
+@import '../../../node_modules/@vscode/codicons/dist/codicon.css';
+
+html {
+    overflow: hidden;
+    body {
+        height: 100%;
+        padding: 0px;
+
+        .codicon { @include common.codicon-position-fix; }
+
+        #root {
+            width: 100%;
+
+            .page-dialog, .page-code {
+                width: 100%;
+            }
+            .page-code {
+                @include code-files.editor;
+                overflow-y: hidden !important;
+            }
+
+            #header { @include header.header; }
+
+            #cells {
+                @include common.no-bullet-list;
+                margin-block-start: 0px;
+                margin-top: 10px;
+                margin-bottom: 50px;
+
+                margin-left: calc(3vw + 64px);
+                margin-right: 3vw;
+
+                > div { @include cells.cell; }
+                > div.add-cell { @include cells.add-cell; }
+
+                .back-to-main-thread-link {
+                    font-style: italic;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                max-width: 70ex;
+                // if the width is over 70ex then center the cells
+                @media (min-width: 80ex) {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .done {
+                    opacity: 0.75;
+                    font-style: italic;
+                }
+            }
+
+            > .svg-overlay {
+                width: 100vw;
+                height: 100vh;
+                position: absolute;
+                background: none;
+                z-index: 999;
+                pointer-events: none;
+                > svg {
+                    width: 100%;
+                    height: 100%;
+
+                    .annotation-path {
+                        fill: none;
+                        stroke: vsc.$control-focus-border;
+                        stroke-width: 1px;
+                        stroke-opacity: 0.75;
+                    }
+                }
+            }
+        }
+    }
+}

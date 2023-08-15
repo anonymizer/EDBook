@@ -1,0 +1,1364 @@
+{
+    "id": "09ccb6f5-9630-41e3-8e60-676763be1228",
+    "cellsById": {
+        "2f53d839-8a94-4459-904a-aa4e2abdd276": {
+            "id": "2f53d839-8a94-4459-904a-aa4e2abdd276",
+            "source": "Hey, I wonder how websites are created. I’ve got a great idea and want to put it on a webpage. And let people visit it! Can you help me create a webpage?",
+            "childrenIds": [
+                "384dd956-c31e-41ca-8a64-4465bf4e9b72"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "384dd956-c31e-41ca-8a64-4465bf4e9b72": {
+            "id": "384dd956-c31e-41ca-8a64-4465bf4e9b72",
+            "source": "Sure, what’s it about?",
+            "parentId": "2f53d839-8a94-4459-904a-aa4e2abdd276",
+            "childrenIds": [
+                "101b4bfe-7782-4a5b-899d-02b744fdfa28"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "101b4bfe-7782-4a5b-899d-02b744fdfa28": {
+            "id": "101b4bfe-7782-4a5b-899d-02b744fdfa28",
+            "source": "It’s a secret! I can’t just give you my precious idea. Just teach me how to create it. ",
+            "parentId": "384dd956-c31e-41ca-8a64-4465bf4e9b72",
+            "childrenIds": [
+                "615438c9-28e8-4c9f-abf3-f1015f3f1c38"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "615438c9-28e8-4c9f-abf3-f1015f3f1c38": {
+            "id": "615438c9-28e8-4c9f-abf3-f1015f3f1c38",
+            "source": "Okay, but first, you’ll need to learn how to code with HTML.",
+            "parentId": "101b4bfe-7782-4a5b-899d-02b744fdfa28",
+            "childrenIds": [
+                "7cd06bc4-cb9f-4eb4-897f-d34f84ca1082"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "7cd06bc4-cb9f-4eb4-897f-d34f84ca1082": {
+            "id": "7cd06bc4-cb9f-4eb4-897f-d34f84ca1082",
+            "source": "HTML? What is it?",
+            "parentId": "615438c9-28e8-4c9f-abf3-f1015f3f1c38",
+            "childrenIds": [
+                "a68589df-e5e1-4219-a472-757d75ae074e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "a68589df-e5e1-4219-a472-757d75ae074e": {
+            "id": "a68589df-e5e1-4219-a472-757d75ae074e",
+            "source": "HTML is a programming language. It’s unique in that it is a markup language.",
+            "parentId": "7cd06bc4-cb9f-4eb4-897f-d34f84ca1082",
+            "childrenIds": [
+                "50c947bf-9a11-4a99-b95a-c6ab97722266"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "50c947bf-9a11-4a99-b95a-c6ab97722266": {
+            "id": "50c947bf-9a11-4a99-b95a-c6ab97722266",
+            "source": "Oh no. I don’t like coding. Is it difficult to learn HTML?",
+            "parentId": "a68589df-e5e1-4219-a472-757d75ae074e",
+            "childrenIds": [
+                "9919acd6-69f9-45c0-a2a9-8a9a68fa04db"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "9919acd6-69f9-45c0-a2a9-8a9a68fa04db": {
+            "id": "9919acd6-69f9-45c0-a2a9-8a9a68fa04db",
+            "source": "No need to worry. That’s why I’m here for you.",
+            "parentId": "50c947bf-9a11-4a99-b95a-c6ab97722266",
+            "childrenIds": [
+                "27a8c239-21e4-49e4-b6ba-7a048d5118af"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "27a8c239-21e4-49e4-b6ba-7a048d5118af": {
+            "id": "27a8c239-21e4-49e4-b6ba-7a048d5118af",
+            "source": "Okay… and what’s a markup language?",
+            "parentId": "9919acd6-69f9-45c0-a2a9-8a9a68fa04db",
+            "childrenIds": [
+                "08c1da4c-4443-45a8-b93e-7a68fa7c3f71"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "08c1da4c-4443-45a8-b93e-7a68fa7c3f71": {
+            "id": "08c1da4c-4443-45a8-b93e-7a68fa7c3f71",
+            "source": "It is a language for defining a document that has formatting (for example, bold text or italic text), multimedia (for example, images and videos), references to other web pages (this is fundamentally important), and everything else that a web page can contain! This means that you need to learn HTML in order to create a web page. \n",
+            "parentId": "27a8c239-21e4-49e4-b6ba-7a048d5118af",
+            "childrenIds": [
+                "b5443610-28f5-4164-a2f3-742f6a8127fa"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "b5443610-28f5-4164-a2f3-742f6a8127fa": {
+            "id": "b5443610-28f5-4164-a2f3-742f6a8127fa",
+            "source": "Um.. I don’t really understand. You mean I can create the whole website and all functionalities inside it only using HTML?",
+            "parentId": "08c1da4c-4443-45a8-b93e-7a68fa7c3f71",
+            "childrenIds": [
+                "91068add-3950-40e1-9f86-4fac8492f88e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "91068add-3950-40e1-9f86-4fac8492f88e": {
+            "id": "91068add-3950-40e1-9f86-4fac8492f88e",
+            "source": "Not everything - we’ll get to this later again, but at least all the contents inside the page can be created using HTML.",
+            "parentId": "b5443610-28f5-4164-a2f3-742f6a8127fa",
+            "childrenIds": [
+                "b2eb9599-0c7b-40f2-a7d6-9d487ac6b3fa"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "b2eb9599-0c7b-40f2-a7d6-9d487ac6b3fa": {
+            "id": "b2eb9599-0c7b-40f2-a7d6-9d487ac6b3fa",
+            "source": "Got it. Then what other languages do I need to learn to create the entire webpage?",
+            "parentId": "91068add-3950-40e1-9f86-4fac8492f88e",
+            "childrenIds": [
+                "82758d32-775c-42af-9c87-1dd061f97b89"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "82758d32-775c-42af-9c87-1dd061f97b89": {
+            "id": "82758d32-775c-42af-9c87-1dd061f97b89",
+            "source": "JavaScript/TypeScript and CSS are needed together with HTML. But as I said, we’ll focus on HTML for today to create the contents first. Your webpage has contents, right?",
+            "parentId": "b2eb9599-0c7b-40f2-a7d6-9d487ac6b3fa",
+            "childrenIds": [
+                "0fbb499c-40bf-49a7-b085-e4c5121835eb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "0fbb499c-40bf-49a7-b085-e4c5121835eb": {
+            "id": "0fbb499c-40bf-49a7-b085-e4c5121835eb",
+            "source": "Yes it does.",
+            "parentId": "82758d32-775c-42af-9c87-1dd061f97b89",
+            "childrenIds": [
+                "cec430ef-d88f-48c3-8f4f-830494d41589"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "cec430ef-d88f-48c3-8f4f-830494d41589": {
+            "id": "cec430ef-d88f-48c3-8f4f-830494d41589",
+            "source": "## Quiz\n\n:::multiple-choice\nCan you create all functionalities on a webpage only using HTML?\n::option[Yes]{feedback=\"Incorrect. Think again what HTML's roles are.\"}\n::option[No]{correct feedback=\"Correct!\"}\n:::",
+            "parentId": "0fbb499c-40bf-49a7-b085-e4c5121835eb",
+            "childrenIds": [
+                "489f044c-c917-4527-ad76-fea51d5c7ed8"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "cec430ef-d88f-48c3-8f4f-830494d41589-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "cec430ef-d88f-48c3-8f4f-830494d41589-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "cec430ef-d88f-48c3-8f4f-830494d41589-option-2",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "489f044c-c917-4527-ad76-fea51d5c7ed8": {
+            "id": "489f044c-c917-4527-ad76-fea51d5c7ed8",
+            "source": "## Quiz\n\n:::multiple-choice\nWhat is the main purpose of using HTML?\n::option[Style the webpage]{feedback=\"Incorrect.\"}\n::option[Create content of the webpage]{correct feedback=\"Great!\"}\n::option[Add interaction between elements, such as closing a new tab, etc.]{feedback=\"Incorrect.\"}\n:::",
+            "parentId": "cec430ef-d88f-48c3-8f4f-830494d41589",
+            "childrenIds": [
+                "a78c052a-6334-4858-9f3d-8ea1ba2c2aab"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "489f044c-c917-4527-ad76-fea51d5c7ed8-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "489f044c-c917-4527-ad76-fea51d5c7ed8-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "489f044c-c917-4527-ad76-fea51d5c7ed8-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "489f044c-c917-4527-ad76-fea51d5c7ed8-option-3",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "a78c052a-6334-4858-9f3d-8ea1ba2c2aab": {
+            "id": "a78c052a-6334-4858-9f3d-8ea1ba2c2aab",
+            "source": "Good. Then I’ll teach you what ‘tags’ are. Tags create elements, which are the contents inside a webpage.",
+            "parentId": "489f044c-c917-4527-ad76-fea51d5c7ed8",
+            "childrenIds": [
+                "a59fa463-74f7-4d8d-af52-81716b68bfc4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "a59fa463-74f7-4d8d-af52-81716b68bfc4": {
+            "id": "a59fa463-74f7-4d8d-af52-81716b68bfc4",
+            "source": "Can you give me an example?",
+            "parentId": "a78c052a-6334-4858-9f3d-8ea1ba2c2aab",
+            "childrenIds": [
+                "1eba9702-119d-4260-814c-86901186fc36"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1eba9702-119d-4260-814c-86901186fc36": {
+            "id": "1eba9702-119d-4260-814c-86901186fc36",
+            "source": "Yes. All tags are specified with angle brackets: <>. We specify the beginning of an element by putting the tag name (the name of the element we want to create) in angle brackets (for example, `<TAG>`). We specify the end of an element by adding a forward slash after the first angle bracket (`</TAG>`). So it will look like this:\n```html\n<TAG> this is the content of the element </TAG>\n```",
+            "parentId": "a59fa463-74f7-4d8d-af52-81716b68bfc4",
+            "childrenIds": [
+                "bb2e8ee1-7049-4e5e-a037-f990099a414b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "bb2e8ee1-7049-4e5e-a037-f990099a414b": {
+            "id": "bb2e8ee1-7049-4e5e-a037-f990099a414b",
+            "source": "## Quiz\n\nWrite HTML code using `<p />` tag with content ‘Hello, thank you for visiting’.\n:::edit-code\n::language[html]\n::environment[html]\n`\n<!-- Write your code below. -->\n`\n`\n`\n`\n<p>Hello, thank you for visiting</p>\n`\n:::",
+            "parentId": "1eba9702-119d-4260-814c-86901186fc36",
+            "childrenIds": [
+                "6465fdea-2651-4393-872d-f2612025e94f"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "bb2e8ee1-7049-4e5e-a037-f990099a414b-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "6465fdea-2651-4393-872d-f2612025e94f": {
+            "id": "6465fdea-2651-4393-872d-f2612025e94f",
+            "source": "Okay. So you mean \n`html\n<TAG> this is the content of the element </TAG>\n`\nthis will become one unique element inside the webpage?",
+            "parentId": "bb2e8ee1-7049-4e5e-a037-f990099a414b",
+            "childrenIds": [
+                "629cb581-b5e8-4979-8ea9-d4af7729432a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "629cb581-b5e8-4979-8ea9-d4af7729432a": {
+            "id": "629cb581-b5e8-4979-8ea9-d4af7729432a",
+            "source": "Correct. I’ll explain more about tags. There are many different kinds of HTML elements we can create; each element serves a different role.",
+            "parentId": "6465fdea-2651-4393-872d-f2612025e94f",
+            "childrenIds": [
+                "2c787592-73b5-4177-9bc5-3489df171f32"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "2c787592-73b5-4177-9bc5-3489df171f32": {
+            "id": "2c787592-73b5-4177-9bc5-3489df171f32",
+            "source": "Can you give me an example?",
+            "parentId": "629cb581-b5e8-4979-8ea9-d4af7729432a",
+            "childrenIds": [
+                "5f018066-62fd-4394-bc82-d4937e1bec28"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "5f018066-62fd-4394-bc82-d4937e1bec28": {
+            "id": "5f018066-62fd-4394-bc82-d4937e1bec28",
+            "source": "Sure. For example, `<p />` specifies a paragraph of text and `<h1 />` specifies a “first-level” heading, which is usually a title. I’ll give you more examples later.\n",
+            "parentId": "2c787592-73b5-4177-9bc5-3489df171f32",
+            "childrenIds": [
+                "d0dff6a9-4ac0-435a-8507-6ac79793df92"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "d0dff6a9-4ac0-435a-8507-6ac79793df92": {
+            "id": "d0dff6a9-4ac0-435a-8507-6ac79793df92",
+            "source": "Okay. Then if I write like this: \n```html\n<h1> My Cool Web Page </h1>\n```\nThis will work like a title for my webpage?\n",
+            "parentId": "5f018066-62fd-4394-bc82-d4937e1bec28",
+            "childrenIds": [
+                "ec985301-d438-4747-abc5-1a29ef7f58c1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "ec985301-d438-4747-abc5-1a29ef7f58c1": {
+            "id": "ec985301-d438-4747-abc5-1a29ef7f58c1",
+            "source": "Yes, that’s right. However, unlike your example, there are elements that do not need content or cannot have it. For those cases, we can write one self-closing tag like this:\n```html\n<TAG />\n```\n",
+            "parentId": "d0dff6a9-4ac0-435a-8507-6ac79793df92",
+            "childrenIds": [
+                "f3c0d953-2339-4bd5-8621-cadb11eba8db"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "f3c0d953-2339-4bd5-8621-cadb11eba8db": {
+            "id": "f3c0d953-2339-4bd5-8621-cadb11eba8db",
+            "source": "Okay. ",
+            "parentId": "ec985301-d438-4747-abc5-1a29ef7f58c1",
+            "childrenIds": [
+                "94ac83df-b3b7-4ed3-80c6-5d768170a16f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "94ac83df-b3b7-4ed3-80c6-5d768170a16f": {
+            "id": "94ac83df-b3b7-4ed3-80c6-5d768170a16f",
+            "source": "Also, it’s very important that you understand tags are typically **nested**. This means one tag can contain other tags inside it. For example, you see `<p />` tag contains `<em />` and `<strong />` inside it?\n",
+            "parentId": "f3c0d953-2339-4bd5-8621-cadb11eba8db",
+            "childrenIds": [
+                "f80ba05f-3969-4357-828d-18bf37a8fcb5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_1.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.html": [
+                        [
+                            1,
+                            "<p>\n  This is a paragraph.\n  <em>This part of the text is emphasized. And <strong>this part is emphasized *and* important.</strong> OK.</em>\n  End of Paragraph.\n</p>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.html",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 5,
+                    "endColumn": 5
+                }
+            ]
+        },
+        "f80ba05f-3969-4357-828d-18bf37a8fcb5": {
+            "id": "f80ba05f-3969-4357-828d-18bf37a8fcb5",
+            "source": "Yes. But why do we need this nested structure in HTML?",
+            "parentId": "94ac83df-b3b7-4ed3-80c6-5d768170a16f",
+            "childrenIds": [
+                "131faf10-5977-49bb-b590-da2ee22463ce"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "131faf10-5977-49bb-b590-da2ee22463ce": {
+            "id": "131faf10-5977-49bb-b590-da2ee22463ce",
+            "source": "Good question. HTML elements, which were created by tags, determine the structure of the webpage. And HTML elements are in a *DOM tree structure*, so it has a “root”, which is the top-level element, and has sub-elements. \n>\nBy using HTML element nesting, it specifies an element \"tree\" where every element can contain any number of sub-elements (which in turn can contain other sub-elements, etc.).",
+            "parentId": "f80ba05f-3969-4357-828d-18bf37a8fcb5",
+            "childrenIds": [
+                "358df96c-3753-4d08-a7a8-eea4716556e1",
+                "9cd4705f-ac7e-47f1-b782-85434ee4b1e7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "358df96c-3753-4d08-a7a8-eea4716556e1": {
+            "id": "358df96c-3753-4d08-a7a8-eea4716556e1",
+            "source": "I don’t fully understand.",
+            "parentId": "131faf10-5977-49bb-b590-da2ee22463ce",
+            "childrenIds": [
+                "0b3a358a-4cb3-41cb-bbc7-00a2a7952384"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "0b3a358a-4cb3-41cb-bbc7-00a2a7952384": {
+            "id": "0b3a358a-4cb3-41cb-bbc7-00a2a7952384",
+            "source": "Once more, a parent element is what contains sub-elements. Therefore, every parent element must fully contain its sub-elements. ",
+            "parentId": "358df96c-3753-4d08-a7a8-eea4716556e1",
+            "childrenIds": [
+                "27b17e67-41ac-4a7e-9433-3cfbc27eb4f3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "27b17e67-41ac-4a7e-9433-3cfbc27eb4f3": {
+            "id": "27b17e67-41ac-4a7e-9433-3cfbc27eb4f3",
+            "source": "Can you give me an example?",
+            "parentId": "0b3a358a-4cb3-41cb-bbc7-00a2a7952384",
+            "childrenIds": [
+                "ea21ee34-8adf-49bd-8397-089a11b7efc9"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "ea21ee34-8adf-49bd-8397-089a11b7efc9": {
+            "id": "ea21ee34-8adf-49bd-8397-089a11b7efc9",
+            "source": "Yes, this is unacceptable, because `<emph />` element does not fully contain the `<strong />` element.\n",
+            "parentId": "27b17e67-41ac-4a7e-9433-3cfbc27eb4f3",
+            "childrenIds": [
+                "59cbce69-7cf1-4f1b-9c47-7dc63346a07d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_2.html"
+                ],
+                "removed": [
+                    "file_1.html"
+                ],
+                "codeDiffs": {
+                    "file_2.html": [
+                        [
+                            1,
+                            "<emph> <strong> </emph> </strong>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.html",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 34
+                }
+            ]
+        },
+        "59cbce69-7cf1-4f1b-9c47-7dc63346a07d": {
+            "id": "59cbce69-7cf1-4f1b-9c47-7dc63346a07d",
+            "source": "Oh okay.",
+            "parentId": "ea21ee34-8adf-49bd-8397-089a11b7efc9",
+            "childrenIds": [
+                "c1fc90fb-68ec-403e-9ae6-54a564c40a3e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c1fc90fb-68ec-403e-9ae6-54a564c40a3e": {
+            "id": "c1fc90fb-68ec-403e-9ae6-54a564c40a3e",
+            "source": "## Quiz\nChange the wrong example above (`<emph> <strong> </emph> </strong>`) into a correct HTML form.\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code here. -->\n```\n```\n```\n```\n<strong><emph></emph></strong>\n```\n:::",
+            "parentId": "59cbce69-7cf1-4f1b-9c47-7dc63346a07d",
+            "childrenIds": [
+                "5b673e45-0668-494a-bf1a-89f9716a637b"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "c1fc90fb-68ec-403e-9ae6-54a564c40a3e-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "5b673e45-0668-494a-bf1a-89f9716a637b": {
+            "id": "5b673e45-0668-494a-bf1a-89f9716a637b",
+            "source": "## Quiz\nGive five examples of HTML tags.\n:::edit-code\n::language[html]\n::environment[html]\n```\n```\n```\n```\n```\n<p/>\n<h1/>\n<h2/>\n<strong/>\n<span/>\n```\n:::",
+            "parentId": "c1fc90fb-68ec-403e-9ae6-54a564c40a3e",
+            "childrenIds": [
+                "0f34ea60-22b4-4ce1-9074-2a06dbc62dff"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "5b673e45-0668-494a-bf1a-89f9716a637b-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "0f34ea60-22b4-4ce1-9074-2a06dbc62dff": {
+            "id": "0f34ea60-22b4-4ce1-9074-2a06dbc62dff",
+            "source": "The “root” of the tree is typically an `<html />` element. We normally put the content of the document inside of a `<body />` element.",
+            "parentId": "5b673e45-0668-494a-bf1a-89f9716a637b",
+            "childrenIds": [
+                "c10e2849-2882-4f0f-8d43-61d78eecfcfa"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "c10e2849-2882-4f0f-8d43-61d78eecfcfa": {
+            "id": "c10e2849-2882-4f0f-8d43-61d78eecfcfa",
+            "source": "Then can you give me a full example of a paragraph in HTML?",
+            "parentId": "0f34ea60-22b4-4ce1-9074-2a06dbc62dff",
+            "childrenIds": [
+                "0e7da7cb-2dca-417e-8de6-552f52d6fc23"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "0e7da7cb-2dca-417e-8de6-552f52d6fc23": {
+            "id": "0e7da7cb-2dca-417e-8de6-552f52d6fc23",
+            "source": "Of course. Here:\n```html\n<html>\n  <body>\n    <h1>My Webpage</h1>\n    <p>This is a paragraph with some <strong>important text</strong></p>\n  </body>\n</html>\n```\nCan you see the root element is `<html />` and has `<body />` and its following sub-elements under?\n",
+            "parentId": "c10e2849-2882-4f0f-8d43-61d78eecfcfa",
+            "childrenIds": [
+                "5698a6a2-a690-4804-91fd-a47a3aaa5ac9"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "5698a6a2-a690-4804-91fd-a47a3aaa5ac9": {
+            "id": "5698a6a2-a690-4804-91fd-a47a3aaa5ac9",
+            "source": "Yes! I got it. This is also a tree structure, right?",
+            "parentId": "0e7da7cb-2dca-417e-8de6-552f52d6fc23",
+            "childrenIds": [
+                "b61720e4-ebf3-454d-b5e2-d30ab6822570"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "b61720e4-ebf3-454d-b5e2-d30ab6822570": {
+            "id": "b61720e4-ebf3-454d-b5e2-d30ab6822570",
+            "source": "Correct. The tree looks like this (using #text to represent any text content):\n- html\n    - body\n        - h1\n            - #text: My Webpage\n        - p\n            - #text: This is a paragraph with some\n            - strong\n                - #text: important text",
+            "parentId": "5698a6a2-a690-4804-91fd-a47a3aaa5ac9",
+            "childrenIds": [
+                "38f29cf5-9a7b-40c0-ae00-253befa5017f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "38f29cf5-9a7b-40c0-ae00-253befa5017f": {
+            "id": "38f29cf5-9a7b-40c0-ae00-253befa5017f",
+            "source": "It makes more sense now.",
+            "parentId": "b61720e4-ebf3-454d-b5e2-d30ab6822570",
+            "childrenIds": [
+                "59affdb6-99d1-4002-9351-55fd8b4f7ddd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "59affdb6-99d1-4002-9351-55fd8b4f7ddd": {
+            "id": "59affdb6-99d1-4002-9351-55fd8b4f7ddd",
+            "source": "## Quiz\nUsing the same format above, write how the HTML tree hierarchy would look like if the HTML code is like this:\n```html\n<html>\n  <body>\n    <h1>How to make a simple tomato pizza</h1>\n    <h2> Ingredients </h2>\n    <ol>\n        <li>Flour</li>\n        <li>Tomato sauce</li>\n    </ol>\n  </body>\n</html>\n```\n:::edit-code\n::language[html]\n```\n```\n```\n```\n```\n```\n:::\n",
+            "parentId": "38f29cf5-9a7b-40c0-ae00-253befa5017f",
+            "childrenIds": [
+                "24368206-a392-445d-80ab-c5ea066ca926"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "59affdb6-99d1-4002-9351-55fd8b4f7ddd-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "24368206-a392-445d-80ab-c5ea066ca926": {
+            "id": "24368206-a392-445d-80ab-c5ea066ca926",
+            "source": "## Quiz\nWrite HTML code with the following tree hierarchy:\n- html\n    - body\n        - h1\n            - #text: All about dogs\n        - h2\n            - #text: Dog breeds\n        - ul\n            - li \n                - #text: German shepherd\n            - li\n                - #text: Bulldog\n            - li\n                - #text: Poodle\n        - h2\n            - #text: 4 most popular dog colors\n        - ol\n            - li\n                - #text: black\n            - li\n                - #text: brown\n            - li\n                - #text: white\n            - li\n                - #text: red\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below. -->\n```\n```\n```\n```\n\n```\n:::\n",
+            "parentId": "59affdb6-99d1-4002-9351-55fd8b4f7ddd",
+            "childrenIds": [
+                "e6a06fa2-ae10-456d-ad8d-85d833907511"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "24368206-a392-445d-80ab-c5ea066ca926-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "e6a06fa2-ae10-456d-ad8d-85d833907511": {
+            "id": "e6a06fa2-ae10-456d-ad8d-85d833907511",
+            "source": "## Quiz\n\nWrite HTML code with the following tree hierarchy:\n- html\n    - body\n        - p\n            - #text: I don’t like dogs. I\n            - em\n                - #text: love\n            - #text: them.\n\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below. -->\n```\n```\n```\n```\n<html>\n    <body>\n        <p>I don't like dogs. I <em>love</em> them.</p>\n    </body>\n</html>\n```\n:::",
+            "parentId": "24368206-a392-445d-80ab-c5ea066ca926",
+            "childrenIds": [
+                "22398f7d-23d0-4c74-a46f-f155e2105b8d"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "e6a06fa2-ae10-456d-ad8d-85d833907511-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "22398f7d-23d0-4c74-a46f-f155e2105b8d": {
+            "id": "22398f7d-23d0-4c74-a46f-f155e2105b8d",
+            "source": "Good. Then I’ll teach you some terminology about the tree structure of HTML:\n- The root is the top-level element\n    - The `<html />` element is the root of the tree above\n- Element `c` is a child of element `p` if it is directly below it in the hierarchy\n    - The `<body />` element is a child of the `<html />` element\n- Conversely, element `p` is a parent element `c` if it is directly above it in the hierarchy\n- Sibling elements are elements that have the same parent\n    - The `h1` and `p` elements are siblings\n- Element `d` is a descendant of element `a` if it is below it in the hierarchy (at any level)\n    - The `strong` element is a descendant of the html element\n- Conversely, element `a` is an ancestor of element `d` if it is its parent (at any level)\n    - The `html` element is an ancestor of the `p` element   ",
+            "parentId": "e6a06fa2-ae10-456d-ad8d-85d833907511",
+            "childrenIds": [
+                "b6bdf298-7abb-4926-a1b3-869dd56c543b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_2.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "b6bdf298-7abb-4926-a1b3-869dd56c543b": {
+            "id": "b6bdf298-7abb-4926-a1b3-869dd56c543b",
+            "source": "## Quiz\n\nUsing the terms about the tree structure of HTML, for the following code, `<h1 />` and `<h2 />` are in which relationship?\n```html\n<html>\n  <body>\n    <h1>How to make a simple tomato pizza</h1>\n    <h2> Ingredients </h2>\n    <ol>\n        <li>Flour</li>\n        <li>Tomato sauce</li>\n    </ol>\n  </body>\n</html>\n```\n\n:::edit-code\n::language[html]\n```\n```\n```\n```\n```\n```\n:::",
+            "parentId": "22398f7d-23d0-4c74-a46f-f155e2105b8d",
+            "childrenIds": [
+                "6ee3226b-cae0-4b7c-b5c7-968ae8bf4986"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "b6bdf298-7abb-4926-a1b3-869dd56c543b-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "6ee3226b-cae0-4b7c-b5c7-968ae8bf4986": {
+            "id": "6ee3226b-cae0-4b7c-b5c7-968ae8bf4986",
+            "source": "Makes sense. It’s like a family structure.",
+            "parentId": "b6bdf298-7abb-4926-a1b3-869dd56c543b",
+            "childrenIds": [
+                "488b7567-97f3-4e8c-9e43-27c261bbcae1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "488b7567-97f3-4e8c-9e43-27c261bbcae1": {
+            "id": "488b7567-97f3-4e8c-9e43-27c261bbcae1",
+            "source": "Yes! Very good. Now I’ll tell you about adding “attributes” to each tag. ",
+            "parentId": "6ee3226b-cae0-4b7c-b5c7-968ae8bf4986",
+            "childrenIds": [
+                "eea3503b-3cf8-4b96-a914-9df549db99f4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "eea3503b-3cf8-4b96-a914-9df549db99f4": {
+            "id": "eea3503b-3cf8-4b96-a914-9df549db99f4",
+            "source": "Attributes? What does it do?",
+            "parentId": "488b7567-97f3-4e8c-9e43-27c261bbcae1",
+            "childrenIds": [
+                "17c5f83c-203e-426f-b530-8f07669875bd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "17c5f83c-203e-426f-b530-8f07669875bd": {
+            "id": "17c5f83c-203e-426f-b530-8f07669875bd",
+            "source": "Attributes customize elements! For example, a hyperlink is specified with an `<a />` tag, but `<a />` itself doesn’t tell which webpage or website this element will lead users. So, this is where attributes are needed. We can add the specific URL by using attribute like this.\n>\nAn attribute has a name and a value, specified as `NAME=\"VALUE\"`. In the case above, `href` is the name and `https://umich.edu/` is the value.",
+            "parentId": "eea3503b-3cf8-4b96-a914-9df549db99f4",
+            "childrenIds": [
+                "f15810a7-ae5e-4238-a30f-b046cbcd1f95"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_3.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_3.html": [
+                        [
+                            1,
+                            "<a href=\"https://umich.edu/\">The University of Michigan Homepage</a>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_3.html",
+                    "startLineNumber": 1,
+                    "startColumn": 4,
+                    "endLineNumber": 1,
+                    "endColumn": 29
+                }
+            ]
+        },
+        "f15810a7-ae5e-4238-a30f-b046cbcd1f95": {
+            "id": "f15810a7-ae5e-4238-a30f-b046cbcd1f95",
+            "source": "## Quiz\n\nWrite HTML code using `<a />` tag with URL to your favorite website and the name of the site.\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below. -->\n```\n```\n```\n```\n```\n:::",
+            "parentId": "17c5f83c-203e-426f-b530-8f07669875bd",
+            "childrenIds": [
+                "d03c2320-5bb4-4f44-9ce8-2351f9dcdb2e"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "f15810a7-ae5e-4238-a30f-b046cbcd1f95-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "d03c2320-5bb4-4f44-9ce8-2351f9dcdb2e": {
+            "id": "d03c2320-5bb4-4f44-9ce8-2351f9dcdb2e",
+            "source": "So it’s like giving extra information to each tag?\n",
+            "parentId": "f15810a7-ae5e-4238-a30f-b046cbcd1f95",
+            "childrenIds": [
+                "273f3ede-7833-4c21-8c36-af3ebf8c1c4a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "273f3ede-7833-4c21-8c36-af3ebf8c1c4a": {
+            "id": "273f3ede-7833-4c21-8c36-af3ebf8c1c4a",
+            "source": "Yes. For example, in addition to `href`, `<a />` elements have an optional `target` attribute to specify where the link should open. Some (not all) of the possible values are:\n- `\"_self\"` to open up in the current tab (default)\n- `\"_blank\"` to open up in a new tab\n",
+            "parentId": "d03c2320-5bb4-4f44-9ce8-2351f9dcdb2e",
+            "childrenIds": [
+                "678a5d08-419b-4e20-b931-7fa0ec44e02d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_3.html": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "<a href=\"https://umich.edu/\" target=\"_blank\">The University of Michigan Homepage</a>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_3.html",
+                    "startLineNumber": 1,
+                    "startColumn": 30,
+                    "endLineNumber": 1,
+                    "endColumn": 45
+                }
+            ]
+        },
+        "678a5d08-419b-4e20-b931-7fa0ec44e02d": {
+            "id": "678a5d08-419b-4e20-b931-7fa0ec44e02d",
+            "source": "Can you give me one more example?",
+            "parentId": "273f3ede-7833-4c21-8c36-af3ebf8c1c4a",
+            "childrenIds": [
+                "e0a4059c-1f98-4679-971c-10bde80b5022"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "e0a4059c-1f98-4679-971c-10bde80b5022": {
+            "id": "e0a4059c-1f98-4679-971c-10bde80b5022",
+            "source": "Of course. We can create an image element with the `<img />` tag. This requires `src` attribute by default to specify the path of the image file and an `alt` attribute that contains a text-based description of the image. The `alt` attribute is important for accessibility.\n",
+            "parentId": "678a5d08-419b-4e20-b931-7fa0ec44e02d",
+            "childrenIds": [
+                "0f0428a0-a6fd-40a4-b702-ea58dab95a12"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_4.html"
+                ],
+                "removed": [
+                    "file_3.html"
+                ],
+                "codeDiffs": {
+                    "file_4.html": [
+                        [
+                            1,
+                            "<img src=\"https://brand.umich.edu/assets/brand/style-guide/logo-guidelines/U-M_Logo-Hex.png\" alt=\"Logo of the Unviersity of Michigan\" />"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_4.html",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 137
+                }
+            ]
+        },
+        "0f0428a0-a6fd-40a4-b702-ea58dab95a12": {
+            "id": "0f0428a0-a6fd-40a4-b702-ea58dab95a12",
+            "source": "Makes sense! So I can use these tags and attributes to create my own elements on my webpage.",
+            "parentId": "e0a4059c-1f98-4679-971c-10bde80b5022",
+            "childrenIds": [
+                "ff979828-1cba-4034-af7e-0740a8683a92"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "ff979828-1cba-4034-af7e-0740a8683a92": {
+            "id": "ff979828-1cba-4034-af7e-0740a8683a92",
+            "source": "## Quiz\n\nWrite HTML code for any image using `<img />` tag. Make sure you write the `src` and `alt` attribute.\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below. -->\n```\n```\n```\n```\n<img src=\"https://unsplash.com/s/photos/white-dog\" alt=\"A white little dog\">\n```\n:::",
+            "parentId": "0f0428a0-a6fd-40a4-b702-ea58dab95a12",
+            "childrenIds": [
+                "b0a46542-a7f1-4e10-bc33-f0c8bfe82354"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "ff979828-1cba-4034-af7e-0740a8683a92-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "instructor"
+        },
+        "b0a46542-a7f1-4e10-bc33-f0c8bfe82354": {
+            "id": "b0a46542-a7f1-4e10-bc33-f0c8bfe82354",
+            "source": "That’s right! Remember, I told you there is `name` and `value` in an attribute, right? Sometimes, the specific `value` of an attribute does not matter. It only matters whether the attribute is present or not.",
+            "parentId": "ff979828-1cba-4034-af7e-0740a8683a92",
+            "childrenIds": [
+                "df86a958-bd55-4d64-9236-722129bf4450"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_4.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "df86a958-bd55-4d64-9236-722129bf4450": {
+            "id": "df86a958-bd55-4d64-9236-722129bf4450",
+            "source": "Hmm.. okay, give me an example.",
+            "parentId": "b0a46542-a7f1-4e10-bc33-f0c8bfe82354",
+            "childrenIds": [
+                "5cef05c5-4c0b-450c-be5d-798a1a7a1e9d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "5cef05c5-4c0b-450c-be5d-798a1a7a1e9d": {
+            "id": "5cef05c5-4c0b-450c-be5d-798a1a7a1e9d",
+            "source": "For example, say there is a button on a webpage. Your webpage may have buttons, right?",
+            "parentId": "df86a958-bd55-4d64-9236-722129bf4450",
+            "childrenIds": [
+                "7ea53df2-df05-46be-ab28-714f8269679d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "7ea53df2-df05-46be-ab28-714f8269679d": {
+            "id": "7ea53df2-df05-46be-ab28-714f8269679d",
+            "source": "Yes.",
+            "parentId": "5cef05c5-4c0b-450c-be5d-798a1a7a1e9d",
+            "childrenIds": [
+                "86af3bc9-a454-4ec2-8d43-830121c3d935"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "86af3bc9-a454-4ec2-8d43-830121c3d935": {
+            "id": "86af3bc9-a454-4ec2-8d43-830121c3d935",
+            "source": "Good, then you can use the `disabled` attribute in `<button />` element to disable it. \n>\nAs I said, the browser only cares that the `disabled` attribute is set. So even if you put any value, like `disabled=”false”`, `“”`, or anything else, the button will be disabled. \n>\nMoreover, you can omit the value and just write like this. This will give you the same result.\n",
+            "parentId": "7ea53df2-df05-46be-ab28-714f8269679d",
+            "childrenIds": [
+                "7b23b65e-4d69-4ea5-984f-4c40f71b7835"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_5.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_5.html": [
+                        [
+                            1,
+                            "<!-- Both of the following will disable the button -->\n<button disabled=\"true\">Disabled Button</button> \n<button disabled>Disabled Button</button>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.html",
+                    "startLineNumber": 2,
+                    "startColumn": 9,
+                    "endLineNumber": 2,
+                    "endColumn": 24
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_5.html",
+                    "startLineNumber": 3,
+                    "startColumn": 9,
+                    "endLineNumber": 3,
+                    "endColumn": 17
+                }
+            ]
+        },
+        "7b23b65e-4d69-4ea5-984f-4c40f71b7835": {
+            "id": "7b23b65e-4d69-4ea5-984f-4c40f71b7835",
+            "source": "Got it. I guess this can be useful when I want to disable a button under certain conditions.",
+            "parentId": "86af3bc9-a454-4ec2-8d43-830121c3d935",
+            "childrenIds": [
+                "5db9224d-5476-4303-a15d-e63a7e53553f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "5db9224d-5476-4303-a15d-e63a7e53553f": {
+            "id": "5db9224d-5476-4303-a15d-e63a7e53553f",
+            "source": "That’s correct. We’ll cover how to add those functionalities later.",
+            "parentId": "7b23b65e-4d69-4ea5-984f-4c40f71b7835",
+            "childrenIds": [
+                "41a24f6f-bdb7-4cdf-b2a6-34a92a71fa8c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "41a24f6f-bdb7-4cdf-b2a6-34a92a71fa8c": {
+            "id": "41a24f6f-bdb7-4cdf-b2a6-34a92a71fa8c",
+            "source": "Okay.",
+            "parentId": "5db9224d-5476-4303-a15d-e63a7e53553f",
+            "childrenIds": [
+                "1f1e7a08-421f-4d98-bae2-7eec2ba705b1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1f1e7a08-421f-4d98-bae2-7eec2ba705b1": {
+            "id": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1",
+            "source": "## Quiz\n:::multiple-choice\nChoose two correct explanations about attributes in HTML.\n::option[Some attributes are mandatory in some tags like `<img />`.]{correct feedback=\"Correct.\"}\n::option['The University of Michigan' text is an attribute in the following code: `<a href=\"https://umich.edu/\">The University of Michigan Homepage</a>`.]{feedback=\"Incorrect.\"}\n::option[Some attributes can be optional in some tags.]{correct feedback=\"Correct.\"}\n::option[`<button disabled=\"false\">Disabled Button</button>` will not disable the button.]{feedback=\"Incorrect.\"}\n:::",
+            "parentId": "41a24f6f-bdb7-4cdf-b2a6-34a92a71fa8c",
+            "childrenIds": [
+                "fcfda5b4-6fbf-4a75-b142-a108ed6e180c"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "fcfda5b4-6fbf-4a75-b142-a108ed6e180c": {
+            "id": "fcfda5b4-6fbf-4a75-b142-a108ed6e180c",
+            "source": "I also want to teach you how to write comments in HTML.",
+            "parentId": "1f1e7a08-421f-4d98-bae2-7eec2ba705b1",
+            "childrenIds": [
+                "9d1f91fc-0630-4885-a17c-755ef83e11b3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_5.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "9d1f91fc-0630-4885-a17c-755ef83e11b3": {
+            "id": "9d1f91fc-0630-4885-a17c-755ef83e11b3",
+            "source": "Comments? Why do we need comments?",
+            "parentId": "fcfda5b4-6fbf-4a75-b142-a108ed6e180c",
+            "childrenIds": [
+                "bbf46f37-3efc-4097-9ae7-33ea9c91d730"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "bbf46f37-3efc-4097-9ae7-33ea9c91d730": {
+            "id": "bbf46f37-3efc-4097-9ae7-33ea9c91d730",
+            "source": "Comments are important because they can make code maintenance much easier, and can help you find bugs. Code becomes more readable with comments.",
+            "parentId": "9d1f91fc-0630-4885-a17c-755ef83e11b3",
+            "childrenIds": [
+                "51455f31-8df7-49a9-8464-3276cfc24169"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "51455f31-8df7-49a9-8464-3276cfc24169": {
+            "id": "51455f31-8df7-49a9-8464-3276cfc24169",
+            "source": "Yeah, I’ve had some problems with reading someone else’s code in the past because I could figure out what a certain line of code is doing.",
+            "parentId": "bbf46f37-3efc-4097-9ae7-33ea9c91d730",
+            "childrenIds": [
+                "b5f961e3-4166-4e58-95e1-f9d22f34d0c2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "b5f961e3-4166-4e58-95e1-f9d22f34d0c2": {
+            "id": "b5f961e3-4166-4e58-95e1-f9d22f34d0c2",
+            "source": "Yes, that’s one of the good reasons we use comments. An example of a comment would look like this.",
+            "parentId": "51455f31-8df7-49a9-8464-3276cfc24169",
+            "childrenIds": [
+                "5b997e49-5702-4558-a7d2-701211703ecc"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_6.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_6.html": [
+                        [
+                            1,
+                            "<!-- this text is inside of a comment -->"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_6.html",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 42
+                }
+            ]
+        },
+        "5b997e49-5702-4558-a7d2-701211703ecc": {
+            "id": "5b997e49-5702-4558-a7d2-701211703ecc",
+            "source": "Got it.",
+            "parentId": "b5f961e3-4166-4e58-95e1-f9d22f34d0c2",
+            "childrenIds": [
+                "801a3680-f0e1-41ce-b7e4-c0e71512da7d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "801a3680-f0e1-41ce-b7e4-c0e71512da7d": {
+            "id": "801a3680-f0e1-41ce-b7e4-c0e71512da7d",
+            "source": "## Quiz\n\nWrite an HTML comment saying `This is a comment`  between `<h1 />` and `<p />`.\n```html\n<h1>Welcome to this site</h1>\n<p>I will talk about dogs on this website.</p>\n```\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<h1>Welcome to this site</h1>\n<p>I will talk about dogs on this website.</p>\n```\n```\n```\n```\n<h1>Welcome to this site</h1>\n<!-- This is a comment. -->\n<p>I will talk about dogs on this website.</p>\n```\n:::\n",
+            "parentId": "5b997e49-5702-4558-a7d2-701211703ecc",
+            "childrenIds": [
+                "8ee75e63-4ae1-4019-b3b8-3a4fa5a2808f"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "801a3680-f0e1-41ce-b7e4-c0e71512da7d-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "instructor"
+        },
+        "8ee75e63-4ae1-4019-b3b8-3a4fa5a2808f": {
+            "id": "8ee75e63-4ae1-4019-b3b8-3a4fa5a2808f",
+            "source": "As the last concept for today, you should remember to do `doctype` declaration. \n",
+            "parentId": "801a3680-f0e1-41ce-b7e4-c0e71512da7d",
+            "childrenIds": [
+                "205ec173-a10d-4d69-9281-14618af9ee8a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_6.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "205ec173-a10d-4d69-9281-14618af9ee8a": {
+            "id": "205ec173-a10d-4d69-9281-14618af9ee8a",
+            "source": "What is a `doctype` declaration?",
+            "parentId": "8ee75e63-4ae1-4019-b3b8-3a4fa5a2808f",
+            "childrenIds": [
+                "67235778-21a1-443c-9b1f-8d77d6a5f702"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "67235778-21a1-443c-9b1f-8d77d6a5f702": {
+            "id": "67235778-21a1-443c-9b1f-8d77d6a5f702",
+            "source": "A `doctype` declaration tells the browser what kind of document to expect. This tells the browser that is rendering your document that you want to render it as a modern web page.",
+            "parentId": "205ec173-a10d-4d69-9281-14618af9ee8a",
+            "childrenIds": [
+                "b5dec063-a1f8-4e84-8a8f-0383afc250c5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "b5dec063-a1f8-4e84-8a8f-0383afc250c5": {
+            "id": "b5dec063-a1f8-4e84-8a8f-0383afc250c5",
+            "source": "Then does this mean there’s another way to render it?",
+            "parentId": "67235778-21a1-443c-9b1f-8d77d6a5f702",
+            "childrenIds": [
+                "805e2c4f-9377-4d4e-ab61-0acdb98c4ea7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "805e2c4f-9377-4d4e-ab61-0acdb98c4ea7": {
+            "id": "805e2c4f-9377-4d4e-ab61-0acdb98c4ea7",
+            "source": "Yes. As opposed to “quirks-mode” when rendering a document, \n```html\n<!DOCTYPE html>\n```\nensures that the browser makes a best-effort attempt at following the relevant specifications, rather than using a different rendering mode that is incompatible with some specifications (source: https://developer.mozilla.org/en-US/docs/Glossary/Doctype ).",
+            "parentId": "b5dec063-a1f8-4e84-8a8f-0383afc250c5",
+            "childrenIds": [
+                "394c28f1-b9b9-43fb-a67b-2275a2026b1b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "394c28f1-b9b9-43fb-a67b-2275a2026b1b": {
+            "id": "394c28f1-b9b9-43fb-a67b-2275a2026b1b",
+            "source": "Okay. Where should I put it?\n",
+            "parentId": "805e2c4f-9377-4d4e-ab61-0acdb98c4ea7",
+            "childrenIds": [
+                "8cc112a3-9422-4e84-98fb-2d8f6e2cf07d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "8cc112a3-9422-4e84-98fb-2d8f6e2cf07d": {
+            "id": "8cc112a3-9422-4e84-98fb-2d8f6e2cf07d",
+            "source": "Make sure to declare it at the top of the HTML file. Also, this is not a tag so there is no ‘closing’ tag.\n",
+            "parentId": "394c28f1-b9b9-43fb-a67b-2275a2026b1b",
+            "childrenIds": [
+                "17742c30-8fa1-4b86-8b7d-bb2990265c16"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "17742c30-8fa1-4b86-8b7d-bb2990265c16": {
+            "id": "17742c30-8fa1-4b86-8b7d-bb2990265c16",
+            "source": "Got it.",
+            "parentId": "8cc112a3-9422-4e84-98fb-2d8f6e2cf07d",
+            "childrenIds": [
+                "214d1e41-6030-49b7-954f-d87725325838"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "214d1e41-6030-49b7-954f-d87725325838": {
+            "id": "214d1e41-6030-49b7-954f-d87725325838",
+            "source": "This is it for today! Let’s learn common HTML elements and attributes in depth next time. ",
+            "parentId": "17742c30-8fa1-4b86-8b7d-bb2990265c16",
+            "childrenIds": [
+                "b6280ce6-a082-487b-833d-85376ee69bae"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "b6280ce6-a082-487b-833d-85376ee69bae": {
+            "id": "b6280ce6-a082-487b-833d-85376ee69bae",
+            "source": "Thanks!",
+            "parentId": "214d1e41-6030-49b7-954f-d87725325838",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "9cd4705f-ac7e-47f1-b782-85434ee4b1e7": {
+            "id": "9cd4705f-ac7e-47f1-b782-85434ee4b1e7",
+            "source": "What is DOM?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "e4878b26-89ee-471d-a181-9fecf93924ac"
+            ],
+            "shortcutsTo": [],
+            "parentId": "131faf10-5977-49bb-b590-da2ee22463ce"
+        },
+        "e4878b26-89ee-471d-a181-9fecf93924ac": {
+            "id": "e4878b26-89ee-471d-a181-9fecf93924ac",
+            "source": "DOM stands for \"Document Object Model.\" In the context of HTML (Hypertext Markup Language) and web development, the DOM refers to the structured representation of a web page's content, layout, and elements in memory.\n>\nIn summary, the DOM is a programming interface that provides a structured way to interact with and manipulate the elements and content of an HTML document, facilitating dynamic and interactive web development.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "9cd4705f-ac7e-47f1-b782-85434ee4b1e7",
+            "isAIContent": false
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "blue",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "red",
+            "description": "You are a helpful assistant who is teaching a new programmer how to program in JavaScript"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "b6280ce6-a082-487b-833d-85376ee69bae",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

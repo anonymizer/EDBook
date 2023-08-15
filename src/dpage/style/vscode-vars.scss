@@ -1,0 +1,83 @@
+$foreground: var(--foreground);
+$background: var(--background);
+
+$disabled-foreground: var(--disabled-foreground);
+
+$cell-background-color: var(--vscode-notebook-cellEditorBackground);
+$cell-border-color: var(--vscode-notebook-cellBorderColor);
+$input-background: var(--input-background);
+$input-border: var(--input-background);
+$input-foreground: var(--vscode-input-foreground);
+$input-height: var(--input-height);
+$font-family: var(--vscode-font-family);
+$font-weight: var(--vscode-font-weight);
+$font-size: var(--vscode-font-size);
+
+
+$control-border-width: var(--border-width);
+$control-border-radius: var(--corner-radius);
+
+$control-focus-border: var(--focus-border);
+
+$control-font-size: var(--type-ramp-base-font-size);
+$control-line-height: var(--type-ramp-base-line-height);
+
+$button-primary-foreground: var(--button-primary-foreground);
+$button-primary-background: var(--button-primary-background);
+$button-primary-hover-background: var(--button-primary-hover-background);
+
+$button-secondary-foreground: var(--button-secondary-foreground);
+$button-secondary-background: var(--button-secondary-background);
+$button-secondary-hover-background: var(--button-secondary-hover-background);
+
+$button-icon-padding: var(--button-icon-padding);
+$button-icon-hover-background: var(--button-icon-hover-background);
+$button-icon-hover-outline: var(--contrast-active-border);
+$button-icon-corner-radius: var(--button-icon-corner-radius);
+
+$button-padding-vertical: var(--button-padding-vertical);
+$button-padding-horizontal: var(--button-padding-horizontal);
+$button-border: var(--button-border);
+
+$design-unit: var(--design-unit);
+$disabled-opacity: var(--disabled-opacity);
+
+$checkbox-background: var(--checkbox-background);
+$checkbox-border: var(--checkbox-border);
+$checkbox-border-radius: var(--checkbox-corner-radius);
+
+$dropdown-background: var(--dropdown-background);
+$dropdown-foreground: var(--dropdown-foreground);
+$dropdown-border: var(--dropdown-border);
+$input-min-width: var(--input-min-width);
+
+$sash-size: var(--vscode-sash-size);
+
+$text-separator-color: var(--vscode-textSeparator-foreground);
+
+$error-color: var(--vscode-testing-iconFailed);
+$success-color: var(--vscode-testing-iconPassed);
+
+$selected-cell-border: var(--vscode-notebook-selectedCellBorder);
+$selected-cell-background: var(--vscode-notebook-selectedCellBackground);
+
+$red: var(--vscode-charts-red);
+$orange: var(--vscode-charts-orange);
+$yellow: var(--vscode-charts-yellow);
+$green: var(--vscode-charts-green);
+$blue: var(--vscode-charts-blue);
+$purple: var(--vscode-charts-purple);
+
+$error-border: var(--vscode-editorError-foreground);
+$error-foreground: var(--vscode-editorError-foreground);
+$error-background: var(--vscode-inputValidation-errorBackground);
+
+$divider-background: var(--divider-background);
+
+$badge-foreground: var(--badge-foreground);
+$badge-background: var(--badge-background);
+
+$warning-foreground: var(--vscode-notificationsWarningIcon-foreground);
+
+$link-foreground: var(--link-foreground);
+$link-active-foreground: var(--link-active-foreground);

@@ -1,0 +1,333 @@
+{
+    "id": "ad6fd744-f4b9-48cc-8ee2-2564160892b6",
+    "cellsById": {
+        "439713fa-bd73-4390-b625-29f460dd3ebb": {
+            "id": "439713fa-bd73-4390-b625-29f460dd3ebb",
+            "source": "# Chapter 1 - Introduction to Caching",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "dfe315aa-2236-4b0e-a0b8-06b986e88676"
+            ],
+            "shortcutsTo": [],
+            "parentId": false
+        },
+        "dfe315aa-2236-4b0e-a0b8-06b986e88676": {
+            "id": "dfe315aa-2236-4b0e-a0b8-06b986e88676",
+            "source": "Oh no.. it's happening again!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "7951adde-fa5d-4c4c-ad61-ca94fde6bcb0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "439713fa-bd73-4390-b625-29f460dd3ebb"
+        },
+        "7951adde-fa5d-4c4c-ad61-ca94fde6bcb0": {
+            "id": "7951adde-fa5d-4c4c-ad61-ca94fde6bcb0",
+            "source": "What is happening?",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "71b15907-6a73-4649-8ef1-d15c69a17901"
+            ],
+            "shortcutsTo": [],
+            "parentId": "dfe315aa-2236-4b0e-a0b8-06b986e88676"
+        },
+        "71b15907-6a73-4649-8ef1-d15c69a17901": {
+            "id": "71b15907-6a73-4649-8ef1-d15c69a17901",
+            "source": "For my project, I need to retrieve data from this website, but it’s so slow.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "0ddf1305-7c73-4bda-b251-52df76fa6ab7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7951adde-fa5d-4c4c-ad61-ca94fde6bcb0"
+        },
+        "0ddf1305-7c73-4bda-b251-52df76fa6ab7": {
+            "id": "0ddf1305-7c73-4bda-b251-52df76fa6ab7",
+            "source": "Are you visiting the website multiple times and retrieving the same data?",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "d530ebd1-c8c9-4d8c-a965-26ff97a337cc"
+            ],
+            "shortcutsTo": [],
+            "parentId": "71b15907-6a73-4649-8ef1-d15c69a17901"
+        },
+        "d530ebd1-c8c9-4d8c-a965-26ff97a337cc": {
+            "id": "d530ebd1-c8c9-4d8c-a965-26ff97a337cc",
+            "source": "Yes.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "63bc5b28-2201-4226-9f32-09b2abac9cc1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0ddf1305-7c73-4bda-b251-52df76fa6ab7"
+        },
+        "63bc5b28-2201-4226-9f32-09b2abac9cc1": {
+            "id": "63bc5b28-2201-4226-9f32-09b2abac9cc1",
+            "source": "So this is why we need **caching**.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "98fc734b-b02a-426f-87a3-da659a312a13"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d530ebd1-c8c9-4d8c-a965-26ff97a337cc"
+        },
+        "98fc734b-b02a-426f-87a3-da659a312a13": {
+            "id": "98fc734b-b02a-426f-87a3-da659a312a13",
+            "source": "Caching? I’m sure I have heard of it, but I don’t know what it is exactly.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "94fe8e0b-3831-4b87-abc6-cff4b158ca9c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "63bc5b28-2201-4226-9f32-09b2abac9cc1"
+        },
+        "94fe8e0b-3831-4b87-abc6-cff4b158ca9c": {
+            "id": "94fe8e0b-3831-4b87-abc6-cff4b158ca9c",
+            "source": "Caching allows us to remember information that we get back from a source of data.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "6bac79c1-fc3c-49d2-95c2-ca06679aafbe"
+            ],
+            "shortcutsTo": [],
+            "parentId": "98fc734b-b02a-426f-87a3-da659a312a13"
+        },
+        "6bac79c1-fc3c-49d2-95c2-ca06679aafbe": {
+            "id": "6bac79c1-fc3c-49d2-95c2-ca06679aafbe",
+            "source": "Does it mean it’ll retain the information?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "5930e410-399c-4404-84b1-06103b7ad359"
+            ],
+            "shortcutsTo": [],
+            "parentId": "94fe8e0b-3831-4b87-abc6-cff4b158ca9c"
+        },
+        "5930e410-399c-4404-84b1-06103b7ad359": {
+            "id": "5930e410-399c-4404-84b1-06103b7ad359",
+            "source": "Yes! By using caching, we don’t need to make another request for the same information.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "e39c0426-31b9-429a-874a-ae68172068da"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6bac79c1-fc3c-49d2-95c2-ca06679aafbe"
+        },
+        "e39c0426-31b9-429a-874a-ae68172068da": {
+            "id": "e39c0426-31b9-429a-874a-ae68172068da",
+            "source": "That’s a great idea. It’ll be very efficient.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "52964db6-9012-4178-8c39-95d87e60781c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "5930e410-399c-4404-84b1-06103b7ad359"
+        },
+        "52964db6-9012-4178-8c39-95d87e60781c": {
+            "id": "52964db6-9012-4178-8c39-95d87e60781c",
+            "source": "Yes, it is. I’ll explain how cache works today, and we can go in-depth and study Python codes that do caching in the following lectures.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "7c9168c9-57fb-4913-b159-05efb8d764ea"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e39c0426-31b9-429a-874a-ae68172068da"
+        },
+        "7c9168c9-57fb-4913-b159-05efb8d764ea": {
+            "id": "7c9168c9-57fb-4913-b159-05efb8d764ea",
+            "source": "Sounds good!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "645aa96e-5f5a-40cf-8d36-af32a693a070"
+            ],
+            "shortcutsTo": [],
+            "parentId": "52964db6-9012-4178-8c39-95d87e60781c"
+        },
+        "645aa96e-5f5a-40cf-8d36-af32a693a070": {
+            "id": "645aa96e-5f5a-40cf-8d36-af32a693a070",
+            "source": "When we cache data, we have two options to approach the data:\n>\nFirst, the internet and second, the cache.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "f3eda3a4-1784-49db-beb4-569c3bc51871"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7c9168c9-57fb-4913-b159-05efb8d764ea"
+        },
+        "f3eda3a4-1784-49db-beb4-569c3bc51871": {
+            "id": "f3eda3a4-1784-49db-beb4-569c3bc51871",
+            "source": "You said we ‘remember’ the data. \n>\nSo at least for the first time accessing the information, I guess we should visit the internet to receive the data?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "f2a663eb-6c10-4f11-87d8-46f577bdc5f1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "645aa96e-5f5a-40cf-8d36-af32a693a070"
+        },
+        "f2a663eb-6c10-4f11-87d8-46f577bdc5f1": {
+            "id": "f2a663eb-6c10-4f11-87d8-46f577bdc5f1",
+            "source": "That’s right. Our cache starts empty at first, and after retrieving the data from the internet, we’re going to associate the keyword of that data and the value from the internet in our cache.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "18da71ab-eb97-4258-a55e-4b28eed17220"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f3eda3a4-1784-49db-beb4-569c3bc51871"
+        },
+        "18da71ab-eb97-4258-a55e-4b28eed17220": {
+            "id": "18da71ab-eb97-4258-a55e-4b28eed17220",
+            "source": "I get it.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "bf2bb3ae-347a-4779-b463-ea16575cd1da"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f2a663eb-6c10-4f11-87d8-46f577bdc5f1"
+        },
+        "bf2bb3ae-347a-4779-b463-ea16575cd1da": {
+            "id": "bf2bb3ae-347a-4779-b463-ea16575cd1da",
+            "source": "Great, now say you’re trying to access the exact same data. \n>\nIn this case, you don’t need to visit all the way back to the internet again. You can just visit our cache, which retains the data.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "3c4f08c2-fe1d-4c98-83df-b8634da9c7fc"
+            ],
+            "shortcutsTo": [],
+            "parentId": "18da71ab-eb97-4258-a55e-4b28eed17220"
+        },
+        "3c4f08c2-fe1d-4c98-83df-b8634da9c7fc": {
+            "id": "3c4f08c2-fe1d-4c98-83df-b8634da9c7fc",
+            "source": "I get it. It’s like having a little storage at my local environment and visiting my storage instead of going all the way to the internet.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "1f8a07e3-78e1-4e97-9407-3f588a4afcdb"
+            ],
+            "shortcutsTo": [],
+            "parentId": "bf2bb3ae-347a-4779-b463-ea16575cd1da"
+        },
+        "1f8a07e3-78e1-4e97-9407-3f588a4afcdb": {
+            "id": "1f8a07e3-78e1-4e97-9407-3f588a4afcdb",
+            "source": "Perfect! Now, let’s say you request another data that is different from what you just retrieved. It’s totally new data. \n>\nIn this case, what would you do?",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "14170ad7-3fc3-4ad2-a564-ef6f898c5ace"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3c4f08c2-fe1d-4c98-83df-b8634da9c7fc"
+        },
+        "14170ad7-3fc3-4ad2-a564-ef6f898c5ace": {
+            "id": "14170ad7-3fc3-4ad2-a564-ef6f898c5ace",
+            "source": "I’ll have to retrieve that data from the internet.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "35da5fea-e37e-4a53-b9a2-a3ad8a73750d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "1f8a07e3-78e1-4e97-9407-3f588a4afcdb"
+        },
+        "35da5fea-e37e-4a53-b9a2-a3ad8a73750d": {
+            "id": "35da5fea-e37e-4a53-b9a2-a3ad8a73750d",
+            "source": "That’s right. This is it for today, and we’ll learn how to code caching in Python from next time.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "687280d2-0fa8-4ad8-87c5-456b73f910db"
+            ],
+            "shortcutsTo": [],
+            "parentId": "14170ad7-3fc3-4ad2-a564-ef6f898c5ace"
+        },
+        "687280d2-0fa8-4ad8-87c5-456b73f910db": {
+            "id": "687280d2-0fa8-4ad8-87c5-456b73f910db",
+            "source": "Okay! Thank you!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "48c23035-a206-4dd5-9bf5-f9a4fd036b51"
+            ],
+            "shortcutsTo": [],
+            "parentId": "35da5fea-e37e-4a53-b9a2-a3ad8a73750d"
+        },
+        "48c23035-a206-4dd5-9bf5-f9a4fd036b51": {
+            "id": "48c23035-a206-4dd5-9bf5-f9a4fd036b51",
+            "source": "See you!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "687280d2-0fa8-4ad8-87c5-456b73f910db"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "var(--vscode-charts-black)",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "48c23035-a206-4dd5-9bf5-f9a4fd036b51",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

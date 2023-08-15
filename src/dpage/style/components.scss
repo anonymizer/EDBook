@@ -1,0 +1,228 @@
+@use './vscode-vars.scss' as vsc;
+
+textarea.gamma-control {
+    box-sizing: border-box;
+    position: relative;
+    color: vsc.$input-foreground;
+    background: vsc.$input-background;
+    border-radius: calc(vsc.$control-border-radius * 1px);
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$dropdown-border;
+    &:focus { border-color: vsc.$control-focus-border; }
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    font-size: vsc.$control-font-size;
+    line-height: vsc.$control-line-height;
+    padding: calc(vsc.$design-unit * 2px + 1px);
+    min-width: vsc.$input-min-width;
+    resize: none;
+    outline: none;
+}
+
+input.gamma-control {
+    color: vsc.$input-foreground;
+    background: vsc.$input-background;
+    font-family: vsc.$font-family;
+    font-weight: vsc.$font-weight;
+    font-size: vsc.$font-size;
+    border: vsc.$input-border;
+
+    &[disabled] {
+        opacity: vsc.$disabled-opacity;
+        cursor: not-allowed;
+    }
+}
+input[type="text"].gamma-control {
+    line-height: vsc.$control-line-height;
+    font-size: vsc.$control-font-size;
+    height: calc(vsc.$input-height * 1px);
+    padding: 0 calc(vsc.$design-unit * 2px + 1px);
+    outline: none;
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$dropdown-border;
+    &:focus { border-color: vsc.$control-focus-border; }
+}
+
+button.gamma-control {
+    outline: none;
+    font-family: vsc.$font-family;
+    font-size: vsc.$control-font-size;
+    line-height: vsc.$control-line-height;
+    border-radius: calc(vsc.$control-border-radius * 1px);
+    fill: currentcolor;
+    cursor: pointer;
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$button-border;
+
+    padding: vsc.$button-padding-vertical vsc.$button-padding-horizontal;
+
+    color: vsc.$button-primary-foreground;
+    background: vsc.$button-primary-background;
+    &:hover:not([disabled]) { background: vsc.$button-primary-hover-background; }
+    &:active { background: vsc.$button-primary-background; }
+
+    &.secondary {
+        color: vsc.$button-secondary-foreground;
+        background: vsc.$button-secondary-background;
+        &:hover:not([disabled]) { background: vsc.$button-secondary-hover-background; }
+        &:active { background: vsc.$button-secondary-background; }
+    }
+
+    &.icon {
+        border: none;
+        padding: vsc.$button-icon-padding;
+        background: transparent;
+        color: vsc.$foreground;
+        border-radius: vsc.$button-icon-corner-radius;
+        &:hover:not([disabled]) {
+            background: vsc.$button-icon-hover-background;
+            outline: vsc.$button-icon-hover-outline;
+            outline-offset: -1px;
+        }
+    }
+
+    &[disabled] {
+        opacity: vsc.$disabled-opacity;
+        cursor: not-allowed;
+    }
+}
+
+
+input[type="radio"].gamma-control {
+    appearance: none;
+    outline: none;
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$checkbox-border;
+    background: vsc.$checkbox-background;
+    width: calc(vsc.$design-unit * 4px);
+    height: calc(vsc.$design-unit * 4px);
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(0.2em);
+
+    &:checked {
+        background-color: vsc.$foreground;
+        border-width: calc(vsc.$control-border-width * 5px);
+        border-color: vsc.$checkbox-background;
+        outline: calc(vsc.$control-border-width * 1px) solid vsc.$checkbox-border;
+    }
+    &:active {
+        outline: calc(vsc.$control-border-width * 1px) solid vsc.$control-focus-border;
+    }
+}
+
+input[type="range"].gamma-control {
+    appearance: none;
+    border-radius: 4px;
+    height: 4px;
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$dropdown-border;
+    outline: none;
+}
+
+input[type="checkbox"].gamma-control {
+    appearance: none;
+    outline: none;
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$checkbox-border;
+    background: vsc.$checkbox-background;
+    width: calc(vsc.$design-unit * 4px);
+    height: calc(vsc.$design-unit * 4px);
+    border-radius: calc(vsc.$checkbox-border-radius * 1px);
+    cursor: pointer;
+    transform: translateY(0.5em);
+
+    &:checked {
+        &::before {
+            color: vsc.$foreground;
+            content: "\2713"; /* Unicode character for checkmark symbol */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &:active {
+        outline: calc(vsc.$control-border-width * 1px) solid vsc.$control-focus-border;
+    }
+}
+
+label.gamma-control {
+    color: vsc.$foreground;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    top: calc(vsc.$design-unit * -1px + 1px);
+}
+
+select.gamma-control {
+    align-items: center;
+    box-sizing: border-box;
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$dropdown-border;
+    border-radius: calc(vsc.$control-border-radius * 1px);
+    cursor: pointer;
+    font-family: vsc.$font-family;
+    font-size: vsc.$control-font-size;
+    line-height: vsc.$control-line-height;
+    padding: 2px 6px 2px 8px;
+    background: vsc.$dropdown-background;
+    color: vsc.$foreground;
+    box-sizing: border-box;
+    height: calc(vsc.$input-height * 1px);
+    user-select: none;
+    min-width: vsc.$input-min-width;
+    outline: none;
+
+    &:active {
+        border-color: vsc.$control-focus-border;
+    }
+
+    > option {
+
+    }
+}
+
+hr.gamma-control {
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: calc(vsc.$control-border-width * 1px) solid vsc.$divider-background;
+    box-sizing: content-box;
+    height: 0px;
+    margin: calc(vsc.$design-unit * 1px) 0;
+    width: 100%;
+}
+
+.gamma-badge {
+    align-items: center;
+    background-color: vsc.$badge-background;
+    // border: calc(vsc.$control-border-width * 1px) solid vsc.$button-border;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: vsc.$badge-foreground;
+    display: flex;
+    height: calc(vsc.$design-unit * 4px);
+    justify-content: center;
+    min-width: calc(vsc.$design-unit * 4px + 2px);
+    min-height: calc(vsc.$design-unit * 4px + 2px);
+    padding: 3px 6px;
+}
+
+.gamma-link {
+    background: transparent;
+    box-sizing: border-box;
+    color: vsc.$link-foreground;
+    cursor: pointer;
+    fill: currentcolor;
+    font-family: vsc.$font-family;
+    font-size: vsc.$control-font-size;
+    line-height: vsc.$control-line-height;
+    outline: none;
+    border: none;
+    padding: 0px;
+    text-decoration: underline;
+    &:hover {
+        color: vsc.$link-active-foreground;
+    }
+    &:active {
+        color: vsc.$link-active-foreground;
+    }
+}

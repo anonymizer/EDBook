@@ -1,0 +1,1091 @@
+{
+    "id": "d6b54213-dbfe-4be3-9083-cac657496a46",
+    "cellsById": {
+        "13817c87-d684-446b-b146-a490a0692e59": {
+            "id": "13817c87-d684-446b-b146-a490a0692e59",
+            "source": "Hey, I’m back! Can you teach me the basics of Scheme today?\n",
+            "type": "message",
+            "parentId": false,
+            "childrenIds": [
+                "15fb18f2-6d35-480e-800d-0c32d23a8515"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "15fb18f2-6d35-480e-800d-0c32d23a8515": {
+            "id": "15fb18f2-6d35-480e-800d-0c32d23a8515",
+            "source": "Hello! Good to see you again. Of course. Before we get started, I’ll introduce you to another learner like you.",
+            "type": "message",
+            "parentId": "13817c87-d684-446b-b146-a490a0692e59",
+            "childrenIds": [
+                "cdfd1bd8-2af9-4acf-96e6-0db93ba9dd29"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "cdfd1bd8-2af9-4acf-96e6-0db93ba9dd29": {
+            "id": "cdfd1bd8-2af9-4acf-96e6-0db93ba9dd29",
+            "source": "Hello, nice to meet you. I heard that you’re also starting to learn Scheme as well! I’m also starting to learn Scheme.\n",
+            "type": "message",
+            "parentId": "15fb18f2-6d35-480e-800d-0c32d23a8515",
+            "childrenIds": [
+                "23f3be6d-d460-4958-845a-407008b1cc06"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "23f3be6d-d460-4958-845a-407008b1cc06": {
+            "id": "23f3be6d-d460-4958-845a-407008b1cc06",
+            "source": "Great, it’s good to have company.\n",
+            "type": "message",
+            "parentId": "cdfd1bd8-2af9-4acf-96e6-0db93ba9dd29",
+            "childrenIds": [
+                "9098a64b-8547-40cf-934d-7b694672772e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "9098a64b-8547-40cf-934d-7b694672772e": {
+            "id": "9098a64b-8547-40cf-934d-7b694672772e",
+            "source": "Yes, it is!",
+            "type": "message",
+            "parentId": "23f3be6d-d460-4958-845a-407008b1cc06",
+            "childrenIds": [
+                "43c4211d-c676-438f-89b3-945bcf6b61cf"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "cfa8b55c-2675-43f0-b1cf-f326d56d1927": {
+            "id": "cfa8b55c-2675-43f0-b1cf-f326d56d1927",
+            "source": "Now today, let’s start by learning ‘s-expression.’",
+            "type": "message",
+            "parentId": "43c4211d-c676-438f-89b3-945bcf6b61cf",
+            "childrenIds": [
+                "22e5d357-d66a-401d-92a5-c78dd9cc9337"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "22e5d357-d66a-401d-92a5-c78dd9cc9337": {
+            "id": "22e5d357-d66a-401d-92a5-c78dd9cc9337",
+            "source": "An s-expression? What is it?\n",
+            "type": "message",
+            "parentId": "cfa8b55c-2675-43f0-b1cf-f326d56d1927",
+            "childrenIds": [
+                "acb88bee-9599-431e-9e5d-45ba32997503"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "acb88bee-9599-431e-9e5d-45ba32997503": {
+            "id": "acb88bee-9599-431e-9e5d-45ba32997503",
+            "source": "An s-expression stands for “symbolic expression.” It is a fundamental notation to represent data and code. In Scheme, all valid expressions are s-expressions.\n",
+            "type": "message",
+            "parentId": "22e5d357-d66a-401d-92a5-c78dd9cc9337",
+            "childrenIds": [
+                "13045c9e-aa77-4e4e-a218-b9a6d26aa52f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "13045c9e-aa77-4e4e-a218-b9a6d26aa52f": {
+            "id": "13045c9e-aa77-4e4e-a218-b9a6d26aa52f",
+            "source": "Then it’s a very important concept! \n",
+            "type": "message",
+            "parentId": "acb88bee-9599-431e-9e5d-45ba32997503",
+            "childrenIds": [
+                "4da663ab-718e-4f8e-acdf-e4ef63110196"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "4da663ab-718e-4f8e-acdf-e4ef63110196": {
+            "id": "4da663ab-718e-4f8e-acdf-e4ef63110196",
+            "source": "Yes, it is. Now, let’s say `(+ 7 9 11)` this expression in Scheme returns the sum of the three numbers. \n",
+            "type": "message",
+            "parentId": "13045c9e-aa77-4e4e-a218-b9a6d26aa52f",
+            "childrenIds": [
+                "6d315abf-eca2-4b57-a248-27417d7b0967",
+                "48137ab0-ca7d-412e-be8b-92a79c519b01"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "6d315abf-eca2-4b57-a248-27417d7b0967": {
+            "id": "6d315abf-eca2-4b57-a248-27417d7b0967",
+            "source": "You said all Scheme expressions are an s-expression. Is this an s-expression, too?\n",
+            "type": "message",
+            "parentId": "4da663ab-718e-4f8e-acdf-e4ef63110196",
+            "childrenIds": [
+                "b025e9a0-1c94-4bf4-9ddc-79ed2343373c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "b025e9a0-1c94-4bf4-9ddc-79ed2343373c": {
+            "id": "b025e9a0-1c94-4bf4-9ddc-79ed2343373c",
+            "source": "Correct! This is an s-expression. \n",
+            "type": "message",
+            "parentId": "6d315abf-eca2-4b57-a248-27417d7b0967",
+            "childrenIds": [
+                "c48625b5-f9ac-43ba-87b3-eec32bbbf2fe"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "c48625b5-f9ac-43ba-87b3-eec32bbbf2fe": {
+            "id": "c48625b5-f9ac-43ba-87b3-eec32bbbf2fe",
+            "source": "Can you give us more examples?\n",
+            "type": "message",
+            "parentId": "b025e9a0-1c94-4bf4-9ddc-79ed2343373c",
+            "childrenIds": [
+                "bcdeb370-f36d-4b01-86d6-c39318f71005"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "1b921fc7-3a99-49fb-af94-d79045a3c0bb": {
+            "id": "1b921fc7-3a99-49fb-af94-d79045a3c0bb",
+            "source": "Of course. \n- `(add 2 3)` is an s-expression representing a function call. The symbol add is followed by two number literals, 2 and 3, serving as the arguments.\n- `(if (> x 5) \"Greater\" \"Less or equal\")` An S-expression representing an if statement. It contains three elements: the if symbol, a condition expression (`(> x 5)`), and two result expressions (\"Greater\" and \"Less or equal\").\n- `(+ (* 2 3) 4)`: An S-expression performing arithmetic operations. The + symbol is followed by a nested S-expression `(* 2 3)`, representing the multiplication of 2 and 3. The result of that multiplication is added to 4.\n- `(1 2 3)`: This represents a list of numbers, and lists are s-expressions.\n",
+            "type": "message",
+            "parentId": "bcdeb370-f36d-4b01-86d6-c39318f71005",
+            "childrenIds": [
+                "9bd2e57b-54dc-4c30-8a0a-badd639dd284"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "9bd2e57b-54dc-4c30-8a0a-badd639dd284": {
+            "id": "9bd2e57b-54dc-4c30-8a0a-badd639dd284",
+            "source": "It seems like all of the examples are enclosed in parentheses.\n",
+            "type": "message",
+            "parentId": "1b921fc7-3a99-49fb-af94-d79045a3c0bb",
+            "childrenIds": [
+                "f407595f-08d3-4847-a89b-f9176ed5dc20"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "f407595f-08d3-4847-a89b-f9176ed5dc20": {
+            "id": "f407595f-08d3-4847-a89b-f9176ed5dc20",
+            "source": "Good catch. S-expressions are composed of one or more elements  enclosed in parentheses. ",
+            "type": "message",
+            "parentId": "9bd2e57b-54dc-4c30-8a0a-badd639dd284",
+            "childrenIds": [
+                "76d2ff54-42bf-4512-8ce5-9ede141a2fad"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "76d2ff54-42bf-4512-8ce5-9ede141a2fad": {
+            "id": "76d2ff54-42bf-4512-8ce5-9ede141a2fad",
+            "source": "Yeah, I think I’m getting it now.",
+            "type": "message",
+            "parentId": "f407595f-08d3-4847-a89b-f9176ed5dc20",
+            "childrenIds": [
+                "34336b62-f545-4edb-a196-6bde0988042f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "5c88de18-827b-417c-84b6-798ab825fd52": {
+            "id": "5c88de18-827b-417c-84b6-798ab825fd52",
+            "source": "But I have a question. Why is + symbol located before the numbers in `(+ 7 9 11)`?",
+            "type": "message",
+            "parentId": "34336b62-f545-4edb-a196-6bde0988042f",
+            "childrenIds": [
+                "0a106dfe-d38e-4f9d-aa50-302c74469941"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "0a106dfe-d38e-4f9d-aa50-302c74469941": {
+            "id": "0a106dfe-d38e-4f9d-aa50-302c74469941",
+            "source": "That’s because Scheme uses Prefix notation. In prefix notation, operators are written before their operands. \n",
+            "type": "message",
+            "parentId": "5c88de18-827b-417c-84b6-798ab825fd52",
+            "childrenIds": [
+                "8b68ab41-0ee3-4435-954c-a977d6383404"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "cc791052-96bf-4008-ba8d-27ab19ffe624": {
+            "id": "cc791052-96bf-4008-ba8d-27ab19ffe624",
+            "source": "Can you give us an example?\n",
+            "type": "message",
+            "parentId": "8b68ab41-0ee3-4435-954c-a977d6383404",
+            "childrenIds": [
+                "d1116dc3-d287-4a86-94a2-9f3a6aaab305"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "f82c39d9-f3a2-4d6f-9fe0-80f657ffcb1b": {
+            "id": "f82c39d9-f3a2-4d6f-9fe0-80f657ffcb1b",
+            "source": "Sure.\n- `a*(b+c)/d `\n  - This will be written as `(/ (* a(+ b c)) d)`\n- `(60*(9/5))+32`\n  - This will be written as `(+ (* 60 (/ 9 5)) 32)`\n",
+            "type": "message",
+            "parentId": "d1116dc3-d287-4a86-94a2-9f3a6aaab305",
+            "childrenIds": [
+                "ec8a8ba1-b0cf-46fc-9ff1-f48920a7e311"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "ec8a8ba1-b0cf-46fc-9ff1-f48920a7e311": {
+            "id": "ec8a8ba1-b0cf-46fc-9ff1-f48920a7e311",
+            "source": "Whoo.. I may need some time to get used to this!\n",
+            "type": "message",
+            "parentId": "f82c39d9-f3a2-4d6f-9fe0-80f657ffcb1b",
+            "childrenIds": [
+                "dd60a358-d31b-455c-9964-4ff7af683882"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "dd60a358-d31b-455c-9964-4ff7af683882": {
+            "id": "dd60a358-d31b-455c-9964-4ff7af683882",
+            "source": "I’ll go through how to change `(60*(9/5))+32` to the prefix notation one by one. First, let's convert the inner-most subexpression `(9 / 5)`. Move the operator to the left.",
+            "type": "message",
+            "parentId": "ec8a8ba1-b0cf-46fc-9ff1-f48920a7e311",
+            "childrenIds": [
+                "2a4d2cd1-f155-4352-ac04-a99114ae3acd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [
+                    "file_1.scm"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            1,
+                            "((60 * (/ 9 5)) + 32)"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 1,
+                    "startColumn": 8,
+                    "endLineNumber": 1,
+                    "endColumn": 15
+                }
+            ]
+        },
+        "823bce16-c753-49c2-b50a-bab320543e1e": {
+            "id": "823bce16-c753-49c2-b50a-bab320543e1e",
+            "source": "I have a question.. Then is `(/(*a(+b c))d)` an s-expression, too?",
+            "type": "message",
+            "parentId": "327f0bd6-9cdf-4a70-a869-7a5d3c93b39b",
+            "childrenIds": [
+                "a738c5b2-966e-437f-8534-178adc563c26"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "a738c5b2-966e-437f-8534-178adc563c26": {
+            "id": "a738c5b2-966e-437f-8534-178adc563c26",
+            "source": "Yes! It is. I’ll break down this expression:\n- This expression is composed of `/`, `(*a(+b c))` and `d`\n- The `(*a(+b c))` is also an s-expression \n\nNow, what do you think is also an s-expression?\n",
+            "type": "message",
+            "parentId": "823bce16-c753-49c2-b50a-bab320543e1e",
+            "childrenIds": [
+                "bff31b08-35b2-444e-8858-52e7824ba3a2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "bff31b08-35b2-444e-8858-52e7824ba3a2": {
+            "id": "bff31b08-35b2-444e-8858-52e7824ba3a2",
+            "source": "`(+b c)` should also be an s-expression.\n",
+            "type": "message",
+            "parentId": "a738c5b2-966e-437f-8534-178adc563c26",
+            "childrenIds": [
+                "8476c0d2-f4b5-4a6f-bce0-414248b114e0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "8476c0d2-f4b5-4a6f-bce0-414248b114e0": {
+            "id": "8476c0d2-f4b5-4a6f-bce0-414248b114e0",
+            "source": "Perfect! I think now, you’ve all understood s-expressions.\n",
+            "type": "message",
+            "parentId": "bff31b08-35b2-444e-8858-52e7824ba3a2",
+            "childrenIds": [
+                "bc6cddf4-03e3-46e8-83e5-7fae1ba1f585"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "bc6cddf4-03e3-46e8-83e5-7fae1ba1f585": {
+            "id": "bc6cddf4-03e3-46e8-83e5-7fae1ba1f585",
+            "source": "Yeah, I think I get it now.\n",
+            "type": "message",
+            "parentId": "8476c0d2-f4b5-4a6f-bce0-414248b114e0",
+            "childrenIds": [
+                "d70d22b8-0a8b-4d63-b1ec-50a8c602e683"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "dd608297-0a6a-4d4e-8d19-e5ed46265d4d": {
+            "id": "dd608297-0a6a-4d4e-8d19-e5ed46265d4d",
+            "source": "Great. Now as the last thing for today’s lecture, let’s write the ‘Hello World’ program in Scheme.\n",
+            "type": "message",
+            "parentId": "d70d22b8-0a8b-4d63-b1ec-50a8c602e683",
+            "childrenIds": [
+                "01fd5582-5802-4c3c-bcd4-14fa9b5dd227"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "01fd5582-5802-4c3c-bcd4-14fa9b5dd227": {
+            "id": "01fd5582-5802-4c3c-bcd4-14fa9b5dd227",
+            "source": "It must be a program that displays ‘Hello World’ that’s written in Scheme.. But we don’t know how to display in Scheme yet.\n",
+            "type": "message",
+            "parentId": "dd608297-0a6a-4d4e-8d19-e5ed46265d4d",
+            "childrenIds": [
+                "ee54eac1-3ab7-4be0-a93f-c5eedd0204a7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "ee54eac1-3ab7-4be0-a93f-c5eedd0204a7": {
+            "id": "ee54eac1-3ab7-4be0-a93f-c5eedd0204a7",
+            "source": "Yes, we can do it by using the `display` function.",
+            "type": "message",
+            "parentId": "01fd5582-5802-4c3c-bcd4-14fa9b5dd227",
+            "childrenIds": [
+                "58e3c72a-54ee-45af-84cc-bed868f96016"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "58e3c72a-54ee-45af-84cc-bed868f96016": {
+            "id": "58e3c72a-54ee-45af-84cc-bed868f96016",
+            "source": "What does `display` exactly do?\n",
+            "type": "message",
+            "parentId": "ee54eac1-3ab7-4be0-a93f-c5eedd0204a7",
+            "childrenIds": [
+                "2f9f3bbf-ad60-4925-afaf-c1dc07710427"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "2f9f3bbf-ad60-4925-afaf-c1dc07710427": {
+            "id": "2f9f3bbf-ad60-4925-afaf-c1dc07710427",
+            "source": "It is used to output a string to the standard output, usually the console or terminal. ",
+            "type": "message",
+            "parentId": "58e3c72a-54ee-45af-84cc-bed868f96016",
+            "childrenIds": [
+                "d3bb3ce1-c921-4948-95d6-99e05bad75d7",
+                "faad2ce9-16f4-484c-8ea4-8be8c2a62994"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "d3bb3ce1-c921-4948-95d6-99e05bad75d7": {
+            "id": "d3bb3ce1-c921-4948-95d6-99e05bad75d7",
+            "source": "Okay, then how do we tell this function what it should display?\n",
+            "type": "message",
+            "parentId": "2f9f3bbf-ad60-4925-afaf-c1dc07710427",
+            "childrenIds": [
+                "ddddaa68-2650-4c6b-982a-6c8cfb417022"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "ddddaa68-2650-4c6b-982a-6c8cfb417022": {
+            "id": "ddddaa68-2650-4c6b-982a-6c8cfb417022",
+            "source": "Good question! You put the string right next to the `display`. So like this:\n\n```scheme\n(display “Hello, World”)\n```\n",
+            "type": "message",
+            "parentId": "d3bb3ce1-c921-4948-95d6-99e05bad75d7",
+            "childrenIds": [
+                "b8d919d3-c082-46e1-8a6d-9ed078f66281"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "b8d919d3-c082-46e1-8a6d-9ed078f66281": {
+            "id": "b8d919d3-c082-46e1-8a6d-9ed078f66281",
+            "source": "Oh, I get it!\n",
+            "type": "message",
+            "parentId": "ddddaa68-2650-4c6b-982a-6c8cfb417022",
+            "childrenIds": [
+                "7f71219f-f57a-4b04-8820-74a878e4f6cd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "7f71219f-f57a-4b04-8820-74a878e4f6cd": {
+            "id": "7f71219f-f57a-4b04-8820-74a878e4f6cd",
+            "source": "Yeah, it makes sense.\n",
+            "type": "message",
+            "parentId": "b8d919d3-c082-46e1-8a6d-9ed078f66281",
+            "childrenIds": [
+                "3251daac-61a5-46f7-81e0-6258335b747f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "d2a79ca1-c431-4dfb-8139-f31ec5e18bd9": {
+            "id": "d2a79ca1-c431-4dfb-8139-f31ec5e18bd9",
+            "source": "Great! In the next lecture, we’ll learn about the basic syntax of Scheme.",
+            "type": "message",
+            "parentId": "6aa89ad7-5c92-465b-97f9-366fb7f0d746",
+            "childrenIds": [
+                "a3b7318c-9ff3-4423-bf5a-08d6c3c39b88"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "a3b7318c-9ff3-4423-bf5a-08d6c3c39b88": {
+            "id": "a3b7318c-9ff3-4423-bf5a-08d6c3c39b88",
+            "source": "What is syntax?\n",
+            "type": "message",
+            "parentId": "d2a79ca1-c431-4dfb-8139-f31ec5e18bd9",
+            "childrenIds": [
+                "2519a41d-25d1-44a4-9f43-60e8b4512d18"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "2519a41d-25d1-44a4-9f43-60e8b4512d18": {
+            "id": "2519a41d-25d1-44a4-9f43-60e8b4512d18",
+            "source": "Syntax refers to the rules and structure that define how programs are written and formatted.",
+            "type": "message",
+            "parentId": "a3b7318c-9ff3-4423-bf5a-08d6c3c39b88",
+            "childrenIds": [
+                "f16adaa7-a45a-48d9-89b8-5c3ae5d3cc8f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "f16adaa7-a45a-48d9-89b8-5c3ae5d3cc8f": {
+            "id": "f16adaa7-a45a-48d9-89b8-5c3ae5d3cc8f",
+            "source": "Okay, then we’re going to learn the rules and structure of Scheme in the next lecture.",
+            "type": "message",
+            "parentId": "2519a41d-25d1-44a4-9f43-60e8b4512d18",
+            "childrenIds": [
+                "ebe97bce-d379-4f76-a6e6-8cc7b61793a5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "ebe97bce-d379-4f76-a6e6-8cc7b61793a5": {
+            "id": "ebe97bce-d379-4f76-a6e6-8cc7b61793a5",
+            "source": "That’s right.",
+            "type": "message",
+            "parentId": "f16adaa7-a45a-48d9-89b8-5c3ae5d3cc8f",
+            "childrenIds": [
+                "401c6dd9-9109-490c-9a30-a2c5570bb492"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "401c6dd9-9109-490c-9a30-a2c5570bb492": {
+            "id": "401c6dd9-9109-490c-9a30-a2c5570bb492",
+            "source": "Okay, thank you for the lecture! I’ll see you next time.",
+            "type": "message",
+            "parentId": "ebe97bce-d379-4f76-a6e6-8cc7b61793a5",
+            "childrenIds": [
+                "0a763164-710b-4110-852d-6221dadded0a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "0a763164-710b-4110-852d-6221dadded0a": {
+            "id": "0a763164-710b-4110-852d-6221dadded0a",
+            "source": "Thank you!",
+            "type": "message",
+            "parentId": "401c6dd9-9109-490c-9a30-a2c5570bb492",
+            "childrenIds": [
+                "45438d12-e4d8-4977-baaa-585cb2262371"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "cefa7f18-34e9-4ccf-9316-24acf1246022"
+        },
+        "45438d12-e4d8-4977-baaa-585cb2262371": {
+            "id": "45438d12-e4d8-4977-baaa-585cb2262371",
+            "source": "See you guys!",
+            "type": "message",
+            "parentId": "0a763164-710b-4110-852d-6221dadded0a",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "34336b62-f545-4edb-a196-6bde0988042f": {
+            "id": "34336b62-f545-4edb-a196-6bde0988042f",
+            "source": "## Quiz\n:::multiple-choice\nChoose the ones that are s-expressions (choose all that apply).\n::option[`(+4 (* 2 3))`]{correct feedback=\"Correct!\"}\n::option[`(add 4 6 5)`]{correct feedback=\"Correct!\"}\n::option[`(if (> x 5) \"bigger\" \"smaller\")`]{correct feedback=\"Correct!\"}\n::option[`42`]{feedback=\"Wrong.\"}\n:::\n",
+            "type": "message",
+            "parentId": "76d2ff54-42bf-4512-8ce5-9ede141a2fad",
+            "childrenIds": [
+                "5c88de18-827b-417c-84b6-798ab825fd52"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "34336b62-f545-4edb-a196-6bde0988042f-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "34336b62-f545-4edb-a196-6bde0988042f-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "34336b62-f545-4edb-a196-6bde0988042f-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "34336b62-f545-4edb-a196-6bde0988042f-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "34336b62-f545-4edb-a196-6bde0988042f-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "327f0bd6-9cdf-4a70-a869-7a5d3c93b39b": {
+            "id": "327f0bd6-9cdf-4a70-a869-7a5d3c93b39b",
+            "source": "## Quiz 1\nChange the following notation into a prefix notation: `((24 + (43 / 5)) * 8)`\n>\nYou can check your answer by clicking 'Show solution.'\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n;write your answer below\n```\n```\n(assert (eq? (car(cdr(cdr(car output)))) 8))\n```\n```\n(* (+ 24 (/ 43 5)) 8)\n```\n:::\n",
+            "type": "message",
+            "parentId": "767532cd-68c8-4f20-b4da-ce5b5e7eaf42",
+            "childrenIds": [
+                "823bce16-c753-49c2-b50a-bab320543e1e"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "327f0bd6-9cdf-4a70-a869-7a5d3c93b39b-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_1.scm"
+                ],
+                "codeDiffs": {}
+            },
+            "senderId": "nobody"
+        },
+        "7ff50a01-6cda-4136-8da7-e546c8be32d7": {
+            "id": "7ff50a01-6cda-4136-8da7-e546c8be32d7",
+            "source": "## Quiz \nWrite an s-expression that displays “Hello Amy\":\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```scheme\n;write you answer below\n```\n```scheme\n(assert (equal? (car output) \"Hello Amy\") \"not quite\")\n```\n```scheme\n(display \"Hello Amy\")\n```\n:::\n",
+            "type": "message",
+            "parentId": "9ef99131-4a75-4ca5-abec-785c7496266e",
+            "childrenIds": [
+                "6aa89ad7-5c92-465b-97f9-366fb7f0d746"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "7ff50a01-6cda-4136-8da7-e546c8be32d7-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_2.scm"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "6aa89ad7-5c92-465b-97f9-366fb7f0d746": {
+            "id": "6aa89ad7-5c92-465b-97f9-366fb7f0d746",
+            "source": "## Quiz \nWrite s-expressions that use a conditional statement (`if`), saying that  when x is greater than 10, then display “x is greater than 10”.\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```scheme\n(define x 11) ; x is bigger than 10\n;What should go here?\n```\n```scheme\n(assert (equal? (nth 1 output) \"x is greater than 10\"))\n```\n```scheme\n(if (> x 10) (display \"x is greater than 10\"))\n```\n:::\n",
+            "type": "message",
+            "parentId": "7ff50a01-6cda-4136-8da7-e546c8be32d7",
+            "childrenIds": [
+                "d2a79ca1-c431-4dfb-8139-f31ec5e18bd9"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "6aa89ad7-5c92-465b-97f9-366fb7f0d746-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "aea3b943-abf5-467a-a6d9-47bc04492be4": {
+            "id": "aea3b943-abf5-467a-a6d9-47bc04492be4",
+            "source": "What other notations are there?",
+            "type": "message",
+            "parentId": "8b68ab41-0ee3-4435-954c-a977d6383404",
+            "childrenIds": [
+                "2de842bc-f38c-4a82-ae38-25d0c325b146"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "48137ab0-ca7d-412e-be8b-92a79c519b01": {
+            "id": "48137ab0-ca7d-412e-be8b-92a79c519b01",
+            "source": "Why do we use the `+` only once?",
+            "type": "message",
+            "parentId": "4da663ab-718e-4f8e-acdf-e4ef63110196",
+            "childrenIds": [
+                "bc643f0b-e8fc-41c5-92c3-49295404b442"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "bc643f0b-e8fc-41c5-92c3-49295404b442": {
+            "id": "bc643f0b-e8fc-41c5-92c3-49295404b442",
+            "source": "The `+` sign is used only once because Scheme allows you to provide multiple arguments to arithmetic operators like `+`, `*`, `-`, etc., which makes it easy to add multiple numbers without repeating the operator. \n\nAs in the `(+ 7 9 11)` expression, Scheme's `+` operator is designed to handle multiple arguments, allowing you to add multiple numbers in one expression.",
+            "type": "message",
+            "parentId": "48137ab0-ca7d-412e-be8b-92a79c519b01",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "2de842bc-f38c-4a82-ae38-25d0c325b146": {
+            "id": "2de842bc-f38c-4a82-ae38-25d0c325b146",
+            "source": "Scheme primarily uses prefix notation, but there are two other common notations used in programming languages: infix notation and postfix notation.\n\n- Infix Notation: In infix notation, the operator is placed between its operands. This is the notation that we commonly use in everyday arithmetic. For example, to add two numbers 2 and 3, the infix notation would be 2 + 3. Many programming languages, as well as mathematical expressions, use infix notation.\n\n- Postfix Notation: In postfix notation, also known as Reverse Polish Notation (RPN), the operator is placed after its operands. For example, to add two numbers 2 and 3, the postfix notation would be 2 3 +. In postfix notation, you first write the operands, and then you write the operator. This notation is used in some calculators and stack-based programming languages.",
+            "type": "message",
+            "parentId": "aea3b943-abf5-467a-a6d9-47bc04492be4",
+            "childrenIds": [
+                "e8f2b062-afad-410e-bce7-30511f5d8b89"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "e8f2b062-afad-410e-bce7-30511f5d8b89": {
+            "id": "e8f2b062-afad-410e-bce7-30511f5d8b89",
+            "source": "Can you give me examples for each of the notation?",
+            "type": "message",
+            "parentId": "2de842bc-f38c-4a82-ae38-25d0c325b146",
+            "childrenIds": [
+                "3984c6a9-602c-4516-8a3a-b10e15d16232"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "3984c6a9-602c-4516-8a3a-b10e15d16232": {
+            "id": "3984c6a9-602c-4516-8a3a-b10e15d16232",
+            "source": "Of course. Here's a comparison of the three notations for adding two numbers 2 and 3:\n\n- Prefix Notation (Scheme): `(+ 2 3)`\n- Infix Notation: `2 + 3`\n- Postfix Notation (RPN): `2 3 +`",
+            "type": "message",
+            "parentId": "e8f2b062-afad-410e-bce7-30511f5d8b89",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "43c4211d-c676-438f-89b3-945bcf6b61cf": {
+            "id": "43c4211d-c676-438f-89b3-945bcf6b61cf",
+            "source": "# S-expression",
+            "type": "message",
+            "parentId": "9098a64b-8547-40cf-934d-7b694672772e",
+            "childrenIds": [
+                "cfa8b55c-2675-43f0-b1cf-f326d56d1927"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "bcdeb370-f36d-4b01-86d6-c39318f71005": {
+            "id": "bcdeb370-f36d-4b01-86d6-c39318f71005",
+            "source": "## Examples",
+            "type": "message",
+            "parentId": "c48625b5-f9ac-43ba-87b3-eec32bbbf2fe",
+            "childrenIds": [
+                "1b921fc7-3a99-49fb-af94-d79045a3c0bb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "8b68ab41-0ee3-4435-954c-a977d6383404": {
+            "id": "8b68ab41-0ee3-4435-954c-a977d6383404",
+            "source": "# Prefix Notation",
+            "type": "message",
+            "parentId": "0a106dfe-d38e-4f9d-aa50-302c74469941",
+            "childrenIds": [
+                "cc791052-96bf-4008-ba8d-27ab19ffe624",
+                "aea3b943-abf5-467a-a6d9-47bc04492be4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "d1116dc3-d287-4a86-94a2-9f3a6aaab305": {
+            "id": "d1116dc3-d287-4a86-94a2-9f3a6aaab305",
+            "source": "## Examples",
+            "type": "message",
+            "parentId": "cc791052-96bf-4008-ba8d-27ab19ffe624",
+            "childrenIds": [
+                "f82c39d9-f3a2-4d6f-9fe0-80f657ffcb1b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "d70d22b8-0a8b-4d63-b1ec-50a8c602e683": {
+            "id": "d70d22b8-0a8b-4d63-b1ec-50a8c602e683",
+            "source": "# The Hello World Program",
+            "type": "message",
+            "parentId": "bc6cddf4-03e3-46e8-83e5-7fae1ba1f585",
+            "childrenIds": [
+                "dd608297-0a6a-4d4e-8d19-e5ed46265d4d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "2a4d2cd1-f155-4352-ac04-a99114ae3acd": {
+            "id": "2a4d2cd1-f155-4352-ac04-a99114ae3acd",
+            "source": "Okay, and then?",
+            "type": "message",
+            "parentId": "dd60a358-d31b-455c-9964-4ff7af683882",
+            "childrenIds": [
+                "07191ee1-dfd5-4044-ad9e-99dc3df2c5ee"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "07191ee1-dfd5-4044-ad9e-99dc3df2c5ee": {
+            "id": "07191ee1-dfd5-4044-ad9e-99dc3df2c5ee",
+            "source": "Now, let's convert the next inner subexpression `(60 * (/ 9 5))`.Similarly, move the last operator to the left.",
+            "type": "message",
+            "parentId": "2a4d2cd1-f155-4352-ac04-a99114ae3acd",
+            "childrenIds": [
+                "5874374d-3f45-49a4-b01a-a53f41e87263"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "((60 * (/ 9 5)) + 32)\n((* 60 (/ 9 5)) + 32)"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 2,
+                    "startColumn": 2,
+                    "endLineNumber": 2,
+                    "endColumn": 16
+                }
+            ]
+        },
+        "5874374d-3f45-49a4-b01a-a53f41e87263": {
+            "id": "5874374d-3f45-49a4-b01a-a53f41e87263",
+            "source": "So it's a repeat. Now I think I know what I should do. I should bring the last operator to the left. ",
+            "type": "message",
+            "parentId": "07191ee1-dfd5-4044-ad9e-99dc3df2c5ee",
+            "childrenIds": [
+                "767532cd-68c8-4f20-b4da-ce5b5e7eaf42"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "((* 60 (/ 9 5)) + 32)\n(+ (* 60 (/ 9 5)) 32)"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "user",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 3,
+                    "startColumn": 1,
+                    "endLineNumber": 3,
+                    "endColumn": 22
+                }
+            ]
+        },
+        "767532cd-68c8-4f20-b4da-ce5b5e7eaf42": {
+            "id": "767532cd-68c8-4f20-b4da-ce5b5e7eaf42",
+            "source": "Yes! That's right.",
+            "type": "message",
+            "parentId": "5874374d-3f45-49a4-b01a-a53f41e87263",
+            "childrenIds": [
+                "327f0bd6-9cdf-4a70-a869-7a5d3c93b39b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "3251daac-61a5-46f7-81e0-6258335b747f": {
+            "id": "3251daac-61a5-46f7-81e0-6258335b747f",
+            "source": "Can you give us an example of how we would use `if` and display something when the condition is met?",
+            "type": "message",
+            "parentId": "7f71219f-f57a-4b04-8820-74a878e4f6cd",
+            "childrenIds": [
+                "26c5fba0-826c-4695-bde4-1ae2836b17dc"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "26c5fba0-826c-4695-bde4-1ae2836b17dc": {
+            "id": "26c5fba0-826c-4695-bde4-1ae2836b17dc",
+            "source": "Of coures! Let's say we're going to display `x is smaller than 10` when `(x < 10)`. ",
+            "type": "message",
+            "parentId": "3251daac-61a5-46f7-81e0-6258335b747f",
+            "childrenIds": [
+                "8b6cb2ed-00ec-49c6-a441-06860a0a07e5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "8b6cb2ed-00ec-49c6-a441-06860a0a07e5": {
+            "id": "8b6cb2ed-00ec-49c6-a441-06860a0a07e5",
+            "source": "I guess we'll use `if (< x 10)`",
+            "type": "message",
+            "parentId": "26c5fba0-826c-4695-bde4-1ae2836b17dc",
+            "childrenIds": [
+                "de02f50d-f1d5-4c01-a408-474e0caeb80b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "editorPointers": []
+        },
+        "de02f50d-f1d5-4c01-a408-474e0caeb80b": {
+            "id": "de02f50d-f1d5-4c01-a408-474e0caeb80b",
+            "source": "That's right. Let's write it down.",
+            "type": "message",
+            "parentId": "8b6cb2ed-00ec-49c6-a441-06860a0a07e5",
+            "childrenIds": [
+                "c86dbd5c-3a79-410a-867b-5f3e66bf9be6"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [
+                    "file_2.scm"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.scm": [
+                        [
+                            1,
+                            "(if (< x 10))"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.scm",
+                    "startLineNumber": 1,
+                    "startColumn": 2,
+                    "endLineNumber": 1,
+                    "endColumn": 15
+                }
+            ]
+        },
+        "c86dbd5c-3a79-410a-867b-5f3e66bf9be6": {
+            "id": "c86dbd5c-3a79-410a-867b-5f3e66bf9be6",
+            "source": "Great! Then where do we add the display function and the message; `display \"x is smaller than 10\"`?",
+            "type": "message",
+            "parentId": "de02f50d-f1d5-4c01-a408-474e0caeb80b",
+            "childrenIds": [
+                "c950cddf-77aa-4c66-83b7-393e2f41faeb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "c950cddf-77aa-4c66-83b7-393e2f41faeb": {
+            "id": "c950cddf-77aa-4c66-83b7-393e2f41faeb",
+            "source": "Right next to the `if` s-expression.",
+            "type": "message",
+            "parentId": "c86dbd5c-3a79-410a-867b-5f3e66bf9be6",
+            "childrenIds": [
+                "9ef99131-4a75-4ca5-abec-785c7496266e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.scm": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "(if (< x 10) display \"x is smaller than 10\")"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.scm",
+                    "startLineNumber": 1,
+                    "startColumn": 14,
+                    "endLineNumber": 1,
+                    "endColumn": 47
+                }
+            ]
+        },
+        "9ef99131-4a75-4ca5-abec-785c7496266e": {
+            "id": "9ef99131-4a75-4ca5-abec-785c7496266e",
+            "source": "Great! Thank you.",
+            "type": "message",
+            "parentId": "c950cddf-77aa-4c66-83b7-393e2f41faeb",
+            "childrenIds": [
+                "7ff50a01-6cda-4136-8da7-e546c8be32d7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "faad2ce9-16f4-484c-8ea4-8be8c2a62994": {
+            "id": "faad2ce9-16f4-484c-8ea4-8be8c2a62994",
+            "source": "What other display functions are there in Scheme?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "5cbd3f01-72b1-4bc3-9666-b4ea53b93745"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2f9f3bbf-ad60-4925-afaf-c1dc07710427"
+        },
+        "5cbd3f01-72b1-4bc3-9666-b4ea53b93745": {
+            "id": "5cbd3f01-72b1-4bc3-9666-b4ea53b93745",
+            "source": "In addition to `display`, there is another similar function called `write`. Both `display` and `write` can be used to output strings or other data types to the standard output. The main difference is that `write` produces output that is more suitable for reading back into Scheme, including escaping special characters when necessary.\n>\nI'll give you a specific example.\n>\nUsing `display`:\n```scheme\n(display \"Hello, World!\")\n(newline)\n(display 42)\n```\nOutput:\n```scheme\nHello, World!\n42\n```\nOn the other hand, when using `write`:\n```scheme\n(write \"Hello, World!\")\n(newline)\n(write 42)\n```\nOutput:\n```scheme\n\"Hello, World!\"42\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "faad2ce9-16f4-484c-8ea4-8be8c2a62994"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "cefa7f18-34e9-4ccf-9316-24acf1246022": {
+            "id": "cefa7f18-34e9-4ccf-9316-24acf1246022",
+            "name": "Student 2",
+            "color": "var(--vscode-charts-yellow)"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black"
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "45438d12-e4d8-4977-baaa-585cb2262371",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

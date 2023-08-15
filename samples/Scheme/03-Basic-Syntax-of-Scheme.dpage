@@ -1,0 +1,1260 @@
+{
+    "id": "0a637326-5e88-4b13-977a-725aa2038f28",
+    "cellsById": {
+        "438f3beb-2027-4941-867b-3095e416726d": {
+            "id": "438f3beb-2027-4941-867b-3095e416726d",
+            "source": "Hello! We’re back.",
+            "type": "message",
+            "parentId": false,
+            "childrenIds": [
+                "4043e09c-b20a-4fff-a845-879652ad6af0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "4043e09c-b20a-4fff-a845-879652ad6af0": {
+            "id": "4043e09c-b20a-4fff-a845-879652ad6af0",
+            "source": "Good morning! Good to see you guys again.",
+            "type": "message",
+            "parentId": "438f3beb-2027-4941-867b-3095e416726d",
+            "childrenIds": [
+                "24f789e1-d481-4064-9521-ca594baf7247"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "24f789e1-d481-4064-9521-ca594baf7247": {
+            "id": "24f789e1-d481-4064-9521-ca594baf7247",
+            "source": "Good to see you, too.",
+            "type": "message",
+            "parentId": "4043e09c-b20a-4fff-a845-879652ad6af0",
+            "childrenIds": [
+                "43504501-a4e9-442f-9d6b-1a0f9323b352"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "43504501-a4e9-442f-9d6b-1a0f9323b352": {
+            "id": "43504501-a4e9-442f-9d6b-1a0f9323b352",
+            "source": "What did you say we’re learning today?",
+            "type": "message",
+            "parentId": "24f789e1-d481-4064-9521-ca594baf7247",
+            "childrenIds": [
+                "4d75fe05-4ec8-4691-b3c8-976889a3a155"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "4d75fe05-4ec8-4691-b3c8-976889a3a155": {
+            "id": "4d75fe05-4ec8-4691-b3c8-976889a3a155",
+            "source": "We’ll learn about the basic syntax of Scheme. ",
+            "type": "message",
+            "parentId": "43504501-a4e9-442f-9d6b-1a0f9323b352",
+            "childrenIds": [
+                "8979aa26-e1ed-4e37-a07e-0ddd22413ad8"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "8979aa26-e1ed-4e37-a07e-0ddd22413ad8": {
+            "id": "8979aa26-e1ed-4e37-a07e-0ddd22413ad8",
+            "source": "I remember that syntax refers to the rules and structures of how the program is formatted.",
+            "type": "message",
+            "parentId": "4d75fe05-4ec8-4691-b3c8-976889a3a155",
+            "childrenIds": [
+                "9f0f11f9-f4f6-4821-8c06-5dfd9c180810"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "9f0f11f9-f4f6-4821-8c06-5dfd9c180810": {
+            "id": "9f0f11f9-f4f6-4821-8c06-5dfd9c180810",
+            "source": "That’s correct. Let’s start with basic building blocks in Scheme. Scheme programs are made up of three basic building blocks - atom, list and string.",
+            "type": "message",
+            "parentId": "8979aa26-e1ed-4e37-a07e-0ddd22413ad8",
+            "childrenIds": [
+                "d1c610be-19b5-45d7-a0a5-c51673c2d179"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "d1c610be-19b5-45d7-a0a5-c51673c2d179": {
+            "id": "d1c610be-19b5-45d7-a0a5-c51673c2d179",
+            "source": "What do you mean by building blocks?\n",
+            "type": "message",
+            "parentId": "9f0f11f9-f4f6-4821-8c06-5dfd9c180810",
+            "childrenIds": [
+                "3359cba5-28bc-4a2c-b5fe-a2642d2a6ea3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "3359cba5-28bc-4a2c-b5fe-a2642d2a6ea3": {
+            "id": "3359cba5-28bc-4a2c-b5fe-a2642d2a6ea3",
+            "source": "So in Scheme, programs will be created using atoms, lists and strings. ",
+            "type": "message",
+            "parentId": "d1c610be-19b5-45d7-a0a5-c51673c2d179",
+            "childrenIds": [
+                "ff0cd8f5-3fb0-464f-8c1c-37a272271230"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "02af1c7c-13be-4e91-9e78-ea70f7eb4d1f": {
+            "id": "02af1c7c-13be-4e91-9e78-ea70f7eb4d1f",
+            "source": "Okay. Then what is an atom?\n",
+            "type": "message",
+            "parentId": "ff0cd8f5-3fb0-464f-8c1c-37a272271230",
+            "childrenIds": [
+                "c9175ce2-ebd0-4a96-af14-a8a5260e58dc"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "c9175ce2-ebd0-4a96-af14-a8a5260e58dc": {
+            "id": "c9175ce2-ebd0-4a96-af14-a8a5260e58dc",
+            "source": "An atom is a number or string of contiguous characters. It can have a variety of data types, including symbols, numbers and booleans. Booleans in Scheme are `#t` and `#f.`",
+            "type": "message",
+            "parentId": "02af1c7c-13be-4e91-9e78-ea70f7eb4d1f",
+            "childrenIds": [
+                "d274ff97-dcc3-47e8-aa3e-5ea16caec9b5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "d274ff97-dcc3-47e8-aa3e-5ea16caec9b5": {
+            "id": "d274ff97-dcc3-47e8-aa3e-5ea16caec9b5",
+            "source": "Can you give us some examples?",
+            "type": "message",
+            "parentId": "c9175ce2-ebd0-4a96-af14-a8a5260e58dc",
+            "childrenIds": [
+                "5d23bd15-a3b6-4768-97d2-8b42e3cd59c5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "812761f3-f14b-4977-8ddc-4a86ebfcffb5": {
+            "id": "812761f3-f14b-4977-8ddc-4a86ebfcffb5",
+            "source": "Of course. Following are some examples:\n- `hello-from-tutorials-point`\n- `name`\n- `123008907`\n- `*hello*`\n- `Block#221`\n- `#t`\n- `#f`\n- `Abc123`\n",
+            "type": "message",
+            "parentId": "5d23bd15-a3b6-4768-97d2-8b42e3cd59c5",
+            "childrenIds": [
+                "02e1f55e-6a99-4513-bbcb-0a04148a8e12"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "02e1f55e-6a99-4513-bbcb-0a04148a8e12": {
+            "id": "02e1f55e-6a99-4513-bbcb-0a04148a8e12",
+            "source": "## Quiz\n:::multiple-choice\nWhich of the following represents a valid atom in Scheme?\n::option[`(2 3)`]{feedback=\"Wrong\"}\n::option[`\"Hello, World\"`]{feedback=\"Wrong!\"}\n::option[`(add 2 5)`]{feedback=\"Wrong!\"}\n::option[`**123name`]{correct feedback=\"Correct!\"}\n:::\n",
+            "type": "message",
+            "parentId": "812761f3-f14b-4977-8ddc-4a86ebfcffb5",
+            "childrenIds": [
+                "42a6c7da-f840-41e3-a59c-d2db3a98f85f",
+                "31074532-3a0a-4f54-a1f9-d407ac46e0ea",
+                "21afac16-d984-4796-a02e-1bb4361851bf"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "02e1f55e-6a99-4513-bbcb-0a04148a8e12-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "02e1f55e-6a99-4513-bbcb-0a04148a8e12-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "02e1f55e-6a99-4513-bbcb-0a04148a8e12-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "02e1f55e-6a99-4513-bbcb-0a04148a8e12-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "02e1f55e-6a99-4513-bbcb-0a04148a8e12-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "42a6c7da-f840-41e3-a59c-d2db3a98f85f": {
+            "id": "42a6c7da-f840-41e3-a59c-d2db3a98f85f",
+            "source": "Then what about lists?",
+            "type": "message",
+            "parentId": "02e1f55e-6a99-4513-bbcb-0a04148a8e12",
+            "childrenIds": [
+                "ef23be62-df4e-46e5-bf9a-25c969873003"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "47e88180-ac20-4de9-909a-3f6f59553527": {
+            "id": "47e88180-ac20-4de9-909a-3f6f59553527",
+            "source": "A list is a sequence of atoms and/or other lists enclosed in parentheses. Following are examples of some valid lists:\n- `( i am a list)`\n- `(a ( a b c) d e fgh)`\n- `(father tom ( susan bill joe))`\n- `(sun mon tue wed thur fri sat)`\n- `( )`",
+            "type": "message",
+            "parentId": "ef23be62-df4e-46e5-bf9a-25c969873003",
+            "childrenIds": [
+                "c2fdea75-e895-4814-8140-2a72f0fcf26b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "c2fdea75-e895-4814-8140-2a72f0fcf26b": {
+            "id": "c2fdea75-e895-4814-8140-2a72f0fcf26b",
+            "source": "Hmm.. it looks similar to s-expressions. What are the differences between a list and an s-expression?",
+            "type": "message",
+            "parentId": "47e88180-ac20-4de9-909a-3f6f59553527",
+            "childrenIds": [
+                "6935b1ff-33c5-4340-82fd-f234a840aad9"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "b7bd6e23-4e12-4202-8de9-421f55517d52": {
+            "id": "b7bd6e23-4e12-4202-8de9-421f55517d52",
+            "source": "Great question! In Scheme, a list and an S-expression are related concepts, but they have distinct meanings. A list is a specific data structure in Scheme that represents a sequence of elements. On the other hand, an S-expression is a notation used in Scheme to represent both data and code. ",
+            "type": "message",
+            "parentId": "6935b1ff-33c5-4340-82fd-f234a840aad9",
+            "childrenIds": [
+                "81b5d5e9-68e0-4e97-becf-eba0e9e43d06",
+                "a69c91ff-9a8c-4200-b2d7-0006e77e4a8d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "81b5d5e9-68e0-4e97-becf-eba0e9e43d06": {
+            "id": "81b5d5e9-68e0-4e97-becf-eba0e9e43d06",
+            "source": "Yeah, I remember that all lists are s-expressions, but s-expressions can have different forms other than lists. \n",
+            "type": "message",
+            "parentId": "b7bd6e23-4e12-4202-8de9-421f55517d52",
+            "childrenIds": [
+                "b68762d9-928c-4dfc-8b8c-42519cb3d7f4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "b68762d9-928c-4dfc-8b8c-42519cb3d7f4": {
+            "id": "b68762d9-928c-4dfc-8b8c-42519cb3d7f4",
+            "source": "Oh, like `(+ 2 3 4)`?",
+            "type": "message",
+            "parentId": "81b5d5e9-68e0-4e97-becf-eba0e9e43d06",
+            "childrenIds": [
+                "aef13939-8ad6-430b-90d4-df37ebfb7a85"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "aef13939-8ad6-430b-90d4-df37ebfb7a85": {
+            "id": "aef13939-8ad6-430b-90d4-df37ebfb7a85",
+            "source": "That’s right. In summary, a list is a specific data structure in Scheme that represents an ordered sequence of elements, while an S-expression is a notation used to represent data or code, which can include lists as a specific type of structure.",
+            "type": "message",
+            "parentId": "b68762d9-928c-4dfc-8b8c-42519cb3d7f4",
+            "childrenIds": [
+                "f1ca88a6-28c5-494a-8e15-6ad86cdb76c1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "f1ca88a6-28c5-494a-8e15-6ad86cdb76c1": {
+            "id": "f1ca88a6-28c5-494a-8e15-6ad86cdb76c1",
+            "source": "## Quiz\nWrite a valid list in Scheme that contains the elements `1`, `hello`, and `(a b c)`. Make sure the code returns the following output:\n```scheme\n(1 hello (a b c))\n```\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n(define my-list '? ) ; what goes in ?\nmy-list ; call the defined list\n```\n```\n(assert (eq? (car (car (cdr output))) 1))\n```\n```\n(1 hello (a b c))\n```\n:::",
+            "type": "message",
+            "parentId": "aef13939-8ad6-430b-90d4-df37ebfb7a85",
+            "childrenIds": [
+                "95ad0db3-5c43-4ca2-8eaf-b7084ea8d505"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "f1ca88a6-28c5-494a-8e15-6ad86cdb76c1-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "95ad0db3-5c43-4ca2-8eaf-b7084ea8d505": {
+            "id": "95ad0db3-5c43-4ca2-8eaf-b7084ea8d505",
+            "source": "I got it now. Then what’s a string?",
+            "type": "message",
+            "parentId": "f1ca88a6-28c5-494a-8e15-6ad86cdb76c1",
+            "childrenIds": [
+                "67b2190e-f7f4-4bdf-9369-941b79bae207"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "96a80c21-b6a8-454b-ac92-ffb4656654e0": {
+            "id": "96a80c21-b6a8-454b-ac92-ffb4656654e0",
+            "source": "A string is a group of characters enclosed in double quotation marks. Following are examples of some valid strings:\n- `\" I am a string\"`\n- `\"a ba c d efg #$%^&!\"`\n- `\"Please enter the following details :\"`\n- `\"Hello from 'Tutorials Point'! “`\n",
+            "type": "message",
+            "parentId": "67b2190e-f7f4-4bdf-9369-941b79bae207",
+            "childrenIds": [
+                "2d899ab7-9e0e-4778-8281-4adfad1efa10"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "2d899ab7-9e0e-4778-8281-4adfad1efa10": {
+            "id": "2d899ab7-9e0e-4778-8281-4adfad1efa10",
+            "source": "So is having double quotation marks or not is the only difference between an atom and a string?",
+            "type": "message",
+            "parentId": "96a80c21-b6a8-454b-ac92-ffb4656654e0",
+            "childrenIds": [
+                "3eb83e3a-f92a-4da3-8691-7ce8e04e13a2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "92fe4f7a-1842-4eff-949b-846d5d369e01": {
+            "id": "92fe4f7a-1842-4eff-949b-846d5d369e01",
+            "source": "No. A string is a specific data type in Scheme that represents a sequence of characters and it can be decomposed. What I mean is, strings can be accessed or modified character by character. On the other hand, an atom is a basic, indivisible data element in Scheme. ",
+            "type": "message",
+            "parentId": "3eb83e3a-f92a-4da3-8691-7ce8e04e13a2",
+            "childrenIds": [
+                "9c8f7679-499b-4225-b9a7-f3a622eb009a",
+                "bfef0e7c-b0f4-4339-939c-e8b009824d65"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "9c8f7679-499b-4225-b9a7-f3a622eb009a": {
+            "id": "9c8f7679-499b-4225-b9a7-f3a622eb009a",
+            "source": "Oh, okay. Now I think I’m getting it.",
+            "type": "message",
+            "parentId": "92fe4f7a-1842-4eff-949b-846d5d369e01",
+            "childrenIds": [
+                "c65e42fa-abda-409c-8383-349b8815d295"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "c65e42fa-abda-409c-8383-349b8815d295": {
+            "id": "c65e42fa-abda-409c-8383-349b8815d295",
+            "source": "Great! Since we learned the three basic building blocks of Scheme, now let’s learn how to add a comment in Scheme.\n",
+            "type": "message",
+            "parentId": "9c8f7679-499b-4225-b9a7-f3a622eb009a",
+            "childrenIds": [
+                "8293827b-04e5-431f-be1f-1b06eb1bbf21"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "ed5ad492-fe44-410c-871d-e0204e66f435": {
+            "id": "ed5ad492-fe44-410c-871d-e0204e66f435",
+            "source": "What’s the purpose of using comments?",
+            "type": "message",
+            "parentId": "8293827b-04e5-431f-be1f-1b06eb1bbf21",
+            "childrenIds": [
+                "f090e430-2597-44c6-8e26-c114c87f0dbb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "f090e430-2597-44c6-8e26-c114c87f0dbb": {
+            "id": "f090e430-2597-44c6-8e26-c114c87f0dbb",
+            "source": "A comment is very useful in providing human-readable explanations or annotations within the source code. They are non-executable lines of text that are ignored by the compiler or interpreter, serving as notes.",
+            "type": "message",
+            "parentId": "ed5ad492-fe44-410c-871d-e0204e66f435",
+            "childrenIds": [
+                "6e34fa7b-3879-407a-9cb2-9b011dc08969"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "6e34fa7b-3879-407a-9cb2-9b011dc08969": {
+            "id": "6e34fa7b-3879-407a-9cb2-9b011dc08969",
+            "source": "Yeah, it’s hard to understand codes without any explanation.",
+            "type": "message",
+            "parentId": "f090e430-2597-44c6-8e26-c114c87f0dbb",
+            "childrenIds": [
+                "22f8126e-ed6b-4292-a14a-a8170694eda9"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "22f8126e-ed6b-4292-a14a-a8170694eda9": {
+            "id": "22f8126e-ed6b-4292-a14a-a8170694eda9",
+            "source": "That’s right. That is why we use comments - to help those who are reading code.",
+            "type": "message",
+            "parentId": "6e34fa7b-3879-407a-9cb2-9b011dc08969",
+            "childrenIds": [
+                "522c58dd-b2be-4dd0-bef9-4577adee3dd5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "522c58dd-b2be-4dd0-bef9-4577adee3dd5": {
+            "id": "522c58dd-b2be-4dd0-bef9-4577adee3dd5",
+            "source": "Got it.",
+            "type": "message",
+            "parentId": "22f8126e-ed6b-4292-a14a-a8170694eda9",
+            "childrenIds": [
+                "0617c423-47ba-4f9d-a10d-7dbdab520788"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "b5f572e1-3770-45d7-96cf-f61a1b72343c": {
+            "id": "b5f572e1-3770-45d7-96cf-f61a1b72343c",
+            "source": "In Scheme, we use semicolon symbol to indicate a comment line:\n```scheme\n(display \"Hello World\") ; greet the world\n; tell them your whereabouts\n(display \"I am Learning Scheme!\")\n```\nAnything after the ; will be ignored.",
+            "type": "message",
+            "parentId": "0617c423-47ba-4f9d-a10d-7dbdab520788",
+            "childrenIds": [
+                "35f0254f-637b-4899-96a7-a84fabf537ba"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "35f0254f-637b-4899-96a7-a84fabf537ba": {
+            "id": "35f0254f-637b-4899-96a7-a84fabf537ba",
+            "source": "Yeah, I think I get it.. but can you give us an example?",
+            "type": "message",
+            "parentId": "b5f572e1-3770-45d7-96cf-f61a1b72343c",
+            "childrenIds": [
+                "a7d3cd7a-fa77-4302-b8f6-4a6fb6e62d94"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "6ca18572-33d7-48eb-8907-9b6542bbeddf": {
+            "id": "6ca18572-33d7-48eb-8907-9b6542bbeddf",
+            "source": "## Quiz\nWrite a Scheme code snippet that uses a comment to explain the purpose of the following code: `(+ 50 (* 4 2))`\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n; write your comment next to the code below.\n(+ 50 (* 4 2))\n```\n```\n(assert (eq? (car output) 58))\n```\n```\n(+ 50 (* 4 2)) ; multiply 4 and 2, and add 50\n```\n:::\n",
+            "type": "message",
+            "parentId": "1c1f6572-f4a9-410d-ab01-ed0ec16ffab1",
+            "childrenIds": [
+                "e07e632d-42c5-4a78-a6ae-d9f46706c02c"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "6ca18572-33d7-48eb-8907-9b6542bbeddf-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "e07e632d-42c5-4a78-a6ae-d9f46706c02c": {
+            "id": "e07e632d-42c5-4a78-a6ae-d9f46706c02c",
+            "source": "Great. Now, for the last thing for today, let’s learn about the use of a single quotation mark in Scheme.",
+            "type": "message",
+            "parentId": "6ca18572-33d7-48eb-8907-9b6542bbeddf",
+            "childrenIds": [
+                "22599fb4-9261-4a15-a350-192e79b82eb6"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_1.scm"
+                ],
+                "codeDiffs": {}
+            },
+            "senderId": "instructor"
+        },
+        "7e2a0500-9d3e-4b96-984b-f794f8b3e6ae": {
+            "id": "7e2a0500-9d3e-4b96-984b-f794f8b3e6ae",
+            "source": "Do you mean `'` this?",
+            "type": "message",
+            "parentId": "22599fb4-9261-4a15-a350-192e79b82eb6",
+            "childrenIds": [
+                "aa78c0cd-b998-4fa0-9fb9-cc7d874da4bd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "aa78c0cd-b998-4fa0-9fb9-cc7d874da4bd": {
+            "id": "aa78c0cd-b998-4fa0-9fb9-cc7d874da4bd",
+            "source": "Yes! There are times when you want a piece of code to be considered as literal expressions rather than having it evaluated as usual, don't you?",
+            "type": "message",
+            "parentId": "7e2a0500-9d3e-4b96-984b-f794f8b3e6ae",
+            "childrenIds": [
+                "9f19610b-ed8b-4b8b-a906-f57cfc03a877"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "9f19610b-ed8b-4b8b-a906-f57cfc03a877": {
+            "id": "9f19610b-ed8b-4b8b-a906-f57cfc03a877",
+            "source": "Hmm.. What do you mean?",
+            "type": "message",
+            "parentId": "aa78c0cd-b998-4fa0-9fb9-cc7d874da4bd",
+            "childrenIds": [
+                "31df94a6-1ffe-4298-85be-81032d52e178"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "31df94a6-1ffe-4298-85be-81032d52e178": {
+            "id": "31df94a6-1ffe-4298-85be-81032d52e178",
+            "source": "So for example, you want to use the `display` function to display the expression `(+ 2 3)` as it is, rather than displaying the answer 5.",
+            "type": "message",
+            "parentId": "9f19610b-ed8b-4b8b-a906-f57cfc03a877",
+            "childrenIds": [
+                "6882ad10-4371-44cd-833a-06a96400f621"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "6882ad10-4371-44cd-833a-06a96400f621": {
+            "id": "6882ad10-4371-44cd-833a-06a96400f621",
+            "source": "Okay.",
+            "type": "message",
+            "parentId": "31df94a6-1ffe-4298-85be-81032d52e178",
+            "childrenIds": [
+                "69954b2b-6b39-46ba-a692-4b2e09b15131"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "69954b2b-6b39-46ba-a692-4b2e09b15131": {
+            "id": "69954b2b-6b39-46ba-a692-4b2e09b15131",
+            "source": "Yes, so this is when we need to use a single quotation mark.",
+            "type": "message",
+            "parentId": "6882ad10-4371-44cd-833a-06a96400f621",
+            "childrenIds": [
+                "d9676722-9cec-4692-9fa5-171662989850"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "d9676722-9cec-4692-9fa5-171662989850": {
+            "id": "d9676722-9cec-4692-9fa5-171662989850",
+            "source": "Can you give us an example?\n",
+            "type": "message",
+            "parentId": "69954b2b-6b39-46ba-a692-4b2e09b15131",
+            "childrenIds": [
+                "637c2251-4853-4b99-9c4d-bff0dbc72414"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "006424c4-40ac-4c75-8053-0810ab211eee": {
+            "id": "006424c4-40ac-4c75-8053-0810ab211eee",
+            "source": "Of course. \n```scheme\n(display \"single quote used, it inhibits evaluation\")\n(display '(* 2 3))\n(display \" \")\n(display \"single quote not used, so expression evaluated\")\n(display (* 2 3))\n```\n\nWhen we execute this code, the displayed value will be:\n\n```\nsingle quote used, it inhibits evaluation\n(* 2 3)\nsingle quote not used, so expression evaluated\n6\n```\n",
+            "type": "message",
+            "parentId": "637c2251-4853-4b99-9c4d-bff0dbc72414",
+            "childrenIds": [
+                "fbae8353-99c2-4e02-b128-5a04b8b963c7",
+                "30f54db9-1cf1-479b-9f54-b320dd0f8c4d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "fbae8353-99c2-4e02-b128-5a04b8b963c7": {
+            "id": "fbae8353-99c2-4e02-b128-5a04b8b963c7",
+            "source": "Oh, I see that `(* 2 3)` is displayed when we use a single quotation mark, and `6` is displayed when we don’t use it. ",
+            "type": "message",
+            "parentId": "006424c4-40ac-4c75-8053-0810ab211eee",
+            "childrenIds": [
+                "ce16ebd2-9c5b-4802-a063-8082e0f32b07"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "ce16ebd2-9c5b-4802-a063-8082e0f32b07": {
+            "id": "ce16ebd2-9c5b-4802-a063-8082e0f32b07",
+            "source": "## Quiz\nWrite an s-expression that evaluates `(+ 2 3)`.\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n; Write your code here\n```\n```\n(assert (eq? (car output) 5))\n```\n```\n(+ 2 3)\n```\n:::\n",
+            "type": "message",
+            "parentId": "fbae8353-99c2-4e02-b128-5a04b8b963c7",
+            "childrenIds": [
+                "a509de35-665f-4006-bfef-6311e76eb8b4"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "ce16ebd2-9c5b-4802-a063-8082e0f32b07-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "9990b7ad-9fe7-4889-976f-5db5a6fbe5af": {
+            "id": "9990b7ad-9fe7-4889-976f-5db5a6fbe5af",
+            "source": "That’s right. So this is it for today, and I’ll see you guys at the next lecture!",
+            "type": "message",
+            "parentId": "0801b81c-a698-452f-a0c1-365ccaf7f16e",
+            "childrenIds": [
+                "002031e0-40c3-4d54-ad94-6217ebc4441d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "002031e0-40c3-4d54-ad94-6217ebc4441d": {
+            "id": "002031e0-40c3-4d54-ad94-6217ebc4441d",
+            "source": "Thanks!\n",
+            "type": "message",
+            "parentId": "9990b7ad-9fe7-4889-976f-5db5a6fbe5af",
+            "childrenIds": [
+                "f724c967-1739-44fa-8a57-30f4cae9d50d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "f724c967-1739-44fa-8a57-30f4cae9d50d": {
+            "id": "f724c967-1739-44fa-8a57-30f4cae9d50d",
+            "source": "Thank you!",
+            "type": "message",
+            "parentId": "002031e0-40c3-4d54-ad94-6217ebc4441d",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "2b9e5130-8af2-4803-9aab-97b5e42a2e51"
+        },
+        "0801b81c-a698-452f-a0c1-365ccaf7f16e": {
+            "id": "0801b81c-a698-452f-a0c1-365ccaf7f16e",
+            "source": "## Quiz\nThe `list` function in Scheme returns a list. For example, `(list 1 2 3)` returns `(1 2 3)`. Predict and write what each of the following Scheme expressions will give:\n```scheme\n(display(list (list 2 3) (list 4 5)))\n(display(list '(list 2 3) '(list 4 5)))\n```\nYou can check answers by clicking 'Show solution.'\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n'? ;what goes in ?\n'? ;what goes in ?\n```\n```\n(assert (eq? (car(car(car output))) 2) \"not quite\")\n(assert (eq? (car(cdr(car(cdr(car(cdr output)))))) 4) \"check the second line\")\n```\n```\n'((2 3)(4 5))\n'((list 2 3) (list 4 5))\n```\n:::\n",
+            "type": "message",
+            "parentId": "a509de35-665f-4006-bfef-6311e76eb8b4",
+            "childrenIds": [
+                "9990b7ad-9fe7-4889-976f-5db5a6fbe5af"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "0801b81c-a698-452f-a0c1-365ccaf7f16e-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "30f54db9-1cf1-479b-9f54-b320dd0f8c4d": {
+            "id": "30f54db9-1cf1-479b-9f54-b320dd0f8c4d",
+            "source": "What’s the difference between ‘display’ and ‘write’ function?",
+            "type": "message",
+            "parentId": "006424c4-40ac-4c75-8053-0810ab211eee",
+            "childrenIds": [
+                "f222450a-31ac-47df-8745-7f07a3e1685c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "31074532-3a0a-4f54-a1f9-d407ac46e0ea": {
+            "id": "31074532-3a0a-4f54-a1f9-d407ac46e0ea",
+            "source": "Why is it named ‘atom’?",
+            "type": "message",
+            "parentId": "02e1f55e-6a99-4513-bbcb-0a04148a8e12",
+            "childrenIds": [
+                "6261f418-32cc-4fc3-aeff-b918729b2c2d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "6261f418-32cc-4fc3-aeff-b918729b2c2d": {
+            "id": "6261f418-32cc-4fc3-aeff-b918729b2c2d",
+            "source": "The term \"atom\" is used to describe the simplest and indivisible data elements. An atom is a basic unit of data that cannot be divided further into smaller parts within the language's data model.\n\nThe name \"atom\" originates from the atomic theory in physics and chemistry, where atoms are considered the fundamental building blocks of matter, and they cannot be broken down further into smaller constituents. Similarly, in Scheme, atoms are the fundamental building blocks of data, and they represent indivisible data elements.",
+            "type": "message",
+            "parentId": "31074532-3a0a-4f54-a1f9-d407ac46e0ea",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "f222450a-31ac-47df-8745-7f07a3e1685c": {
+            "id": "f222450a-31ac-47df-8745-7f07a3e1685c",
+            "source": "The `display` and `write` functions in Scheme are both used for outputting data, but they differ in how they format and handle the output:\n\n- `display`: The `display` function is used to display data followed by a newline character (\\n), which moves the output cursor to a new line.\nIt adds a newline at the end of the displayed content, ensuring that each call to display starts a new line of output.\n\n- `write`: The `write` function is used to display data without appending a newline character.\nIt does not automatically insert a newline character after displaying, so subsequent output will continue on the same line.",
+            "type": "message",
+            "parentId": "30f54db9-1cf1-479b-9f54-b320dd0f8c4d",
+            "childrenIds": [
+                "c13fdacf-21f7-43c9-ac3d-a29011b771a2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "c13fdacf-21f7-43c9-ac3d-a29011b771a2": {
+            "id": "c13fdacf-21f7-43c9-ac3d-a29011b771a2",
+            "source": "Can you give me an example?",
+            "type": "message",
+            "parentId": "f222450a-31ac-47df-8745-7f07a3e1685c",
+            "childrenIds": [
+                "06cc5189-f1d7-456a-810c-ca9c797c3987"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "06cc5189-f1d7-456a-810c-ca9c797c3987": {
+            "id": "06cc5189-f1d7-456a-810c-ca9c797c3987",
+            "source": "Of course.\n```\n(display \"Hello,\")\n(display \"world!\")\n```\nThis will output:\n```\nHello,\nworld!\n```\nAnd \n```\n(write \"Hello, \")\n(write \"world!\")\n```\nThis will output\n```\nHello, world!\n```",
+            "type": "message",
+            "parentId": "c13fdacf-21f7-43c9-ac3d-a29011b771a2",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "5d23bd15-a3b6-4768-97d2-8b42e3cd59c5": {
+            "id": "5d23bd15-a3b6-4768-97d2-8b42e3cd59c5",
+            "source": "## Examples",
+            "type": "message",
+            "parentId": "d274ff97-dcc3-47e8-aa3e-5ea16caec9b5",
+            "childrenIds": [
+                "812761f3-f14b-4977-8ddc-4a86ebfcffb5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "ff0cd8f5-3fb0-464f-8c1c-37a272271230": {
+            "id": "ff0cd8f5-3fb0-464f-8c1c-37a272271230",
+            "source": "# Atoms",
+            "type": "message",
+            "parentId": "3359cba5-28bc-4a2c-b5fe-a2642d2a6ea3",
+            "childrenIds": [
+                "02af1c7c-13be-4e91-9e78-ea70f7eb4d1f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "ef23be62-df4e-46e5-bf9a-25c969873003": {
+            "id": "ef23be62-df4e-46e5-bf9a-25c969873003",
+            "source": "# Lists",
+            "type": "message",
+            "parentId": "42a6c7da-f840-41e3-a59c-d2db3a98f85f",
+            "childrenIds": [
+                "47e88180-ac20-4de9-909a-3f6f59553527"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "6935b1ff-33c5-4340-82fd-f234a840aad9": {
+            "id": "6935b1ff-33c5-4340-82fd-f234a840aad9",
+            "source": "## Difference with S-expressions",
+            "type": "message",
+            "parentId": "c2fdea75-e895-4814-8140-2a72f0fcf26b",
+            "childrenIds": [
+                "b7bd6e23-4e12-4202-8de9-421f55517d52"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "67b2190e-f7f4-4bdf-9369-941b79bae207": {
+            "id": "67b2190e-f7f4-4bdf-9369-941b79bae207",
+            "source": "# Strings\n## Examples",
+            "type": "message",
+            "parentId": "95ad0db3-5c43-4ca2-8eaf-b7084ea8d505",
+            "childrenIds": [
+                "96a80c21-b6a8-454b-ac92-ffb4656654e0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "3eb83e3a-f92a-4da3-8691-7ce8e04e13a2": {
+            "id": "3eb83e3a-f92a-4da3-8691-7ce8e04e13a2",
+            "source": "## Difference between an atom and a string",
+            "type": "message",
+            "parentId": "2d899ab7-9e0e-4778-8281-4adfad1efa10",
+            "childrenIds": [
+                "92fe4f7a-1842-4eff-949b-846d5d369e01"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "8293827b-04e5-431f-be1f-1b06eb1bbf21": {
+            "id": "8293827b-04e5-431f-be1f-1b06eb1bbf21",
+            "source": "# Adding comments in Scheme\n## The purpose of using comments",
+            "type": "message",
+            "parentId": "c65e42fa-abda-409c-8383-349b8815d295",
+            "childrenIds": [
+                "ed5ad492-fe44-410c-871d-e0204e66f435"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "0617c423-47ba-4f9d-a10d-7dbdab520788": {
+            "id": "0617c423-47ba-4f9d-a10d-7dbdab520788",
+            "source": "## Examples",
+            "type": "message",
+            "parentId": "522c58dd-b2be-4dd0-bef9-4577adee3dd5",
+            "childrenIds": [
+                "b5f572e1-3770-45d7-96cf-f61a1b72343c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "22599fb4-9261-4a15-a350-192e79b82eb6": {
+            "id": "22599fb4-9261-4a15-a350-192e79b82eb6",
+            "source": "# Use of Single Quotation",
+            "type": "message",
+            "parentId": "e07e632d-42c5-4a78-a6ae-d9f46706c02c",
+            "childrenIds": [
+                "7e2a0500-9d3e-4b96-984b-f794f8b3e6ae"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "637c2251-4853-4b99-9c4d-bff0dbc72414": {
+            "id": "637c2251-4853-4b99-9c4d-bff0dbc72414",
+            "source": "## Examples",
+            "type": "message",
+            "parentId": "d9676722-9cec-4692-9fa5-171662989850",
+            "childrenIds": [
+                "006424c4-40ac-4c75-8053-0810ab211eee"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "nobody"
+        },
+        "a7d3cd7a-fa77-4302-b8f6-4a6fb6e62d94": {
+            "id": "a7d3cd7a-fa77-4302-b8f6-4a6fb6e62d94",
+            "source": "Of course. I'll give you this code block, read and can you interpret what this code means?",
+            "type": "message",
+            "parentId": "35f0254f-637b-4899-96a7-a84fabf537ba",
+            "childrenIds": [
+                "2c89a492-649c-4d56-bcc6-94f790221d4f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [
+                    "file_1.scm"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            1,
+                            "(define (is-positive x)\n  (if (> x 0)\n      (display \"Positive\")\n      (display \"Non-positive\")))\n\n(is-positive 7)                  \n(is-positive -3)                 "
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor"
+        },
+        "2c89a492-649c-4d56-bcc6-94f790221d4f": {
+            "id": "2c89a492-649c-4d56-bcc6-94f790221d4f",
+            "source": "Before I do that, I have a question. What is `define`?",
+            "type": "message",
+            "parentId": "a7d3cd7a-fa77-4302-b8f6-4a6fb6e62d94",
+            "childrenIds": [
+                "b681c0b7-0ef3-484e-8124-50a22fcd66be"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "b681c0b7-0ef3-484e-8124-50a22fcd66be": {
+            "id": "b681c0b7-0ef3-484e-8124-50a22fcd66be",
+            "source": "Good question, you'll learn in depth about this in the tutorial 4, where we'll learn about functions. The `define` allows you to declare a function.",
+            "type": "message",
+            "parentId": "2c89a492-649c-4d56-bcc6-94f790221d4f",
+            "childrenIds": [
+                "e7bdbe19-40be-4c0d-9ddb-25092b0e701f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "e7bdbe19-40be-4c0d-9ddb-25092b0e701f": {
+            "id": "e7bdbe19-40be-4c0d-9ddb-25092b0e701f",
+            "source": "I see. Then I guess this is a function that takes `x` as an argument and checks whether `x` is bigger than 0 or not and displays a message?",
+            "type": "message",
+            "parentId": "b681c0b7-0ef3-484e-8124-50a22fcd66be",
+            "childrenIds": [
+                "76ffc9eb-efa5-4345-919a-e67920b520fd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "editorPointers": []
+        },
+        "76ffc9eb-efa5-4345-919a-e67920b520fd": {
+            "id": "76ffc9eb-efa5-4345-919a-e67920b520fd",
+            "source": "That's right. You can write a comment like this.",
+            "type": "message",
+            "parentId": "e7bdbe19-40be-4c0d-9ddb-25092b0e701f",
+            "childrenIds": [
+                "17ace40d-fe09-42b4-9a96-6e6fa88d48f5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "  (if (> x 0)  ; checks x is bigger than 0\n"
+                        ],
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 2,
+                    "startColumn": 16,
+                    "endLineNumber": 2,
+                    "endColumn": 43
+                }
+            ]
+        },
+        "17ace40d-fe09-42b4-9a96-6e6fa88d48f5": {
+            "id": "17ace40d-fe09-42b4-9a96-6e6fa88d48f5",
+            "source": "I get it. I think I can write comments now! I wrote about the outputs. What do you think?",
+            "type": "message",
+            "parentId": "76ffc9eb-efa5-4345-919a-e67920b520fd",
+            "childrenIds": [
+                "1c1f6572-f4a9-410d-ab01-ed0ec16ffab1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "(define is-positive (x)\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            2
+                        ],
+                        [
+                            1,
+                            "      (display \"Positive\")  \n      (display \"Non-positive\")))  \n"
+                        ],
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            2
+                        ],
+                        [
+                            1,
+                            "(is-positive 7)     ; Output: positive             \n(is-positive -3)    ; Output: non-positive             "
+                        ]
+                    ]
+                }
+            },
+            "senderId": "user",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 6,
+                    "startColumn": 21,
+                    "endLineNumber": 6,
+                    "endColumn": 39
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 7,
+                    "startColumn": 21,
+                    "endLineNumber": 7,
+                    "endColumn": 43
+                }
+            ]
+        },
+        "1c1f6572-f4a9-410d-ab01-ed0ec16ffab1": {
+            "id": "1c1f6572-f4a9-410d-ab01-ed0ec16ffab1",
+            "source": "Well done.",
+            "type": "message",
+            "parentId": "17ace40d-fe09-42b4-9a96-6e6fa88d48f5",
+            "childrenIds": [
+                "6ca18572-33d7-48eb-8907-9b6542bbeddf"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 6,
+                    "startColumn": 21,
+                    "endLineNumber": 6,
+                    "endColumn": 39
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 7,
+                    "startColumn": 21,
+                    "endLineNumber": 7,
+                    "endColumn": 43
+                }
+            ],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "(define (is-positive x)\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            2
+                        ],
+                        [
+                            1,
+                            "      (display \"Positive\")\n      (display \"Non-positive\")))\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            2
+                        ],
+                        [
+                            1,
+                            "(is-positive 7)     ; Output: positive          \n(is-positive -3)    ; Output: non-positive"
+                        ]
+                    ]
+                }
+            }
+        },
+        "a69c91ff-9a8c-4200-b2d7-0006e77e4a8d": {
+            "id": "a69c91ff-9a8c-4200-b2d7-0006e77e4a8d",
+            "source": "Just like in the examples above, is an empty list a list? And can we have a list inside a list?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "64db940b-3c63-45a0-b238-f6c2889b1a35"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b7bd6e23-4e12-4202-8de9-421f55517d52"
+        },
+        "64db940b-3c63-45a0-b238-f6c2889b1a35": {
+            "id": "64db940b-3c63-45a0-b238-f6c2889b1a35",
+            "source": "Yes, an empty list `()` is considered a valid list in Scheme. And yes, you can have a list inside another list. This is known as nesting or creating a nested list.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "a69c91ff-9a8c-4200-b2d7-0006e77e4a8d"
+        },
+        "bfef0e7c-b0f4-4339-939c-e8b009824d65": {
+            "id": "bfef0e7c-b0f4-4339-939c-e8b009824d65",
+            "source": "What is a documentation string?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "e7ebfd92-420e-4c1e-8418-31f655c9475b"
+            ],
+            "shortcutsTo": [],
+            "parentId": "92fe4f7a-1842-4eff-949b-846d5d369e01"
+        },
+        "e7ebfd92-420e-4c1e-8418-31f655c9475b": {
+            "id": "e7ebfd92-420e-4c1e-8418-31f655c9475b",
+            "source": "A documentation string, also known as a docstring, is a string that provides documentation or information about a procedure or function. It is commonly used to describe the purpose, usage, and behavior of the procedure. In Scheme, a docstring is typically placed as the first expression in the body of a procedure, enclosed in double quotation marks. It serves as a helpful reference for developers and users of the code.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "65471562-0fe7-49b9-affe-d686c6d413c7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "bfef0e7c-b0f4-4339-939c-e8b009824d65"
+        },
+        "65471562-0fe7-49b9-affe-d686c6d413c7": {
+            "id": "65471562-0fe7-49b9-affe-d686c6d413c7",
+            "source": "Can you give me an example?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b7e364f7-d63d-44ba-ae0e-06144297a7d7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e7ebfd92-420e-4c1e-8418-31f655c9475b"
+        },
+        "b7e364f7-d63d-44ba-ae0e-06144297a7d7": {
+            "id": "b7e364f7-d63d-44ba-ae0e-06144297a7d7",
+            "source": "Certainly! Here's an example of a procedure in Scheme with a docstring:\n\n```scheme\n(define (square x)\n  \"This procedure takes a number and returns its square.\"\n  (* x x))\n```\n\nIn this example, the docstring `\"This procedure takes a number and returns its square.\"` provides a brief description of what the `square` procedure does. It helps users understand the purpose and behavior of the procedure.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "dd25d5cd-7b6c-45e7-a8d6-ca1fb6702207"
+            ],
+            "shortcutsTo": [],
+            "parentId": "65471562-0fe7-49b9-affe-d686c6d413c7"
+        },
+        "dd25d5cd-7b6c-45e7-a8d6-ca1fb6702207": {
+            "id": "dd25d5cd-7b6c-45e7-a8d6-ca1fb6702207",
+            "source": "Thank you!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "b7e364f7-d63d-44ba-ae0e-06144297a7d7"
+        },
+        "a509de35-665f-4006-bfef-6311e76eb8b4": {
+            "id": "a509de35-665f-4006-bfef-6311e76eb8b4",
+            "source": "## Quiz\nWrite an s-expression that does NOT evaluate `(+ 2 3)`.\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n; Write your code here\n```\n```\n(assert (eq? (car(cdr(car output))) 2))\n```\n```\n'(+ 2 3)\n```\n:::\n",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "a509de35-665f-4006-bfef-6311e76eb8b4-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "childrenIds": [
+                "0801b81c-a698-452f-a0c1-365ccaf7f16e"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ce16ebd2-9c5b-4802-a063-8082e0f32b07"
+        },
+        "21afac16-d984-4796-a02e-1bb4361851bf": {
+            "id": "21afac16-d984-4796-a02e-1bb4361851bf",
+            "source": "Why isn't \"hello, world\" an atom?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "192e6c77-cbef-4b3f-861c-025c494b4a53"
+            ],
+            "shortcutsTo": [],
+            "parentId": "02e1f55e-6a99-4513-bbcb-0a04148a8e12",
+            "isAIContent": false
+        },
+        "192e6c77-cbef-4b3f-861c-025c494b4a53": {
+            "id": "192e6c77-cbef-4b3f-861c-025c494b4a53",
+            "source": "In Scheme, atoms are either symbols or numbers. \"hello, world\" is a string, which is a different data type. Strings are enclosed in double quotation marks and are used to represent sequences of characters.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "21afac16-d984-4796-a02e-1bb4361851bf",
+            "isAIContent": true
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "2b9e5130-8af2-4803-9aab-97b5e42a2e51": {
+            "id": "2b9e5130-8af2-4803-9aab-97b5e42a2e51",
+            "name": "Participant 3",
+            "color": "var(--vscode-charts-yellow)"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black"
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "f724c967-1739-44fa-8a57-30f4cae9d50d",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

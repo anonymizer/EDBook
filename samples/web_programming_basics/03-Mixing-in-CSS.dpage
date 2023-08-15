@@ -1,0 +1,950 @@
+{
+    "id": "84ef20c0-72a8-4b96-9551-9127c64cb4a2",
+    "cellsById": {
+        "c86123ae-42c5-4054-8a5f-5848c9e3ce65": {
+            "id": "c86123ae-42c5-4054-8a5f-5848c9e3ce65",
+            "source": "Hey, I’m back!",
+            "childrenIds": [
+                "46009146-231a-4215-a1c9-76c3c2ddc743"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "46009146-231a-4215-a1c9-76c3c2ddc743": {
+            "id": "46009146-231a-4215-a1c9-76c3c2ddc743",
+            "source": "Good to see you again.",
+            "parentId": "c86123ae-42c5-4054-8a5f-5848c9e3ce65",
+            "childrenIds": [
+                "e5c2ce9c-b6cf-4e1b-9723-8f6564972643"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "e5c2ce9c-b6cf-4e1b-9723-8f6564972643": {
+            "id": "e5c2ce9c-b6cf-4e1b-9723-8f6564972643",
+            "source": "Yeah, I started creating content for my webpage. It’s cool that the content is being created as I wanted.",
+            "parentId": "46009146-231a-4215-a1c9-76c3c2ddc743",
+            "childrenIds": [
+                "0f91f259-0ac1-406b-b1c1-9359d91163dd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "0f91f259-0ac1-406b-b1c1-9359d91163dd": {
+            "id": "0f91f259-0ac1-406b-b1c1-9359d91163dd",
+            "source": "Yes, that’s the fun part of HTML coding. Whatever you write becomes real!",
+            "parentId": "e5c2ce9c-b6cf-4e1b-9723-8f6564972643",
+            "childrenIds": [
+                "1185434a-0ee2-49bb-8511-eea4762eee4c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "1185434a-0ee2-49bb-8511-eea4762eee4c": {
+            "id": "1185434a-0ee2-49bb-8511-eea4762eee4c",
+            "source": "I think so! So you said you’re going to teach me how I’m going to make my webpage more beautiful, right?",
+            "parentId": "0f91f259-0ac1-406b-b1c1-9359d91163dd",
+            "childrenIds": [
+                "377eccc5-71f1-43e0-989a-d05048120a97"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1d938ebf-b87a-4c0b-a6b3-8bbec071e796": {
+            "id": "1d938ebf-b87a-4c0b-a6b3-8bbec071e796",
+            "source": "Yes! And that can be done using CSS.",
+            "parentId": "377eccc5-71f1-43e0-989a-d05048120a97",
+            "childrenIds": [
+                "07af7403-3679-4350-b8db-ae058f0ae708"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "07af7403-3679-4350-b8db-ae058f0ae708": {
+            "id": "07af7403-3679-4350-b8db-ae058f0ae708",
+            "source": "CSS? What does it stand for?",
+            "parentId": "1d938ebf-b87a-4c0b-a6b3-8bbec071e796",
+            "childrenIds": [
+                "4099c3ec-04d5-4b9b-afc7-78394e169142"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "4099c3ec-04d5-4b9b-afc7-78394e169142": {
+            "id": "4099c3ec-04d5-4b9b-afc7-78394e169142",
+            "source": "It stands for Cascading Style Sheets.",
+            "parentId": "07af7403-3679-4350-b8db-ae058f0ae708",
+            "childrenIds": [
+                "e0ee69a8-ff77-4f18-adab-95d882e08520"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "e0ee69a8-ff77-4f18-adab-95d882e08520": {
+            "id": "e0ee69a8-ff77-4f18-adab-95d882e08520",
+            "source": "Why is it ‘cascading’?",
+            "parentId": "4099c3ec-04d5-4b9b-afc7-78394e169142",
+            "childrenIds": [
+                "4d3741a7-3bcd-4e94-93ee-884caa33780f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "4d3741a7-3bcd-4e94-93ee-884caa33780f": {
+            "id": "4d3741a7-3bcd-4e94-93ee-884caa33780f",
+            "source": "That’s a great question! It’s because the cascade deals with styles when there are multiple styles applied to the same element. It gives an order and makes sure which style precedes others. ",
+            "parentId": "e0ee69a8-ff77-4f18-adab-95d882e08520",
+            "childrenIds": [
+                "9c7063e5-952b-4a67-962b-27797fd0be84"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "9c7063e5-952b-4a67-962b-27797fd0be84": {
+            "id": "9c7063e5-952b-4a67-962b-27797fd0be84",
+            "source": "Alright. Then what does CSS do exactly?",
+            "parentId": "4d3741a7-3bcd-4e94-93ee-884caa33780f",
+            "childrenIds": [
+                "f1f3762f-35ae-4ebd-9dcd-4e7421a7de71"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "f1f3762f-35ae-4ebd-9dcd-4e7421a7de71": {
+            "id": "f1f3762f-35ae-4ebd-9dcd-4e7421a7de71",
+            "source": "It basically controls your documents’ styles like font sizes, background colors, page layouts and more.",
+            "parentId": "9c7063e5-952b-4a67-962b-27797fd0be84",
+            "childrenIds": [
+                "2a883d82-9bb1-4b90-aa00-416876f9a50b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "2a883d82-9bb1-4b90-aa00-416876f9a50b": {
+            "id": "2a883d82-9bb1-4b90-aa00-416876f9a50b",
+            "source": "So it deals with all the styles that are applied to my website?",
+            "parentId": "f1f3762f-35ae-4ebd-9dcd-4e7421a7de71",
+            "childrenIds": [
+                "25b99f38-9ab1-474f-b0fb-4d454866f25b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "25b99f38-9ab1-474f-b0fb-4d454866f25b": {
+            "id": "25b99f38-9ab1-474f-b0fb-4d454866f25b",
+            "source": "Yes! Until now, we’ve only used HTML. And by using HTML, we created the content, but the website still looks not so pretty. So we’re using CSS and applying the style to the HTML page.",
+            "parentId": "2a883d82-9bb1-4b90-aa00-416876f9a50b",
+            "childrenIds": [
+                "dac8afbe-d962-4621-a9c4-d9753ef53bfb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "dac8afbe-d962-4621-a9c4-d9753ef53bfb": {
+            "id": "dac8afbe-d962-4621-a9c4-d9753ef53bfb",
+            "source": "Okay. But how do we apply style to HTML? Seems like it is a different programming language. ",
+            "parentId": "25b99f38-9ab1-474f-b0fb-4d454866f25b",
+            "childrenIds": [
+                "81fbe726-6818-49c3-b27f-461e1d2bbbfb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "209430f6-4f13-44be-9eb5-c62e4dfc05ea": {
+            "id": "209430f6-4f13-44be-9eb5-c62e4dfc05ea",
+            "source": "Great question. There are three common ways to insert a CSS style sheet to your HTML file. First, it is when there is an external `.css` file. ",
+            "parentId": "81fbe726-6818-49c3-b27f-461e1d2bbbfb",
+            "childrenIds": [
+                "4fd1dd9f-c373-43fc-a405-d42c7a76b916"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "4fd1dd9f-c373-43fc-a405-d42c7a76b916": {
+            "id": "4fd1dd9f-c373-43fc-a405-d42c7a76b916",
+            "source": "What do you mean by an external file?\n",
+            "parentId": "209430f6-4f13-44be-9eb5-c62e4dfc05ea",
+            "childrenIds": [
+                "34f0fa5b-21ad-40c5-aba0-818c11719bf4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "34f0fa5b-21ad-40c5-aba0-818c11719bf4": {
+            "id": "34f0fa5b-21ad-40c5-aba0-818c11719bf4",
+            "source": "It means when you have a separate `.css` file. So you link the HTML file and the css file together.\n",
+            "parentId": "4fd1dd9f-c373-43fc-a405-d42c7a76b916",
+            "childrenIds": [
+                "8cf1b71b-4c1c-4dff-823e-4f369149fa8e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "8cf1b71b-4c1c-4dff-823e-4f369149fa8e": {
+            "id": "8cf1b71b-4c1c-4dff-823e-4f369149fa8e",
+            "source": "Okay. So that implies that there are other ways to link HTML and CSS without creating a separate file?",
+            "parentId": "34f0fa5b-21ad-40c5-aba0-818c11719bf4",
+            "childrenIds": [
+                "daa2d131-232f-41c1-a0f2-1395463e9aa2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "daa2d131-232f-41c1-a0f2-1395463e9aa2": {
+            "id": "daa2d131-232f-41c1-a0f2-1395463e9aa2",
+            "source": "Correct. We’ll cover that right after this.",
+            "parentId": "8cf1b71b-4c1c-4dff-823e-4f369149fa8e",
+            "childrenIds": [
+                "7510111a-7772-4734-9447-21c867c6d8af"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "7510111a-7772-4734-9447-21c867c6d8af": {
+            "id": "7510111a-7772-4734-9447-21c867c6d8af",
+            "source": "Okay. Then what’s the advantage of having an external CSS file?",
+            "parentId": "daa2d131-232f-41c1-a0f2-1395463e9aa2",
+            "childrenIds": [
+                "2b614b47-351b-40b8-9b80-4bd9c22c118f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "2b614b47-351b-40b8-9b80-4bd9c22c118f": {
+            "id": "2b614b47-351b-40b8-9b80-4bd9c22c118f",
+            "source": "That it can be applied to multiple pages of HTML when once created.",
+            "parentId": "7510111a-7772-4734-9447-21c867c6d8af",
+            "childrenIds": [
+                "2dfe6139-37ae-40d9-99df-ffe36c07cfea"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "2dfe6139-37ae-40d9-99df-ffe36c07cfea": {
+            "id": "2dfe6139-37ae-40d9-99df-ffe36c07cfea",
+            "source": "Oh you mean like when there are several different HTML pages?",
+            "parentId": "2b614b47-351b-40b8-9b80-4bd9c22c118f",
+            "childrenIds": [
+                "81ef23ea-934f-40c8-9ade-daf5c98c48c3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "81ef23ea-934f-40c8-9ade-daf5c98c48c3": {
+            "id": "81ef23ea-934f-40c8-9ade-daf5c98c48c3",
+            "source": "Yes. You can link the same CSS file multiple times to different HTML pages.",
+            "parentId": "2dfe6139-37ae-40d9-99df-ffe36c07cfea",
+            "childrenIds": [
+                "d4e8d532-87b9-49fa-bfd1-64045d79d053"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "d4e8d532-87b9-49fa-bfd1-64045d79d053": {
+            "id": "d4e8d532-87b9-49fa-bfd1-64045d79d053",
+            "source": "Makes sense. So how do you do this, then?\n",
+            "parentId": "81ef23ea-934f-40c8-9ade-daf5c98c48c3",
+            "childrenIds": [
+                "b21ad8f0-7b15-4194-84d7-129af52c70a4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "b21ad8f0-7b15-4194-84d7-129af52c70a4": {
+            "id": "b21ad8f0-7b15-4194-84d7-129af52c70a4",
+            "source": "Like this. First the HTML file:\n```html\n<html>\n    <head>\n        <link rel=\"stylesheet\" href=\"mystyle.css\">\n    </head>\n    <body>\n        <p>Hello world!</p>\n    </body>\n</html>\n```\n\nThen the CSS file, mystyle.css:\n```css\n/*setting the paragraph font to 18*/\np {\n    font-size: 18px;\n    text-decoration: underline;\n}\n```\nDo you see \n```html\n<link rel=\"stylesheet\" href=\"mystyle.css\">\n``` \nthat the `mystyle.css` file is linked?",
+            "parentId": "d4e8d532-87b9-49fa-bfd1-64045d79d053",
+            "childrenIds": [
+                "6723441c-9b6e-4370-a327-9171ed5c3358"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "6723441c-9b6e-4370-a327-9171ed5c3358": {
+            "id": "6723441c-9b6e-4370-a327-9171ed5c3358",
+            "source": "Yes.",
+            "parentId": "b21ad8f0-7b15-4194-84d7-129af52c70a4",
+            "childrenIds": [
+                "ca72b226-2e06-4490-ab2e-bb25e9c89c62"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "ca72b226-2e06-4490-ab2e-bb25e9c89c62": {
+            "id": "ca72b226-2e06-4490-ab2e-bb25e9c89c62",
+            "source": "This is how you link an external `.css` file.",
+            "parentId": "6723441c-9b6e-4370-a327-9171ed5c3358",
+            "childrenIds": [
+                "fb7796c9-8de0-427e-9b0b-9ce6dd70c0fc"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "fb7796c9-8de0-427e-9b0b-9ce6dd70c0fc": {
+            "id": "fb7796c9-8de0-427e-9b0b-9ce6dd70c0fc",
+            "source": "Got it! I remember that ```<link />``` is one of the metadata elements which are located inside ```<head />```.",
+            "parentId": "ca72b226-2e06-4490-ab2e-bb25e9c89c62",
+            "childrenIds": [
+                "c2db4066-4937-4666-b3dc-252fc45f7840"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c2db4066-4937-4666-b3dc-252fc45f7840": {
+            "id": "c2db4066-4937-4666-b3dc-252fc45f7840",
+            "source": "Great point. The `<head />` includes metadata elements such as `<title />, <script />, <style />` and `<link />`.",
+            "parentId": "fb7796c9-8de0-427e-9b0b-9ce6dd70c0fc",
+            "childrenIds": [
+                "cc07ce9f-9c18-42af-aa61-99c8aea8db81"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "cc07ce9f-9c18-42af-aa61-99c8aea8db81": {
+            "id": "cc07ce9f-9c18-42af-aa61-99c8aea8db81",
+            "source": "## Quiz\n\nWrite HTML code to link an external CSS file named `style. css` to the code below.\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!DOCTYPE html>\n<html>\n    <head>\n    <!-- What should go here?-->\n    </head>\n    <body>\n    <!-- Rest of the HTML content -->\n    </body>\n</html>\n```\n```\n```\n```\n<!DOCTYPE html>\n<html>\n    <head>\n    <link rel=\"stylesheet\" href=\"mystyle.css\">\n    </head>\n    <body>\n    <!-- Rest of the HTML content -->\n    </body>\n</html>\n```\n:::\n",
+            "parentId": "c2db4066-4937-4666-b3dc-252fc45f7840",
+            "childrenIds": [
+                "4c569235-dc05-4583-a864-4fe9630f6438"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "cc07ce9f-9c18-42af-aa61-99c8aea8db81-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "f1e7c451-783f-4af2-b86c-a0aac7f453f2": {
+            "id": "f1e7c451-783f-4af2-b86c-a0aac7f453f2",
+            "source": "What do you mean by inline?\n",
+            "parentId": "76a3ee1f-21ba-43a9-9593-65b236b751c5",
+            "childrenIds": [
+                "c88e9b8f-eb80-406c-a2d4-5fbfa187c0e8"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c88e9b8f-eb80-406c-a2d4-5fbfa187c0e8": {
+            "id": "c88e9b8f-eb80-406c-a2d4-5fbfa187c0e8",
+            "source": "It means that it’s put directly inside the HTML element, unlike an external CSS file.",
+            "parentId": "f1e7c451-783f-4af2-b86c-a0aac7f453f2",
+            "childrenIds": [
+                "6bb728e6-d420-4026-95ec-5af4044edca0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "6bb728e6-d420-4026-95ec-5af4044edca0": {
+            "id": "6bb728e6-d420-4026-95ec-5af4044edca0",
+            "source": "I get it.",
+            "parentId": "c88e9b8f-eb80-406c-a2d4-5fbfa187c0e8",
+            "childrenIds": [
+                "871e79ad-553f-42fc-af41-d37383bb2eaf"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "871e79ad-553f-42fc-af41-d37383bb2eaf": {
+            "id": "871e79ad-553f-42fc-af41-d37383bb2eaf",
+            "source": "Good, inline style CSS is used to apply a unique style on a single HTML element.",
+            "parentId": "6bb728e6-d420-4026-95ec-5af4044edca0",
+            "childrenIds": [
+                "f861f0b0-b071-451f-98d1-73a382ba5a08"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "f861f0b0-b071-451f-98d1-73a382ba5a08": {
+            "id": "f861f0b0-b071-451f-98d1-73a382ba5a08",
+            "source": "Can you give me an example?\n",
+            "parentId": "871e79ad-553f-42fc-af41-d37383bb2eaf",
+            "childrenIds": [
+                "8fb4345f-7065-4cc8-b3d4-53033cc556e3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "8fb4345f-7065-4cc8-b3d4-53033cc556e3": {
+            "id": "8fb4345f-7065-4cc8-b3d4-53033cc556e3",
+            "source": "Sure.\n```html\n<p style=\"color:blue;font-size:24px;\">\n    I used inline CSS so I have big and blue text.\n</p>\n```\nDo you see the style is applied as an attribute to each tag?",
+            "parentId": "f861f0b0-b071-451f-98d1-73a382ba5a08",
+            "childrenIds": [
+                "0a07f14c-e733-4c80-8f7c-4484a2422698"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "0a07f14c-e733-4c80-8f7c-4484a2422698": {
+            "id": "0a07f14c-e733-4c80-8f7c-4484a2422698",
+            "source": "Yes. I get it.",
+            "parentId": "8fb4345f-7065-4cc8-b3d4-53033cc556e3",
+            "childrenIds": [
+                "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8": {
+            "id": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8",
+            "source": "## Quiz\n\n:::multiple-choice\nHow can you apply inline CSS to an HTML element?\n::option[Using the `<style>` element in the head section]{feedback=\"Incorrect. This is using internal css.\"}\n::option[Creating a separate CSS file and linking it]{feedback=\"Incorrect. This is linking external css file.\"}\n::option[Using the style attribute directly in the HTML tag]{correct feedback=\"Good!\"}\n::option[Importing a CSS library]{feedback=\"Incorrect\"}\n:::",
+            "parentId": "0a07f14c-e733-4c80-8f7c-4484a2422698",
+            "childrenIds": [
+                "703652d5-6935-4991-bbd1-deb24b30723a"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "703652d5-6935-4991-bbd1-deb24b30723a": {
+            "id": "703652d5-6935-4991-bbd1-deb24b30723a",
+            "source": "## Quiz\n\nWrite an example of an inline CSS style applied to the below `<div>` element with a red background color and white text color.\n:::edit-code\n::language[html]\n::environment[html]\n```\n<div>This is a div with inline CSS style.</div>\n```\n```\n```\n```\n<div style=\"color:white;background-color:red;\">This is a div with inline CSS style.</div>\n```\n:::\n",
+            "parentId": "b96d7771-b392-4b8d-b05f-ce6f4a1bc1d8",
+            "childrenIds": [
+                "a58a960f-8ca5-4fe3-b69c-00032f31b67d"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "703652d5-6935-4991-bbd1-deb24b30723a-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "59f8bc80-387c-4acc-9cda-c670a1b7cc9e": {
+            "id": "59f8bc80-387c-4acc-9cda-c670a1b7cc9e",
+            "source": "It’s using internal CSS. An internal stylesheet is defined inside the same HTML page. But it is defined in the ```<head>``` section of the HTML page inside the ```<style>``` tag. \n",
+            "parentId": "41b2412a-6e77-4268-9c9a-91ddc05eac96",
+            "childrenIds": [
+                "1815aa4c-07df-4662-8d92-2b97941e2a0e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "1815aa4c-07df-4662-8d92-2b97941e2a0e": {
+            "id": "1815aa4c-07df-4662-8d92-2b97941e2a0e",
+            "source": "Oh, so it doesn’t have a separate CSS file but it’s different from inline CSS in that it has a separate portion for CSS style inside the HTML file.",
+            "parentId": "59f8bc80-387c-4acc-9cda-c670a1b7cc9e",
+            "childrenIds": [
+                "75059651-4814-4db1-9202-9f0b75fec865"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "75059651-4814-4db1-9202-9f0b75fec865": {
+            "id": "75059651-4814-4db1-9202-9f0b75fec865",
+            "source": "Correct. Here is an example.",
+            "parentId": "1815aa4c-07df-4662-8d92-2b97941e2a0e",
+            "childrenIds": [
+                "3022a8c1-81e0-4a7f-896b-69cb2411e632"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_1.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.html": [
+                        [
+                            1,
+                            "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n        body {\n        background-color: AliceBlue;\n        }\n\n        p {\n        color: DarkGrey;\n        } \n        </style>\n    </head>\n\n    <body>\n        <p>This is an example of interanl CSS with a lightblue background and darkgrey font.</p>\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.html",
+                    "startLineNumber": 4,
+                    "startColumn": 9,
+                    "endLineNumber": 12,
+                    "endColumn": 17
+                }
+            ]
+        },
+        "3022a8c1-81e0-4a7f-896b-69cb2411e632": {
+            "id": "3022a8c1-81e0-4a7f-896b-69cb2411e632",
+            "source": "Got it! I remember that ```<style />``` is included inside ```<head />``` as one of the metadata elements.",
+            "parentId": "75059651-4814-4db1-9202-9f0b75fec865",
+            "childrenIds": [
+                "22a9f0c8-9d31-4160-aa84-2952b2e7930c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "22a9f0c8-9d31-4160-aa84-2952b2e7930c": {
+            "id": "22a9f0c8-9d31-4160-aa84-2952b2e7930c",
+            "source": "## Quiz\n\nWrite HTML code to include an internal CSS style that sets the font size to 30px for all `<h1>` elements and the text color to blue for all `<p>` elements.\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!DOCTYPE html>\n<html>\n    <head>\n        <!-- What should go in here?-->\n    </head>\n    <body>\n        <h1>Mango</h1>\n        <h2>A mango is an edible stone fruit produced by the tropical tree Mangifera indica.</h2>\n        <h1>Peach</h1>\n        <h2>A peach is a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin.</h2>\n    </body>\n</html>\n```\n```\n```\n```\n<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n            h1 {\n                font-size:30px;\n            }\n            h2 {\n                color: blue;\n            }\n        </style>\n    </head>\n    <body>\n        <h1>Mango</h1>\n        <h2>A mango is an edible stone fruit produced by the tropical tree Mangifera indica.</h2>\n        <h1>Peach</h1>\n        <h2>A peach is a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin.</h2>\n    </body>\n</html>\n```\n:::\n",
+            "parentId": "3022a8c1-81e0-4a7f-896b-69cb2411e632",
+            "childrenIds": [
+                "9a5fe30a-f360-438f-8685-722bee0d2081"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "22a9f0c8-9d31-4160-aa84-2952b2e7930c-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "9a5fe30a-f360-438f-8685-722bee0d2081": {
+            "id": "9a5fe30a-f360-438f-8685-722bee0d2081",
+            "source": "Very good. Now, You remember that CSS is a ‘cascading’ sheet, right?\n",
+            "parentId": "22a9f0c8-9d31-4160-aa84-2952b2e7930c",
+            "childrenIds": [
+                "3081209c-3073-4202-afd4-040fa2ece79b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "3081209c-3073-4202-afd4-040fa2ece79b": {
+            "id": "3081209c-3073-4202-afd4-040fa2ece79b",
+            "source": "Yes.",
+            "parentId": "9a5fe30a-f360-438f-8685-722bee0d2081",
+            "childrenIds": [
+                "24dc690e-6022-4024-a59b-669d81a2651a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "134fb44e-1a75-464c-910e-5b3edc51c20a": {
+            "id": "134fb44e-1a75-464c-910e-5b3edc51c20a",
+            "source": "As I told you before, the cascade defines which style will precede others when there are multiple styles applied to the same HTML element. The last applied style sheet will be displayed if multiple properties (style sheets) have been defined for the same element.",
+            "parentId": "24dc690e-6022-4024-a59b-669d81a2651a",
+            "childrenIds": [
+                "08313529-138b-4ed9-a6a1-8e19965e305c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_1.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "08313529-138b-4ed9-a6a1-8e19965e305c": {
+            "id": "08313529-138b-4ed9-a6a1-8e19965e305c",
+            "source": "Ok, so the last one will be applied.\n",
+            "parentId": "134fb44e-1a75-464c-910e-5b3edc51c20a",
+            "childrenIds": [
+                "89c6d2dd-89ab-4d90-b239-3af2f0d8d772"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "89c6d2dd-89ab-4d90-b239-3af2f0d8d772": {
+            "id": "89c6d2dd-89ab-4d90-b239-3af2f0d8d772",
+            "source": "Yes. I’ll give you an example. What do you think will be applied in this case?\n",
+            "parentId": "08313529-138b-4ed9-a6a1-8e19965e305c",
+            "childrenIds": [
+                "5a8bb4c5-3e77-40fa-8a3f-0280ac62788f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_2.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.html": [
+                        [
+                            1,
+                            "<head>\n    <link rel=\"stylesheet\" href=\"mystyle.css\">\n    <link rel=\"stylesheet\" href=\"mystyle2.css\">\n</head>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.html",
+                    "startLineNumber": 2,
+                    "startColumn": 5,
+                    "endLineNumber": 3,
+                    "endColumn": 48
+                }
+            ]
+        },
+        "5a8bb4c5-3e77-40fa-8a3f-0280ac62788f": {
+            "id": "5a8bb4c5-3e77-40fa-8a3f-0280ac62788f",
+            "source": "Since it’s the last one, the ```“mystyle2.css”``` file?\n",
+            "parentId": "89c6d2dd-89ab-4d90-b239-3af2f0d8d772",
+            "childrenIds": [
+                "21accf5c-ca95-4a95-b058-90d3d6665c68"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "21accf5c-ca95-4a95-b058-90d3d6665c68": {
+            "id": "21accf5c-ca95-4a95-b058-90d3d6665c68",
+            "source": "Correct. And when there is an internal style sheet that comes after the external style sheet, what do you think will happen?\n",
+            "parentId": "5a8bb4c5-3e77-40fa-8a3f-0280ac62788f",
+            "childrenIds": [
+                "c1340aa3-00b4-4e47-bd4a-ad606493adde"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "c1340aa3-00b4-4e47-bd4a-ad606493adde": {
+            "id": "c1340aa3-00b4-4e47-bd4a-ad606493adde",
+            "source": "Will the internal style sheet be applied?\n",
+            "parentId": "21accf5c-ca95-4a95-b058-90d3d6665c68",
+            "childrenIds": [
+                "e11017dd-65aa-48f5-8e70-7ba4886b8995"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "e11017dd-65aa-48f5-8e70-7ba4886b8995": {
+            "id": "e11017dd-65aa-48f5-8e70-7ba4886b8995",
+            "source": "Correct! So the cascading order will be like this:\n1. Inline style (inside an HTML element)\n2. External and internal style sheets\n3. Browser default\n",
+            "parentId": "c1340aa3-00b4-4e47-bd4a-ad606493adde",
+            "childrenIds": [
+                "e55fb4ab-bda4-4ca3-aa6a-9e78655fb296"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "e55fb4ab-bda4-4ca3-aa6a-9e78655fb296": {
+            "id": "e55fb4ab-bda4-4ca3-aa6a-9e78655fb296",
+            "source": "So when there is an inline style, it will be applied first. When there is no inline style, then external and internal style sheets will be applied. And if none of them exist, then the browser default style will be applied. Is this right?\n",
+            "parentId": "e11017dd-65aa-48f5-8e70-7ba4886b8995",
+            "childrenIds": [
+                "43b7e7eb-2646-43d2-9a3c-ce53c1add6e2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "12457d54-f2a1-47c0-a8b9-24828785ee10": {
+            "id": "12457d54-f2a1-47c0-a8b9-24828785ee10",
+            "source": "## Quiz\n\n:::multiple-choice\nIn the following code, which color will be applied to ```<p />```?\n\nreset.css\n```css\np {\n   color: red;\n}\n```\nmystyle.css\n```css\np {\n   color: yellow;\n}\n```\nHTML code\n```html\n<html>\n    <head>\n\t  <link rel=”stylesheet” hred=”reset.css”>\n        <link rel=\"stylesheet\" href=\"mystyle.css\">\n  <style>\n        p {\n        color: DarkGray;\n        } \n        </style>\n    </head>\n    <body>\n        <p style=”color:pink”>Hello world!</p>\n    </body>\n</html>\n```\n\n::option[red]{feedback=\"Incorrect. Another .css file is located beneath.\"}\n::option[yellow]{feedback=\"Incorrect. Internal css ```<style />``` is present.\"}\n::option[DarkGray]{feedback=\"Incorrect. Inline css has the top priority.\"}\n::option[pink]{correct feedback=\"correct!\"}\n",
+            "parentId": "43b7e7eb-2646-43d2-9a3c-ce53c1add6e2",
+            "childrenIds": [
+                "bf14f4c4-7efc-48f6-b7ef-54e15c60ebf2"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "12457d54-f2a1-47c0-a8b9-24828785ee10-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "12457d54-f2a1-47c0-a8b9-24828785ee10-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "12457d54-f2a1-47c0-a8b9-24828785ee10-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "12457d54-f2a1-47c0-a8b9-24828785ee10-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "12457d54-f2a1-47c0-a8b9-24828785ee10-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "bf14f4c4-7efc-48f6-b7ef-54e15c60ebf2": {
+            "id": "bf14f4c4-7efc-48f6-b7ef-54e15c60ebf2",
+            "source": "Yeah, then I guess at least I learned how I can apply CSS to my HTML file today, even though I don’t know how to write CSS yet.\n",
+            "parentId": "12457d54-f2a1-47c0-a8b9-24828785ee10",
+            "childrenIds": [
+                "f8f13360-5300-4d89-828f-a828ac9591b7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "f8f13360-5300-4d89-828f-a828ac9591b7": {
+            "id": "f8f13360-5300-4d89-828f-a828ac9591b7",
+            "source": "Yes, we’ll learn how to write CSS in the following lectures.",
+            "parentId": "bf14f4c4-7efc-48f6-b7ef-54e15c60ebf2",
+            "childrenIds": [
+                "0f6fef3d-9a31-439a-bf3b-1bfd5e486924"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "0f6fef3d-9a31-439a-bf3b-1bfd5e486924": {
+            "id": "0f6fef3d-9a31-439a-bf3b-1bfd5e486924",
+            "source": "Okay, see you next time! Thanks!",
+            "parentId": "f8f13360-5300-4d89-828f-a828ac9591b7",
+            "childrenIds": [
+                "035b9c69-08f9-4d43-9cba-931148420856"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "035b9c69-08f9-4d43-9cba-931148420856": {
+            "id": "035b9c69-08f9-4d43-9cba-931148420856",
+            "source": "See you!",
+            "parentId": "0f6fef3d-9a31-439a-bf3b-1bfd5e486924",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "a58a960f-8ca5-4fe3-b69c-00032f31b67d": {
+            "id": "a58a960f-8ca5-4fe3-b69c-00032f31b67d",
+            "source": " Now, then what’s the last way to apply CSS?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "41b2412a-6e77-4268-9c9a-91ddc05eac96"
+            ],
+            "shortcutsTo": [],
+            "parentId": "703652d5-6935-4991-bbd1-deb24b30723a",
+            "isAIContent": false
+        },
+        "43b7e7eb-2646-43d2-9a3c-ce53c1add6e2": {
+            "id": "43b7e7eb-2646-43d2-9a3c-ce53c1add6e2",
+            "source": "Yes, that's correct.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "12457d54-f2a1-47c0-a8b9-24828785ee10"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e55fb4ab-bda4-4ca3-aa6a-9e78655fb296",
+            "isAIContent": false
+        },
+        "377eccc5-71f1-43e0-989a-d05048120a97": {
+            "id": "377eccc5-71f1-43e0-989a-d05048120a97",
+            "source": "## CSS",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "1d938ebf-b87a-4c0b-a6b3-8bbec071e796"
+            ],
+            "shortcutsTo": [],
+            "parentId": "1185434a-0ee2-49bb-8511-eea4762eee4c"
+        },
+        "81fbe726-6818-49c3-b27f-461e1d2bbbfb": {
+            "id": "81fbe726-6818-49c3-b27f-461e1d2bbbfb",
+            "source": "### Insert External CSS file",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "209430f6-4f13-44be-9eb5-c62e4dfc05ea"
+            ],
+            "shortcutsTo": [],
+            "parentId": "dac8afbe-d962-4621-a9c4-d9753ef53bfb",
+            "isAIContent": false
+        },
+        "76a3ee1f-21ba-43a9-9593-65b236b751c5": {
+            "id": "76a3ee1f-21ba-43a9-9593-65b236b751c5",
+            "source": "Now next, I’ll tell you how you can use inline CSS.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "f1e7c451-783f-4af2-b86c-a0aac7f453f2"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4c569235-dc05-4583-a864-4fe9630f6438",
+            "isAIContent": false
+        },
+        "4c569235-dc05-4583-a864-4fe9630f6438": {
+            "id": "4c569235-dc05-4583-a864-4fe9630f6438",
+            "source": "### Inline CSS",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "76a3ee1f-21ba-43a9-9593-65b236b751c5"
+            ],
+            "shortcutsTo": [],
+            "parentId": "cc07ce9f-9c18-42af-aa61-99c8aea8db81",
+            "isAIContent": false
+        },
+        "41b2412a-6e77-4268-9c9a-91ddc05eac96": {
+            "id": "41b2412a-6e77-4268-9c9a-91ddc05eac96",
+            "source": "### Internal CSS",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "59f8bc80-387c-4acc-9cda-c670a1b7cc9e"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a58a960f-8ca5-4fe3-b69c-00032f31b67d",
+            "isAIContent": false
+        },
+        "24dc690e-6022-4024-a59b-669d81a2651a": {
+            "id": "24dc690e-6022-4024-a59b-669d81a2651a",
+            "source": "### What happens when there are multiple CSS styles?",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "134fb44e-1a75-464c-910e-5b3edc51c20a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3081209c-3073-4202-afd4-040fa2ece79b",
+            "isAIContent": false
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "blue",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "red",
+            "description": "You are a helpful assistant who is teaching a new programmer how to program in JavaScript"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "035b9c69-08f9-4d43-9cba-931148420856",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

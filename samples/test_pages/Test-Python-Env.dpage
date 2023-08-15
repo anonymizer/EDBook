@@ -1,0 +1,62 @@
+{
+    "id": "2224075d-fdf9-4077-a4ca-13bc3a11d934",
+    "cellsById": {
+        "7374a4c4-039f-4eb4-a702-91fdfe35c402": {
+            "id": "7374a4c4-039f-4eb4-a702-91fdfe35c402",
+            "source": "Write some Python code that assigns `x` to `5`\n:::edit-code\n::language[python]\n::environment[python]\n# write your code here!\n+++\nassert x == 5, \"x should be 5\"\n+++\nx = 5\n:::",
+            "type": "message",
+            "senderId": "user",
+            "directives": [
+                {
+                    "id": "7374a4c4-039f-4eb4-a702-91fdfe35c402-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "childrenIds": [
+                "761a3562-a646-4c4d-9b1e-5b0fa9f692ab"
+            ],
+            "shortcutsTo": [],
+            "parentId": false
+        },
+        "761a3562-a646-4c4d-9b1e-5b0fa9f692ab": {
+            "id": "761a3562-a646-4c4d-9b1e-5b0fa9f692ab",
+            "source": "nice job! you did it!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "7374a4c4-039f-4eb4-a702-91fdfe35c402"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "var(--vscode-charts-black)",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": null,
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

@@ -1,0 +1,201 @@
+{
+    "id": "d0a054ae-658a-4363-9963-07c58b8e69d6",
+    "cellsById": {
+        "66fb3f2e-c1f6-4b59-ad34-b383916aef13": {
+            "id": "66fb3f2e-c1f6-4b59-ad34-b383916aef13",
+            "source": "x",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "instructor",
+                "directives": [],
+                "fileDiff": {
+                    "added": [
+                        "file_1.html",
+                        "file_2.html",
+                        "file_3.html"
+                    ],
+                    "removed": [],
+                    "codeDiffs": {
+                        "file_1.html": [
+                            [
+                                1,
+                                "hello\r\n\r\nworld\r\n\r\n\r\nmichigan"
+                            ]
+                        ],
+                        "file_2.html": [
+                            [
+                                0,
+                                0
+                            ]
+                        ],
+                        "file_3.html": [
+                            [
+                                0,
+                                0
+                            ]
+                        ]
+                    }
+                },
+                "editorPointers": [
+                    {
+                        "range": {
+                            "start": {
+                                "line": 2,
+                                "ch": 0
+                            },
+                            "end": {
+                                "line": 2,
+                                "ch": 5
+                            },
+                            "wholeLine": false
+                        },
+                        "filename": "file_1.html",
+                        "type": "pointer"
+                    }
+                ]
+            },
+            "childrenIds": [
+                "e68238d2-c574-4cad-b420-2034f1399b03",
+                "aafe59cf-862f-48c8-92eb-5da1ce372d3c"
+            ]
+        },
+        "e68238d2-c574-4cad-b420-2034f1399b03": {
+            "id": "e68238d2-c574-4cad-b420-2034f1399b03",
+            "source": "response 1",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "user",
+                "directives": []
+            },
+            "childrenIds": [
+                "1ae427ea-3037-4308-8bc5-820ef6204717"
+            ],
+            "parentId": "66fb3f2e-c1f6-4b59-ad34-b383916aef13"
+        },
+        "aafe59cf-862f-48c8-92eb-5da1ce372d3c": {
+            "id": "aafe59cf-862f-48c8-92eb-5da1ce372d3c",
+            "source": "response 2",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "user",
+                "directives": [],
+                "fileDiff": {
+                    "added": [],
+                    "removed": [
+                        "file_2.html",
+                        "file_3.html"
+                    ],
+                    "codeDiffs": {
+                        "file_1.html": [
+                            [
+                                0,
+                                4
+                            ],
+                            [
+                                -1,
+                                1
+                            ],
+                            [
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                }
+            },
+            "childrenIds": [
+                "f6326b31-21e7-4552-b738-1c261f9f277b"
+            ],
+            "parentId": "66fb3f2e-c1f6-4b59-ad34-b383916aef13"
+        },
+        "f6326b31-21e7-4552-b738-1c261f9f277b": {
+            "id": "f6326b31-21e7-4552-b738-1c261f9f277b",
+            "source": "response 2 2",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "user",
+                "directives": []
+            },
+            "childrenIds": [],
+            "parentId": "aafe59cf-862f-48c8-92eb-5da1ce372d3c"
+        },
+        "1ae427ea-3037-4308-8bc5-820ef6204717": {
+            "id": "1ae427ea-3037-4308-8bc5-820ef6204717",
+            "source": "a custom message",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "user",
+                "directives": []
+            },
+            "childrenIds": [
+                "85e25213-6f98-4b92-8ffc-e8c9961218bf"
+            ],
+            "parentId": "e68238d2-c574-4cad-b420-2034f1399b03"
+        },
+        "85e25213-6f98-4b92-8ffc-e8c9961218bf": {
+            "id": "85e25213-6f98-4b92-8ffc-e8c9961218bf",
+            "source": "another message",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "user",
+                "directives": []
+            },
+            "childrenIds": [
+                "e8a5e2a5-8b60-4c43-814d-31405a8de2e2"
+            ],
+            "parentId": "1ae427ea-3037-4308-8bc5-820ef6204717"
+        },
+        "e8a5e2a5-8b60-4c43-814d-31405a8de2e2": {
+            "id": "e8a5e2a5-8b60-4c43-814d-31405a8de2e2",
+            "source": "Sure! Here's a custom message just for you:\n\n\"Dear [Your Name],\n\nI hope this message finds you well. I wanted to take a moment to let you know how much you mean to me. Your presence in my life brings me so much joy, love, and happiness.\n\nYou have a unique way of making everything better just by being there. Your kindness, compassion, and understanding are qualities I deeply admire and cherish. Whether we're sharing laughter, supporting each other through tough times, or simply enjoying each other's company, every moment with you is precious.\n\nI am grateful for the love and support you continuously give me. You inspire me to be a better person every day, and I am thankful to have you by my side. Your friendship means the world to me, and I am truly blessed to have you in my life.\n\nPlease remember that you are loved, valued, and appreciated. Whenever you need someone to lean on, I'll be here for you, just as you have been for me. May our bond continue to grow stronger, and may our friendship be filled with countless beautiful memories.\n\nWith all my love and gratitude,\n\n[Your Name]\"",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "instructor",
+                "directives": []
+            },
+            "childrenIds": [
+                "5c665504-b1fb-4536-bb66-cc29e571695e"
+            ],
+            "parentId": "85e25213-6f98-4b92-8ffc-e8c9961218bf"
+        },
+        "5c665504-b1fb-4536-bb66-cc29e571695e": {
+            "id": "5c665504-b1fb-4536-bb66-cc29e571695e",
+            "source": "that's so sweet",
+            "cell_type": "message",
+            "metadata": {
+                "sender": "user",
+                "directives": []
+            },
+            "childrenIds": [],
+            "parentId": "e8a5e2a5-8b60-4c43-814d-31405a8de2e2"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black"
+        }
+    },
+    "userState": {
+        "visibleCellIds": [
+            "66fb3f2e-c1f6-4b59-ad34-b383916aef13",
+            "aafe59cf-862f-48c8-92eb-5da1ce372d3c"
+        ],
+        "cellStates": {}
+    },
+    "dbookformat": 3,
+    "dbookformat_minor": 0
+}

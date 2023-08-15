@@ -1,0 +1,209 @@
+{
+    "id": "6ef45926-77ce-4e55-ab94-8700a8efdaa0",
+    "cellsById": {
+        "a317c9e2-92ce-4bf3-8303-ede73b5b36f2": {
+            "id": "a317c9e2-92ce-4bf3-8303-ede73b5b36f2",
+            "source": "Hey, do you know about the Scheme programming language?",
+            "type": "message",
+            "parentId": false,
+            "childrenIds": [
+                "c43f3e80-ac27-43e6-8b6d-92d5efc1a6f5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c43f3e80-ac27-43e6-8b6d-92d5efc1a6f5": {
+            "id": "c43f3e80-ac27-43e6-8b6d-92d5efc1a6f5",
+            "source": "Hello! Yes, I do. Why?",
+            "type": "message",
+            "parentId": "a317c9e2-92ce-4bf3-8303-ede73b5b36f2",
+            "childrenIds": [
+                "a1e5951c-9e80-48ac-9a29-132c9a111126"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "a1e5951c-9e80-48ac-9a29-132c9a111126": {
+            "id": "a1e5951c-9e80-48ac-9a29-132c9a111126",
+            "source": "I heard that Scheme is one of the oldest programming languages, and I see many people are still using it. I became curious about it.",
+            "type": "message",
+            "parentId": "c43f3e80-ac27-43e6-8b6d-92d5efc1a6f5",
+            "childrenIds": [
+                "a4aa07ef-50bf-4f24-8077-dfd9fd041a29"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "a4aa07ef-50bf-4f24-8077-dfd9fd041a29": {
+            "id": "a4aa07ef-50bf-4f24-8077-dfd9fd041a29",
+            "source": "That's correct! Scheme is a programming language that is a descendant of Lisp, and Lisp is indeed one of the oldest programming languages, dating back to 1958. And Scheme was officially introduced in 1978.",
+            "type": "message",
+            "parentId": "a1e5951c-9e80-48ac-9a29-132c9a111126",
+            "childrenIds": [
+                "e7431994-8d47-4d49-ae1e-b488503b4c68"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "e7431994-8d47-4d49-ae1e-b488503b4c68": {
+            "id": "e7431994-8d47-4d49-ae1e-b488503b4c68",
+            "source": "Wow, that's really old! Then what are the reasons people still use Scheme?",
+            "type": "message",
+            "parentId": "a4aa07ef-50bf-4f24-8077-dfd9fd041a29",
+            "childrenIds": [
+                "e798043c-4563-4dc4-92f1-90da863b42d3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "e798043c-4563-4dc4-92f1-90da863b42d3": {
+            "id": "e798043c-4563-4dc4-92f1-90da863b42d3",
+            "source": "Scheme is known for its simplicity and flexibility, as well as its powerful features such as support for functional programming. This makes Scheme an ideal language for exploring and understanding programming language concepts, such as lexical scoping, closures, and macros.",
+            "type": "message",
+            "parentId": "e7431994-8d47-4d49-ae1e-b488503b4c68",
+            "childrenIds": [
+                "9c82cd79-9954-4de4-9fdf-c41cc60cadf0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "9c82cd79-9954-4de4-9fdf-c41cc60cadf0": {
+            "id": "9c82cd79-9954-4de4-9fdf-c41cc60cadf0",
+            "source": "Hmm.. there are bunch of words that I don't know. Can you explain a little more?",
+            "type": "message",
+            "parentId": "e798043c-4563-4dc4-92f1-90da863b42d3",
+            "childrenIds": [
+                "1ac3a75e-c1bb-4a96-80f9-58c258c559fa"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1ac3a75e-c1bb-4a96-80f9-58c258c559fa": {
+            "id": "1ac3a75e-c1bb-4a96-80f9-58c258c559fa",
+            "source": "Of course. In short, Scheme's popularity and longevity can  be attributed to its ability to handle complex data structures.",
+            "type": "message",
+            "parentId": "9c82cd79-9954-4de4-9fdf-c41cc60cadf0",
+            "childrenIds": [
+                "5551d023-f776-4c1c-8db9-29779199d509"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "5551d023-f776-4c1c-8db9-29779199d509": {
+            "id": "5551d023-f776-4c1c-8db9-29779199d509",
+            "source": "Oh okay. I'd like to learn Scheme, but it looks difficult...",
+            "type": "message",
+            "parentId": "1ac3a75e-c1bb-4a96-80f9-58c258c559fa",
+            "childrenIds": [
+                "326851b9-e2a7-472b-a2bf-7b6599c2c446"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "326851b9-e2a7-472b-a2bf-7b6599c2c446": {
+            "id": "326851b9-e2a7-472b-a2bf-7b6599c2c446",
+            "source": "That's totally alright. I can help you with it! Would you like to give it a try?",
+            "type": "message",
+            "parentId": "5551d023-f776-4c1c-8db9-29779199d509",
+            "childrenIds": [
+                "0c5098b8-b123-4d54-8a01-38e73112ec0f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "0c5098b8-b123-4d54-8a01-38e73112ec0f": {
+            "id": "0c5098b8-b123-4d54-8a01-38e73112ec0f",
+            "source": "Yeah, it looks interesting. I'll give it a try.",
+            "type": "message",
+            "parentId": "326851b9-e2a7-472b-a2bf-7b6599c2c446",
+            "childrenIds": [
+                "91836ef0-9b06-4a1c-87f4-25423e33ad81"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "91836ef0-9b06-4a1c-87f4-25423e33ad81": {
+            "id": "91836ef0-9b06-4a1c-87f4-25423e33ad81",
+            "source": "Great. Starting from the next lecture, let's start learning the basics of Scheme! There will be quizzes during the lecture to help you understand.",
+            "type": "message",
+            "parentId": "0c5098b8-b123-4d54-8a01-38e73112ec0f",
+            "childrenIds": [
+                "379a046e-2057-4648-b9cf-0e1034e43fd9"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "379a046e-2057-4648-b9cf-0e1034e43fd9": {
+            "id": "379a046e-2057-4648-b9cf-0e1034e43fd9",
+            "source": "Okay! I'll see you soon!",
+            "type": "message",
+            "parentId": "91836ef0-9b06-4a1c-87f4-25423e33ad81",
+            "childrenIds": [
+                "7e387755-6878-47c2-87de-b469c617e74a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "7e387755-6878-47c2-87de-b469c617e74a": {
+            "id": "7e387755-6878-47c2-87de-b469c617e74a",
+            "source": "See you!",
+            "type": "message",
+            "parentId": "379a046e-2057-4648-b9cf-0e1034e43fd9",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": "The student is a beginner in programming who needs a lot of help in learning programming"
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": "You are a helpful assistant who is teaching a new programmer how to program in Scheme"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black"
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "7e387755-6878-47c2-87de-b469c617e74a",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

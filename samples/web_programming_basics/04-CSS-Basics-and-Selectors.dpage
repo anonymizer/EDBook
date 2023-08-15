@@ -1,0 +1,1156 @@
+{
+    "id": "32e98942-8bfe-4855-80d3-7f818f206bdd",
+    "cellsById": {
+        "28c04f6e-6bcc-4415-ba52-134bebb87214": {
+            "id": "28c04f6e-6bcc-4415-ba52-134bebb87214",
+            "source": "Hey, good morning! Can you teach me how to code CSS today?\n",
+            "childrenIds": [
+                "8e2eca03-e6b8-48bd-b3a6-1950efd192f8"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "8e2eca03-e6b8-48bd-b3a6-1950efd192f8": {
+            "id": "8e2eca03-e6b8-48bd-b3a6-1950efd192f8",
+            "source": "Good morning, of course. Before diving into today’s content, I’ll ask you a few questions about what we learned last time. Do you remember what CSS does?\n",
+            "parentId": "28c04f6e-6bcc-4415-ba52-134bebb87214",
+            "childrenIds": [
+                "31d677fc-43d2-4a27-a44b-afb2da189903"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "31d677fc-43d2-4a27-a44b-afb2da189903": {
+            "id": "31d677fc-43d2-4a27-a44b-afb2da189903",
+            "source": "Yes. We use CSS to give style to our webpage. That’s why I’m so excited to learn CSS. I want to make my webpage more beautiful. \n",
+            "parentId": "8e2eca03-e6b8-48bd-b3a6-1950efd192f8",
+            "childrenIds": [
+                "7ba0950f-2c8e-4b55-83df-676bfbfd5a45"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "7ba0950f-2c8e-4b55-83df-676bfbfd5a45": {
+            "id": "7ba0950f-2c8e-4b55-83df-676bfbfd5a45",
+            "source": "Great. Then how do we apply CSS to HTML files?\n",
+            "parentId": "31d677fc-43d2-4a27-a44b-afb2da189903",
+            "childrenIds": [
+                "857bacec-54ff-4f3a-a679-2ee6a9af3380"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "857bacec-54ff-4f3a-a679-2ee6a9af3380": {
+            "id": "857bacec-54ff-4f3a-a679-2ee6a9af3380",
+            "source": "There are about three different ways to do it. First, we can use an external .css file and link it by using ```<link />``` in ```<head />```. Second, we can use inline CSS code and directly apply css style to the HTML element. Lastly, we can use internal CSS code using ```<style />``` in ```<head />```.",
+            "parentId": "7ba0950f-2c8e-4b55-83df-676bfbfd5a45",
+            "childrenIds": [
+                "6970a98a-369a-4d5c-b3d7-350d81ab6c9a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "9096169c-75c6-43f7-a175-0a42c1216418": {
+            "id": "9096169c-75c6-43f7-a175-0a42c1216418",
+            "source": "## Quiz\n\n:::multiple-choice\nWhich of the following is NOT a way to apply CSS to HTML files?\n::option[Using an external .css file]{feedback=\"This is a correct way to apply CSS.\"}\n::option[Using inline CSS code]{feedback=\"This is a correct way to apply CSS.\"}\n::option[Using internal CSS code]{feedback=\"This is a correct way to apply CSS.\"}\n::option[Using JavaScript to style elements]{correct feedback=\"Great!\"}\n:::\n",
+            "parentId": "6970a98a-369a-4d5c-b3d7-350d81ab6c9a",
+            "childrenIds": [
+                "84c4e558-1a2a-4e7f-a683-6fd4203e514b"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "9096169c-75c6-43f7-a175-0a42c1216418-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "9096169c-75c6-43f7-a175-0a42c1216418-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "9096169c-75c6-43f7-a175-0a42c1216418-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "9096169c-75c6-43f7-a175-0a42c1216418-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "9096169c-75c6-43f7-a175-0a42c1216418-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "2e63b955-a58d-40bd-a702-41294fd1d7c8": {
+            "id": "2e63b955-a58d-40bd-a702-41294fd1d7c8",
+            "source": "Now today, we'll be discussing some important concepts related to CSS selectors and declarations. \n>\n![image](css.png)\n>\nHere, you can see that declarations contain a property and a value, separated by a colon.\n",
+            "parentId": "84c4e558-1a2a-4e7f-a683-6fd4203e514b",
+            "childrenIds": [
+                "caa507c7-0b52-41ac-9dca-79d07d0e6e47"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "caa507c7-0b52-41ac-9dca-79d07d0e6e47": {
+            "id": "caa507c7-0b52-41ac-9dca-79d07d0e6e47",
+            "source": "Yes. So I guess declarations allow CSS to specify the elements it will style and the corresponding values?",
+            "parentId": "2e63b955-a58d-40bd-a702-41294fd1d7c8",
+            "childrenIds": [
+                "56f6c0c5-de41-42ac-92b9-b1709292aecb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "56f6c0c5-de41-42ac-92b9-b1709292aecb": {
+            "id": "56f6c0c5-de41-42ac-92b9-b1709292aecb",
+            "source": "That’s right. So declarations play a crucial role in defining how our HTML elements will appear on the web page.\n",
+            "parentId": "caa507c7-0b52-41ac-9dca-79d07d0e6e47",
+            "childrenIds": [
+                "e5ca7b91-a610-47d4-8906-3fccae9ff4e0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_1.css"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.css": [
+                        [
+                            1,
+                            "h1 {\n    background-color: red;\n    font-size: 36px;\n}"
+                        ]
+                    ]
+                }
+            }
+        },
+        "e5ca7b91-a610-47d4-8906-3fccae9ff4e0": {
+            "id": "e5ca7b91-a610-47d4-8906-3fccae9ff4e0",
+            "source": "That makes sense. And I noticed that declarations are grouped together in something called a declaration block, surrounded by curly braces. \n",
+            "parentId": "56f6c0c5-de41-42ac-92b9-b1709292aecb",
+            "childrenIds": [
+                "14a9a40b-ee92-424a-8450-c0195bfdbacf"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "117abfff-38c7-4d5e-a374-73c387d6a866": {
+            "id": "117abfff-38c7-4d5e-a374-73c387d6a866",
+            "source": "Yes. A declaration block can contain one or more declarations, and they are enclosed within curly braces. Each declaration within the block is separated by semicolons. By grouping the declarations together, we can apply multiple styles to the same selector. \n",
+            "parentId": "14a9a40b-ee92-424a-8450-c0195bfdbacf",
+            "childrenIds": [
+                "b02ec7d9-6279-4b28-8e58-c50c5faaa1ce"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.css",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 4,
+                    "endColumn": 2
+                }
+            ]
+        },
+        "b02ec7d9-6279-4b28-8e58-c50c5faaa1ce": {
+            "id": "b02ec7d9-6279-4b28-8e58-c50c5faaa1ce",
+            "source": "So if I understand things correctly, you mean I can apply multiple styles like color, font and font size to the same element. ",
+            "parentId": "117abfff-38c7-4d5e-a374-73c387d6a866",
+            "childrenIds": [
+                "7576d04b-6b7d-43b6-9cfc-7a130a6a2050"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "7576d04b-6b7d-43b6-9cfc-7a130a6a2050": {
+            "id": "7576d04b-6b7d-43b6-9cfc-7a130a6a2050",
+            "source": "That’s right. ",
+            "parentId": "b02ec7d9-6279-4b28-8e58-c50c5faaa1ce",
+            "childrenIds": [
+                "3922de3a-5efd-4e1c-82fb-f37599a0df51"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "3922de3a-5efd-4e1c-82fb-f37599a0df51": {
+            "id": "3922de3a-5efd-4e1c-82fb-f37599a0df51",
+            "source": "Okay, you said ‘selector,’ what is it?",
+            "parentId": "7576d04b-6b7d-43b6-9cfc-7a130a6a2050",
+            "childrenIds": [
+                "009e3913-8939-408b-bc9a-82627ee621ca"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1ad76774-634e-4eb8-8b00-00a09d402d6c": {
+            "id": "1ad76774-634e-4eb8-8b00-00a09d402d6c",
+            "source": "A selector is what allows us to target specific HTML elements that we want to style using CSS. So in the example above, `h1` will be the selector.",
+            "parentId": "009e3913-8939-408b-bc9a-82627ee621ca",
+            "childrenIds": [
+                "70ff48e6-ad01-4fa5-9f93-7794cfe1364c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.css",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 3
+                }
+            ]
+        },
+        "70ff48e6-ad01-4fa5-9f93-7794cfe1364c": {
+            "id": "70ff48e6-ad01-4fa5-9f93-7794cfe1364c",
+            "source": "Oh, so the selector points to the HTML element we want to style, right?\n",
+            "parentId": "1ad76774-634e-4eb8-8b00-00a09d402d6c",
+            "childrenIds": [
+                "350de76a-0972-4a6e-a345-733d91881c7d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "350de76a-0972-4a6e-a345-733d91881c7d": {
+            "id": "350de76a-0972-4a6e-a345-733d91881c7d",
+            "source": "Precisely! And selectors can be based on the element's tag name, ID, or class.",
+            "parentId": "70ff48e6-ad01-4fa5-9f93-7794cfe1364c",
+            "childrenIds": [
+                "953296dd-2c70-4faf-b18f-5e654a787d70"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "953296dd-2c70-4faf-b18f-5e654a787d70": {
+            "id": "953296dd-2c70-4faf-b18f-5e654a787d70",
+            "source": "Hmm.. What do you mean?",
+            "parentId": "350de76a-0972-4a6e-a345-733d91881c7d",
+            "childrenIds": [
+                "653b2dcb-41ac-47bb-afb8-acf16540097f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "653b2dcb-41ac-47bb-afb8-acf16540097f": {
+            "id": "653b2dcb-41ac-47bb-afb8-acf16540097f",
+            "source": "For example, in the example below, the element’s tag name `h1` was used as a selector. However, not only the element’s tag name but also the ID and class can be used as a selector.",
+            "parentId": "953296dd-2c70-4faf-b18f-5e654a787d70",
+            "childrenIds": [
+                "f8d71746-2777-4f30-84b6-0e3c9d791cb0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.css",
+                    "startLineNumber": 2,
+                    "startColumn": 1,
+                    "endLineNumber": 2,
+                    "endColumn": 3
+                }
+            ],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.css": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "/* h1 is used as a selector */\nh1 {  \n"
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ]
+                }
+            }
+        },
+        "f8d71746-2777-4f30-84b6-0e3c9d791cb0": {
+            "id": "f8d71746-2777-4f30-84b6-0e3c9d791cb0",
+            "source": "Oh, I get it now.",
+            "parentId": "653b2dcb-41ac-47bb-afb8-acf16540097f",
+            "childrenIds": [
+                "87f1a5a5-b9dc-4ce6-ba9c-7f71f9a413ee"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "87f1a5a5-b9dc-4ce6-ba9c-7f71f9a413ee": {
+            "id": "87f1a5a5-b9dc-4ce6-ba9c-7f71f9a413ee",
+            "source": "## Quiz\n\nWrite CSS code to style all `<p>` elements with red color and centered text alignment.\n:::edit-code\n::language[css]\n::environment[css]\n```\n```\n```\n```\n```\np {\n    color: red;\n    text-align: center;\n}\n```\n:::",
+            "parentId": "f8d71746-2777-4f30-84b6-0e3c9d791cb0",
+            "childrenIds": [
+                "7d93d96a-2cd8-4dcf-a387-f1c198f03af3"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "87f1a5a5-b9dc-4ce6-ba9c-7f71f9a413ee-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "d04fdb10-5f3b-41bd-a7d4-5a5ece3d73f7": {
+            "id": "d04fdb10-5f3b-41bd-a7d4-5a5ece3d73f7",
+            "source": "The ID selector is used to select a specific element based on its unique ID attribute. It's denoted by a `#` followed by the element's ID. Remember, the ID should be unique within the HTML page. For instance, `#demo` will select the element with the ID `demo`. ",
+            "parentId": "f4870192-0c20-4d42-b5bf-f7d8578af612",
+            "childrenIds": [
+                "62f143c3-de4e-46b8-a15a-58e8af8b8bc6"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "62f143c3-de4e-46b8-a15a-58e8af8b8bc6": {
+            "id": "62f143c3-de4e-46b8-a15a-58e8af8b8bc6",
+            "source": "Got it. So you mean, the ID selector helps us target a specific element by its unique ID. ",
+            "parentId": "d04fdb10-5f3b-41bd-a7d4-5a5ece3d73f7",
+            "childrenIds": [
+                "4de25802-95d0-4303-b8e9-df5a6f274826"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "4de25802-95d0-4303-b8e9-df5a6f274826": {
+            "id": "4de25802-95d0-4303-b8e9-df5a6f274826",
+            "source": "That’s right. Here's an example.\n",
+            "parentId": "62f143c3-de4e-46b8-a15a-58e8af8b8bc6",
+            "childrenIds": [
+                "071d73e5-5fa4-4b7f-b25d-8b763d6e2b8e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_2.html"
+                ],
+                "removed": [
+                    "file_1.css"
+                ],
+                "codeDiffs": {
+                    "file_2.html": [
+                        [
+                            1,
+                            "<html>\n    <head>\n        <style>\n            #demo {\n            text-align: center;\n            color: red;\n            }\n        </style>\n    </head>\n    <body>\n        <p id=\"demo\">Paragraph with the id selector</p>\n        <p>This paragraph is a default paragraph without style. </p>\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.html",
+                    "startLineNumber": 4,
+                    "startColumn": 13,
+                    "endLineNumber": 7,
+                    "endColumn": 14
+                }
+            ]
+        },
+        "071d73e5-5fa4-4b7f-b25d-8b763d6e2b8e": {
+            "id": "071d73e5-5fa4-4b7f-b25d-8b763d6e2b8e",
+            "source": "Okay. And what about the class selector?\n",
+            "parentId": "4de25802-95d0-4303-b8e9-df5a6f274826",
+            "childrenIds": [
+                "c8652d12-9b29-49ad-8d5a-80eb293933bb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c8652d12-9b29-49ad-8d5a-80eb293933bb": {
+            "id": "c8652d12-9b29-49ad-8d5a-80eb293933bb",
+            "source": "## Quiz\n\nWrite CSS code to style the element with the ID `demo` and give it a blue background color and bold font weight.\n:::edit-code\n::language[css]\n::environment[css]\n```\n```\n```\n```\n```\n#demo {\n    background-color: blue;\n    font-weight: bold;\n}\n```\n:::",
+            "parentId": "071d73e5-5fa4-4b7f-b25d-8b763d6e2b8e",
+            "childrenIds": [
+                "d7b45736-c7be-4ce1-a935-57ba30689861"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "c8652d12-9b29-49ad-8d5a-80eb293933bb-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "a602f5e2-341d-41aa-8ff5-2c70e04177fa": {
+            "id": "a602f5e2-341d-41aa-8ff5-2c70e04177fa",
+            "source": "The class selector is used to select elements based on their class attribute. It's denoted by a period `.`, followed by the class name. \n>\nUnlike the ID selector, you can assign the same class to multiple elements. This allows you to style multiple elements simultaneously.",
+            "parentId": "d7b45736-c7be-4ce1-a935-57ba30689861",
+            "childrenIds": [
+                "bc972abe-3c08-4638-a13f-40e79d3fec00"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_3.html"
+                ],
+                "removed": [
+                    "file_2.html"
+                ],
+                "codeDiffs": {
+                    "file_3.html": [
+                        [
+                            1,
+                            "<html>\n    <head>\n        <style>\n            .demo {\n            color: SteelBlue;\n            font-family: arial;\n            font-size: 18px;\n            }\n        </style>\n    </head>\n    <body>\n        <p class=\"demo\">Paragraph with class selector</p>\n        <p>This paragraph is a default paragraph without style. </p>\n        <p class=\"demo\">Another paragraph with the same class selector</p>\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_3.html",
+                    "startLineNumber": 4,
+                    "startColumn": 13,
+                    "endLineNumber": 8,
+                    "endColumn": 14
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_3.html",
+                    "startLineNumber": 12,
+                    "startColumn": 9,
+                    "endLineNumber": 12,
+                    "endColumn": 58
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_3.html",
+                    "startLineNumber": 14,
+                    "startColumn": 9,
+                    "endLineNumber": 14,
+                    "endColumn": 75
+                }
+            ]
+        },
+        "bc972abe-3c08-4638-a13f-40e79d3fec00": {
+            "id": "bc972abe-3c08-4638-a13f-40e79d3fec00",
+            "source": "So for an ID selector, IDs should be unique. But for a class selector, it doesn’t need to be unique. \n>\nBy this, the class selector helps us target multiple elements with the same class name.\n",
+            "parentId": "a602f5e2-341d-41aa-8ff5-2c70e04177fa",
+            "childrenIds": [
+                "1afd7b79-f727-4321-ab0f-f82e122d4d02"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "c3e76e58-0d5b-431d-aceb-c29f48045941": {
+            "id": "c3e76e58-0d5b-431d-aceb-c29f48045941",
+            "source": "## Quiz\n\n:::multiple-choice\nWhat does the class selector allow us to do in CSS?\n::option[Select a specific element based on its unique ID]{feedback=\"This is what the ID selector does.\"}\n::option[Select elements based on their class attribute]{correct feedback=\"Great!\"}\n::option[Apply inline CSS code to an element]{feedback=\"Incorrect.\"}\n::option[Select elements based on their tag name]{feedback=\"This is what the tag selector does.\"}\n:::",
+            "parentId": "1afd7b79-f727-4321-ab0f-f82e122d4d02",
+            "childrenIds": [
+                "bef036b2-86db-47f9-bd5f-c58e39360de1"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "c3e76e58-0d5b-431d-aceb-c29f48045941-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "c3e76e58-0d5b-431d-aceb-c29f48045941-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "c3e76e58-0d5b-431d-aceb-c29f48045941-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "c3e76e58-0d5b-431d-aceb-c29f48045941-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "c3e76e58-0d5b-431d-aceb-c29f48045941-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "bef036b2-86db-47f9-bd5f-c58e39360de1": {
+            "id": "bef036b2-86db-47f9-bd5f-c58e39360de1",
+            "source": "## Quiz\n\nCreate an HTML class called `highlight` and give it a yellow background color and font size of 20 pixels, using inline css style. \n:::edit-code\n::language[html]\n::environment[html]\n```\n<!DOCTYPE html>\n    <html>\n        <head>\n            <title>CSS Example</title>\n            <!-- What should go here? -->\n        </head>\n    <body>\n        <p>This is a highlighted text with inline CSS style.</p>\n        <p>This paragraph doesn't have the highlight class.</p>\n    </body>\n</html>\n```\n```\n```\n```\n<!DOCTYPE html>\n    <html>\n        <head>\n            <title>CSS Example</title>\n            <style>\n                .highlight {\n                    background-color: yellow;\n                    font-size: 20px;\n                }\n            </style>\n        </head>\n    <body>\n        <p class=\"highlight\">This is a highlighted text with inline CSS style.</p>\n        <p>This paragraph doesn't have the highlight class.</p>\n    </body>\n</html>\n```\n:::",
+            "parentId": "c3e76e58-0d5b-431d-aceb-c29f48045941",
+            "childrenIds": [
+                "8bcfb5f0-4e24-4b91-a133-85cf77c1ecd7"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "bef036b2-86db-47f9-bd5f-c58e39360de1-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "4d9e3006-dd7c-47be-95d1-1bef36f56971": {
+            "id": "4d9e3006-dd7c-47be-95d1-1bef36f56971",
+            "source": "Great. Now, let's move on to combining selectors. \n",
+            "parentId": "8bcfb5f0-4e24-4b91-a133-85cf77c1ecd7",
+            "childrenIds": [
+                "2c4cd21f-79c6-422b-a94a-5f2029979f8c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "2c4cd21f-79c6-422b-a94a-5f2029979f8c": {
+            "id": "2c4cd21f-79c6-422b-a94a-5f2029979f8c",
+            "source": "Combining selectors? Why would I combine them?",
+            "parentId": "4d9e3006-dd7c-47be-95d1-1bef36f56971",
+            "childrenIds": [
+                "c44ea7c1-a73a-4f8d-8f99-6fd09374bf67"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c44ea7c1-a73a-4f8d-8f99-6fd09374bf67": {
+            "id": "c44ea7c1-a73a-4f8d-8f99-6fd09374bf67",
+            "source": "It’s because this allows us to select multiple elements in a single style block.",
+            "parentId": "2c4cd21f-79c6-422b-a94a-5f2029979f8c",
+            "childrenIds": [
+                "c2aa0c01-b3f3-4353-b1ed-f64c55d3b5f7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "c2aa0c01-b3f3-4353-b1ed-f64c55d3b5f7": {
+            "id": "c2aa0c01-b3f3-4353-b1ed-f64c55d3b5f7",
+            "source": "Oh, then it may be more efficient because we don’t need to write the same code again.",
+            "parentId": "c44ea7c1-a73a-4f8d-8f99-6fd09374bf67",
+            "childrenIds": [
+                "2bd9ab81-b7ab-45d3-a586-aa9731b30daf"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1b66a06c-7f20-4052-a706-a7ad59510d34": {
+            "id": "1b66a06c-7f20-4052-a706-a7ad59510d34",
+            "source": "That’s right. There are a few ways to combine selectors. \n>\nFirst, we can use a comma to separate multiple selectors. This means that styles defined within the block will be applied to all the elements selected by those selectors. ",
+            "parentId": "2bd9ab81-b7ab-45d3-a586-aa9731b30daf",
+            "childrenIds": [
+                "aba716f4-e0cf-4ed7-889e-72088b9a6153"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "aba716f4-e0cf-4ed7-889e-72088b9a6153": {
+            "id": "aba716f4-e0cf-4ed7-889e-72088b9a6153",
+            "source": "Can you give me an example?",
+            "parentId": "1b66a06c-7f20-4052-a706-a7ad59510d34",
+            "childrenIds": [
+                "f451602e-5808-496d-90b0-3f16d9d2cc20"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "f451602e-5808-496d-90b0-3f16d9d2cc20": {
+            "id": "f451602e-5808-496d-90b0-3f16d9d2cc20",
+            "source": "Of course. Here, we have `h1, h2, p { ... }`, the styles within the block will be applied to all `<h1>, <h2>`, and `<p>` elements.\n",
+            "parentId": "aba716f4-e0cf-4ed7-889e-72088b9a6153",
+            "childrenIds": [
+                "d9ee823b-68fe-4925-b56f-80fda2da014f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_4.html"
+                ],
+                "removed": [
+                    "file_3.html"
+                ],
+                "codeDiffs": {
+                    "file_4.html": [
+                        [
+                            1,
+                            "<html>\n    <head>\n        <style>\n        /*All h1, h2 and p elements will be styled*/\n            h1, h2, p {\n            color: SteelBlue;\n            text-align: center;\n            }\n        </style>\n    </head>\n    <body>\n        <h1>Hello World!</h1>\n        <h2>Are you enjoying this?</h2>\n        <p>It's about to get complicate.</p>\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_4.html",
+                    "startLineNumber": 4,
+                    "startColumn": 9,
+                    "endLineNumber": 8,
+                    "endColumn": 14
+                }
+            ]
+        },
+        "d9ee823b-68fe-4925-b56f-80fda2da014f": {
+            "id": "d9ee823b-68fe-4925-b56f-80fda2da014f",
+            "source": "That’s useful!\n",
+            "parentId": "f451602e-5808-496d-90b0-3f16d9d2cc20",
+            "childrenIds": [
+                "7a7de439-76fd-40df-b93f-4a4d7d6f6f35"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "7a7de439-76fd-40df-b93f-4a4d7d6f6f35": {
+            "id": "7a7de439-76fd-40df-b93f-4a4d7d6f6f35",
+            "source": "## Quiz\n\nUse the class selector to style all elements with the class `box` and give them a border of 1px solid green and a padding of 10 pixels.\n:::edit-code\n::language[html]\n::environment[html]\n```\n<html>\n<head>\n    <title>CSS Class Example</title>\n    <!-- What should go here? -->\n</head>\n<body>\n    <!-- Complete the following -->\n    <div>\n        This is a box with a green border and padding.\n    </div>\n    <p>\n        This is a paragraph with the same styling as the box class.\n    </p>\n</body>\n</html>\n```\n```\n```\n```\n<html>\n<head>\n    <title>CSS Class Example</title>\n    <style>\n        .box {\n            border: 1px solid green;\n            padding: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"box\">\n        This is a box with a green border and padding.\n    </div>\n    <p class=\"box\">\n        This is a paragraph with the same styling as the box class.\n    </p>\n</body>\n</html>\n```\n:::",
+            "parentId": "d9ee823b-68fe-4925-b56f-80fda2da014f",
+            "childrenIds": [
+                "dd68e359-535b-43de-b58a-2644d4e51930"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "7a7de439-76fd-40df-b93f-4a4d7d6f6f35-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "a5620ae6-972b-4b3a-87ac-ecaf7f2a5e08": {
+            "id": "a5620ae6-972b-4b3a-87ac-ecaf7f2a5e08",
+            "source": "Absolutely. Another way to combine selectors is by using a space to specify a parent-child relationship. \n",
+            "parentId": "dd68e359-535b-43de-b58a-2644d4e51930",
+            "childrenIds": [
+                "8d06c73e-04a6-431a-a232-eebdf312f844"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "8d06c73e-04a6-431a-a232-eebdf312f844": {
+            "id": "8d06c73e-04a6-431a-a232-eebdf312f844",
+            "source": "Um.. I don’t really understand. Why would I specify a parent-child relationship in writing styles for my webpage?\n",
+            "parentId": "a5620ae6-972b-4b3a-87ac-ecaf7f2a5e08",
+            "childrenIds": [
+                "2f939ce0-306f-43f4-8311-763f4ad49cab"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "2f939ce0-306f-43f4-8311-763f4ad49cab": {
+            "id": "2f939ce0-306f-43f4-8311-763f4ad49cab",
+            "source": "It’s because you may want to style only the element that is a child of its parent element.\n>\nSo here, `div p { ... }` selects all `<p>` elements that are descendants of a `<div>`. And the single `<p />` will not be styled because it’s not a child of `<div />`.\n\n",
+            "parentId": "8d06c73e-04a6-431a-a232-eebdf312f844",
+            "childrenIds": [
+                "f9efed80-2fd1-4231-bc4a-5a036f63eab4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_5.html"
+                ],
+                "removed": [
+                    "file_4.html"
+                ],
+                "codeDiffs": {
+                    "file_5.html": [
+                        [
+                            1,
+                            "<html>\n    <head>\n        <style>\n            div p {\n            background-color: lightblue;\n            }\n        </style>\n    </head>\n    <body>\n        <div>\n            <p>I'm the selected paragraph.</p>\n        </div>\n        <p>I'm not inside the div so Im not selected</p>\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.html",
+                    "startLineNumber": 4,
+                    "startColumn": 13,
+                    "endLineNumber": 6,
+                    "endColumn": 14
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_5.html",
+                    "startLineNumber": 10,
+                    "startColumn": 9,
+                    "endLineNumber": 13,
+                    "endColumn": 57
+                }
+            ]
+        },
+        "f9efed80-2fd1-4231-bc4a-5a036f63eab4": {
+            "id": "f9efed80-2fd1-4231-bc4a-5a036f63eab4",
+            "source": "Now I get the point! So, it targets the nested elements within a specific parent element. That can be handy.",
+            "parentId": "2f939ce0-306f-43f4-8311-763f4ad49cab",
+            "childrenIds": [
+                "14ce6778-5208-441e-8c3f-b51a0cc52c6f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "14ce6778-5208-441e-8c3f-b51a0cc52c6f": {
+            "id": "14ce6778-5208-441e-8c3f-b51a0cc52c6f",
+            "source": " ## Quiz\n \n Write css code to combine selectors to style all `<h6>` elements inside a `<div>` element with a font color of green.\n :::edit-code\n ::language[css]\n ::environment[css]\n ```\n ```\n ```\n ```\n ```\ndiv p {\n    color: green;\n}\n```\n:::",
+            "parentId": "f9efed80-2fd1-4231-bc4a-5a036f63eab4",
+            "childrenIds": [
+                "5dd87675-4672-47d7-97d5-414cf11a7d9c"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "14ce6778-5208-441e-8c3f-b51a0cc52c6f-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "82412cbf-714e-4919-bf44-682332a2c577": {
+            "id": "82412cbf-714e-4919-bf44-682332a2c577",
+            "source": "Right! Lastly, we have the `>` symbol, which represents a direct parent-child relationship. \n>\nWith `div > p { ... }`, we select and style every `<p>` element where the parent is a `<div>`. It's important to note that only elements that are direct children of the parent will be selected.\n",
+            "parentId": "5dd87675-4672-47d7-97d5-414cf11a7d9c",
+            "childrenIds": [
+                "1f2d92bc-86e4-46e4-bd41-e1c0743dec94"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "1f2d92bc-86e4-46e4-bd41-e1c0743dec94": {
+            "id": "1f2d92bc-86e4-46e4-bd41-e1c0743dec94",
+            "source": "So you mean, the difference between single space and `>` symbol is whether the element is a direct descendant of the parent element or not.\n",
+            "parentId": "82412cbf-714e-4919-bf44-682332a2c577",
+            "childrenIds": [
+                "87a07cb6-8298-43f9-8f7e-2faebb6052b2"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "87a07cb6-8298-43f9-8f7e-2faebb6052b2": {
+            "id": "87a07cb6-8298-43f9-8f7e-2faebb6052b2",
+            "source": "Precisely! Here's an example.\n",
+            "parentId": "1f2d92bc-86e4-46e4-bd41-e1c0743dec94",
+            "childrenIds": [
+                "b9f10ca4-e007-40f4-956e-368bef60e17f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_6.html"
+                ],
+                "removed": [
+                    "file_5.html"
+                ],
+                "codeDiffs": {
+                    "file_6.html": [
+                        [
+                            1,
+                            "<html>\n    <head>\n        <style>\n            div > p {\n            background-color: lightblue;\n            font-size: 18px;\n            }\n        </style>\n    </head>\n    <body>\n        <div>\n            <p>I'm a direct child of div so I'm selected. </p>\n        </div>\n        <div>\n            <span>\n                <p>I'm not a direct child of div so I won't be styled.</p>\n            </span>\n        </div>\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_6.html",
+                    "startLineNumber": 3,
+                    "startColumn": 9,
+                    "endLineNumber": 8,
+                    "endColumn": 17
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_6.html",
+                    "startLineNumber": 11,
+                    "startColumn": 9,
+                    "endLineNumber": 13,
+                    "endColumn": 15
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_6.html",
+                    "startLineNumber": 14,
+                    "startColumn": 9,
+                    "endLineNumber": 18,
+                    "endColumn": 15
+                }
+            ]
+        },
+        "b9f10ca4-e007-40f4-956e-368bef60e17f": {
+            "id": "b9f10ca4-e007-40f4-956e-368bef60e17f",
+            "source": "Oh, I understand now. The `>` symbol helps us target only the direct child elements of a parent. I think this gives us more control over styling specific elements!\n",
+            "parentId": "87a07cb6-8298-43f9-8f7e-2faebb6052b2",
+            "childrenIds": [
+                "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7": {
+            "id": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7",
+            "source": "## Quiz\n\n:::multiple-choice\nHow are the same style applied to the multiple selectors in CSS?\n::option[By using a comma to separate multiple selectors]{correct feedback=\"Great!\"}\n::option[By using a space to specify a parent-child relationship]{feedback=\"This is used to apply style to descendants of the parent element.\"}\n::option[By using the `>` symbol to specify a direct parent-child relationship]{feedback=\"This is used to apply style to the direct descendant of the parent element.\"}\n::option[By enclosing the styles within a declaration block]{feedback=\"This is how we can apply multiple styles to an element.\"}\n:::",
+            "parentId": "b9f10ca4-e007-40f4-956e-368bef60e17f",
+            "childrenIds": [
+                "5c277547-8213-4b99-96a5-e864e60cbcc2"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "5c277547-8213-4b99-96a5-e864e60cbcc2": {
+            "id": "5c277547-8213-4b99-96a5-e864e60cbcc2",
+            "source": "## Quiz\n\nUse the `>` symbol to style only the direct child elements (`<li>`) of a `<ul>` element with a font size of 16 pixels and text color of blue.\n:::edit-code\n::language[css]\n::environment[css]\n```\n```\n```\n```\n```\nul > li {\n    font-size: 16px;\n    color: blue;\n}\n```\n:::",
+            "parentId": "5aaab57f-5bfa-432d-8c8b-0df98c24bfb7",
+            "childrenIds": [
+                "94c74cc2-d0dc-4d8e-a00d-0e4bedac7ab8"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "5c277547-8213-4b99-96a5-e864e60cbcc2-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "94c74cc2-d0dc-4d8e-a00d-0e4bedac7ab8": {
+            "id": "94c74cc2-d0dc-4d8e-a00d-0e4bedac7ab8",
+            "source": "## Quiz\n\nWrite CSS code block to select and style the element with the ID `header` and all its direct children `<h1>` elements with a font size of 24 pixels and centered text alignment. \n:::edit-code\n::language[css]\n::environment[css]\n```\n```\n```\n```\n```\n#header, #header > h1 {\n    text-align: center;\n    font-size: 24px;\n}\n```\n:::",
+            "parentId": "5c277547-8213-4b99-96a5-e864e60cbcc2",
+            "childrenIds": [
+                "cd87fd8b-c35c-441b-9d6e-05b2f2af1aef"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "94c74cc2-d0dc-4d8e-a00d-0e4bedac7ab8-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "cd87fd8b-c35c-441b-9d6e-05b2f2af1aef": {
+            "id": "cd87fd8b-c35c-441b-9d6e-05b2f2af1aef",
+            "source": "Great. Now I think I can target the specific HTML elements that I want to style! Thank you!\n",
+            "parentId": "94c74cc2-d0dc-4d8e-a00d-0e4bedac7ab8",
+            "childrenIds": [
+                "e2711ef0-3093-4b24-ae23-8d360adfb1a4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "e2711ef0-3093-4b24-ae23-8d360adfb1a4": {
+            "id": "e2711ef0-3093-4b24-ae23-8d360adfb1a4",
+            "source": "You’re welcome. I can’t wait to see your webpage once it’s done!",
+            "parentId": "cd87fd8b-c35c-441b-9d6e-05b2f2af1aef",
+            "childrenIds": [
+                "369cedcb-8b70-49ce-be08-766f08883247"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "369cedcb-8b70-49ce-be08-766f08883247": {
+            "id": "369cedcb-8b70-49ce-be08-766f08883247",
+            "source": "Thanks! See you next time.\n",
+            "parentId": "e2711ef0-3093-4b24-ae23-8d360adfb1a4",
+            "childrenIds": [
+                "1a73dea0-a270-435c-b664-a3bfcbce16ba"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "1a73dea0-a270-435c-b664-a3bfcbce16ba": {
+            "id": "1a73dea0-a270-435c-b664-a3bfcbce16ba",
+            "source": "See you!",
+            "parentId": "369cedcb-8b70-49ce-be08-766f08883247",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "6970a98a-369a-4d5c-b3d7-350d81ab6c9a": {
+            "id": "6970a98a-369a-4d5c-b3d7-350d81ab6c9a",
+            "source": "Great!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "9096169c-75c6-43f7-a175-0a42c1216418"
+            ],
+            "shortcutsTo": [],
+            "parentId": "857bacec-54ff-4f3a-a679-2ee6a9af3380",
+            "isAIContent": false
+        },
+        "7d93d96a-2cd8-4dcf-a387-f1c198f03af3": {
+            "id": "7d93d96a-2cd8-4dcf-a387-f1c198f03af3",
+            "source": "Can you explain more about the ID selector?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "f4870192-0c20-4d42-b5bf-f7d8578af612"
+            ],
+            "shortcutsTo": [],
+            "parentId": "87f1a5a5-b9dc-4ce6-ba9c-7f71f9a413ee",
+            "isAIContent": false
+        },
+        "1afd7b79-f727-4321-ab0f-f82e122d4d02": {
+            "id": "1afd7b79-f727-4321-ab0f-f82e122d4d02",
+            "source": "Yes, that's correct",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "c3e76e58-0d5b-431d-aceb-c29f48045941"
+            ],
+            "shortcutsTo": [],
+            "parentId": "bc972abe-3c08-4638-a13f-40e79d3fec00",
+            "isAIContent": false
+        },
+        "84c4e558-1a2a-4e7f-a683-6fd4203e514b": {
+            "id": "84c4e558-1a2a-4e7f-a683-6fd4203e514b",
+            "source": "## CSS Selectors & Declarations",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "2e63b955-a58d-40bd-a702-41294fd1d7c8"
+            ],
+            "shortcutsTo": [],
+            "parentId": "9096169c-75c6-43f7-a175-0a42c1216418",
+            "isAIContent": false
+        },
+        "14a9a40b-ee92-424a-8450-c0195bfdbacf": {
+            "id": "14a9a40b-ee92-424a-8450-c0195bfdbacf",
+            "source": "### Declaration block",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "117abfff-38c7-4d5e-a374-73c387d6a866"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e5ca7b91-a610-47d4-8906-3fccae9ff4e0",
+            "isAIContent": false
+        },
+        "009e3913-8939-408b-bc9a-82627ee621ca": {
+            "id": "009e3913-8939-408b-bc9a-82627ee621ca",
+            "source": "### Selector",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "1ad76774-634e-4eb8-8b00-00a09d402d6c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3922de3a-5efd-4e1c-82fb-f37599a0df51",
+            "isAIContent": false
+        },
+        "f4870192-0c20-4d42-b5bf-f7d8578af612": {
+            "id": "f4870192-0c20-4d42-b5bf-f7d8578af612",
+            "source": "## ID Selector",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "d04fdb10-5f3b-41bd-a7d4-5a5ece3d73f7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7d93d96a-2cd8-4dcf-a387-f1c198f03af3"
+        },
+        "d7b45736-c7be-4ce1-a935-57ba30689861": {
+            "id": "d7b45736-c7be-4ce1-a935-57ba30689861",
+            "source": "## Class Selector",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "a602f5e2-341d-41aa-8ff5-2c70e04177fa"
+            ],
+            "shortcutsTo": [],
+            "parentId": "c8652d12-9b29-49ad-8d5a-80eb293933bb"
+        },
+        "8bcfb5f0-4e24-4b91-a133-85cf77c1ecd7": {
+            "id": "8bcfb5f0-4e24-4b91-a133-85cf77c1ecd7",
+            "source": "## Combining Selectors",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "4d9e3006-dd7c-47be-95d1-1bef36f56971"
+            ],
+            "shortcutsTo": [],
+            "parentId": "bef036b2-86db-47f9-bd5f-c58e39360de1",
+            "isAIContent": false
+        },
+        "5dd87675-4672-47d7-97d5-414cf11a7d9c": {
+            "id": "5dd87675-4672-47d7-97d5-414cf11a7d9c",
+            "source": "## Using `>` symbol",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "82412cbf-714e-4919-bf44-682332a2c577"
+            ],
+            "shortcutsTo": [],
+            "parentId": "14ce6778-5208-441e-8c3f-b51a0cc52c6f",
+            "isAIContent": false
+        },
+        "dd68e359-535b-43de-b58a-2644d4e51930": {
+            "id": "dd68e359-535b-43de-b58a-2644d4e51930",
+            "source": "## Using a space",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "a5620ae6-972b-4b3a-87ac-ecaf7f2a5e08"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7a7de439-76fd-40df-b93f-4a4d7d6f6f35",
+            "isAIContent": false
+        },
+        "2bd9ab81-b7ab-45d3-a586-aa9731b30daf": {
+            "id": "2bd9ab81-b7ab-45d3-a586-aa9731b30daf",
+            "source": "## Using a comma",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "1b66a06c-7f20-4052-a706-a7ad59510d34"
+            ],
+            "shortcutsTo": [],
+            "parentId": "c2aa0c01-b3f3-4353-b1ed-f64c55d3b5f7",
+            "isAIContent": false
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "blue",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "red",
+            "description": "You are a helpful assistant who is teaching a new programmer how to program in JavaScript"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {
+        "css.png": {
+            "filename": "css.png",
+            "data": "iVBORw0KGgoAAAANSUhEUgAAAyAAAAHkCAYAAADGlkvjAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAADIKADAAQAAAABAAAB5AAAAACyAQAVAABAAElEQVR4Aey9B3xc13Xuu4jeQRAAe++9iRQpUZYoUb3aktydOHFJnDiO7esk9k117PjdmzwnfnHsl+JcxY4d23KJbXVZEiWRKhTFTook2AkSBEgCBIjecde3Z/bwYHBmMDOYPt/ibzgzp+yz9/8cnNnrrDZuSEUoJEACJEACJEACJEACJEACJBAHAllxOAYPQQIkQAIkQAIkQAIkQAIkQAKGABUQXggkQAIkQAIkQAIkQAIkQAJxI0AFJG6oeSASIAESIAESIAESIAESIAEqILwGSIAESIAESIAESIAESIAE4kaACkjcUPNAJEACJEACJEACJEACJEACVEB4DZAACZAACZAACZAACZAACcSNABWQuKHmgUiABEiABEiABEiABEiABKiA8BogARIgARIgARIgARIgARKIGwEqIHFDzQORAAmQAAmQAAmQAAmQAAlQAeE1QAIkQAIkQAIkQAIkQAIkEDcCVEDihpoHIgESIAESIAESIAESIAESoALCa4AESIAESIAESIAESIAESCBuBKiAxA01D0QCJEACJEACJEACJEACJEAFhNcACZAACZAACZAACZAACZBA3AhQAYkbah6IBEiABEiABEiABEiABEiACgivARIgARIgARIgARIgARIggbgRoAISN9Q8EAmQAAmQAAmQAAmQAAmQABUQXgMkQAIkQAIkQAIkQAIkQAJxI0AFJG6oeSASIAESIAESIAESIAESIAEqILwGSIAESIAESIAESIAESIAE4kaACkjcUPNAJEACJEACJEACJEACJEACVEB4DZAACZAACZAACZAACZAACcSNABWQuKHmgUiABEiABEiABEiABEiABKiA8BogARIgARIgARIgARIgARKIGwEqIHFDzQORAAmQAAmQAAmQAAmQAAlQAeE1QAIkQAIkQAIkQAIkQAIkEDcCVEDihpoHIgESIAESIAESIAESIAESoALCa4AESIAESIAESIAESIAESCBuBKiAxA01D0QCJEACJEACJEACJEACJEAFhNcACZAACZAACZAACZAACZBA3AhQAYkbah6IBEiABEiABEiABEiABEiACgivARIgARIgARIgARIgARIggbgRoAISN9Q8EAmQAAmQAAmQAAmQAAmQABUQXgMkQAIkQAIkQAIkQAIkQAJxI0AFJG6oeSASIAESIAESIAESIAESIAEqILwGSIAESIAESIAESIAESIAE4kaACkjcUPNAJEACJEACJEACJEACJEACVEB4DZAACZAACZAACZAACZAACcSNABWQuKHmgUiABEiABEiABEiABEiABKiA8BogARIgARIgARIgARIgARKIGwEqIHFDzQORAAmQAAmQAAmQAAmQAAlQAeE1QAIkQAIkQAIkQAIkQAIkEDcCVEDihpoHIgESIAESIAESIAESIAESoALCa4AESIAESIAESIAESIAESCBuBKiAxA01D0QCJEACJEACJEACJEACJEAFhNcACZAACZAACZAACZAACZBA3AhQAYkbah6IBEiABEiABEiABEiABEiACgivARIgARIgARIgARIgARIggbgRoAISN9Q8EAmQAAmQAAmQAAmQAAmQABUQXgMkQAIkQAIkQAIkQAIkQAJxI0AFJG6oeSASIAESIAESIAESIAESIAEqILwGSIAESIAESIAESIAESIAE4kaACkjcUPNAJEACJEACJEACJEACJEACVEB4DZAACZAACZAACZAACZAACcSNABWQuKHmgUiABEiABEiABEiABEiABKiA8BogARIgARIgARIgARIgARKIGwEqIHFDzQORAAmQAAmQAAmQAAmQAAlQAeE1QAIkQAIkQAIkQAIkQAIkEDcCVEDihpoHIgESIAESIAESIAESIAESoALCa4AESIAESIAESIAESIAESCBuBKiAxA01D0QCJEACJEACJEACJEACJEAFhNcACZAACZAACZAACZAACZBA3AhQAYkbah6IBEiABEiABEiABEiABEgghwhIgATSj0BXa6v0dXdfG9i4cVJQUiJ5hYXXlvETCZAACZAACZAACSSAABWQBEDnIUkg1gRe/8EP5Pgbb4w4TK4qIOUTJ8rS226TxTffLNm5uSO24QISIAESIAESIAESiCUBKiCxpMu2SSDBBKYvWyblkyfL0OCgwCrSevmyNJ49K9v+4z/kwHPPySNf+QqtIt5z9Mzf/70sfte7ZO711yf4rPHwJEACJEACJJDeBKiApPf55egy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rhOgAHEdMRsgARIgARIgARIgARIgARKwBChALAluSYAESIAESIAESIAESIAEXCdAAeI6YjZAAiRAAiRAAiRAAiRAAiRgCVCAWBLckgAJkAAJkAAJkAAJkAAJuE6AAsR1xGyABEiABEiABEiABEiABEjAEqAAsSS4JQESIAESIAESIAESIAEScJ0ABYjriNkACZAACZAACZAACZAACZCAJUABYklwSwIkQAIkQAIkQAIkQAIk4DoBChDXEbMBEiABEiABEiABEiABEiABS4ACxJLglgRIgARIgARIgARIgARIwHUCFCCuI2YDJEACJEACJEACJEACJEAClgAFiCXBLQmQAAmQAAmQAAmQAAmQgOsEKEBcR8wGSIAESIAESIAESIAESIAELAEKEEuCWxIgARIgARIgARIgARIgAdcJUIC4jpgNkAAJkAAJkAAJkAAJkAAJWAIUIJYEtyRAAiRAAiRAAiRAAiRAAq4ToABxHTEbIAESIAESIAESIAESIAESsAQoQCwJbkmABEiABEiABEiABEiABFwnQAHiOmI2QAIkQAIkQAIkQAIkQAIkYAlQgFgS3JIACZAACZAACZAACZAACbhOgALEdcRsgARIgARIgARIgARIgARIwBKgALEkuCUBEiABEiABEiABEiABEnCdAAWI64jZAAmQAAmQAAmQAAmQAAmQgCVAAWJJcEsCJEACJEACJEACJEACJOA6AQoQ1xGzARIgARIgARIgARIgARIgAUuAAsSS4JYESIAESIAESIAESIAESMB1AhQgriNmAyRAAiRAAiRAAiRAAiRAApYABYglwS0JkAAJkAAJkAAJkAAJkIDrBChAXEfMBkiABEiABEiABEiABEiABCwBChBLglsSIAESIAESIAESIAESIAHXCVCAuI6YDZAACZAACZAACZAACZAACVgCFCCWBLckQAIkQAIkQAIkQAIkQAKuE6AAcR0xGyABEiABEiABEiABEiABErAEKEAsCW5JgARIgARIgARIgARIgARcJ0AB4jpiNkACJEACJEACJEACJEACJGAJUIBYEtySAAmQAAmQAAmQAAmQAAm4ToACxHXEbIAESIAESIAESIAESIAESMASoACxJLglARIgARIgARIgARIgARJwnQAFiOuI2QAJkAAJkAAJkAAJkAAJkIAlQAFiSXBLAiRAAiRAAiRAAiRAAiTgOgEKENcRswESIAESIAESIAESIAESIAFLgALEkuCWBEiABEiABEiABEiABEjAdQIUIK4jZgMkQAIkQAIkQAIkQAIkQAKWAAWIJcEtCZAACZAACZAACZAACZCA6wQoQFxHzAZIgARIgARIgARIgARIgAQsAQoQS4JbEiABEiABEiABEiABEiAB1wlQgLiOmA2QAAmQAAmQAAmQAAmQAAlYAhQglgS3JEACJEACJEACJEACJEACrhOgAHEdMRsgARIgARIgARIgARIgARKwBChALAluSYAESIAESIAESIAESIAEXCdAAeI6YjZAAiRAAiRAAiRAAiRAAiRgCVCAWBLckgAJkAAJkAAJkAAJkAAJuE6AAsR1xGyABEiABEiABEiABEiABEjAEqAAsSS4JQESIAESIAESIAESIAEScJ0ABYjriNkACZAACZAACZAACZAACZCAJUABYklwSwIkQAIkQAIkQAIkQAIk4DoBChDXEbMBEiABEiABEiABEiABEiABS4ACxJLglgRIgARIgARIgARIgARIwHUCFCCuI2YDJEACJEACJEACJEACJEAClgAFiCXBLQmQAAmQAAmQAAmQAAmQgOsEKEBcR8wGSIAESIAESIAESIAESIAELAEKEEuCWxIgARIgARIgARIgARIgAdcJUIC4jpgNkAAJkAAJkAAJkAAJkAAJWAIUIJYEtyRAAiRAAiRAAiRAAiRAAq4ToABxHTEbIAESIAESIAESIAESIAESsAQoQCwJbkmABEiABEiABEiABEiABFwnQAHiOmI2QAIkQAIkQAIkQAIkQAIkYAlQgFgS3JIACZAACZAACZAACZAACbhOgALEdcRsgARIgARIgARIgARIgARIwBKgALEkuCUBEiABEiABEiABEiABEnCdAAWI64jZAAmQAAmQAAmQAAmQAAmQgCVAAWJJcEsCJEACJEACJEACJEACJOA6AQoQ1xGzARIgARIgARIgARIgARIgAUuAAsSS4JYESIAESIAESIAESIAESMB1AhQgriNmAyRAAiRAAiRAAiRAAiRAApYABYglwS0JkAAJkAAJkAAJkAAJkIDrBChAXEfMBkiABEiABEiABEiABEiABCwBChBLglsSIAESIAESIAESIAESIAHXCVCAuI6YDZAACZAACZAACZAACZAACVgCFCCWBLckQAIkQAIkQAIkQAIkQAKuE6AAcR0xGyABEiABEiABEiABEiABErAEKEAsCW5JgARIgARIgARIgARIgARcJ0AB4jpiNkACJEACJEACJEACJEACJGAJUIBYEtySAAmQAAmQAAmQAAmQAAm4ToACxHXEbIAESIAESIAESIAESIAESMASoACxJLglARIgARIgARIgARIgARJwnQAFiOuI2QAJkAAJkAAJkAAJkAAJkIAlQAFiSXBLAiRAAiRAAiRAAiRAAiTgOgEKENcRswESIAESIAESIAESIAESIAFL4P8DAl2xViW8DfoAAAAASUVORK5CYII=",
+            "type": "image"
+        }
+    },
+    "terminalCellId": "1a73dea0-a270-435c-b664-a3bfcbce16ba",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

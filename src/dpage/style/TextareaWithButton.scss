@@ -1,0 +1,102 @@
+@use './vscode-vars.scss' as vsc;
+
+.text-area-with-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+    background: vsc.$input-background;
+    border-radius: calc(vsc.$control-border-radius * 1px);
+    border: calc(vsc.$control-border-width * 1px) solid vsc.$dropdown-border;
+    padding-right: 3px;
+    > textarea {
+        border: none;
+        background: none;
+        color: vsc.$input-foreground;
+        font-size: vsc.$control-font-size;
+        line-height: vsc.$control-line-height;
+        padding: calc(vsc.$design-unit * 2px + 1px);
+        min-width: vsc.$input-min-width;
+        min-height: 2em;
+
+        box-sizing: border-box;
+        position: relative;
+        font-style: inherit;
+        font-variant: inherit;
+        font-weight: inherit;
+        font-stretch: inherit;
+        font-family: inherit;
+        width: 100%;
+        &:focus {
+            outline: none;
+        }
+        flex-grow: 2;
+
+        &::-webkit-resizer {
+            display: none;
+        }
+    }
+
+    > button, >.other-actions > button {
+        color: inherit;
+        background: none;
+        border: none;
+        &:not(:disabled) {
+            font-family: vsc.$font-family;
+            font-size: vsc.$font-size;
+            line-height: vsc.$control-line-height;
+            color: vsc.$button-primary-foreground;
+            background: vsc.$button-primary-background;
+            border-radius: 2px;
+            fill: currentcolor;
+            cursor: pointer;
+
+            &:hover {
+                background: vsc.$button-primary-hover-background;
+            }
+        }
+        &:disabled {
+            color: vsc.$input-foreground;
+            > i {
+                color: inherit;
+            }
+        }
+    }
+
+    > button.primary-action, > button.expand-button {
+        height: 2em;
+    }
+
+    &.has-expand {
+        > button.primary-action {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+
+    > button.expand-button {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        > i.codicon {
+            font-size: 0.8em;
+        }
+    }
+
+    >.other-actions {
+        position: absolute;
+        border: vsc.$dropdown-border;
+        right: 0px;
+        padding: 3px;
+        top: 55%;
+        
+        > button.other-action {
+            background-color: vsc.$dropdown-background;
+            color: vsc.$dropdown-foreground;
+        }
+    }
+}

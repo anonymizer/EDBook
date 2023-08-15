@@ -1,0 +1,213 @@
+@use './vscode-vars.scss' as vsc;
+
+$cell-padding: 10px;
+$cell-border-radius: .4em;
+
+@mixin cell {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: $cell-border-radius;
+    .avatar {
+        position: absolute;
+        left: -33px;
+        top: 15px;
+        > i {
+            font-size: 2em;
+        }
+    }
+    .sender-name {
+        position: absolute;
+        right: calc(100% + 5px);
+        white-space: nowrap;
+    }
+    .speech-bubble {
+        position: relative;
+        min-height: 1.5em;
+        background: vsc.$cell-background-color;
+        padding: $cell-padding;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        border: 1px solid vsc.$cell-border-color;
+        border-radius: $cell-border-radius;
+        > .cell-content {
+            :first-child { margin-top: 0px; }
+            :last-child  { margin-bottom: 0px; }
+        }
+        .drag-handle {
+            cursor: grab;
+            height: 4px;
+            background-color: vsc.$cell-background-color;
+
+        }
+        &.nobody,&.user {
+            background-color: inherit;
+            .drag-handle {
+                background-color: inherit;
+            }
+            border-color: transparent;
+        }
+        &.user {
+            opacity: 0.8;
+        }
+    }
+    &.read {
+        color: vsc.$disabled-foreground;
+        cursor: default;
+    }
+    &.selected {
+        color: vsc.$foreground;
+        border: 2px solid vsc.$selected-cell-border;
+        // border-right: 3px solid var(--vscode-focusBorder);
+        outline: 1px solid vsc.$control-focus-border;
+        background-color: vsc.$selected-cell-background;
+    }
+    &.highlighted {
+        border: 1px dotted vsc.$control-focus-border;
+    }
+    &.dim {
+        cursor: default;
+        opacity: 0.15;
+    }
+    ul.multiple-choice {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .invalid-feedback {
+        color: vsc.$error-color;
+    }
+    .valid-feedback {
+        color: vsc.$success-color;
+    }
+
+    .menu {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        z-index: 1000;
+    }
+
+
+    ul.file-list, ul.pointer-list {
+        list-style-type: none;
+        padding-left: 0px;
+        li {
+            margin: 0px;
+        }
+    }
+
+    .branches-badge {
+        background: none;
+        bottom: 0px;
+        position: absolute;
+        left: -28px;
+        i {
+            color: vsc.$foreground;
+            opacity: 0.5;
+        }
+
+        &.branches-away {
+            i {
+                color: vsc.$warning-foreground;
+            }
+        }
+    }
+
+    .file-diff-link {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    vscode-panel-view {
+        flex-direction: column;
+    }
+
+    .media-uploads {
+        list-style-type: none;
+        padding-inline-start: 0px;
+        
+        > .media-file {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid vsc.$text-separator-color;
+        }
+    }
+
+    .error {
+        padding: 10px;
+        border-radius: vsc.$control-border-radius;
+        border: 1px solid vsc.$error-border;
+        background-color: vsc.$error-background;
+        color: vsc.$error-foreground;
+    }
+    .ai-content-warning {
+        opacity: 0.5;
+        user-select: none;;
+    }
+}
+
+@mixin add-cell {
+    // height: 2em;
+    &:not(.always-show) > .add-menu {
+        display: none;
+    }
+    &:hover > .add-menu {
+        display: flex;
+    }
+    > .add-menu {
+        position: relative;
+        margin-top: 5px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        // border-top: 1px solid var(--vscode-foreground);
+
+        display: flex;
+        .next-suggestion {
+            flex-grow: 2;
+        }
+        .text-area-with-button {
+            border-radius: $cell-border-radius;
+            > textarea {
+                border-radius: $cell-border-radius;
+            }
+            flex-grow: 1;
+        }
+        .other-actions {
+            list-style-type: none;
+            padding-inline-start: 0px;
+
+            z-index: 2000;
+            > * {
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .next-suggestion {
+        // opacity: 0.7;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: vsc.$cell-background-color;
+        margin-right: 15px;
+        cursor: pointer;
+        max-height: 5em;
+        overflow: hidden;
+
+        p {
+            margin: 0px;
+        }
+
+        &:hover {
+            outline: 1px solid vsc.$control-focus-border
+        }
+
+        &.active-next {
+            outline: 0.5px dashed vsc.$control-focus-border;
+        }
+    }
+}

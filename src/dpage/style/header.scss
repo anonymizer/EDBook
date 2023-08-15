@@ -1,0 +1,66 @@
+@use './vscode-vars.scss' as vsc;
+@use './common.scss' as common;
+
+$header-padding: 5px;
+
+@mixin header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: vsc.$background;
+    z-index: 3000;
+    top: 0px;
+    padding-top: $header-padding;
+    padding-bottom: $header-padding;
+    // height: $header-height;
+    position: sticky;
+    // background-color: blue;
+
+    transition: opacity 100ms ease-in;
+
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 5px #000;
+
+    &.collapsed {
+        box-shadow: none;
+    }
+
+    &.dim.collapsed {
+        opacity: 0.3;
+        background: none;
+        ul#participant-list {
+            display: none;
+        }
+    }
+
+    ul#participant-list {
+        @include common.no-bullet-list;
+        @include common.flex-horizontal;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        > li {
+            margin-left: 5px;
+            margin-right: 5px;
+
+            > ul.participant {
+                list-style-type: none;
+                padding-inline-start: 0px;
+                max-width: 200px;
+                overflow: hidden;
+
+                .placeholder {
+                    color: vsc.$foreground;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    .expand-collapse {
+        position: absolute;
+        right: 10px;
+        top: $header-padding;
+    }
+
+}

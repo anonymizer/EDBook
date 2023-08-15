@@ -1,0 +1,1449 @@
+{
+    "id": "98fb062c-a512-4a6f-815f-563b5d5395d3",
+    "cellsById": {
+        "5a32a6d8-d12c-4663-a7d0-c55bca567529": {
+            "id": "5a32a6d8-d12c-4663-a7d0-c55bca567529",
+            "source": "Hey, I’m back again. I think I’m ready for the next lecture.",
+            "childrenIds": [
+                "ed7372c5-30a3-4723-bda6-e427b4cfe4d4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "ed7372c5-30a3-4723-bda6-e427b4cfe4d4": {
+            "id": "ed7372c5-30a3-4723-bda6-e427b4cfe4d4",
+            "source": "Sounds good! Can you explain what you learned during the last lecture before we get into today’s lecture?",
+            "parentId": "5a32a6d8-d12c-4663-a7d0-c55bca567529",
+            "childrenIds": [
+                "24f5eb21-8629-4298-a976-1ee165f75c73"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "24f5eb21-8629-4298-a976-1ee165f75c73": {
+            "id": "24f5eb21-8629-4298-a976-1ee165f75c73",
+            "source": "Yeah, I learned that HTML creates content inside my webpage. I’ll need to learn other programming languages like JavaScript/TypeScript and CSS to make the page run like an actual website, but anyways HTML will create all the content inside it. ",
+            "parentId": "ed7372c5-30a3-4723-bda6-e427b4cfe4d4",
+            "childrenIds": [
+                "c0ffe2bd-a6b8-4832-a82f-4241784ce691"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c0ffe2bd-a6b8-4832-a82f-4241784ce691": {
+            "id": "c0ffe2bd-a6b8-4832-a82f-4241784ce691",
+            "source": "Very good. Do you remember what `tags` are?",
+            "parentId": "24f5eb21-8629-4298-a976-1ee165f75c73",
+            "childrenIds": [
+                "7a11bb0c-9b21-4a46-83b6-0bea20d7ccf6"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "7a11bb0c-9b21-4a46-83b6-0bea20d7ccf6": {
+            "id": "7a11bb0c-9b21-4a46-83b6-0bea20d7ccf6",
+            "source": "Yes. `Tags` create elements and there are different types of tags. It usually has a nested structure. But I have a question. I don’t really remember why we need so many different tags.",
+            "parentId": "c0ffe2bd-a6b8-4832-a82f-4241784ce691",
+            "childrenIds": [
+                "3defcc25-5b50-4f97-a954-ea1f84daae05"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "3defcc25-5b50-4f97-a954-ea1f84daae05": {
+            "id": "3defcc25-5b50-4f97-a954-ea1f84daae05",
+            "source": "Good question. It’s because each tag creates a different element. For example, `<p />` creates a plain text element, `<h1 />` creates a first-level heading, which is usually a title element, and `<button />` creates a button element.",
+            "parentId": "7a11bb0c-9b21-4a46-83b6-0bea20d7ccf6",
+            "childrenIds": [
+                "5330e287-891e-426e-b6e5-d450def29dc5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "ba700f88-9244-4775-8ec3-d01b7762d230": {
+            "id": "ba700f88-9244-4775-8ec3-d01b7762d230",
+            "source": "Great. Today, I’ll teach you common types of HTML tags and attributes that we didn’t go through last lecture. \n>\nBut remember, you don’t need to memorize all these; we’ll learn most of these through practice when we start covering JavaScript. \n",
+            "parentId": "5330e287-891e-426e-b6e5-d450def29dc5",
+            "childrenIds": [
+                "741e9f41-9305-43ea-926c-3b454cb4202b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "741e9f41-9305-43ea-926c-3b454cb4202b": {
+            "id": "741e9f41-9305-43ea-926c-3b454cb4202b",
+            "source": "Sounds good.",
+            "parentId": "ba700f88-9244-4775-8ec3-d01b7762d230",
+            "childrenIds": [
+                "4993135f-9602-4cc8-8ab7-c8b4544bab6a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "a578a78f-081a-4482-a1e0-f759701ba11d": {
+            "id": "a578a78f-081a-4482-a1e0-f759701ba11d",
+            "source": "First, I’ll teach you structural elements.",
+            "parentId": "4993135f-9602-4cc8-8ab7-c8b4544bab6a",
+            "childrenIds": [
+                "b3a292c6-4840-4377-905f-21faa1e38222"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "b3a292c6-4840-4377-905f-21faa1e38222": {
+            "id": "b3a292c6-4840-4377-905f-21faa1e38222",
+            "source": "What are they?\n",
+            "parentId": "a578a78f-081a-4482-a1e0-f759701ba11d",
+            "childrenIds": [
+                "82efb3be-f242-41b5-8f0a-473cc2ca7bc1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "82efb3be-f242-41b5-8f0a-473cc2ca7bc1": {
+            "id": "82efb3be-f242-41b5-8f0a-473cc2ca7bc1",
+            "source": "Structural elements give our documents more structure. Examples are:\n- `<html />` is the root element of your page\n    - You should set the attribute `lang=\"en\"` to specify that this is an English-language page\n- `<head />` contains `metadata` about the page\n- `<body />` contains the document content that will be displayed\n",
+            "parentId": "b3a292c6-4840-4377-905f-21faa1e38222",
+            "childrenIds": [
+                "2d531737-7a80-4757-b879-546abf5e00d5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_16.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_16.html": [
+                        [
+                            1,
+                            "<html lang=\"en\">\n    <head>\n        <!-- head elements go here -->\n    </head>\n    <body>\n        <!-- body elements go here -->\n    </body>\n</html>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_16.html",
+                    "startLineNumber": 2,
+                    "startColumn": 5,
+                    "endLineNumber": 2,
+                    "endColumn": 11
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_16.html",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 7
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_16.html",
+                    "startLineNumber": 5,
+                    "startColumn": 5,
+                    "endLineNumber": 5,
+                    "endColumn": 11
+                }
+            ]
+        },
+        "4a30bf2a-f4c6-443a-92bf-379c6e33dc79": {
+            "id": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79",
+            "source": "## Quiz\n\n:::multiple-choice\nWhich of the following is not a structural element?\n\n::option[`<html />`]{feedback=\"Remember what 'structural' element means\"}\n::option[`<header />`]{correct feedback=\"Good! Then what does <header /> do?\"}\n::option[`<head />`]{feedback=\"Remember what 'structural' element means\"}\n::option[`<body />`]{feedback=\"Remember what 'structural' element means\"}\n:::",
+            "parentId": "2d531737-7a80-4757-b879-546abf5e00d5",
+            "childrenIds": [
+                "930f2d90-aafe-4890-892b-f06e448ab5a2"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_16.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "930f2d90-aafe-4890-892b-f06e448ab5a2": {
+            "id": "930f2d90-aafe-4890-892b-f06e448ab5a2",
+            "source": "What’s `metadata` that should be included in `<head />`?\n",
+            "parentId": "4a30bf2a-f4c6-443a-92bf-379c6e33dc79",
+            "childrenIds": [
+                "dae55141-0a78-4949-9faa-ba691045f5b6"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "0c4fe0d1-c65f-4d9d-bf47-1f60346cac4c": {
+            "id": "0c4fe0d1-c65f-4d9d-bf47-1f60346cac4c",
+            "source": "Metadata are HTML snippets that describe the content on that web page. They won’t appear like contents on the web page, but they deliver information. \nSpecifically, this includes:\n- `<title />` sets the title of the page (what gets displayed in the browser tab)\n- `<script />` embeds executable code into the page. We will cover it more when we cover JavaScript.\n    - Most of the time, we want our JavaScript to come from an external file, which we specify using the `src=` attribute\n    - Note: for reasons that we will cover later, `<script />` tags are often placed at the end of the `<body />` element\n- `<link />` links to external resources (typically CSS stylesheets)\n    - Most of the time, we will use this to reference CSS stylesheets by setting `href=` to the stylesheet URL and `rel=\"stylesheet\"`",
+            "parentId": "dae55141-0a78-4949-9faa-ba691045f5b6",
+            "childrenIds": [
+                "d4a2c5a8-16b1-43ff-ab2d-502459817da1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd": {
+            "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd",
+            "source": "## Quiz\n:::multiple-choice\nWhich of the following are NOT metadata elements (choose all that apply)?\n\n::option[`<body />`]{correct feedback=\"Good!\"}\n::option[`<title />`]{feedback=\"This is one of the metadata tags.\"}\n::option[`<p />`]{correct feedback=\"Good!\"}\n::option[`<script />`]{feedback=\"This is one of the metadata tags.\"}\n::option[`<style />`]{feedback=\"This is one of the metadata tags.\"}\n::option[`<link />`]{feedback=\"This is one of the metadata tags.\"}\n::option[`<em />`]{correct feedback=\"Good!\"}\n:::",
+            "parentId": "a94bec40-3752-458f-a846-0bdeb780d47e",
+            "childrenIds": [
+                "dcd6787f-2a0a-4540-baec-6c70f4a5d176"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-4",
+                    "type": "option"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-5",
+                    "type": "option"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-6",
+                    "type": "option"
+                },
+                {
+                    "id": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd-option-7",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_10.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "dcd6787f-2a0a-4540-baec-6c70f4a5d176": {
+            "id": "dcd6787f-2a0a-4540-baec-6c70f4a5d176",
+            "source": "## Quiz\n\nWrite HTML code that contains the following:\n- html\n    - head\n        - title\n            - #text: A Good Title\n        - link\n            - #attribute: rel=”stylesheet”\n            - #attribute: href=”style.css”\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below -->\n```\n```\n```\n```\n<html>\n    <head>\n        <title>A Good Title</title>\n        <link rel=\"stylesheet\" href=\"style.css\">\n    </head>\n</html>\n```\n:::\n",
+            "parentId": "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd",
+            "childrenIds": [
+                "526dad27-754d-44c3-8a26-92b606d7bc62"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "dcd6787f-2a0a-4540-baec-6c70f4a5d176-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "526dad27-754d-44c3-8a26-92b606d7bc62": {
+            "id": "526dad27-754d-44c3-8a26-92b606d7bc62",
+            "source": "Then what is included in the `<body />`?",
+            "parentId": "dcd6787f-2a0a-4540-baec-6c70f4a5d176",
+            "childrenIds": [
+                "66546315-8347-4d27-88d0-0e294bff76b5"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "8d6c385f-d5ee-4f01-b0e0-4f60be99dc2c": {
+            "id": "8d6c385f-d5ee-4f01-b0e0-4f60be99dc2c",
+            "source": "`<body />` is where all the main content is included. This is where most of the contents we learned are included. There are so many examples of content elements, but a few common ones would be:\n- `<header />` typically contains a document header (like a nav bar or page title)\n    - Note that this is entirely different than `<head/>`\n- `<footer />` typically contains content that goes at the end of a page (like copyright or detailed page information)\n- `<main />` typically contains the main content of the page\n- `<nav />` typically provides navigation links to other pages. It normally goes inside of `<header />`.\n- `<section />` represents a section of content.\n- `<a />` for creating hyperlinks\n    - Set the `href=` attribute to the URL of the page you are linking to\n- `<img />` for creating images\n    - The `src=` attribute specifies the URL of the image to point to\n    - Remember to set the `alt=` attribute to a text-based description of the image contents\n    - We can wrap these in `<picture />` elements for added flexibility but we won't do that in this class for the most part.\n- Heading elements (`<h1 /> -- <h6 />`) for creating headers\n- `<hr />` creates a horizontal rule (horizontal break between content)\n- `<p />` specifies a paragraph of text",
+            "parentId": "66546315-8347-4d27-88d0-0e294bff76b5",
+            "childrenIds": [
+                "81ed231a-3ce7-466c-bef8-6bf6b6446e74"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_20.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_20.html": [
+                        [
+                            1,
+                            "<body>\n    <header>\n        <h1>My Website</h1>\n        <nav>\n            <ul>\n                <li><a href=\"/\">Home</a></li>\n                <li><a href=\"/about\">About</a></li>\n                <li><a href=\"/contact\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <h2>About Us</h2>\n            <p>Welcome to our website. Here's some information about our company.</p>\n        </section>\n        <section>\n            <h2>Services</h2>\n            <p>We offer a variety of services to meet your needs.</p>\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2023 My Company. All rights reserved.</p>\n    </footer>\n</body>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_20.html",
+                    "startLineNumber": 2,
+                    "startColumn": 5,
+                    "endLineNumber": 2,
+                    "endColumn": 13
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_20.html",
+                    "startLineNumber": 4,
+                    "startColumn": 9,
+                    "endLineNumber": 4,
+                    "endColumn": 14
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_20.html",
+                    "startLineNumber": 13,
+                    "startColumn": 9,
+                    "endLineNumber": 13,
+                    "endColumn": 18
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_20.html",
+                    "startLineNumber": 22,
+                    "startColumn": 5,
+                    "endLineNumber": 22,
+                    "endColumn": 13
+                }
+            ]
+        },
+        "3c09e25e-1d4d-44f8-8287-61c0fd6f3a87": {
+            "id": "3c09e25e-1d4d-44f8-8287-61c0fd6f3a87",
+            "source": "## Quiz\n\nWrite HTML code using `<header/>` that has `<h1>Page Heading</h1>` and `<time>04.20.2023</time>` as its descendant.\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below -->\n```\n```\n```\n```\n<header>\n    <h1>Page Heading</h1>\n    <time datetime=\"2023-04-20\">April 20, 2023</time>\n</header>\n```\n:::",
+            "parentId": "81ed231a-3ce7-466c-bef8-6bf6b6446e74",
+            "childrenIds": [
+                "9bf596a2-968f-43de-b87b-302764872fee"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "3c09e25e-1d4d-44f8-8287-61c0fd6f3a87-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "9bf596a2-968f-43de-b87b-302764872fee": {
+            "id": "9bf596a2-968f-43de-b87b-302764872fee",
+            "source": "## Quiz\n\nWrite HTML code that contains the following (add your favorite website) :\n- html\n    - body\n        - h1\n            - #text: My favorite website\n        - p\n            - #text: I visit here everyday.\n        - a\n            - #text: click\n            - #attribute: href\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below -->\n```\n```\n```\n```\n<html>\n    <body>\n        <h1>My favorite website</h1>\n        <p>I visit here everyday.</p>\n        <a href=\"something\">here</a>\n    </body>\n</html>\n```\n:::",
+            "parentId": "3c09e25e-1d4d-44f8-8287-61c0fd6f3a87",
+            "childrenIds": [
+                "2873ce1c-7c90-4648-9e1d-ea25dd02e37d"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "9bf596a2-968f-43de-b87b-302764872fee-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "2873ce1c-7c90-4648-9e1d-ea25dd02e37d": {
+            "id": "2873ce1c-7c90-4648-9e1d-ea25dd02e37d",
+            "source": "Yes, that’s right. And remember again, that main content is included in `<body />`, so all of the examples above are typically expected to be found in `<body />`.",
+            "parentId": "9bf596a2-968f-43de-b87b-302764872fee",
+            "childrenIds": [
+                "3f6d6df7-7fb1-4293-854a-90f51a6aedfd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "3f6d6df7-7fb1-4293-854a-90f51a6aedfd": {
+            "id": "3f6d6df7-7fb1-4293-854a-90f51a6aedfd",
+            "source": "Got it.",
+            "parentId": "2873ce1c-7c90-4648-9e1d-ea25dd02e37d",
+            "childrenIds": [
+                "895b4c8a-f32f-4557-ac81-5e55b34fdcf1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "895b4c8a-f32f-4557-ac81-5e55b34fdcf1": {
+            "id": "895b4c8a-f32f-4557-ac81-5e55b34fdcf1",
+            "source": "Also, there are list elements, table elements, and form elements.",
+            "parentId": "3f6d6df7-7fb1-4293-854a-90f51a6aedfd",
+            "childrenIds": [
+                "4470148f-dfda-4279-acba-e18c418ec4bd"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_20.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "4470148f-dfda-4279-acba-e18c418ec4bd": {
+            "id": "4470148f-dfda-4279-acba-e18c418ec4bd",
+            "source": "Sounds like they are used to create a list, a table and a form?",
+            "parentId": "895b4c8a-f32f-4557-ac81-5e55b34fdcf1",
+            "childrenIds": [
+                "ef17b9e0-eb9a-4cdf-a7b5-d37a07e5baa4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "ef17b9e0-eb9a-4cdf-a7b5-d37a07e5baa4": {
+            "id": "ef17b9e0-eb9a-4cdf-a7b5-d37a07e5baa4",
+            "source": "That’s right. List elements are likely to be used in creating a list on the page, table elements are used to create a table and form elements are used to create a form.",
+            "parentId": "4470148f-dfda-4279-acba-e18c418ec4bd",
+            "childrenIds": [
+                "8281a3ee-c218-4cd3-a8dd-c68893238a32"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "8281a3ee-c218-4cd3-a8dd-c68893238a32": {
+            "id": "8281a3ee-c218-4cd3-a8dd-c68893238a32",
+            "source": "Okay. Then they must be inside `<body />` because I guess they are mostly included in the main content of the page?",
+            "parentId": "ef17b9e0-eb9a-4cdf-a7b5-d37a07e5baa4",
+            "childrenIds": [
+                "73bf8627-3e79-4b2e-85ba-5fc71b81fa70"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "5c43d795-7abb-455d-8389-5ae9ea06b02e": {
+            "id": "5c43d795-7abb-455d-8389-5ae9ea06b02e",
+            "source": "Correct! Now I’ll go in-depth and explain list elements first: \n- `<ol />` creates an ordered list (1, 2, 3, ...)\n- `<ul />` creates and unordered list (\"unordered\" is misleading; it has an order but the default display uses bullet points)\n    - `<li />` creates a list item (it should be a direct descendant of a `<ul />` or `<ol />` element)\n",
+            "parentId": "73bf8627-3e79-4b2e-85ba-5fc71b81fa70",
+            "childrenIds": [
+                "3a1b4ff3-91b1-48ca-884b-65f35d65c33e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_20.html",
+                    "file_12.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_20.html": [
+                        [
+                            1,
+                            "<body>\n    <header>\n        <h1>My Website</h1>\n        <nav>\n            <ul>\n                <li><a href=\"/\">Home</a></li>\n                <li><a href=\"/about\">About</a></li>\n                <li><a href=\"/contact\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <h2>About Us</h2>\n            <p>Welcome to our website. Here's some information about our company.</p>\n        </section>\n        <section>\n            <h2>Services</h2>\n            <p>We offer a variety of services to meet your needs.</p>\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2023 My Company. All rights reserved.</p>\n    </footer>\n</body>"
+                        ]
+                    ],
+                    "file_12.html": [
+                        [
+                            1,
+                            "<body>\n    <h2>Top 5 Movies of All Time</h2>\n    <ol>\n        <li>The Shawshank Redemption</li>\n        <li>The Godfather</li>\n        <li>Pulp Fiction</li>\n        <li>The Dark Knight</li>\n        <li>Schindler's List</li>\n    </ol>\n    <h2>Shopping List</h2>\n    <ul>\n        <li>Apples</li>\n        <li>Bread</li>\n        <li>Milk</li>\n        <li>Cereal</li>\n    </ul>\n</body>\n\n"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_12.html",
+                    "startLineNumber": 3,
+                    "startColumn": 5,
+                    "endLineNumber": 4,
+                    "endColumn": 42
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_12.html",
+                    "startLineNumber": 11,
+                    "startColumn": 5,
+                    "endLineNumber": 12,
+                    "endColumn": 24
+                }
+            ]
+        },
+        "05d001e2-c4e7-4b31-8a8c-2b62414d62e5": {
+            "id": "05d001e2-c4e7-4b31-8a8c-2b62414d62e5",
+            "source": "## Quiz\n\nWrite HTML code using `<nav />` that has an ordered list with list items named ‘One,’ ‘Two’ and ‘Three’ as its descendant.\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below -->\n```\n```\n```\n```\n<nav>\n    <ol>\n        <li>One</li>\n        <li>Two</li>\n        <li>Three</li>\n    </ol>\n</nav>\n```\n:::",
+            "parentId": "3a1b4ff3-91b1-48ca-884b-65f35d65c33e",
+            "childrenIds": [
+                "902d235b-39aa-4b39-88a4-1002396d36d8"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "05d001e2-c4e7-4b31-8a8c-2b62414d62e5-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "1ee6c4c2-cec0-4788-b6c2-40842d75b94b": {
+            "id": "1ee6c4c2-cec0-4788-b6c2-40842d75b94b",
+            "source": "Next, table elements are:\n- `<table />` creates a table\n- `<thead />` and `<tfoot />` define the header and footer rows of the table, respectively.\n- `<tbody />` contains the main content of the table\n- `<tr />` defines a table row (whether in the header, footer, or body of the table)\n- `<td />` defines a table cell\n- `<th />` is like `<td />` but is used for header cells\n- `<caption />` specifies a caption for the table",
+            "parentId": "902d235b-39aa-4b39-88a4-1002396d36d8",
+            "childrenIds": [
+                "900bc086-5c59-4268-ac5a-9bc409231929"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_20.html",
+                    "file_12.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "900bc086-5c59-4268-ac5a-9bc409231929": {
+            "id": "900bc086-5c59-4268-ac5a-9bc409231929",
+            "source": "Can you give an example of a table?",
+            "parentId": "1ee6c4c2-cec0-4788-b6c2-40842d75b94b",
+            "childrenIds": [
+                "c7e1e906-eadf-47a0-98dc-e1f9b81cdaf4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "c7e1e906-eadf-47a0-98dc-e1f9b81cdaf4": {
+            "id": "c7e1e906-eadf-47a0-98dc-e1f9b81cdaf4",
+            "source": "Sure! This table consists of three columns(\"Company,\" \"Contact,\" and \"Country\") and two rows of data, displaying information about two companies. \n(Source: https://www.w3schools.com/html/html_tables.asp)\n",
+            "parentId": "900bc086-5c59-4268-ac5a-9bc409231929",
+            "childrenIds": [
+                "bbbe5876-af9e-4778-aa66-16f2c51fbea4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_20.html",
+                    "file_1.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_20.html": [
+                        [
+                            1,
+                            "<body>\n    <header>\n        <h1>My Website</h1>\n        <nav>\n            <ul>\n                <li><a href=\"/\">Home</a></li>\n                <li><a href=\"/about\">About</a></li>\n                <li><a href=\"/contact\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <h2>About Us</h2>\n            <p>Welcome to our website. Here's some information about our company.</p>\n        </section>\n        <section>\n            <h2>Services</h2>\n            <p>We offer a variety of services to meet your needs.</p>\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2023 My Company. All rights reserved.</p>\n    </footer>\n</body>"
+                        ]
+                    ],
+                    "file_1.html": [
+                        [
+                            1,
+                            "<table>\n  <tr>\n    <th>Company</th>\n    <th>Contact</th>\n    <th>Country</th>\n  </tr>\n  <tr>\n    <td>Alfreds Futterkiste</td>\n    <td>Maria Anders</td>\n    <td>Germany</td>\n  </tr>\n  <tr>\n    <td>Centro comercial Moctezuma</td>\n    <td>Francisco Chang</td>\n    <td>Mexico</td>\n  </tr>\n</table>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.html",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 8
+                }
+            ]
+        },
+        "928404eb-43e2-44ae-a209-bac52f64ee4c": {
+            "id": "928404eb-43e2-44ae-a209-bac52f64ee4c",
+            "source": "## Quiz\n\nWrite HTML code and create the same table as below (only the first row is heading):\n![image](Screenshot-2023-08-08-at-4.55.21-PM.png)\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below -->\n```\n```\n```\n```\n<!-- Write your code below -->\n<table>\n  <tr>\n    <th></th>\n    <th>Dog A</th>\n    <th>Dog B</th>\n    <th>Dog C</th>\n  </tr>\n  <tr>\n    <td>Breed</td>\n    <td>Poodle</td>\n    <td>Bulldog</td>\n    <td>Chihuahua</td>\n  </tr>\n  <tr>\n    <td>Color</td>\n    <td>White</td>\n    <td>Brown</td>\n    <td>Black</td>\n  </tr>\n</table>\n```\n:::",
+            "parentId": "bbbe5876-af9e-4778-aa66-16f2c51fbea4",
+            "childrenIds": [
+                "7347d9da-6d9f-47b7-963f-5c9c29a2ac68"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "928404eb-43e2-44ae-a209-bac52f64ee4c-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_20.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "7347d9da-6d9f-47b7-963f-5c9c29a2ac68": {
+            "id": "7347d9da-6d9f-47b7-963f-5c9c29a2ac68",
+            "source": "So `<th />` are only for header cells, and `<td />` elements are each content table cell.",
+            "parentId": "928404eb-43e2-44ae-a209-bac52f64ee4c",
+            "childrenIds": [
+                "1434e9e9-0982-4503-bc2e-3398223c8c79"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "417bdfcf-9a30-4dc4-a891-1a85b390cba7": {
+            "id": "417bdfcf-9a30-4dc4-a891-1a85b390cba7",
+            "source": "Correct! Also, there are form elements:\n- `<form />` marks the bounds of a form for text entry\n- `<input />` can create a wide variety of input types\n    - Specify the type of input with the type= attribute. Valid values include \"radio\", \"text\", \"checkbox\", \"password\", \"file\", and \"date\".\n- `<textarea />` creates a multi-line text input widget (whereas an `<input type=\"text\" />` input widget is typically single-line and inline)\n- `<label />` creates a label for an input element\n    - Specify which element this label is for by setting the for= attribute to be the same as the `id=` attribute of the `<input />` element the label is for.\n- `<select />` creates a dropdown selection widget\n- `<datalist />` is like `<select />` except it enables free text entry - the options are \"suggestions\"\n- `<optgroup />` creates a \"category\" of options for dropdown selection widgets (and should be a direct child of `<select />`)\n- `<option />` creates an option for dropdown selection widgets (and should be a direct child of either `<select />`, `<datalist />`, or `<optgroup />`)\n- `<button />` creates a clickable button. Unlike `<a />` elements, the button is expected to perform an action on the page (rather than just navigating to a new page)\n    - On forms, you might set the `type=` attribute to `\"submit\"` to specify that the button submits the form (or to `\"reset\"` to say that it should reset the form)\n",
+            "parentId": "1434e9e9-0982-4503-bc2e-3398223c8c79",
+            "childrenIds": [
+                "78a8406d-572b-4310-bbf2-b248c8e4a7d8"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_1.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "78a8406d-572b-4310-bbf2-b248c8e4a7d8": {
+            "id": "78a8406d-572b-4310-bbf2-b248c8e4a7d8",
+            "source": "So I guess each form element functions differently. Can you explain more why there are so many different tags with examples?",
+            "parentId": "417bdfcf-9a30-4dc4-a891-1a85b390cba7",
+            "childrenIds": [
+                "344803da-ef71-4418-88a5-8627973eec1e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "344803da-ef71-4418-88a5-8627973eec1e": {
+            "id": "344803da-ef71-4418-88a5-8627973eec1e",
+            "source": "Of course. When you need a text input form, then you should use elements like `<input />` or `<textarea />`, and when you need a user to select one option from the dropdown, then you’d better use `<select />` and `<option />`.",
+            "parentId": "78a8406d-572b-4310-bbf2-b248c8e4a7d8",
+            "childrenIds": [
+                "34113e5f-12e4-4fd6-ac9a-b570bbf5f8d7"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_2.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.html": [
+                        [
+                            1,
+                            "<!-- An example of 'input' tag -->\n<form>\n  <label for=\"fname\">First name:</label><br>\n  <input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>\n  <label for=\"lname\">Last name:</label><br>\n  <input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br><br>\n  <input type=\"submit\" value=\"Submit\">\n</form> "
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.html",
+                    "startLineNumber": 4,
+                    "startColumn": 3,
+                    "endLineNumber": 4,
+                    "endColumn": 59
+                }
+            ]
+        },
+        "34113e5f-12e4-4fd6-ac9a-b570bbf5f8d7": {
+            "id": "34113e5f-12e4-4fd6-ac9a-b570bbf5f8d7",
+            "source": "Great, I get it!",
+            "parentId": "344803da-ef71-4418-88a5-8627973eec1e",
+            "childrenIds": [
+                "fa42d0b2-7c37-4ee7-97e7-79350ed8a44f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "fa42d0b2-7c37-4ee7-97e7-79350ed8a44f": {
+            "id": "fa42d0b2-7c37-4ee7-97e7-79350ed8a44f",
+            "source": "## Quiz\n\nWrite HTML code using `<form />` with `<input />`, `<textarea />`, `<select />` and a submit `<button />`. Details are below:\n- html\n    - body\n        - h1\n            - #text: Contact Us\n        - form\n            - #action: \"/submit\"\n            - #method: \"post\"\n            - label\n                - #text: Name\n            - input\n                - #type: \"text\"\n            - label\n                - #text: Email\n            - input\n                - #type: \"email\"\n            - label\n                - #text: Message\n            - textarea\n            - label\n                - #text: Category\n            - select\n                - option\n                    - #text: General Inquiry\n                - option\n                    - #text: Support\n                - option\n                    - #text: Feedback\n            - button\n                - #type: \"submit\"\n                - #text: Submit\n\n:::edit-code\n::language[html]\n::environment[html]\n```\n<!-- Write your code below -->\n```\n```\n```\n```\n<html>\n<body>\n    <h1>Contact Us</h1>\n    <form action=\"/submit\" method=\"post\">\n        <label for=\"name\">Name</label>\n        <input type=\"text\">\n        \n        <label>Email</label>\n        <input type=\"email\" id=\"email\" name=\"email\" required>\n        \n        <label>Message</label>\n        <textarea></textarea>\n        \n        <label>Category</label>\n        <select>\n            <option>General Inquiry</option>\n            <option>Support</option>\n            <option>Feedback</option>\n        </select>\n        \n        <button type=\"submit\">Submit</button>\n    </form>\n</body>\n</html>\n```\n:::",
+            "parentId": "34113e5f-12e4-4fd6-ac9a-b570bbf5f8d7",
+            "childrenIds": [
+                "97cba532-3e3f-42a7-9963-556769a3c0e5"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "fa42d0b2-7c37-4ee7-97e7-79350ed8a44f-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "0ef6f7af-bb1b-45c6-914b-e3737b9ddfd9": {
+            "id": "0ef6f7af-bb1b-45c6-914b-e3737b9ddfd9",
+            "source": "Great. There are also elements that you should try to avoid when possible. It’s hard to avoid using these elements entirely but you should look for alternatives before using them. These are:\n- `<div />` elements: I haven't done the analysis but I would guess that this is actually the most commonly used element type. It is normally displayed as a block. The only problem is that it has no semantic meaning.\n- `<span />` elements are like `<div />` but are displayed \"inline\" rather than as a \"block\". Also very commonly used.\n",
+            "parentId": "97cba532-3e3f-42a7-9963-556769a3c0e5",
+            "childrenIds": [
+                "4537d82f-bba9-42de-914a-fb2fe014f001"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_2.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "4537d82f-bba9-42de-914a-fb2fe014f001": {
+            "id": "4537d82f-bba9-42de-914a-fb2fe014f001",
+            "source": "Okay. I’ll try to avoid them.",
+            "parentId": "0ef6f7af-bb1b-45c6-914b-e3737b9ddfd9",
+            "childrenIds": [
+                "9e96ea8e-c33f-41f6-9b72-1e05b27be027"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "9e96ea8e-c33f-41f6-9b72-1e05b27be027": {
+            "id": "9e96ea8e-c33f-41f6-9b72-1e05b27be027",
+            "source": "Also, there are elements that should be avoided completely.\n",
+            "parentId": "4537d82f-bba9-42de-914a-fb2fe014f001",
+            "childrenIds": [
+                "531e7f69-e03c-43a5-bcba-e82d112d19ea"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "531e7f69-e03c-43a5-bcba-e82d112d19ea": {
+            "id": "531e7f69-e03c-43a5-bcba-e82d112d19ea",
+            "source": "What are they?",
+            "parentId": "9e96ea8e-c33f-41f6-9b72-1e05b27be027",
+            "childrenIds": [
+                "953f88a2-f733-4fef-aeab-89559adf407c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "953f88a2-f733-4fef-aeab-89559adf407c": {
+            "id": "953f88a2-f733-4fef-aeab-89559adf407c",
+            "source": "They are `<b />` and `<i />`. \n",
+            "parentId": "531e7f69-e03c-43a5-bcba-e82d112d19ea",
+            "childrenIds": [
+                "dbfadbd2-e5a1-4a94-a7a2-7021c3606230"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "dbfadbd2-e5a1-4a94-a7a2-7021c3606230": {
+            "id": "dbfadbd2-e5a1-4a94-a7a2-7021c3606230",
+            "source": "Why?",
+            "parentId": "953f88a2-f733-4fef-aeab-89559adf407c",
+            "childrenIds": [
+                "ec9f4faf-5bc4-4850-94ba-1d5887985425"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "ec9f4faf-5bc4-4850-94ba-1d5887985425": {
+            "id": "ec9f4faf-5bc4-4850-94ba-1d5887985425",
+            "source": "It’s because `<b />` and `<i />` just say how it should be displayed, compared to `<strong />` and `<em />`, which also create bolded text and italicized text. However, unlike `<b />` and `<i />`, `<strong />` and `<em />` are semantically meaningful---they say what the text is (important).\n",
+            "parentId": "dbfadbd2-e5a1-4a94-a7a2-7021c3606230",
+            "childrenIds": [
+                "2b81aa68-096b-4374-9d7b-f9c89d3ee3ea"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "2b81aa68-096b-4374-9d7b-f9c89d3ee3ea": {
+            "id": "2b81aa68-096b-4374-9d7b-f9c89d3ee3ea",
+            "source": "Got it. ",
+            "parentId": "ec9f4faf-5bc4-4850-94ba-1d5887985425",
+            "childrenIds": [
+                "57a2884b-bca0-4f50-903f-f8f1d2fead4e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "57a2884b-bca0-4f50-903f-f8f1d2fead4e": {
+            "id": "57a2884b-bca0-4f50-903f-f8f1d2fead4e",
+            "source": "So to list them up, instead of using `<b />` and `<i />`, use:\n- Do use `<em>` to indicate stress emphasis.\n- Use `<strong>` to indicate importance, seriousness, or urgency.\n- Use `<mark>` to indicate relevance.\n- Use `<cite>` to mark up the name of a work, such as a book, play, or song.\n- Use `<dfn>` to mark up the defining instance of a term.\n",
+            "parentId": "2b81aa68-096b-4374-9d7b-f9c89d3ee3ea",
+            "childrenIds": [
+                "5645e1b0-73db-4ac7-81bc-05c221cb35ce"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_20.html",
+                    "file_14.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_20.html": [
+                        [
+                            1,
+                            "<body>\n    <header>\n        <h1>My Website</h1>\n        <nav>\n            <ul>\n                <li><a href=\"/\">Home</a></li>\n                <li><a href=\"/about\">About</a></li>\n                <li><a href=\"/contact\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section>\n            <h2>About Us</h2>\n            <p>Welcome to our website. Here's some information about our company.</p>\n        </section>\n        <section>\n            <h2>Services</h2>\n            <p>We offer a variety of services to meet your needs.</p>\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2023 My Company. All rights reserved.</p>\n    </footer>\n</body>"
+                        ]
+                    ],
+                    "file_14.html": [
+                        [
+                            1,
+                            "<body>\n    <p>This <em>word</em> is emphasized for stress.</p>\n    <p>This is <strong>very important</strong> information.</p>\n</body>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_14.html",
+                    "startLineNumber": 2,
+                    "startColumn": 13,
+                    "endLineNumber": 2,
+                    "endColumn": 26
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_14.html",
+                    "startLineNumber": 3,
+                    "startColumn": 16,
+                    "endLineNumber": 3,
+                    "endColumn": 47
+                }
+            ]
+        },
+        "94ececb2-6022-485c-9fa6-17fcadfc4aad": {
+            "id": "94ececb2-6022-485c-9fa6-17fcadfc4aad",
+            "source": "## Quiz\n:::multiple-choice\nWhich of the following is NOT a recommended way of writing HTML code (choose all that apply)?\n::option[`<h1>`This is `<em>`very`</em>` important`</h1>`]{feedback=\"This is a recommended way of writing HTML.\"}\n::option[`<p>`We are going on a `<strong>`summer vacation`</strong></p>`]{feedback=\"This is a recommended way of writing HTML.\"}\n::option[`<h1>`This dessert is `<b>`so`</b>` delicious`</h1>`]{correct feedback=\"Good!\"}\n::option[`<h1>`Your handwriting is `<i>`very beautiful`</i></h1>`]{correct feedback=\"Good!\"}\n:::",
+            "parentId": "5645e1b0-73db-4ac7-81bc-05c221cb35ce",
+            "childrenIds": [
+                "53851240-9853-4c62-b111-13a6784d48b1"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "94ececb2-6022-485c-9fa6-17fcadfc4aad-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "94ececb2-6022-485c-9fa6-17fcadfc4aad-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "94ececb2-6022-485c-9fa6-17fcadfc4aad-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "94ececb2-6022-485c-9fa6-17fcadfc4aad-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "94ececb2-6022-485c-9fa6-17fcadfc4aad-option-4",
+                    "type": "option"
+                }
+            ],
+            "senderId": "nobody",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_20.html"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "53851240-9853-4c62-b111-13a6784d48b1": {
+            "id": "53851240-9853-4c62-b111-13a6784d48b1",
+            "source": "Okay.",
+            "parentId": "94ececb2-6022-485c-9fa6-17fcadfc4aad",
+            "childrenIds": [
+                "cf18e5d8-21e3-4603-9ed2-c39d9792c8ac"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "067486ec-8c93-4382-bc05-16c556f3afec": {
+            "id": "067486ec-8c93-4382-bc05-16c556f3afec",
+            "source": "Lastly, I want to tell you about global attributes. \n",
+            "parentId": "cf18e5d8-21e3-4603-9ed2-c39d9792c8ac",
+            "childrenIds": [
+                "5d7903f8-d724-4e9b-9a59-2e37ba5f3ac3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "5d7903f8-d724-4e9b-9a59-2e37ba5f3ac3": {
+            "id": "5d7903f8-d724-4e9b-9a59-2e37ba5f3ac3",
+            "source": "What is it?",
+            "parentId": "067486ec-8c93-4382-bc05-16c556f3afec",
+            "childrenIds": [
+                "fede283c-b826-4fd5-8770-894079b1fa06"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "fede283c-b826-4fd5-8770-894079b1fa06": {
+            "id": "fede283c-b826-4fd5-8770-894079b1fa06",
+            "source": "Global attributes are attributes that can be used with all HTML elements. ",
+            "parentId": "5d7903f8-d724-4e9b-9a59-2e37ba5f3ac3",
+            "childrenIds": [
+                "489b9336-7e9e-43a7-8bd7-0ffa6535aed4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "489b9336-7e9e-43a7-8bd7-0ffa6535aed4": {
+            "id": "489b9336-7e9e-43a7-8bd7-0ffa6535aed4",
+            "source": "Oh so you mean, these attributes can be used in any HTML element?\n",
+            "parentId": "fede283c-b826-4fd5-8770-894079b1fa06",
+            "childrenIds": [
+                "83b33cff-a5a4-4b75-b292-fc137e33d8d3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "83b33cff-a5a4-4b75-b292-fc137e33d8d3": {
+            "id": "83b33cff-a5a4-4b75-b292-fc137e33d8d3",
+            "source": "Yes. Common attributes are:\n- `class=` setting this attribute makes it easier to find a subset of HTML elements from JavaScript or CSS\n- `id=` setting this attribute makes it easier to find a specific element from JavaScript or CSS\n- `style=` for setting the CSS style of a particular element. We will typically avoid doing this.\n- `title=` for setting what the user sees when they hover their mouse over an element. Note: this is not a replacement for the `[alt=]` attribute for images\n",
+            "parentId": "489b9336-7e9e-43a7-8bd7-0ffa6535aed4",
+            "childrenIds": [
+                "b4d68a79-aa7a-48fb-aef4-6cc6af9ad5cb"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [
+                    "file_15.html"
+                ],
+                "removed": [
+                    "file_14.html"
+                ],
+                "codeDiffs": {
+                    "file_15.html": [
+                        [
+                            1,
+                            "<body>\n    <p class=\"highlight\">This paragraph has a class of \"highlight\".</p>\n    <p>This paragraph doesn't have a class.</p>\n    <p id=\"unique-element\">This paragraph has a unique ID.</p>\n    <p>This paragraph doesn't have an ID.</p>\n    <p style=\"color: blue; font-size: 18px;\">This paragraph has inline styles.</p>\n    <p>This paragraph doesn't have inline styles.</p>\n    <p title=\"Hover over me to see a tooltip!\">Hover over me</p>\n</body>"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_15.html",
+                    "startLineNumber": 2,
+                    "startColumn": 8,
+                    "endLineNumber": 2,
+                    "endColumn": 25
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_15.html",
+                    "startLineNumber": 4,
+                    "startColumn": 8,
+                    "endLineNumber": 4,
+                    "endColumn": 27
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_15.html",
+                    "startLineNumber": 6,
+                    "startColumn": 8,
+                    "endLineNumber": 6,
+                    "endColumn": 45
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_15.html",
+                    "startLineNumber": 8,
+                    "startColumn": 8,
+                    "endLineNumber": 8,
+                    "endColumn": 47
+                }
+            ]
+        },
+        "b4d68a79-aa7a-48fb-aef4-6cc6af9ad5cb": {
+            "id": "b4d68a79-aa7a-48fb-aef4-6cc6af9ad5cb",
+            "source": "Yeah I got it.",
+            "parentId": "83b33cff-a5a4-4b75-b292-fc137e33d8d3",
+            "childrenIds": [
+                "d884b30e-6eb1-49e2-82c2-419cfb66bb7a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "d884b30e-6eb1-49e2-82c2-419cfb66bb7a": {
+            "id": "d884b30e-6eb1-49e2-82c2-419cfb66bb7a",
+            "source": "You’re welcome. ",
+            "parentId": "b4d68a79-aa7a-48fb-aef4-6cc6af9ad5cb",
+            "childrenIds": [
+                "dfa63685-716b-49f8-8a6c-39d1050e536d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "dfa63685-716b-49f8-8a6c-39d1050e536d": {
+            "id": "dfa63685-716b-49f8-8a6c-39d1050e536d",
+            "source": "I guess I can create content for my webpage now.",
+            "parentId": "d884b30e-6eb1-49e2-82c2-419cfb66bb7a",
+            "childrenIds": [
+                "fe40716f-e406-4d55-a8ea-55994d1cc0a6"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "fe40716f-e406-4d55-a8ea-55994d1cc0a6": {
+            "id": "fe40716f-e406-4d55-a8ea-55994d1cc0a6",
+            "source": "Yes! Now you can definitely create content for your webpage. After you create your content, what would you like to do?",
+            "parentId": "dfa63685-716b-49f8-8a6c-39d1050e536d",
+            "childrenIds": [
+                "99e2424e-5a7e-4ceb-b35e-8dc10447205a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "99e2424e-5a7e-4ceb-b35e-8dc10447205a": {
+            "id": "99e2424e-5a7e-4ceb-b35e-8dc10447205a",
+            "source": "Hmm… Well, actually, I want to make my website pretty because currently the design is awful. It’s only black and white. Moreover, I hate the font!",
+            "parentId": "fe40716f-e406-4d55-a8ea-55994d1cc0a6",
+            "childrenIds": [
+                "29b3080a-a80b-4406-a610-a3433a8b6063"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "29b3080a-a80b-4406-a610-a3433a8b6063": {
+            "id": "29b3080a-a80b-4406-a610-a3433a8b6063",
+            "source": "Haha, yes. So that’s why we’ll cover how we’re going to add style to your webpage next lecture.",
+            "parentId": "99e2424e-5a7e-4ceb-b35e-8dc10447205a",
+            "childrenIds": [
+                "b936998b-d04c-4eff-aa40-0cd97c9231b3"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "b936998b-d04c-4eff-aa40-0cd97c9231b3": {
+            "id": "b936998b-d04c-4eff-aa40-0cd97c9231b3",
+            "source": "Sounds fun!",
+            "parentId": "29b3080a-a80b-4406-a610-a3433a8b6063",
+            "childrenIds": [
+                "931fd1c0-0f29-44b4-8724-59cab71b0806"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "931fd1c0-0f29-44b4-8724-59cab71b0806": {
+            "id": "931fd1c0-0f29-44b4-8724-59cab71b0806",
+            "source": "Yes, it will be.",
+            "parentId": "b936998b-d04c-4eff-aa40-0cd97c9231b3",
+            "childrenIds": [
+                "e972d47f-f7b8-4b75-8961-249f916d62c1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "isAIContent": false
+        },
+        "e972d47f-f7b8-4b75-8961-249f916d62c1": {
+            "id": "e972d47f-f7b8-4b75-8961-249f916d62c1",
+            "source": "Okay, see you at the next lecture!",
+            "parentId": "931fd1c0-0f29-44b4-8724-59cab71b0806",
+            "childrenIds": [
+                "4eaac6da-3924-49fc-8bde-06dad724a39c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user",
+            "isAIContent": false
+        },
+        "4eaac6da-3924-49fc-8bde-06dad724a39c": {
+            "id": "4eaac6da-3924-49fc-8bde-06dad724a39c",
+            "source": "See you!",
+            "parentId": "e972d47f-f7b8-4b75-8961-249f916d62c1",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "2d531737-7a80-4757-b879-546abf5e00d5": {
+            "id": "2d531737-7a80-4757-b879-546abf5e00d5",
+            "source": "Got it.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "4a30bf2a-f4c6-443a-92bf-379c6e33dc79"
+            ],
+            "shortcutsTo": [],
+            "parentId": "82efb3be-f242-41b5-8f0a-473cc2ca7bc1",
+            "isAIContent": false
+        },
+        "d4a2c5a8-16b1-43ff-ab2d-502459817da1": {
+            "id": "d4a2c5a8-16b1-43ff-ab2d-502459817da1",
+            "source": "Hmm.. Can you give me some examples?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "4add607c-7b5e-4168-b9d2-0fb319d25080"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0c4fe0d1-c65f-4d9d-bf47-1f60346cac4c",
+            "isAIContent": false
+        },
+        "4add607c-7b5e-4168-b9d2-0fb319d25080": {
+            "id": "4add607c-7b5e-4168-b9d2-0fb319d25080",
+            "source": "Of course! This example shows how `<head/>` includes `metadata`.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "a94bec40-3752-458f-a846-0bdeb780d47e"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d4a2c5a8-16b1-43ff-ab2d-502459817da1",
+            "fileDiff": {
+                "added": [
+                    "file_10.html"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_10.html": [
+                        [
+                            1,
+                            "<head>\n    <title>External JavaScript Example</title>\n    <script src=\"script.js\"></script>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n\n"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_10.html",
+                    "startLineNumber": 2,
+                    "startColumn": 5,
+                    "endLineNumber": 4,
+                    "endColumn": 46
+                }
+            ]
+        },
+        "3a1b4ff3-91b1-48ca-884b-65f35d65c33e": {
+            "id": "3a1b4ff3-91b1-48ca-884b-65f35d65c33e",
+            "source": "Great! I got it.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "05d001e2-c4e7-4b31-8a8c-2b62414d62e5"
+            ],
+            "shortcutsTo": [],
+            "parentId": "5c43d795-7abb-455d-8389-5ae9ea06b02e",
+            "isAIContent": false
+        },
+        "bbbe5876-af9e-4778-aa66-16f2c51fbea4": {
+            "id": "bbbe5876-af9e-4778-aa66-16f2c51fbea4",
+            "source": "Great, thanks!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "928404eb-43e2-44ae-a209-bac52f64ee4c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "c7e1e906-eadf-47a0-98dc-e1f9b81cdaf4",
+            "isAIContent": false
+        },
+        "5645e1b0-73db-4ac7-81bc-05c221cb35ce": {
+            "id": "5645e1b0-73db-4ac7-81bc-05c221cb35ce",
+            "source": "Okay!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "94ececb2-6022-485c-9fa6-17fcadfc4aad"
+            ],
+            "shortcutsTo": [],
+            "parentId": "57a2884b-bca0-4f50-903f-f8f1d2fead4e",
+            "isAIContent": false
+        },
+        "5330e287-891e-426e-b6e5-d450def29dc5": {
+            "id": "5330e287-891e-426e-b6e5-d450def29dc5",
+            "source": "I got it!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "ba700f88-9244-4775-8ec3-d01b7762d230"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3defcc25-5b50-4f97-a954-ea1f84daae05",
+            "isAIContent": false
+        },
+        "a94bec40-3752-458f-a846-0bdeb780d47e": {
+            "id": "a94bec40-3752-458f-a846-0bdeb780d47e",
+            "source": "Yeah, I get it.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "df5a1a12-42c9-4e31-8bac-bb3f22bef1cd"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4add607c-7b5e-4168-b9d2-0fb319d25080",
+            "isAIContent": false
+        },
+        "81ed231a-3ce7-466c-bef8-6bf6b6446e74": {
+            "id": "81ed231a-3ce7-466c-bef8-6bf6b6446e74",
+            "source": "Okay, I got it!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "3c09e25e-1d4d-44f8-8287-61c0fd6f3a87"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8d6c385f-d5ee-4f01-b0e0-4f60be99dc2c",
+            "isAIContent": false
+        },
+        "4993135f-9602-4cc8-8ab7-c8b4544bab6a": {
+            "id": "4993135f-9602-4cc8-8ab7-c8b4544bab6a",
+            "source": "## Structural Elements",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "a578a78f-081a-4482-a1e0-f759701ba11d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "741e9f41-9305-43ea-926c-3b454cb4202b",
+            "isAIContent": false
+        },
+        "dae55141-0a78-4949-9faa-ba691045f5b6": {
+            "id": "dae55141-0a78-4949-9faa-ba691045f5b6",
+            "source": "### Metadata",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "0c4fe0d1-c65f-4d9d-bf47-1f60346cac4c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "930f2d90-aafe-4890-892b-f06e448ab5a2",
+            "isAIContent": false
+        },
+        "66546315-8347-4d27-88d0-0e294bff76b5": {
+            "id": "66546315-8347-4d27-88d0-0e294bff76b5",
+            "source": "### Body",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "8d6c385f-d5ee-4f01-b0e0-4f60be99dc2c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "526dad27-754d-44c3-8a26-92b606d7bc62",
+            "isAIContent": false
+        },
+        "73bf8627-3e79-4b2e-85ba-5fc71b81fa70": {
+            "id": "73bf8627-3e79-4b2e-85ba-5fc71b81fa70",
+            "source": "## List",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "5c43d795-7abb-455d-8389-5ae9ea06b02e"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8281a3ee-c218-4cd3-a8dd-c68893238a32",
+            "isAIContent": false
+        },
+        "902d235b-39aa-4b39-88a4-1002396d36d8": {
+            "id": "902d235b-39aa-4b39-88a4-1002396d36d8",
+            "source": "## Table",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "1ee6c4c2-cec0-4788-b6c2-40842d75b94b"
+            ],
+            "shortcutsTo": [],
+            "parentId": "05d001e2-c4e7-4b31-8a8c-2b62414d62e5",
+            "isAIContent": false
+        },
+        "1434e9e9-0982-4503-bc2e-3398223c8c79": {
+            "id": "1434e9e9-0982-4503-bc2e-3398223c8c79",
+            "source": "## Form",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "417bdfcf-9a30-4dc4-a891-1a85b390cba7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7347d9da-6d9f-47b7-963f-5c9c29a2ac68",
+            "isAIContent": false
+        },
+        "97cba532-3e3f-42a7-9963-556769a3c0e5": {
+            "id": "97cba532-3e3f-42a7-9963-556769a3c0e5",
+            "source": "## Some elements that should be avoided",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "0ef6f7af-bb1b-45c6-914b-e3737b9ddfd9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "fa42d0b2-7c37-4ee7-97e7-79350ed8a44f"
+        },
+        "cf18e5d8-21e3-4603-9ed2-c39d9792c8ac": {
+            "id": "cf18e5d8-21e3-4603-9ed2-c39d9792c8ac",
+            "source": "## Global Attributes",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "067486ec-8c93-4382-bc05-16c556f3afec"
+            ],
+            "shortcutsTo": [],
+            "parentId": "53851240-9853-4c62-b111-13a6784d48b1",
+            "isAIContent": false
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "blue",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "red",
+            "description": "You are a helpful assistant who is teaching a new programmer how to program in JavaScript"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {
+        "Screenshot-2023-08-08-at-4.55.21-PM.png": {
+            "filename": "Screenshot-2023-08-08-at-4.55.21-PM.png",
+            "data": "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ubct6V133WWGhXJ56aWXwsMPPxyWW265tmVKaggUEOiuujD//POHHXfc0e5ao41ffvlluO6668KIESPChhtuGO65556CJyIYAo0R6I66MHbs2DB48GCrCxZffPGw9tprh0GDBoWnn37ajGxtNXrxzDPPhOmnn76xBydV8xLQyEVWIo1sEMcQaEoCZXVh8skn1whg5Y8//qjhdM0119g5nX/ooYdqzndWwHrrrWf3ceqpp9p200037axLc51eQKCn60I0Gqzcr7POOjW/xldffVVxHf78889rzhMAgTSBnq4LepZoUJg+qF7ISuwYq8w222x2fp999sme5hgCCYEiXWBBdySDQKAjCcRGfPARC/VgpeXZZ58NG220UZhzzjlDv379rPcob174q6++atOqBgwYEPr37x923333MGzYsDBkyJAwcuTIdJa5+5oKdcstt4RYYYTddtstaKqWhrxjQyo3PoEQ6AgC3UEX8p5L0xpnmWUWO/Xtt9/mRSEMAu1KoCt14f333w9PPfWUTZO95JJLap5LawQvuOACWy+oNUkIBOomkJgfqZ2YSeqIXQg0L4GyuuC9nnkjF6L30UcfWS/Q3HPPncCMjX0L0zWWXXbZysorr5wcn3POOUm8jz/+uBLXSti5pZZaqiqe0sZ54kncop2TTjrJ0u+///4WZZdddrHjE044oSgJ4RCoItDTdaGlkQvpkJ4vrZ9VD88BBFIEerouxI4lK+/bb7996qnYhUD9BIp0IdeKKIpc/2VJAYGeTaCsLrRmXIiC8tLfzz//XPnuu++SaRh33HFHAunJJ59M4r333nsWHkcnLEzTmVyGDx+exCtjXMR55hb/lVdesSzifFo7nmOOOXKncvl12ELACfR0XXDjQs8RHRrYn4wJ111NAxk9erQ/LlsIFBLo6boQHYzY+/+UU04pfEZOQKAMgSJdYFpUJINAoDMIxEaMXUZu/+SdQ96l5KljzTXXTC6vhXV77bWXHWsBtjw8RUMiRCMgCddJebZR2jLy2GOPBU2rUt5azCpZdNFFzWPU22+/He6+++4y2RAHAu1GoKt0wR9A7pj19+abbyZe3qIxbwtZpXMIBDqLQFfowieffGKPN+WUU3bWY3KdJiOAcdFkPziP2zUEvvjii6QRo/UO8sAhWWKJJWpuyMNkEOhPItexcvmWlkUWWSR9WLh/8cUX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+CF7XIQ4qwNF8QiHQEcS+Pnnn6398dBDD1nbaN555w1rrbVWmGiiiaoue8cdd4Rxxx03rLHGGlXh2QO1ZdSm8Tyyx9n4HXX8/fffh2HDhoXZZ589LLbYYh11GfLtaQRiZVAj8RlqwrIBsSFVUbyivznmmKPyyiuvZJN16fE111xj93vMMcd06X1w8Z5DoIwu6GmiEVGoC8ojVhSVr776qtMffMcdd7T7euSRR+zap512mh1feOGFnX4vXLBnEyijCx1ZL0Sjwsru6NGjDWT2uIhuVgeK4hEOgbIEyuiC5yWd2GabbXLrh2mnnbZy0003eVTbKkz1SWuy+eabW56jRo2yqH/961/t+MUXX2wtabuef+211+y6G2ywQbvmS2Y9g0CRLjQ8chEzTOT000+3/T/++CN899134Z577gkjR4603tExY8aESSaZJInLDgR6M4HYeE9G7H755Zfw2WefhYsuuijcddddYdNNNw133313b358ng0CCQHqhQQFO01KQG2irbfeOlx99dUhdriGddddN6y22mo2AnfrrbeG2267LcRGebj33nvDKqusUhelhRZaKHzyySdhsskmqysdkSHQGQTabFxo2seee+5Zda+HHnpoWGmllYKG/0aMGBHWX3/9qvMcQKC3EpAuZKcDxp7ToCHw4cOHh7Fjx9r0pN76/DwXBESAeoFyAIEQDjroIDMsZptttvDss8+aXjiX7bffPmyyySbhhhtuCAceeGB46qmn/FSp7f777x/0h0CgOxLokAXd44wzTlhwwQXteb/88svkubfccstwwAEHhFNPPTX069cvrL766jYHURE0F3yLLbYI/fv3t3Nrr712iFM5krS+87///S/ss88+YfHFFw8zzTSTWfuXXHKJn062cQpKOProo230RGtAtt12W+tFTiKwA4FOIjDPPPOEueee2672/PPPJ1dVZbPRRhvZGiXpg8r8gw8+mJz3nU8//TTsvPPOYeGFF07KfJzW5KeT7auvvmqGvnRIcQ877LCadSBJ5NROHHwNZ555pnUITDfddGGJJZYIBx98cPjpp59SsdiFQNsIFNUL0gHVDVnZZZddbD55Nryl47I6oPnvJ5xwgtUPXubVwPvhhx+qspduSNekm6pvVl11VeswU2/0TjvtVBWXAwhkCVx33XUWFKdkVxkWHu/ss88OGoHQGtBvv/3Wg22rukBtJJW7QYMGhWOPPVbz1ZM4J510UhgyZEh45513kjDtvPfee2GzzTZL1r6q7vj666+TOFofqHTZUfTHHnvMwjXK4iI9Ofnkky1cdZR0Rfdy+eWXe5Rkq1GaCy64wM7rnnXv2XW59eh6nO5loz5q6+m6asfJIPv444+Ta7LTjQnkzeqKt5sXXBXmc2vz5gbGBaOVGWec0ebhxQVHSTrNJVTe6b9orVceeOCBJEzp4rBhcnzZZZcl6T///PNK7AGwc7puVJCK5/m3v/0tiff7778necRGncVTfL8uay4SVOy0QqCMLigLL1/xBVuT47vvvpuUPZ8vfssttyRhyy67bCUuuE6OzznnnCQPpfW8oyOCypprrpkcb7zxxkm8ODye6NxSSy1VWXHFFZP89AwtrbmICwKTuLoP6YzS6Ho//vhjcg12mptAGV1opF5Q+dZ7PyteDj08u8Yie1xWB+J0xYp0RM+j66r8a42gjnXN2BDzS1aOOOIIC1c9I93z+sf1I4nITlMRKKMLsVPIyo7KVj3ibRpdQ/vR+LB8dBxHKpKsitZcKJ7+4uLqJF1soCfpitbd+ZrUo446Konr9ZJ0VO2ydPm/9NJLLZ6vufDr6nldnxR2++23J/mV1fV0m1D1ULo+U95q4yHdg4B+4zzJDS2KnM7AKxHF1Y/vf2nFiB4E0kkSQyDOPa/EEY1KtJQretErrfI566yzKspXokVJClN+vhDWF+bFEY5KXNth8ZSPK1+chmVh0dK2tOutt57lr0ApgDfSMC4ME/9KECijC8rGy1b0ZlNRI0d/0UtTJa4/Sl6MKud6KarsevzoGSS5iyeffDKpDGLvk4W7oa1KxQ0X5R17uixuHFK3eGr46F5V9l10TmH6KzIuvELRvb3//vuWVPfoCxCPPPJIz45tkxMoowuN1AtlGxxZYyJ7XFYHYg+w6YQaTl6PqB7yBbG77rqr/dKqn/TMMjjUUJTEkY3K4MGDLVw6gzQngTK64B1IMl7rEW9DaYG0N6Lj9HIrc2lDpci4UJy41s8uqQ5Zr2s+/PBDCytrXKjjV88pgyKOYiePcOKJJ1q4P1fauFDeLnH02+LtsMMOHmT3UqYjwXU5joQkaaWrziaO+ifh7HQtgSJdaBfjQoXX/3Qh/9tqq60qX3zxRfLkXjDU6HJJF2BXJD+nnlnldeONN1qQK4n3/nq8c8891+J5peAFMw6RexTbxrUgFg/jogoLBy0QKFKcbBIvm172s1u9UFXWJV5R5HnX2GuvvayMnn/++ZXo4s/2pTdxeLrqkl5xqUEko0PX1zXcOPfIGhXRvRQZF64rcdG5J7GtPL0pHQ2oKixNfaDy0JqkjQuvE7K6ka0XvOxm865n5KIeHVhmmWWsbGe96qhBpmeUvklUT+jYe2j9/rzjC91wIs23LaMLeocrnsp7PeLtJI1au6h8e7gMYUmRcRGniXsy28apSHYfcdG4HZc1LtRRFqd1JfWWZ+qjCssvv7wFuXEhIyQtXoeoDnIpq+u6xsUXX5wYV0ovw15eF8VU55HuQaBIF9plQXd6Pp/macfGv80Rv+KKK+J1Q838vFgILVz/3njjDdvXPMFocSfh2vF8tR4j9taGb775xs5nvSrEqRsWrniSl156ybbzzTefbf0fPpidBNuOIrDhhhsmWY833nhh1llnDXPNNZetJ5p44ontnPzuS7S2ISseprnjL7zwgp0eOHCg+fVPx43TOuwwvthDrIRMN5Zccknzj56Ot+iii5rntnRYet/1T2sstEYpK9Kl+AqrWaSejccxBNIEYiMieX8rvEy9kE5f7349OqDvY0iicVB1mWmmmcbWRqke0fx3zfmWaP1SWv785z+nD9mHQC4BraWQ6F3eiKjucJGTENUj8j4oXVLdUiRyHpKWaKTbYez5Twe3uq9vM8m71VVXXRXOO+88a6upvtA9SKLBU5WHX8cDdb8SfQejXllhhRXM8YmcA7388su2JjfNMXZi1Jsl8TuZQJuNi+z9TjjhhPbSVoGUESFXa7/++muiDNH6DlrY56IF2hLF1cKdPNHiIDcsVGkVxfPC7UZJNq9JJ500G8QxBNqVgDx/ZL1FZS+gj+tJfJs+r4+D+TmvQHybjjfBBBPYoc75yzvvuq2VedcrGTXS3bS4nulFnncP6bjsQ6AlAq3VC3lpYw9tXnBuWD06oDqkSFyv9BEzr5uyepU9LsqL8OYm4EapjNWWOmh23333oIXTe++9t3kVFDWV0UbLWVnXtLqntOge0hJnnYQ4ymcNe4WrfaVGvz6QfPjhh6ej2n7Z69YkjAFZXddCd3GRiIWuKc9Y6hjQZw6Q7k+g3Y0Lf2R9DViixosKTlHjRB4AJOrVVcMsLXEOuLnulLcdT6/8VPCmn376JKp6meIQnHkTUKAaRfIbLQtbxoyLercQCHQ1AR+h05ezs+IjCaqYPN5bb72VjRY0YiFR75j3VElfsqIRwZbEe8Pk/SZOQ0yiquKR95A41SrRveQkOxBokEBRvZDtiVSHVGtlN30L9ejALLPMYqPbajxNPfXUSTa6pr54LL3Tt5nUmJIrddUt7v1QkbPeeZIM2IFAioAMar2f5SEwOukIu+22W+rs/+3GdRDWntGReuk7Q2Q4S7LGRLaeUTtLhlGcOhsuvfTSRFfUwJdxkR25KHvvrem67ssNizvvvNO8TnmHtLy1SRq9dtl7JF7bCfz/IYS255XkoJe03GBKpFwtfUTPrXsNeenz9S7qidK3MhZZZJHwxBNP2LQQ70mNHqQ8mm3jgiFzKSgFlni8U045xY71L67nsKG9JIAdCHQRAS+fGt1Lu9VTmY/zdO2uNJ1pyimnNBeF0o248Du5WzX846I6O5Z+yPBWD5PiRScKSTxNJdTIYUsS58Pa6Ti/tSqahsHlcjAu7K4K5wACjRIoqhdkcKgjyKezKn+57qxH6tEBL/NyRZuWuHbPOsOkUxJ93EyieD6KoUaNphAiEChDIK5vsGhqLN93331VSWTceoeOypqM3s4Q1SsSfYfMRXWPXNSmxachyQ2zG+Gqe+RuVpIdbUinLdovo+ve6aaOrbjGIpnpIiMtrlu0rPUuQbo5gVhYaiTeck1YNiBan7awRnG1YMf/5P4sDmMl5+Qtx0ULkvSXleOPP97iK90///nPSpz7nbhR22677ZLoWpSq6+nvH//4RyV+L6PiHkPkPSdavBZXrgTdm4683mjBtxYfeVoWdCdI2WmFgMpMGfEyHxsfZaJXok99K49ahB0bLxV54Ig9pRYW/fsneURf5Em53W+//SpnnHFG4mZZ7jTjqJ3Fjes4knhyXKBFe3GqYRJWtKBbuiKd1HNqsVz8qnJFbp1dV15//fXkXthpbgJldKGRekHvcuUdRwwqhxxySEXvbC9/6Wv6u94demSPy+qAPD+5vsohgrwUuidC6UKc45380PI4qHuQLmlhbuwsS+6NBd0JpqbbSZfL1h4+fkMoKTNql+j9rjLuZVDvfXl1clEZ1LmsuCMCf+cXLejOOiqIH/Kz68sJiEQLtV2/5LlT9YXKsoe5K9r4HQ0LU9lX/aQF6r6g2nVC+fmC7qyDkmh8WPq4ZlDRTMroutpxzkb3p88RqL70ekrXjiMpniXbLiag3yNPckOLIqczSFciip/+UyWhl/LDDz+cTmKFQwUkK2qQyQDwAuV5xcWxiRtaTyMvAd4I83gyaOLiO49i2zjEV/XtAOUdR1PsPtWYQyBQhoDKWBnxslvWuJBnNL2wPZ2uo5e43PdlJQ4N2zkv70ojT2pximBVVLm1TTd+VJG5oSC3mhKv6OKHwZK0cZpH4l7TryGj59prr03isAOBMrrQSL0gj4Lpb63oOnH+udUh6Wuq8aJjNy6yx/qFyuiA4sVeWesQU37+pw6obMNMzyOd9M4q1TVXXnmlpZFxjzQngXS5LENAnUJ6v3tZ8238EGPi5tjzKTIu1IGrdG5cyNjVsbd93JVytgzLYFc8Ny50HXmBStc9alPFkXSL58aFjAPpYfq+1bZTPm7oqPOpHuOirK7HUZ6kE81ZqaNZdZKOZXQg3YOAfo886aPAeLJKtJAoJ7gqTkcdaN64vq49++yzh5YWCI0dOzYorhZ7R2UsvB2txxgzZkyQ56hGF0gVZs6JXk+go3VBeqY53JpTqi+gtiSaOqI/fYHb56Dmxdc8Xk3fSHsbyYuXDZPXNa35mGKKKWyIvqVrZNNy3PsJdLQu6F2tdXGxId/mdT5ldUDTQeTdUGs2sg4NNE1L+rDccssFeZJyUbgWmGouenq6op9n2/sJNKILetfHEYqgshkb9va+9/UPXUFM96M1FZq2rnZUS6IpUpoaldaDluK3dq6srmuNrdpv0fhp8zuhtXvifGMEinSh2xkXjT0eqSDQMQSKFKdjrkauEOi+BJpNF4YOHWpz4mVEaD661nXIDajmoMthiNY9yYMN0nwEmk0Xmu8X5onLEijSBYyLsgSJ15QEihSnKWHw0E1NoNl0Qb2r+saMFpiqp1m9p08//bSVgSFDhpizBHcd3dQFowkfvtl0oQl/Yh65JIEiXcC4KAmQaM1JoEhxmpMGT93MBJpRFzRFVx7Yhg8fbh/Vk0taeWaTh8LsNKpmLhvN9uzNqAvN9hvzvOUIFOkCxkU5fsRqUgJFitOkOHjsJiaALjTxj8+jVxFAF6pwcNDEBIp0oUO+c9HEnHl0CEAAAhCAAAQgAAEINC0BjIum/el5cAhAAAIQgAAEIAABCLQvAYyL9uVJbhCAAAQgAAEIQAACEGhaAhgXTfvT8+AQgAAEIAABCEAAAhBoXwIYF+3Lk9wgAAEIQAACEIAABCDQtAQwLpr2p+fBIQABCEAAAhCAAAQg0L4EMC7alye5QQACEIAABCAAAQhAoGkJ1HznQj5rEQhAAAIQgAAEIAABCEAAAi0RqFQqNaf7ZkMUqeijGNm4HEOgtxNAF3r7L8zzlSWALpQlRbzeTgBd6O2/MM9XloB0IU+YFpVHhTAIQAACEIAABCAAAQhAoG4CGBd1IyMBBCAAAQhAAAIQgAAEIJBHAOMijwphEIAABCAAAQhAAAIQgEDdBDAu6kZGAghAAAIQgAAEIAABCEAgjwDGRR4VwiAAAQhAAAIQgAAEIACBuglgXNSNjAQQgAAEIAABCEAAAhCAQB4BjIs8KoRBAAIQgAAEIAABCEAAAnUTwLioGxkJIAABCEAAAhCAAAQgAIE8AhgXeVQIgwAEIAABCEAAAhCAAATqJoBxUTcyEkAAAhCAAAQgAAEIQAACeQQwLvKoEAYBCEAAAhCAAAQgAAEI1E0A46JuZCSAAAQgAAEIQAACEIAABPII9M0LbCTs559/Do8//nh46KGHQp8+fcK8884b1lprrTDRRBM1kl149NFHw0cffRTWWWedMP744zeUB4kg0NEEfvjhh3DnnXdaOVd5z8r9998fxo4dG/r16xcWX3zxqtO//vpruOWWW8Ikk0wS/vKXv4Q77rgjjDvuuGGNNdaoipc9kJ598MEHNfr1xx9/hHHGob8gy4vjziNQqVTC0KFDay7Yt2/fMOecc4YBAwZY/VATgQAI9DICjejCrbfeanXJaqut1u403n333fDUU0+FJZdcMsw666ztnj8ZQqCKQFSAGokRasKKAn777bfKNttsU1Ga7N+0005buemmm4qSthgejQrLb/To0S3G4yQEOpJAa7rwyy+/VCaffHIrq19//XXVrUg3/NwCCyxQdU4Hjz32mKVbaqml7Jz0RfFbk80339zSjRo1yqLqujvttFPlpJNOai0p5yHQMIHWdEEZq8xn64H08RxzzFF55ZVXGr4HEkKgOxDoKF3Q+3/GGWfskEe88MILTTdPO+20DsmfTJuTQJEutGnkQj2lW2+9dbj66qtDrDTCuuuuG2Rxa8RBFvhtt90WNthgg3DvvfeGVVZZJd4DAoHeRWC88cYLyy67rI1ePPLIIzYC4U8YjYfwzTff2OFLL71kow2zzDKLn7ZRPh2suuqqSViZnYUWWih88sknYbLJJrPot99+ezj//PPDCSecUCY5cSDQKQROP/10u47qie+++y7cc889YeTIkWHppZcOY8aMsRG7TrkRLgKBLiaALnTxD8DlO51Am4yLgw46yAyL2WabLTz77LMhWt3JA2y//fZhk002CTfccEM48MADbTguOckOBHoRARnOmhqlhpOmN7ncddddtrveeuvZ9Ccd77jjjn46MS6GDBmShJXZ2X///YP+EAh0VwKqC/bcc8+q2zv00EPDSiutZOV+xIgRYf311686zwEEeiMBdKE3/qo8U2sE2jRB+7rrrrP8r7nmmirDwi969tlnB/Wyzj///OHbb7/1YDNENtpoI5uDq7noa6+9dnjwwQeT80U7n376adh5553DwgsvHGaaaSYbDYlDfVXRhw8fHtRYGzZsmFVkmud7wAEHVMXhAALtScBHHjRykRY1oFSxHH744Rassumi3lwZIzofp0V5sG2lC6uvvrqV8UGDBoVjjz1W8xSTOHH6k5Xxd955J1xyySXhuOOOs3MXX3yxhbuuKc2ZZ55pejDddNOFJZZYIhx88MHhp59+SvJiBwKdRUDrgRZccEG73Jdffplcdsstt7R39Kmnnmprk1T2ta5Iok6rluqKQw45xMr8e++9l+Sn9UiqAzbbbLMkTDtxiq6F33333TaarjgaXZShvsgii9i1VRc9//zzVek4gEB7EyjShbzraA2TDPH+/fsHvce1bkl1ita5puXzzz+38OWWW87K8t///vegst6SqM6Svmm9YFqHWkrDOQiUIpA3SywmzAuuCosNfZu/pzm09UhcwJrMyY3TSSorr7xycnzOOeckWWXXXMTFSFXz19dcc83keOONN07SKQ/df/pPcREINEKgjC4oX62XUFytwZB89tlnduxlT/NooyGRnI+NJjsfRzUsvv55HspH+9EwT8pxbAAl8dJrLqJBUYnGu8WTLi6//PIVX/sRK4wkvfRs7rnntmOt//jxxx+T/NiBQBkCZXTB11yorGflueees/nkyicaAMnpdLnXOf3FhaeVMnXFEUccYfHPPffcJD+fW658VG+4uD689dZblTiN0NL5taU7cQTewpQuTu31ZGwhUENAZaQ1aUQXpDfpNRdHHXVUUibVXho4cGByrLWuLnHaYWWxxRazc6oPBg8enMSTHklcL3zNRXSak7ShbrzxRs+KLQTqIlCkC7kaUhQ5fUV/8euFXVakAFIe5R894yTJnnzyyUQRovVs4VnjIq7lsDhqZMVeX4sT550nDas4/crC0sbFww8/XPn4448rb7/9dnItdiBQD4EyuqD8Nt10UyufWqQtufzyy+34rLPOsuPtttvOjuOohB3rBa+8040ib+jEdUqV33//3eLF0Q+Llzbi08aFIl1xxRUWJ665sDT6F0cTLUyGxPvvv2/hylMVkq575JFHJnHZgUAZAmV0wRtUiquy539ethUeR5WrLufnpENxRMMcHZStK9xIV33hEkc6rIzrWjK+JTKm/Z507MaFwlRPSFSvqDNAYWeccYaF8Q8CeQRURlqTRnQhbVyozLpupJ0geHspbcDvsMMOVm533XXXpH304osvWpg6ldTplTYulIe3xeKavdYehfMQKCRQpAsNT4vSglLJlFNOadsy/+ReVgtctcg7vsSTJHLRuddee9mxz1NPTsYdufvUFJOoaOHoo49OXBlqiPD444+3qFn3h1tttZUttJ1++unD7LPPns6OfQi0O4Hs1CgfjtaQs8S3KscSuWyW5LmdjYZH4lI29kBZuY8GcpDr2rJy5ZVXWlTNe/dF5BqK9ymCWguFQKAjCWh6kv/FkbzkUppGK/fMWdH0PtUnmiZYtq6IPblBa/40lVD6oemGWjiu6biS++67z7b//e9/bSunI2mJjTKrJxQmF+qqmySaYoJAoL0IuB5oW0YXdN3Ymgua6ho7cm1qud+L2jNqC6ktpTgS1SfRWDCnHirHkmjYW/p99903REPFwvTvmWeeMSciSq96SlOiEAi0N4GGjQt/eb/66qul70mFWqK531nxsLz8XnjhBYuuiiT7zQufr/7aa69VZRmt9apjDiDQkQRkBEi0jkIvfHlIi6MNwcuhGx+a463zajzpfJ7hm/ZBropirrnmsrzrWSvxxhtvWBqtsejXr1/y58aMvFd5xWQR+QeBdiSghk6cnpf8qXETe1KtIR9H2pLOpPQlZSS41FNXqHGkhpLWaWiNhva1jkP5PfDAA5alviEjyS4id92yk/GfOqwksafXtvyDQFsJNKILuqa+EaayPcEEE4Tdd9/d1gvpXT7NNNMkBore4ep8ffPNN+0dr28mpUWOdeRExD0L6txVV11lOqJ9db4iEOgIAg17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",
+            "type": "image"
+        }
+    },
+    "terminalCellId": "4eaac6da-3924-49fc-8bde-06dad724a39c",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

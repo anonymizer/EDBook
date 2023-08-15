@@ -1,0 +1,28 @@
+@use './vscode-vars.scss' as vsc;
+
+.red { color: vsc.$red; }
+.orange { color: vsc.$orange; }
+.yellow { color: vsc.$yellow; }
+.green { color: vsc.$green; }
+.blue { color: vsc.$blue; }
+.purple { color: vsc.$purple; }
+
+ul.no-bullets {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+@mixin no-bullet-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+@mixin flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin codicon-position-fix {
+    position: relative;
+    top: 3px;
+}

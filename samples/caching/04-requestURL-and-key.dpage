@@ -1,0 +1,890 @@
+{
+    "id": "cb565b67-b581-45a4-a92b-18837f6f02a9",
+    "cellsById": {
+        "9575fbac-1771-426f-a367-9dabb73a8161": {
+            "id": "9575fbac-1771-426f-a367-9dabb73a8161",
+            "source": "# Chapter 4 - The Full URL and Cache Key",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "8fc45ece-4d8f-4834-b515-18b01ece5d2a"
+            ],
+            "shortcutsTo": [],
+            "parentId": false
+        },
+        "8fc45ece-4d8f-4834-b515-18b01ece5d2a": {
+            "id": "8fc45ece-4d8f-4834-b515-18b01ece5d2a",
+            "source": "Hello again! We've learned some basic functions about how to store retrieved data to the cache.\n>\nNow let's take a look at some functions that can prepare us for retrieving data.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "7040edd8-0b9b-451d-8282-1326ab14556d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "9575fbac-1771-426f-a367-9dabb73a8161",
+            "fileDiff": {
+                "added": [
+                    "file_1.py",
+                    "file_2.py"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            1,
+                            "# ...(Same as the previous code, see `file_2.py`)"
+                        ]
+                    ],
+                    "file_2.py": [
+                        [
+                            1,
+                            "import requests\nimport json\nimport time\n\nCACHE_FNAME = \"cache.json\"\n\ndef _write_to_file(cache, fname):\n    with open(fname, 'w') as outfile:\n        outfile.write(json.dumps(cache, indent=2))\n\ndef _read_from_file(fname):\n    try:\n        with open(fname, 'r') as infile:\n            res = infile.read()\n            return json.loads(res)\n    except:\n        return {}\n\ndef add_to_cache(cache_file, cache_key, cache_value, expiration):\n    cache_data = _read_from_file(cache_file)\n    cache_data[cache_key] = {'data': cache_value, 'expiration': expiration}\n    _write_to_file(cache_data, cache_file)\n\ndef clear_cache(cache_file=CACHE_FNAME):\n    _write_to_file({}, cache_file)"
+                        ]
+                    ]
+                }
+            }
+        },
+        "7040edd8-0b9b-451d-8282-1326ab14556d": {
+            "id": "7040edd8-0b9b-451d-8282-1326ab14556d",
+            "source": "What functions do we want to write?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "6a1473fa-70d8-4add-9ae2-feed76e82613"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8fc45ece-4d8f-4834-b515-18b01ece5d2a"
+        },
+        "6a1473fa-70d8-4add-9ae2-feed76e82613": {
+            "id": "6a1473fa-70d8-4add-9ae2-feed76e82613",
+            "source": "There are two functions we are going to create today: \n>\n1. Get the full request URL of the data we want to retrieve\n>\n2. Create a unique identifier (key) for each cached data",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "78c8c788-96af-4467-b90e-2738a79b5a0c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7040edd8-0b9b-451d-8282-1326ab14556d"
+        },
+        "78c8c788-96af-4467-b90e-2738a79b5a0c": {
+            "id": "78c8c788-96af-4467-b90e-2738a79b5a0c",
+            "source": "Before we start, do you have prior knowledge of retrieving data from the web?",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "513de0ec-d582-44a3-b566-adabfeaa1546",
+                "2549e2d1-8c54-42d3-a1a3-73ec151c2659"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6a1473fa-70d8-4add-9ae2-feed76e82613"
+        },
+        "513de0ec-d582-44a3-b566-adabfeaa1546": {
+            "id": "513de0ec-d582-44a3-b566-adabfeaa1546",
+            "source": "Yes, I’m familiar with it.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b22466c4-cfa8-4385-a50c-3c236e70004f"
+            ],
+            "shortcutsTo": [],
+            "parentId": "78c8c788-96af-4467-b90e-2738a79b5a0c"
+        },
+        "b22466c4-cfa8-4385-a50c-3c236e70004f": {
+            "id": "b22466c4-cfa8-4385-a50c-3c236e70004f",
+            "source": "Good! Let’s start with the first function.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "0d416159-ca9f-403f-af0f-6d5571326fda"
+            ],
+            "shortcutsTo": [],
+            "parentId": "513de0ec-d582-44a3-b566-adabfeaa1546"
+        },
+        "3c48961a-f660-4461-b4ac-8855e1e23bc3": {
+            "id": "3c48961a-f660-4461-b4ac-8855e1e23bc3",
+            "source": "In order to make an HTTP request successfully, we’ll need a full URL, which consists of a base URL and parameters. So, the function should take the base URL `baseurl` and parameters `params = {}` as inputs. \n>\nThen it uses the request library `requests` we imported at the beginning and combines the base URL and parameters into a correctly formatted URL.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "0ae2b751-7166-4abb-b2ac-d04492d512c9",
+                "c2f2b197-d6e6-4161-9118-e958d009dcff"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0d416159-ca9f-403f-af0f-6d5571326fda",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "# ...(Same as the previous code, see `file_2.py`)\n\ndef requestURL(baseurl, params = {}):\n    # This function accepts a URL path and a params diction as inputs.\n    # It calls requests.get() with those inputs,\n    # and returns the full URL of the data you want to get.\n    req = requests.Request(method = 'GET', url = baseurl, params = params)\n    prepped = req.prepare()\n    return prepped.url"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 3,
+                    "startColumn": 1,
+                    "endLineNumber": 3,
+                    "endColumn": 38
+                }
+            ]
+        },
+        "0ae2b751-7166-4abb-b2ac-d04492d512c9": {
+            "id": "0ae2b751-7166-4abb-b2ac-d04492d512c9",
+            "source": "Why do we need this function?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b6e5a9b1-78ec-434f-86fe-d4ee9e2b1dbc"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3c48961a-f660-4461-b4ac-8855e1e23bc3"
+        },
+        "b6e5a9b1-78ec-434f-86fe-d4ee9e2b1dbc": {
+            "id": "b6e5a9b1-78ec-434f-86fe-d4ee9e2b1dbc",
+            "source": "We will use this function to add the full URL as useful information to the query.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "6e9b309a-5ec4-41bf-a143-0689934853db"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0ae2b751-7166-4abb-b2ac-d04492d512c9"
+        },
+        "6e9b309a-5ec4-41bf-a143-0689934853db": {
+            "id": "6e9b309a-5ec4-41bf-a143-0689934853db",
+            "source": "I see. Let’s move on to the second function.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "db7f4735-e488-4b16-84c5-b2333781ac00"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b6e5a9b1-78ec-434f-86fe-d4ee9e2b1dbc"
+        },
+        "b9127d24-de94-4340-b1b8-32731b8274f9": {
+            "id": "b9127d24-de94-4340-b1b8-32731b8274f9",
+            "source": "Great! The second function `make_cache_key` is used to create a long-string key that represents the query. \n>\nThis is the unique identifier for data in the cache file.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "50f23be2-e8ce-4e59-ba15-74406ff8f3fd"
+            ],
+            "shortcutsTo": [],
+            "parentId": "db7f4735-e488-4b16-84c5-b2333781ac00",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "# ...(rest is same. See `file_2.py`.)\n"
+                        ],
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "    return prepped.url\n\ndef make_cache_key(baseurl, params_d):\n    alphabetized_keys = sorted(params_d.keys())\n    res = []\n    for k in alphabetized_keys:\n        val = params_d[k]\n        if type(val) == list:\n            val = ','.join([str(item) for item in val])\n        res.append(\"{}-{}\".format(k, val))\n    return baseurl + \"_\".join(res)"
+                        ]
+                    ]
+                }
+            }
+        },
+        "50f23be2-e8ce-4e59-ba15-74406ff8f3fd": {
+            "id": "50f23be2-e8ce-4e59-ba15-74406ff8f3fd",
+            "source": "This function takes the base URL `baseurl` and the dictionary of parameters `params_d` as input.\n- First, it alphabetizes the parameters into sorted key-value parameter pairs, to ensure a consistent order for the same URL with different ordered parameters. \n>\n- Then, it constructs the key by combining the base URL and the sorted key-value parameter pairs. \n>\nThe unique cache key created will be stored in the cache dictionary and later be referenced.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "d69ea67f-1f10-416e-82e9-87847aed6f00"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b9127d24-de94-4340-b1b8-32731b8274f9",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "# ...(Same as the previous code, see `file_2.py`)\n"
+                        ],
+                        [
+                            0,
+                            18
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 11,
+                    "startColumn": 1,
+                    "endLineNumber": 11,
+                    "endColumn": 39
+                }
+            ]
+        },
+        "d69ea67f-1f10-416e-82e9-87847aed6f00": {
+            "id": "d69ea67f-1f10-416e-82e9-87847aed6f00",
+            "source": "Can you give me an example of the output?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "2f349b18-1400-4a23-8562-4ce16b2b93a0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "50f23be2-e8ce-4e59-ba15-74406ff8f3fd"
+        },
+        "2f349b18-1400-4a23-8562-4ce16b2b93a0": {
+            "id": "2f349b18-1400-4a23-8562-4ce16b2b93a0",
+            "source": "Of course. This is an example of how to create the key based on the base URL and parameters:\n>\n```python\nbase_url = 'https://api.example.com/data'\nparams = {'param2': 'value2', 'param1': 'value1'}\nmake_cache_key(base_url, params)\n```\nAnd the output should be:\n```python\n'https://api.example.com/data_param1-value1_param2-value2'\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "50bbfb07-783a-4496-bf33-055d478d5692",
+                "8cc6a507-2d02-48b1-b91a-7b2791834d1c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d69ea67f-1f10-416e-82e9-87847aed6f00"
+        },
+        "50bbfb07-783a-4496-bf33-055d478d5692": {
+            "id": "50bbfb07-783a-4496-bf33-055d478d5692",
+            "source": "I see. Thanks for the clarification!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "473497ba-fdc5-4aa9-b680-a667ccbbfa17"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2f349b18-1400-4a23-8562-4ce16b2b93a0"
+        },
+        "473497ba-fdc5-4aa9-b680-a667ccbbfa17": {
+            "id": "473497ba-fdc5-4aa9-b680-a667ccbbfa17",
+            "source": "You're welcome. \n>\nWe've learned how to get the full URL and create the identifier - cache key. \n>\nIn the next chapter, we'll learn how to actually get cached data. \n>\nSee you! ",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "4b0613a2-8470-459b-8014-84fe2b105f05"
+            ],
+            "shortcutsTo": [],
+            "parentId": "50bbfb07-783a-4496-bf33-055d478d5692"
+        },
+        "2549e2d1-8c54-42d3-a1a3-73ec151c2659": {
+            "id": "2549e2d1-8c54-42d3-a1a3-73ec151c2659",
+            "source": "I'd like to learn more!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "11a69905-6c20-4a92-9869-d088d9b6c384"
+            ],
+            "shortcutsTo": [],
+            "parentId": "78c8c788-96af-4467-b90e-2738a79b5a0c"
+        },
+        "11a69905-6c20-4a92-9869-d088d9b6c384": {
+            "id": "11a69905-6c20-4a92-9869-d088d9b6c384",
+            "source": "Sure! Making an HTTP request to retrieve data involves: \n1. sending an HTTP request to a server, and \n2. receiving a response from the server containing the requested data.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "157c13e0-9fa5-427c-971e-3cf738027e5a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2549e2d1-8c54-42d3-a1a3-73ec151c2659"
+        },
+        "157c13e0-9fa5-427c-971e-3cf738027e5a": {
+            "id": "157c13e0-9fa5-427c-971e-3cf738027e5a",
+            "source": "What does the full URL do during the process?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "2c60c72a-e531-412c-bb02-959781f0d5d3"
+            ],
+            "shortcutsTo": [],
+            "parentId": "11a69905-6c20-4a92-9869-d088d9b6c384"
+        },
+        "2c60c72a-e531-412c-bb02-959781f0d5d3": {
+            "id": "2c60c72a-e531-412c-bb02-959781f0d5d3",
+            "source": "To request data from a server, you need to construct the full URL. \n>\nIt usually consists of **a base URL** that identifies the server and the endpoint you want to interact with, along with any **query parameters**. \n>\nQuery parameters are used to specify the details of the request, such as filtering data or providing search criteria.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "d711a293-21dd-4024-b551-9e9eb7a92bd1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "157c13e0-9fa5-427c-971e-3cf738027e5a"
+        },
+        "d711a293-21dd-4024-b551-9e9eb7a92bd1": {
+            "id": "d711a293-21dd-4024-b551-9e9eb7a92bd1",
+            "source": "I see.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "17d9be22-9617-4bd8-a805-02e6d5fb619a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2c60c72a-e531-412c-bb02-959781f0d5d3"
+        },
+        "17d9be22-9617-4bd8-a805-02e6d5fb619a": {
+            "id": "17d9be22-9617-4bd8-a805-02e6d5fb619a",
+            "source": "Once you have the URL, you can use the `requests` library to make the request. \n>\nThe most common method for retrieving data is the `GET` method. The `GET` method is used to retrieve data from the server without changing anything on the server.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "09a2ce68-b539-4eb7-a60d-58927b34cda7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d711a293-21dd-4024-b551-9e9eb7a92bd1"
+        },
+        "09a2ce68-b539-4eb7-a60d-58927b34cda7": {
+            "id": "09a2ce68-b539-4eb7-a60d-58927b34cda7",
+            "source": "The library then sends the request to the server over the internet. \n>\nThe request includes the method (`GET`), the URL with any query parameters, and headers (optional, we do not include them in our project) that provide additional information to the server, such as authentication credentials or content types\n>\nHere's an example of using the `GET` method to retrieve data from a sever:\n```Python\nresp = requests.get(baseurl, params)\n```\nThen you have the data in the `resp` object.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "17b5555f-0a2b-4446-9cf2-f06c3b58af0d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "17d9be22-9617-4bd8-a805-02e6d5fb619a"
+        },
+        "17b5555f-0a2b-4446-9cf2-f06c3b58af0d": {
+            "id": "17b5555f-0a2b-4446-9cf2-f06c3b58af0d",
+            "source": "So then we can get the data we want from the server?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "df66bb70-ae5d-4a67-bffd-8c4a023f351d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "09a2ce68-b539-4eb7-a60d-58927b34cda7"
+        },
+        "df66bb70-ae5d-4a67-bffd-8c4a023f351d": {
+            "id": "df66bb70-ae5d-4a67-bffd-8c4a023f351d",
+            "source": "That's correct. You now have the data you want!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "17b5555f-0a2b-4446-9cf2-f06c3b58af0d"
+        },
+        "c2f2b197-d6e6-4161-9118-e958d009dcff": {
+            "id": "c2f2b197-d6e6-4161-9118-e958d009dcff",
+            "source": "Can you give me an example of the output?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "a211ecce-5321-4e4b-b75e-78051b710a73"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3c48961a-f660-4461-b4ac-8855e1e23bc3"
+        },
+        "a211ecce-5321-4e4b-b75e-78051b710a73": {
+            "id": "a211ecce-5321-4e4b-b75e-78051b710a73",
+            "source": "Sure! This is an example of how this function works:\n```python\nbase_url = 'https://api.example.com/data'\nparams = {'param1': 'value1', 'param2': 'value2'}\nrequestURL(base_url, params)\n```\nThe output should be\n```python \n'https://api.example.com/data?param1=value1&param2=value2'\n```\n>\nDo you want me to explain this function line by line?",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "bc4836ec-164a-4f31-8b3a-e7e586e6b2aa"
+            ],
+            "shortcutsTo": [],
+            "parentId": "c2f2b197-d6e6-4161-9118-e958d009dcff"
+        },
+        "bc4836ec-164a-4f31-8b3a-e7e586e6b2aa": {
+            "id": "bc4836ec-164a-4f31-8b3a-e7e586e6b2aa",
+            "source": "Yes, please!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "a29c206a-b04c-4e3b-8201-1b66e19a15a8"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a211ecce-5321-4e4b-b75e-78051b710a73"
+        },
+        "a29c206a-b04c-4e3b-8201-1b66e19a15a8": {
+            "id": "a29c206a-b04c-4e3b-8201-1b66e19a15a8",
+            "source": "Sure! \n>\nHere, we create an HTTP request object using the provided baseurl and parameters. The method `GET` indicates that we want to retrieve data. \n>\nWe use the `baseurl` as the starting point for the request, and the params dictionary `params` contains additional information that may modify the request.\n```python\nreq = requests.Request(method = 'GET', url = baseurl, params = params)\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "ec3ccf0d-fc94-4d71-8120-bbc225259645"
+            ],
+            "shortcutsTo": [],
+            "parentId": "bc4836ec-164a-4f31-8b3a-e7e586e6b2aa",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 7,
+                    "startColumn": 5,
+                    "endLineNumber": 7,
+                    "endColumn": 75
+                }
+            ]
+        },
+        "ec3ccf0d-fc94-4d71-8120-bbc225259645": {
+            "id": "ec3ccf0d-fc94-4d71-8120-bbc225259645",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "cf34b4bb-f971-4bcf-aaa0-bb25f3fe683d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a29c206a-b04c-4e3b-8201-1b66e19a15a8"
+        },
+        "cf34b4bb-f971-4bcf-aaa0-bb25f3fe683d": {
+            "id": "cf34b4bb-f971-4bcf-aaa0-bb25f3fe683d",
+            "source": "This prepares the request by converting it into a format that can be sent over the internet. \n>\nIt takes the request object and prepares it for execution.\n```python\nprepped = req.prepare()\n```\n",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "fb468243-cbcd-4b7c-8b11-f978e352d60d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ec3ccf0d-fc94-4d71-8120-bbc225259645",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 8,
+                    "startColumn": 5,
+                    "endLineNumber": 8,
+                    "endColumn": 28
+                }
+            ]
+        },
+        "fb468243-cbcd-4b7c-8b11-f978e352d60d": {
+            "id": "fb468243-cbcd-4b7c-8b11-f978e352d60d",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "61f89fe4-3060-422e-9fef-64c53a375a76"
+            ],
+            "shortcutsTo": [],
+            "parentId": "cf34b4bb-f971-4bcf-aaa0-bb25f3fe683d"
+        },
+        "61f89fe4-3060-422e-9fef-64c53a375a76": {
+            "id": "61f89fe4-3060-422e-9fef-64c53a375a76",
+            "source": "Finally, we return the full URL of the data we want to get. \n>\nThis URL includes the baseurl and any parameters, forming a complete request.\n```python\nreturn prepped.url\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "e28eb70f-9c86-44a8-ba91-2160d89cb742"
+            ],
+            "shortcutsTo": [],
+            "parentId": "fb468243-cbcd-4b7c-8b11-f978e352d60d",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 9,
+                    "startColumn": 5,
+                    "endLineNumber": 9,
+                    "endColumn": 23
+                }
+            ]
+        },
+        "e28eb70f-9c86-44a8-ba91-2160d89cb742": {
+            "id": "e28eb70f-9c86-44a8-ba91-2160d89cb742",
+            "source": "Understood. Thanks!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "c9667e81-f8cf-46fc-851e-e826c3b12377"
+            ],
+            "shortcutsTo": [],
+            "parentId": "61f89fe4-3060-422e-9fef-64c53a375a76"
+        },
+        "c9667e81-f8cf-46fc-851e-e826c3b12377": {
+            "id": "c9667e81-f8cf-46fc-851e-e826c3b12377",
+            "source": "You're welcome. ",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "e28eb70f-9c86-44a8-ba91-2160d89cb742"
+        },
+        "8cc6a507-2d02-48b1-b91a-7b2791834d1c": {
+            "id": "8cc6a507-2d02-48b1-b91a-7b2791834d1c",
+            "source": "I’m still confused. Can you explain the code line by line?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "3f1c536d-ad0c-4d4f-9dda-2e246c484ed7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2f349b18-1400-4a23-8562-4ce16b2b93a0"
+        },
+        "3f1c536d-ad0c-4d4f-9dda-2e246c484ed7": {
+            "id": "3f1c536d-ad0c-4d4f-9dda-2e246c484ed7",
+            "source": "Sure! Let's break it down.\n>\nThe function starts by creating a new list called `alphabetized_keys` using Python `sorted()`function. It creates a list that contains all the keys from the `params_d` dictionary in alphabetical order. \n>\nThis is done to ensure that the cache key is consistent and predictable, regardless of the original order of the keys in the dictionary.\n```python\nalphabetized_keys = sorted(params_d.keys())\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "49474fc3-2889-4225-ae41-150433f687bc"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8cc6a507-2d02-48b1-b91a-7b2791834d1c",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 12,
+                    "startColumn": 5,
+                    "endLineNumber": 12,
+                    "endColumn": 48
+                }
+            ]
+        },
+        "49474fc3-2889-4225-ae41-150433f687bc": {
+            "id": "49474fc3-2889-4225-ae41-150433f687bc",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "1c7262ee-8f65-4c02-9934-a2599425587a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3f1c536d-ad0c-4d4f-9dda-2e246c484ed7"
+        },
+        "1c7262ee-8f65-4c02-9934-a2599425587a": {
+            "id": "1c7262ee-8f65-4c02-9934-a2599425587a",
+            "source": "Then it creates an empty list called `res`(which indicates 'result'), which will be used to store the parts of the cache key.\n```python\nres = []\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "765e51ce-64da-42c9-bdf1-f9bc005539d3"
+            ],
+            "shortcutsTo": [],
+            "parentId": "49474fc3-2889-4225-ae41-150433f687bc",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 13,
+                    "startColumn": 5,
+                    "endLineNumber": 13,
+                    "endColumn": 13
+                }
+            ]
+        },
+        "765e51ce-64da-42c9-bdf1-f9bc005539d3": {
+            "id": "765e51ce-64da-42c9-bdf1-f9bc005539d3",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "78e60a60-4ac3-4251-9c69-48e5392828d9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "1c7262ee-8f65-4c02-9934-a2599425587a"
+        },
+        "78e60a60-4ac3-4251-9c69-48e5392828d9": {
+            "id": "78e60a60-4ac3-4251-9c69-48e5392828d9",
+            "source": "Next, the function iterates through each key (in alphabetical order) in the `alphabetized_keys` list and pair its value.\n```python\nfor k in alphabetized_keys:\n    val = params_d[k]\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "008a94ce-8428-4f67-b8f1-4c48cf2746b7"
+            ],
+            "shortcutsTo": [],
+            "parentId": "765e51ce-64da-42c9-bdf1-f9bc005539d3",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 14,
+                    "startColumn": 5,
+                    "endLineNumber": 14,
+                    "endColumn": 32
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 15,
+                    "startColumn": 9,
+                    "endLineNumber": 15,
+                    "endColumn": 26
+                }
+            ]
+        },
+        "008a94ce-8428-4f67-b8f1-4c48cf2746b7": {
+            "id": "008a94ce-8428-4f67-b8f1-4c48cf2746b7",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "f7f549e2-ba35-444b-b8f5-98cfe5e86c89"
+            ],
+            "shortcutsTo": [],
+            "parentId": "78e60a60-4ac3-4251-9c69-48e5392828d9"
+        },
+        "f7f549e2-ba35-444b-b8f5-98cfe5e86c89": {
+            "id": "f7f549e2-ba35-444b-b8f5-98cfe5e86c89",
+            "source": "This line the function checks if the value is a list. \n>\nIf so, the function converts it into a string representation by joining its elements with commas. \n>\nThis is done to handle cases where the value is a list of items.\n```python\nif type(val) == list:\n    val = ','.join([str(item) for item in val])\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "8412747c-e108-46bf-8760-d6c3382e9d25"
+            ],
+            "shortcutsTo": [],
+            "parentId": "008a94ce-8428-4f67-b8f1-4c48cf2746b7",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 16,
+                    "startColumn": 9,
+                    "endLineNumber": 17,
+                    "endColumn": 56
+                }
+            ]
+        },
+        "8412747c-e108-46bf-8760-d6c3382e9d25": {
+            "id": "8412747c-e108-46bf-8760-d6c3382e9d25",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "be38536b-43b3-4f85-9881-750e235a62f2"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f7f549e2-ba35-444b-b8f5-98cfe5e86c89"
+        },
+        "be38536b-43b3-4f85-9881-750e235a62f2": {
+            "id": "be38536b-43b3-4f85-9881-750e235a62f2",
+            "source": "The key and its value are then combined using a hyphen (-) and added to the res list. \n>\nThis step creates a part of the cache key for each key-value pair in the `params_d` dictionary.\n```python\nres.append(\"{}-{}\".format(k, val))\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "361004be-42d2-4b19-bf7b-93eba92d3df0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8412747c-e108-46bf-8760-d6c3382e9d25",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 18,
+                    "startColumn": 9,
+                    "endLineNumber": 18,
+                    "endColumn": 43
+                }
+            ]
+        },
+        "361004be-42d2-4b19-bf7b-93eba92d3df0": {
+            "id": "361004be-42d2-4b19-bf7b-93eba92d3df0",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "a68dc33b-8b9a-4d98-ab5c-bff88b19d5d0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "be38536b-43b3-4f85-9881-750e235a62f2"
+        },
+        "a68dc33b-8b9a-4d98-ab5c-bff88b19d5d0": {
+            "id": "a68dc33b-8b9a-4d98-ab5c-bff88b19d5d0",
+            "source": "After iterating through all the keys, the function joins all the parts of the cache key stored in the res list using underscores ( `_` ). \n>\nThe result is a long\nstring that represents the cache key. \n>\nFinally, the function appends this cache key string to the baseurl and returns the complete cache key.\n```python\nreturn baseurl + \"_\".join(res)\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "bd3c2317-8143-4f98-bea9-15ab89cbfe78"
+            ],
+            "shortcutsTo": [],
+            "parentId": "361004be-42d2-4b19-bf7b-93eba92d3df0",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 19,
+                    "startColumn": 5,
+                    "endLineNumber": 19,
+                    "endColumn": 35
+                }
+            ]
+        },
+        "bd3c2317-8143-4f98-bea9-15ab89cbfe78": {
+            "id": "bd3c2317-8143-4f98-bea9-15ab89cbfe78",
+            "source": "I see. Thanks for the clarification!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b98cfe5d-c456-4fb6-beb6-128b5fa69219"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a68dc33b-8b9a-4d98-ab5c-bff88b19d5d0"
+        },
+        "b98cfe5d-c456-4fb6-beb6-128b5fa69219": {
+            "id": "b98cfe5d-c456-4fb6-beb6-128b5fa69219",
+            "source": "You're welcome!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "bd3c2317-8143-4f98-bea9-15ab89cbfe78"
+        },
+        "4b0613a2-8470-459b-8014-84fe2b105f05": {
+            "id": "4b0613a2-8470-459b-8014-84fe2b105f05",
+            "source": "## Quiz\n:::multiple-choice\nWhat is the purpose of the `make_cache_key(baseurl, params_d)` function?\n::option[To fetch data from the internet using the base URL and parameters.]{feedback=\"Wrong!\"}\n::option[To create a long string representing the query from the parameters.]{correct feedback=\"Correct!\"}\n::option[To sort the parameters alphabetically for caching purposes.]{feedback=\"Wrong!\"}\n::option[To prepare the request URL for use with the `requests` library.]{feedback=\"Wrong!\"}\n:::",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "4b0613a2-8470-459b-8014-84fe2b105f05-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "4b0613a2-8470-459b-8014-84fe2b105f05-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "4b0613a2-8470-459b-8014-84fe2b105f05-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "4b0613a2-8470-459b-8014-84fe2b105f05-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "4b0613a2-8470-459b-8014-84fe2b105f05-option-4",
+                    "type": "option"
+                }
+            ],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "473497ba-fdc5-4aa9-b680-a667ccbbfa17"
+        },
+        "0d416159-ca9f-403f-af0f-6d5571326fda": {
+            "id": "0d416159-ca9f-403f-af0f-6d5571326fda",
+            "source": ">\n### 4.1 - The `requestURL` function",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "3c48961a-f660-4461-b4ac-8855e1e23bc3"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b22466c4-cfa8-4385-a50c-3c236e70004f"
+        },
+        "db7f4735-e488-4b16-84c5-b2333781ac00": {
+            "id": "db7f4735-e488-4b16-84c5-b2333781ac00",
+            "source": ">\n### 4.2 - The `make_cache_key` fundtion",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "b9127d24-de94-4340-b1b8-32731b8274f9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6e9b309a-5ec4-41bf-a143-0689934853db"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "var(--vscode-charts-black)",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "4b0613a2-8470-459b-8014-84fe2b105f05",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

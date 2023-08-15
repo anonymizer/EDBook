@@ -1,0 +1,164 @@
+{
+    "name": "ANONYMIZED",
+    "displayName": "umgamma",
+    "description": "",
+    "publisher": "ANON",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./dist/extension.js",
+    "browser": "./dist/extension.js",
+    "capabilities": {
+        "virtualWorkspaces": true
+    },
+    "contributes": {
+        "commands": [
+            {
+                "command": "ANONYMIZED.new",
+                "title": "Create DPage"
+            }
+        ],
+        "customEditors": [
+            {
+                "viewType": "ANONYMIZED.dpage",
+                "displayName": "DPage Editor",
+                "selector": [
+                    {
+                        "filenamePattern": "*.dpage"
+                    }
+                ]
+            }
+        ],
+        "configuration": [
+            {
+                "title": "Gamma",
+                "properties": {
+                    "gamma.apiKey": {
+                        "type": "string",
+                        "default": "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "markdownDescription": "Enter an API key generated from the [OpenAI API keys site](https://platform.openai.com/account/api-keys)",
+                        "minLength": 35,
+                        "maxLength": 60,
+                        "pattern": "^sk-[a-zA-Z0-9-]{32,}"
+                    }
+                }
+            }
+        ]
+    },
+    "scripts": {
+        "test": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=.",
+        "pretest": "npm run compile",
+        "vscode:prepublish": "npm run package",
+        "compile": "npx webpack",
+        "watch": "npx webpack --watch",
+        "package": "npx webpack --mode production --devtool hidden-source-map",
+        "lint": "eslint src --ext ts",
+        "in-browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. ./samples",
+        "gen-vsix": "npx vsce package",
+        "deploy-ghpages": "node ./vscode-web/build-web.js"
+    },
+    "devDependencies": {
+        "@types/diff": "^5.0.3",
+        "@types/mocha": "^10.0.1",
+        "@types/react": "^18.2.14",
+        "@types/react-beautiful-dnd": "^13.1.4",
+        "@types/react-dom": "^18.2.6",
+        "@types/react-syntax-highlighter": "^15.5.7",
+        "@types/redux-logger": "^3.0.9",
+        "@types/vscode": "^1.79.0",
+        "@types/webpack-env": "^1.18.1",
+        "@typescript-eslint/eslint-plugin": "^5.61.0",
+        "@typescript-eslint/parser": "^5.61.0",
+        "@vscode/test-web": "^0.0.44",
+        "assert": "^2.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.8.1",
+        "eslint": "^8.41.0",
+        "eslint-config-react-app": "^7.0.1",
+        "eslint-plugin-react": "^7.32.2",
+        "express": "^4.18.2",
+        "gh-pages": "^5.0.0",
+        "html-webpack-plugin": "^5.5.3",
+        "mocha": "^10.2.0",
+        "process": "^0.11.10",
+        "raw-loader": "^4.0.2",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.63.6",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "ts-loader": "^9.4.4",
+        "typescript": "^5.1.6",
+        "vsce": "^2.15.0",
+        "webpack": "^5.85.0",
+        "webpack-cli": "^5.1.1",
+        "yarn": "^1.22.19"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "@fortawesome/fontawesome-svg-core": "^6.4.0",
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@jcubic/lips": "^1.0.0-beta.16",
+        "@monaco-editor/react": "^4.5.1",
+        "@reduxjs/toolkit": "^1.9.5",
+        "@types/i18next": "^13.0.0",
+        "@types/react-i18next": "^8.1.0",
+        "@types/vscode-webview": "^1.57.1",
+        "@vscode/codicons": "^0.0.33",
+        "@vscode/webview-ui-toolkit": "^1.2.2",
+        "axios": "^1.4.0",
+        "buffer": "^6.0.3",
+        "classnames": "^2.3.2",
+        "css-modules-typescript-loader": "^4.0.1",
+        "diff": "^5.0.0",
+        "fs-extra": "^11.1.1",
+        "i18next": "^23.4.4",
+        "immutability-helper": "^3.1.1",
+        "monaco-editor": "^0.41.0",
+        "openai": "^3.3.0",
+        "pyodide": "^0.23.4",
+        "react": "^18.2.0",
+        "react-beautiful-dnd": "^13.1.1",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^13.0.3",
+        "react-markdown": "^8.0.7",
+        "react-redux": "^8.1.1",
+        "react-syntax-highlighter": "^15.5.0",
+        "redux-logger": "^3.0.6",
+        "rehype-katex": "^6.0.3",
+        "rehype-stringify": "^9.0.3",
+        "remark-directive": "^2.0.1",
+        "remark-directive-rehype": "^0.4.2",
+        "remark-gfm": "^3.0.1",
+        "remark-math": "^5.1.1",
+        "remark-parse": "^10.0.2",
+        "remark-rehype": "^10.1.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "babelMacros": {
+        "fontawesome-svg-core": {
+            "license": "free"
+        }
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "ANONYMIZED"
+    }
+}

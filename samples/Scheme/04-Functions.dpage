@@ -1,0 +1,888 @@
+{
+    "id": "0267e376-bbde-42d7-9c9d-0de8b80f93bd",
+    "cellsById": {
+        "0393dbe2-3bb1-4c54-9292-a068a73efdea": {
+            "id": "0393dbe2-3bb1-4c54-9292-a068a73efdea",
+            "source": "Good morning!",
+            "type": "message",
+            "parentId": false,
+            "childrenIds": [
+                "f13ede86-09a3-4ccf-af57-443fb4f47adc"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "f13ede86-09a3-4ccf-af57-443fb4f47adc": {
+            "id": "f13ede86-09a3-4ccf-af57-443fb4f47adc",
+            "source": "Good morning! Are you guys ready for the next class?",
+            "type": "message",
+            "parentId": "0393dbe2-3bb1-4c54-9292-a068a73efdea",
+            "childrenIds": [
+                "545d1305-165f-41d8-839c-54b4f3ee2d24"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "545d1305-165f-41d8-839c-54b4f3ee2d24": {
+            "id": "545d1305-165f-41d8-839c-54b4f3ee2d24",
+            "source": "Yes! I wish we could learn something that can really ‘do’ things. ",
+            "type": "message",
+            "parentId": "f13ede86-09a3-4ccf-af57-443fb4f47adc",
+            "childrenIds": [
+                "396d4860-a890-411c-a602-d73e42230047"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "396d4860-a890-411c-a602-d73e42230047": {
+            "id": "396d4860-a890-411c-a602-d73e42230047",
+            "source": "Yeah, I think so too. Until now, we only learned basic syntax or structure of Scheme.",
+            "type": "message",
+            "parentId": "545d1305-165f-41d8-839c-54b4f3ee2d24",
+            "childrenIds": [
+                "e59a29eb-46c9-4558-9b02-3ae4803503b4"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "a08e9b19-7417-4edc-97d2-7364a4e0a5d2": {
+            "id": "a08e9b19-7417-4edc-97d2-7364a4e0a5d2",
+            "source": "Sounds good! Today, we’ll learn functions.\n",
+            "type": "message",
+            "parentId": "e59a29eb-46c9-4558-9b02-3ae4803503b4",
+            "childrenIds": [
+                "ecc491fb-e870-4864-8450-abd34b98c25f",
+                "e677330c-bcf0-40ad-b7f8-a465109daa9d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "ecc491fb-e870-4864-8450-abd34b98c25f": {
+            "id": "ecc491fb-e870-4864-8450-abd34b98c25f",
+            "source": "Sounds fun.",
+            "type": "message",
+            "parentId": "a08e9b19-7417-4edc-97d2-7364a4e0a5d2",
+            "childrenIds": [
+                "906ad7ed-a22f-4954-9652-bcaf52d497c0"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "0bf43acd-d46c-4f87-833a-400909f991a9": {
+            "id": "0bf43acd-d46c-4f87-833a-400909f991a9",
+            "source": "In Scheme, we can define a function by using `define`. The `define` procedure needs two arguments:\n\n- Name and parameters of the function\n- Body of the function\n",
+            "type": "message",
+            "parentId": "906ad7ed-a22f-4954-9652-bcaf52d497c0",
+            "childrenIds": [
+                "a9382e2b-eede-4bdb-9e98-a10ece9df92e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "a9382e2b-eede-4bdb-9e98-a10ece9df92e": {
+            "id": "a9382e2b-eede-4bdb-9e98-a10ece9df92e",
+            "source": "Can you give us some examples?",
+            "type": "message",
+            "parentId": "0bf43acd-d46c-4f87-833a-400909f991a9",
+            "childrenIds": [
+                "fbf9706f-7b80-4492-bdfa-c84b0ded13af"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "fbf9706f-7b80-4492-bdfa-c84b0ded13af": {
+            "id": "fbf9706f-7b80-4492-bdfa-c84b0ded13af",
+            "source": "Of course. Let’s say we want to write a function that returns the average value of two numbers:\n```scheme\n(define (average 1st-number 2nd-number)\n    (/ (+ 1st-number 2nd-number) 2))\n```",
+            "type": "message",
+            "parentId": "a9382e2b-eede-4bdb-9e98-a10ece9df92e",
+            "childrenIds": [
+                "e865ba7e-0acc-460f-8e86-aa19fdd77415"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "e865ba7e-0acc-460f-8e86-aa19fdd77415": {
+            "id": "e865ba7e-0acc-460f-8e86-aa19fdd77415",
+            "source": "Is the `average` the name of the function?",
+            "type": "message",
+            "parentId": "fbf9706f-7b80-4492-bdfa-c84b0ded13af",
+            "childrenIds": [
+                "0dd7aeab-2eab-4132-a3f6-b4cc78ab1121"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "0dd7aeab-2eab-4132-a3f6-b4cc78ab1121": {
+            "id": "0dd7aeab-2eab-4132-a3f6-b4cc78ab1121",
+            "source": "Yes, that’s correct. The first argument to `define` gives the name of the function, which we've chosen as `average`.",
+            "type": "message",
+            "parentId": "e865ba7e-0acc-460f-8e86-aa19fdd77415",
+            "childrenIds": [
+                "cbad4700-878e-4941-95b1-ff5c42d595bc"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "cbad4700-878e-4941-95b1-ff5c42d595bc": {
+            "id": "cbad4700-878e-4941-95b1-ff5c42d595bc",
+            "source": "Then what about `1st-number 2nd-number`?",
+            "type": "message",
+            "parentId": "0dd7aeab-2eab-4132-a3f6-b4cc78ab1121",
+            "childrenIds": [
+                "c04059d1-a4db-4d64-a972-0f5acd045087"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "a5c69482-0a34-4ccc-b5e2-48161c519878": {
+            "id": "a5c69482-0a34-4ccc-b5e2-48161c519878",
+            "source": "The parameters, `(1st-number 2nd-number)` follow the function name `average`. These are symbols representing the numbers we are going to refer to later in the procedure.",
+            "type": "message",
+            "parentId": "c04059d1-a4db-4d64-a972-0f5acd045087",
+            "childrenIds": [
+                "ede29f9b-565a-46fa-9fb2-2dc511a9885d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "ede29f9b-565a-46fa-9fb2-2dc511a9885d": {
+            "id": "ede29f9b-565a-46fa-9fb2-2dc511a9885d",
+            "source": "I got it. And for the last sentence of the function, I remember in the first lecture we learned about prefix notation. ",
+            "type": "message",
+            "parentId": "a5c69482-0a34-4ccc-b5e2-48161c519878",
+            "childrenIds": [
+                "163da137-42c5-4b45-8b87-fbf282c9f44b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "1d9c061c-639b-483a-b1d4-890af528cfc0": {
+            "id": "1d9c061c-639b-483a-b1d4-890af528cfc0",
+            "source": "Yes, that’s right. The rest of the definition, `(/ (+ 1st-number 2nd-number) 2)`, is called the body of the procedure. It tells Scheme how to calculate the value of the procedure, in this case sum the numbers and divide by 2.",
+            "type": "message",
+            "parentId": "163da137-42c5-4b45-8b87-fbf282c9f44b",
+            "childrenIds": [
+                "27882e86-9860-4310-b5ee-d8d7f3f28b4b"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "9d5a8494-75f6-4350-99ff-7f49b9749cf1": {
+            "id": "9d5a8494-75f6-4350-99ff-7f49b9749cf1",
+            "source": "## Quiz\nDefine a function named `absolute-value` that calculates the absolute value of a number. If it is a negative number, it should return the negation of it. If it is not a negative number, it should return the same number. \n>\nCheck that\n`(absolute-value -7)` returns 7.\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```scheme\n;write your function here.\n```\n```scheme\n(assert (equal? (absolute-value -10) 10))\n(assert (equal? (absolute-value 20) 20))\n```\n```scheme\n(define (absolute-value x)\n  (if (< x 0)\n      (- x)\n      x))\n```\n:::",
+            "type": "message",
+            "parentId": "3e4be222-9e7c-467b-b377-70eb88c6ef74",
+            "childrenIds": [
+                "19b90f87-2812-405d-acce-335bbab08f28"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "9d5a8494-75f6-4350-99ff-7f49b9749cf1-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "19b90f87-2812-405d-acce-335bbab08f28": {
+            "id": "19b90f87-2812-405d-acce-335bbab08f28",
+            "source": "I think I get it! Can you give us another example?",
+            "type": "message",
+            "parentId": "9d5a8494-75f6-4350-99ff-7f49b9749cf1",
+            "childrenIds": [
+                "e07d4d88-5369-4c59-a610-f39040c6ea1c"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "e07d4d88-5369-4c59-a610-f39040c6ea1c": {
+            "id": "e07d4d88-5369-4c59-a610-f39040c6ea1c",
+            "source": "Of course. Let's define and call a function that would calculate the area of a circle when the radius of the circle is given as an argument, named `area-circle.` And it’ll take one parameter named `rad`. Can you write the first line of the function?",
+            "type": "message",
+            "parentId": "19b90f87-2812-405d-acce-335bbab08f28",
+            "childrenIds": [
+                "00cb87c3-18e0-4471-8f29-0051bdc37457"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_1.scm"
+                ],
+                "codeDiffs": {}
+            },
+            "senderId": "instructor"
+        },
+        "00cb87c3-18e0-4471-8f29-0051bdc37457": {
+            "id": "00cb87c3-18e0-4471-8f29-0051bdc37457",
+            "source": "Yeah, it’ll be…\n\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n```\n```\n```\n```\n```\n:::",
+            "type": "message",
+            "parentId": "e07d4d88-5369-4c59-a610-f39040c6ea1c",
+            "childrenIds": [
+                "d90ed8c7-687a-4e54-bcd8-b0650ea0d3ad"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "00cb87c3-18e0-4471-8f29-0051bdc37457-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "user"
+        },
+        "d90ed8c7-687a-4e54-bcd8-b0650ea0d3ad": {
+            "id": "d90ed8c7-687a-4e54-bcd8-b0650ea0d3ad",
+            "source": "Very good. Now, I’ll add one line to your code.",
+            "type": "message",
+            "parentId": "00cb87c3-18e0-4471-8f29-0051bdc37457",
+            "childrenIds": [
+                "ae5a9b20-d2fb-461a-bd83-4bef0fe433b9"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [
+                    "file_2.scm"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.scm": [
+                        [
+                            1,
+                            "(define (area-circle rad)   \n   (newline)\n)"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.scm",
+                    "startLineNumber": 2,
+                    "startColumn": 4,
+                    "endLineNumber": 2,
+                    "endColumn": 13
+                }
+            ]
+        },
+        "51a70df3-279b-423a-94b8-afbf8ec88a0a": {
+            "id": "51a70df3-279b-423a-94b8-afbf8ec88a0a",
+            "source": "What is `(newline)`?",
+            "type": "message",
+            "parentId": "ae5a9b20-d2fb-461a-bd83-4bef0fe433b9",
+            "childrenIds": [
+                "df8d4e48-4911-4a77-b55e-513455d4f0cf"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "df8d4e48-4911-4a77-b55e-513455d4f0cf": {
+            "id": "df8d4e48-4911-4a77-b55e-513455d4f0cf",
+            "source": "Good question. The `newline` procedure is used to insert a newline character (line break) in the output. It is commonly used to add a new line after displaying some content to the screen. The newline procedure does not take any arguments; it simply adds a newline character to the output stream. \n>\nNow, what do you think this function `area-circle` will do?\n",
+            "type": "message",
+            "parentId": "51a70df3-279b-423a-94b8-afbf8ec88a0a",
+            "childrenIds": [
+                "df237636-482d-4d86-94b1-bab1302a5b24"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "df237636-482d-4d86-94b1-bab1302a5b24": {
+            "id": "df237636-482d-4d86-94b1-bab1302a5b24",
+            "source": "Will it display a new line?",
+            "type": "message",
+            "parentId": "df8d4e48-4911-4a77-b55e-513455d4f0cf",
+            "childrenIds": [
+                "20178aa0-0dc8-4436-9434-f279c78c7e14"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "20178aa0-0dc8-4436-9434-f279c78c7e14": {
+            "id": "20178aa0-0dc8-4436-9434-f279c78c7e14",
+            "source": "That’s correct! Now, I’ll teach you the `(format)` function. The `format` function is used to format the output.",
+            "type": "message",
+            "parentId": "df237636-482d-4d86-94b1-bab1302a5b24",
+            "childrenIds": [
+                "abe7f849-9605-49a2-9c99-cf8addae910f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "abe7f849-9605-49a2-9c99-cf8addae910f": {
+            "id": "abe7f849-9605-49a2-9c99-cf8addae910f",
+            "source": "Yes. We should display the area of the circle with the given radius.\n",
+            "type": "message",
+            "parentId": "20178aa0-0dc8-4436-9434-f279c78c7e14",
+            "childrenIds": [
+                "f9cdc642-23e6-44b8-b564-bad99b163b2d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "f9cdc642-23e6-44b8-b564-bad99b163b2d": {
+            "id": "f9cdc642-23e6-44b8-b564-bad99b163b2d",
+            "source": "That’s right. We multiply pi (let’s say `3.14`) with the square value of the radius to calculate the area. Let's say the radius is `rad`.\n>\nThen what is the s-expression for calculating the area of a circle?\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n(define (area ?)) ;what goes in ?\n```\n```\n```\n```\n(*3.14 rad rad)\n```\n:::\n",
+            "type": "message",
+            "parentId": "abe7f849-9605-49a2-9c99-cf8addae910f",
+            "childrenIds": [
+                "e0b2055a-8eb2-4f49-8a51-59aa185f1c17"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "f9cdc642-23e6-44b8-b564-bad99b163b2d-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "instructor"
+        },
+        "e0b2055a-8eb2-4f49-8a51-59aa185f1c17": {
+            "id": "e0b2055a-8eb2-4f49-8a51-59aa185f1c17",
+            "source": "Very good. Then, we will format the function like this:\n\n```scheme\n(format \"Area is: ~a\" area)\n```\n",
+            "type": "message",
+            "parentId": "f9cdc642-23e6-44b8-b564-bad99b163b2d",
+            "childrenIds": [
+                "812e31be-e25b-4883-b4d3-7d2bba03c734"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.scm": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            "   (format \"Area: ~a\" (* 3.14 rad rad))\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.scm",
+                    "startLineNumber": 3,
+                    "startColumn": 4,
+                    "endLineNumber": 3,
+                    "endColumn": 42
+                }
+            ]
+        },
+        "b10b58a7-7d15-4759-a541-864ed5e94e3f": {
+            "id": "b10b58a7-7d15-4759-a541-864ed5e94e3f",
+            "source": "What is  `~a`?\n",
+            "type": "message",
+            "parentId": "94dc8c50-7215-4084-98b6-9643150a5350",
+            "childrenIds": [
+                "f65bec27-cb4f-4ce9-8065-34e0ce466d8a"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "f65bec27-cb4f-4ce9-8065-34e0ce466d8a": {
+            "id": "f65bec27-cb4f-4ce9-8065-34e0ce466d8a",
+            "source": "In Scheme, `~a` is a format control directive used within the format function for general formatting, including floating-point numbers.\n",
+            "type": "message",
+            "parentId": "b10b58a7-7d15-4759-a541-864ed5e94e3f",
+            "childrenIds": [
+                "cca5c922-53f0-4984-b560-dad811ad2f85"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "cca5c922-53f0-4984-b560-dad811ad2f85": {
+            "id": "cca5c922-53f0-4984-b560-dad811ad2f85",
+            "source": "Oh okay, I got it!",
+            "type": "message",
+            "parentId": "f65bec27-cb4f-4ce9-8065-34e0ce466d8a",
+            "childrenIds": [
+                "0cd6b727-3756-44c1-8a37-27d949e87a5f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "0cd6b727-3756-44c1-8a37-27d949e87a5f": {
+            "id": "0cd6b727-3756-44c1-8a37-27d949e87a5f",
+            "source": "Now, the finished form of this function will look like this.\n",
+            "type": "message",
+            "parentId": "cca5c922-53f0-4984-b560-dad811ad2f85",
+            "childrenIds": [
+                "cddced2b-373e-4d79-b190-1d844975998e"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.scm",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 4,
+                    "endColumn": 2
+                }
+            ]
+        },
+        "cddced2b-373e-4d79-b190-1d844975998e": {
+            "id": "cddced2b-373e-4d79-b190-1d844975998e",
+            "source": "Yeah, I understood!",
+            "type": "message",
+            "parentId": "0cd6b727-3756-44c1-8a37-27d949e87a5f",
+            "childrenIds": [
+                "e8c8dca1-e6b1-4dc0-98ed-1087107ba469"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "e8c8dca1-e6b1-4dc0-98ed-1087107ba469": {
+            "id": "e8c8dca1-e6b1-4dc0-98ed-1087107ba469",
+            "source": "## Quiz\n\nWrite a Scheme function named `cube` that takes a number as its parameter and returns the cube of that number. Use `define` to define the function. \n>\nCheck that `(cube 5)` returns `125`.\n\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n;write your code here.\n```\n```\n(assert (eq? (cube 5) 125))\n```\n```\n(define (cube x)\n   (* x x x)\n)\n```\n:::",
+            "type": "message",
+            "parentId": "cddced2b-373e-4d79-b190-1d844975998e",
+            "childrenIds": [
+                "38b48b5b-e741-4958-b350-ec3f98a1ac18"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "e8c8dca1-e6b1-4dc0-98ed-1087107ba469-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "dd6e7b8e-8417-4a65-93c7-c06ee83fc8db": {
+            "id": "dd6e7b8e-8417-4a65-93c7-c06ee83fc8db",
+            "source": "Great! So this is the end of today’s class. I’ll see you guys in the next lecture!\n",
+            "type": "message",
+            "parentId": "38b48b5b-e741-4958-b350-ec3f98a1ac18",
+            "childrenIds": [
+                "32e0fb8f-60e9-4599-93b9-abd1a0889840"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "fileDiff": {
+                "added": [],
+                "removed": [
+                    "file_2.scm"
+                ],
+                "codeDiffs": {}
+            }
+        },
+        "38b48b5b-e741-4958-b350-ec3f98a1ac18": {
+            "id": "38b48b5b-e741-4958-b350-ec3f98a1ac18",
+            "source": "## Quiz\n\nDefine a function `triangular` that gives the nth triangular number defined as `n(n+1)/2`, and check that:\n`(triangular 10)`\ngives 55.\n:::edit-code\n::language[scheme]\n::environment[scheme]\n```\n;write your code here.\n```\n```\n(assert (equal? (triangular 10) 55))\n```\n```\n(define (triangular x)\n        (/ (* x(+ x 1))2)\n        )\n```\n:::\n",
+            "type": "message",
+            "parentId": "e8c8dca1-e6b1-4dc0-98ed-1087107ba469",
+            "childrenIds": [
+                "dd6e7b8e-8417-4a65-93c7-c06ee83fc8db"
+            ],
+            "shortcutsTo": [],
+            "directives": [
+                {
+                    "id": "38b48b5b-e741-4958-b350-ec3f98a1ac18-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "senderId": "nobody"
+        },
+        "32e0fb8f-60e9-4599-93b9-abd1a0889840": {
+            "id": "32e0fb8f-60e9-4599-93b9-abd1a0889840",
+            "source": "Okay, thank you!\n",
+            "type": "message",
+            "parentId": "dd6e7b8e-8417-4a65-93c7-c06ee83fc8db",
+            "childrenIds": [
+                "de19c47e-9770-4513-8a18-62c52a86dfbe"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "de19c47e-9770-4513-8a18-62c52a86dfbe": {
+            "id": "de19c47e-9770-4513-8a18-62c52a86dfbe",
+            "source": "Thanks!",
+            "type": "message",
+            "parentId": "32e0fb8f-60e9-4599-93b9-abd1a0889840",
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "e0c476f9-6437-444e-9e65-387fca863c0e"
+        },
+        "27882e86-9860-4310-b5ee-d8d7f3f28b4b": {
+            "id": "27882e86-9860-4310-b5ee-d8d7f3f28b4b",
+            "source": "Can you give us an example to write a function?",
+            "type": "message",
+            "parentId": "1d9c061c-639b-483a-b1d4-890af528cfc0",
+            "childrenIds": [
+                "afa80801-c3d3-418a-a485-a0d157b7850d"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "f6fc985c-4a16-4efa-a085-8f1ce97d4584": {
+            "id": "f6fc985c-4a16-4efa-a085-8f1ce97d4584",
+            "source": "Of course. Let's write a function named `square` that returns the square root of a number.",
+            "type": "message",
+            "parentId": "afa80801-c3d3-418a-a485-a0d157b7850d",
+            "childrenIds": [
+                "74485b8b-ee35-4f27-89cb-79fabcdac855"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [
+                    "file_1.scm"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            1,
+                            "(define (square))"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "instructor"
+        },
+        "74485b8b-ee35-4f27-89cb-79fabcdac855": {
+            "id": "74485b8b-ee35-4f27-89cb-79fabcdac855",
+            "source": "Okay. ",
+            "type": "message",
+            "parentId": "f6fc985c-4a16-4efa-a085-8f1ce97d4584",
+            "childrenIds": [
+                "8bfedc78-602c-43c1-b151-39acd90b8d37"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "user"
+        },
+        "8bfedc78-602c-43c1-b151-39acd90b8d37": {
+            "id": "8bfedc78-602c-43c1-b151-39acd90b8d37",
+            "source": "Great, now what argument does this function need to receive in order to calculate the square value?",
+            "type": "message",
+            "parentId": "74485b8b-ee35-4f27-89cb-79fabcdac855",
+            "childrenIds": [
+                "25651708-3241-40b3-a8e1-8c2cd52f70af"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "25651708-3241-40b3-a8e1-8c2cd52f70af": {
+            "id": "25651708-3241-40b3-a8e1-8c2cd52f70af",
+            "source": "The number we're going to square?",
+            "type": "message",
+            "parentId": "8bfedc78-602c-43c1-b151-39acd90b8d37",
+            "childrenIds": [
+                "a88fd58f-20a8-4e2e-84ad-7f8252b9a525"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "(define (square x))"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "user"
+        },
+        "a88fd58f-20a8-4e2e-84ad-7f8252b9a525": {
+            "id": "a88fd58f-20a8-4e2e-84ad-7f8252b9a525",
+            "source": "Yes. Let's put it as `x`.",
+            "type": "message",
+            "parentId": "25651708-3241-40b3-a8e1-8c2cd52f70af",
+            "childrenIds": [
+                "5da6d590-e486-473c-89bd-abef903f5d2f"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 1,
+                    "startColumn": 17,
+                    "endLineNumber": 1,
+                    "endColumn": 18
+                }
+            ]
+        },
+        "5da6d590-e486-473c-89bd-abef903f5d2f": {
+            "id": "5da6d590-e486-473c-89bd-abef903f5d2f",
+            "source": "And we should return the square value, like this?",
+            "type": "message",
+            "parentId": "a88fd58f-20a8-4e2e-84ad-7f8252b9a525",
+            "childrenIds": [
+                "3e4be222-9e7c-467b-b377-70eb88c6ef74"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.scm": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "(define (square x)\n    (* x x))"
+                        ]
+                    ]
+                }
+            },
+            "senderId": "user",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.scm",
+                    "startLineNumber": 2,
+                    "startColumn": 5,
+                    "endLineNumber": 2,
+                    "endColumn": 12
+                }
+            ]
+        },
+        "3e4be222-9e7c-467b-b377-70eb88c6ef74": {
+            "id": "3e4be222-9e7c-467b-b377-70eb88c6ef74",
+            "source": "Perfect!",
+            "type": "message",
+            "parentId": "5da6d590-e486-473c-89bd-abef903f5d2f",
+            "childrenIds": [
+                "9d5a8494-75f6-4350-99ff-7f49b9749cf1"
+            ],
+            "shortcutsTo": [],
+            "directives": [],
+            "senderId": "instructor"
+        },
+        "e677330c-bcf0-40ad-b7f8-a465109daa9d": {
+            "id": "e677330c-bcf0-40ad-b7f8-a465109daa9d",
+            "source": "What can you do with functions in Scheme?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "cee86f4c-e44a-4a30-8d23-042419b19008"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a08e9b19-7417-4edc-97d2-7364a4e0a5d2"
+        },
+        "cee86f4c-e44a-4a30-8d23-042419b19008": {
+            "id": "cee86f4c-e44a-4a30-8d23-042419b19008",
+            "source": "Functions in Scheme are used to perform specific tasks or operations. They allow you to organize your code, make it more modular, and reuse code blocks.\n\nWith functions, you can:\n- Perform mathematical calculations\n- Manipulate strings\n- Control program flow with conditional statements\n- Create loops and iterate over lists or other data structures\n- Define your own custom operations\n\nOverall, functions are an essential part of programming in Scheme as they help in creating efficient and organized code.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "e677330c-bcf0-40ad-b7f8-a465109daa9d"
+        },
+        "812e31be-e25b-4883-b4d3-7d2bba03c734": {
+            "id": "812e31be-e25b-4883-b4d3-7d2bba03c734",
+            "source": "What is `format` function?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "4668fddd-43eb-49bf-8a14-92c346a90259"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e0b2055a-8eb2-4f49-8a51-59aa185f1c17"
+        },
+        "94dc8c50-7215-4084-98b6-9643150a5350": {
+            "id": "94dc8c50-7215-4084-98b6-9643150a5350",
+            "source": "The format function in Scheme is used to format and generate strings based on a format string and optional arguments. It provides a way to create custom string output with specific formatting for different types of data. The format function is quite versatile and allows you to control how data is presented in the output string.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "b10b58a7-7d15-4759-a541-864ed5e94e3f"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4668fddd-43eb-49bf-8a14-92c346a90259"
+        },
+        "e59a29eb-46c9-4558-9b02-3ae4803503b4": {
+            "id": "e59a29eb-46c9-4558-9b02-3ae4803503b4",
+            "source": "## Functions",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "a08e9b19-7417-4edc-97d2-7364a4e0a5d2"
+            ],
+            "shortcutsTo": [],
+            "parentId": "396d4860-a890-411c-a602-d73e42230047",
+            "isAIContent": false
+        },
+        "906ad7ed-a22f-4954-9652-bcaf52d497c0": {
+            "id": "906ad7ed-a22f-4954-9652-bcaf52d497c0",
+            "source": "## Using `Define`",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "0bf43acd-d46c-4f87-833a-400909f991a9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ecc491fb-e870-4864-8450-abd34b98c25f",
+            "isAIContent": false
+        },
+        "c04059d1-a4db-4d64-a972-0f5acd045087": {
+            "id": "c04059d1-a4db-4d64-a972-0f5acd045087",
+            "source": "## Using `Parameters`",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "a5c69482-0a34-4ccc-b5e2-48161c519878"
+            ],
+            "shortcutsTo": [],
+            "parentId": "cbad4700-878e-4941-95b1-ff5c42d595bc"
+        },
+        "163da137-42c5-4b45-8b87-fbf282c9f44b": {
+            "id": "163da137-42c5-4b45-8b87-fbf282c9f44b",
+            "source": "## Body of the function ",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "1d9c061c-639b-483a-b1d4-890af528cfc0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ede29f9b-565a-46fa-9fb2-2dc511a9885d",
+            "isAIContent": false
+        },
+        "afa80801-c3d3-418a-a485-a0d157b7850d": {
+            "id": "afa80801-c3d3-418a-a485-a0d157b7850d",
+            "source": "### Example",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "f6fc985c-4a16-4efa-a085-8f1ce97d4584"
+            ],
+            "shortcutsTo": [],
+            "parentId": "27882e86-9860-4310-b5ee-d8d7f3f28b4b",
+            "isAIContent": false
+        },
+        "ae5a9b20-d2fb-461a-bd83-4bef0fe433b9": {
+            "id": "ae5a9b20-d2fb-461a-bd83-4bef0fe433b9",
+            "source": "## Newline",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "51a70df3-279b-423a-94b8-afbf8ec88a0a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d90ed8c7-687a-4e54-bcd8-b0650ea0d3ad",
+            "isAIContent": false
+        },
+        "4668fddd-43eb-49bf-8a14-92c346a90259": {
+            "id": "4668fddd-43eb-49bf-8a14-92c346a90259",
+            "source": "## `format` function",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "94dc8c50-7215-4084-98b6-9643150a5350"
+            ],
+            "shortcutsTo": [],
+            "parentId": "812e31be-e25b-4883-b4d3-7d2bba03c734",
+            "isAIContent": false
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "e0c476f9-6437-444e-9e65-387fca863c0e": {
+            "id": "e0c476f9-6437-444e-9e65-387fca863c0e",
+            "name": "Participant 3",
+            "color": "var(--vscode-charts-yellow)"
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "black"
+        },
+        "190b7a2c-bb91-4fe7-8541-09c00a439442": {
+            "id": "190b7a2c-bb91-4fe7-8541-09c00a439442",
+            "name": "Participant 5",
+            "color": "var(--vscode-charts-green)"
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "de19c47e-9770-4513-8a18-62c52a86dfbe",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

@@ -1,0 +1,608 @@
+{
+    "id": "c7df5808-06b8-4a55-aed4-e31b610b5072",
+    "cellsById": {
+        "a1d13a33-8572-4e90-a667-1ddc0e2d559e": {
+            "id": "a1d13a33-8572-4e90-a667-1ddc0e2d559e",
+            "source": "# Chapter 3 - Add Data to Cache",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "294c4de5-da07-4b9e-8d5c-c24758ed04a7"
+            ],
+            "shortcutsTo": [],
+            "parentId": false,
+            "fileDiff": {
+                "added": [
+                    "file_1.py"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            1,
+                            "import requests\nimport json\nimport time\n\nCACHE_FNAME = \"cache.json\"\n\ndef _write_to_file(cache, fname):\n    with open(fname, 'w') as outfile:\n        outfile.write(json.dumps(cache, indent=2))\n\ndef _read_from_file(fname):\n    try:\n        with open(fname, 'r') as infile:\n            res = infile.read()\n            return json.loads(res)\n    except:\n        return {}"
+                        ]
+                    ]
+                }
+            }
+        },
+        "d80e1f69-854e-4f72-9c27-2e4a60e4d979": {
+            "id": "d80e1f69-854e-4f72-9c27-2e4a60e4d979",
+            "source": "Sounds good!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "5b56f3fc-f5d7-4b3d-81ac-984fbc1d12b6"
+            ],
+            "shortcutsTo": [],
+            "parentId": "294c4de5-da07-4b9e-8d5c-c24758ed04a7"
+        },
+        "a3779137-b66e-44d8-b6aa-2b550be94662": {
+            "id": "a3779137-b66e-44d8-b6aa-2b550be94662",
+            "source": "This function `add_to_cache` takes four inputs: \n- `cache_file` and `cache_key`: a unique identifier for the cached data \n- `cache_value`: the response data \n- `expiration`: expiration time\n>\nThe function writes the data as a key-value pair (a dictionary object) and adds it to the cache.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "a43f9a57-a652-41fa-be12-3ffa8f9ad5dc"
+            ],
+            "shortcutsTo": [],
+            "parentId": "5b56f3fc-f5d7-4b3d-81ac-984fbc1d12b6",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "# ...(Same as the previous code, see `file_2.py`)\n\ndef add_to_cache(cache_file, cache_key, cache_value, expiration):\n    cache_data = _read_from_file(cache_file)\n    cache_data[cache_key] = {'data': cache_value, 'expiration': expiration}\n    _write_to_file(cache_data, cache_file)"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 3,
+                    "startColumn": 1,
+                    "endLineNumber": 3,
+                    "endColumn": 66
+                }
+            ]
+        },
+        "53f15443-3c08-49b3-b01e-68cd6eb30fc0": {
+            "id": "53f15443-3c08-49b3-b01e-68cd6eb30fc0",
+            "source": "I can explain it.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "8e280f49-1c89-4fdd-ab0a-9e11de15227d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3f45dc62-76a0-47c4-a6f7-6c2d0bdfc888",
+            "editorPointers": []
+        },
+        "5e797951-5680-457c-b7f1-e505766b9fe1": {
+            "id": "5e797951-5680-457c-b7f1-e505766b9fe1",
+            "source": "Yes, please.",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "8a3ba8bb-4d25-48ae-8adf-4700caa997cd"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3f45dc62-76a0-47c4-a6f7-6c2d0bdfc888"
+        },
+        "0e9e3ef7-3811-4c82-ad3c-ea1ca2e9771c": {
+            "id": "0e9e3ef7-3811-4c82-ad3c-ea1ca2e9771c",
+            "source": "That's correct! You've got it. \n>\nThis function allows us to add or update data in the cache, ensuring that the cache file reflects the latest information.\n",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "53f48d67-358c-4841-9242-7b0736bba9a3"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8e280f49-1c89-4fdd-ab0a-9e11de15227d",
+            "editorPointers": []
+        },
+        "53f48d67-358c-4841-9242-7b0736bba9a3": {
+            "id": "53f48d67-358c-4841-9242-7b0736bba9a3",
+            "source": "I see. What other functions do we need to process the cache?\n",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "59ecbd1a-b933-4dd9-a53c-4b5d176085de"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0e9e3ef7-3811-4c82-ad3c-ea1ca2e9771c"
+        },
+        "c795a240-622b-4552-b93b-e4f0b3db542b": {
+            "id": "c795a240-622b-4552-b93b-e4f0b3db542b",
+            "source": "Another function we may need is to clear the current cache. We can do this by using the `_write_to_file` function.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "cb93194b-30aa-4696-a311-45c3a4e044cd"
+            ],
+            "shortcutsTo": [],
+            "parentId": "59ecbd1a-b933-4dd9-a53c-4b5d176085de",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "    _write_to_file(cache_data, cache_file)\n\ndef clear_cache(cache_file=CACHE_FNAME):\n    _write_to_file({}, cache_file)"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 8,
+                    "startColumn": 1,
+                    "endLineNumber": 8,
+                    "endColumn": 41
+                }
+            ]
+        },
+        "cb93194b-30aa-4696-a311-45c3a4e044cd": {
+            "id": "cb93194b-30aa-4696-a311-45c3a4e044cd",
+            "source": "Do you mean writing empty data, like an empty dictionary `{}`, to the file?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "fe39c974-d1f0-4f32-be22-0515225b67b1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "c795a240-622b-4552-b93b-e4f0b3db542b"
+        },
+        "fe39c974-d1f0-4f32-be22-0515225b67b1": {
+            "id": "fe39c974-d1f0-4f32-be22-0515225b67b1",
+            "source": "Exactly! Let's write it together. \n>\nThe function should take an empty dictionary `{}` as the cache and write it to the cache file `CACHE_FNAME`.\n```python\n_write_to_file({}, cache_file)\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "38e8802b-4ab8-4bca-b72b-a6ffbaa44444"
+            ],
+            "shortcutsTo": [],
+            "parentId": "cb93194b-30aa-4696-a311-45c3a4e044cd",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 9,
+                    "startColumn": 5,
+                    "endLineNumber": 9,
+                    "endColumn": 35
+                }
+            ]
+        },
+        "38e8802b-4ab8-4bca-b72b-a6ffbaa44444": {
+            "id": "38e8802b-4ab8-4bca-b72b-a6ffbaa44444",
+            "source": "Now the `CACHE_FNAME` file only contains `{}`?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "12f35de7-3b62-4be3-9dbc-e66f37e6b044"
+            ],
+            "shortcutsTo": [],
+            "parentId": "fe39c974-d1f0-4f32-be22-0515225b67b1"
+        },
+        "12f35de7-3b62-4be3-9dbc-e66f37e6b044": {
+            "id": "12f35de7-3b62-4be3-9dbc-e66f37e6b044",
+            "source": "Yes, you've got it. \n>\nWe've cleared the cache, and now we can write new data to it as needed.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "2e1c8205-c70b-469a-8c27-7f522e572fb2"
+            ],
+            "shortcutsTo": [],
+            "parentId": "38e8802b-4ab8-4bca-b72b-a6ffbaa44444"
+        },
+        "2e1c8205-c70b-469a-8c27-7f522e572fb2": {
+            "id": "2e1c8205-c70b-469a-8c27-7f522e572fb2",
+            "source": "I see. Thank you for the clarification!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "f296a423-2329-4408-bb18-5174c3e15a75"
+            ],
+            "shortcutsTo": [],
+            "parentId": "12f35de7-3b62-4be3-9dbc-e66f37e6b044"
+        },
+        "8a3ba8bb-4d25-48ae-8adf-4700caa997cd": {
+            "id": "8a3ba8bb-4d25-48ae-8adf-4700caa997cd",
+            "source": "Sure. Let's break down the code.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "da52323d-95ff-4329-b153-927d56c1ae94"
+            ],
+            "shortcutsTo": [],
+            "parentId": "5e797951-5680-457c-b7f1-e505766b9fe1"
+        },
+        "da52323d-95ff-4329-b153-927d56c1ae94": {
+            "id": "da52323d-95ff-4329-b153-927d56c1ae94",
+            "source": "This line calls `_read_from_file` function that we declared above and assigns its result to a variable named `cache_data`. \n>\nThe function reads the content of the file specified by `cache_file` and converts it into a Python data structure (e.g., a dictionary) using JSON parsing. \n>\nThe resulting data is stored in the `cache_data` variable.\n```python\ncache_data = _read_from_file(cache_file)\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "3302023b-a765-4321-9060-9126f639e452"
+            ],
+            "shortcutsTo": [],
+            "parentId": "8a3ba8bb-4d25-48ae-8adf-4700caa997cd",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 4,
+                    "startColumn": 5,
+                    "endLineNumber": 4,
+                    "endColumn": 45
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_2.py",
+                    "startLineNumber": 11,
+                    "startColumn": 1,
+                    "endLineNumber": 11,
+                    "endColumn": 28
+                }
+            ]
+        },
+        "3302023b-a765-4321-9060-9126f639e452": {
+            "id": "3302023b-a765-4321-9060-9126f639e452",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "6fa624ff-5216-4e0b-b970-40ec6cf8fc53"
+            ],
+            "shortcutsTo": [],
+            "parentId": "da52323d-95ff-4329-b153-927d56c1ae94"
+        },
+        "6fa624ff-5216-4e0b-b970-40ec6cf8fc53": {
+            "id": "6fa624ff-5216-4e0b-b970-40ec6cf8fc53",
+            "source": "This code adds a new entry to the `cache_data` dictionary. \n>\nThe `cache_key` is the key of the entry and its value is another dictionary that includes two items: \n- `'data'` - which holds the `cache_value` and \n- `'expiration'` indicating when the cached data becomes outdated. \n```python\ncache_data[cache_key] = {'data': \n   cache_value, 'expiration': expiration}\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "0850a88f-b69e-4391-bfb8-f6454ad639d0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3302023b-a765-4321-9060-9126f639e452",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 5,
+                    "startColumn": 5,
+                    "endLineNumber": 5,
+                    "endColumn": 76
+                }
+            ]
+        },
+        "0850a88f-b69e-4391-bfb8-f6454ad639d0": {
+            "id": "0850a88f-b69e-4391-bfb8-f6454ad639d0",
+            "source": "Next Line",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "7f3dce1c-1f4e-456d-8c56-097f8f7ede74"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6fa624ff-5216-4e0b-b970-40ec6cf8fc53"
+        },
+        "7f3dce1c-1f4e-456d-8c56-097f8f7ede74": {
+            "id": "7f3dce1c-1f4e-456d-8c56-097f8f7ede74",
+            "source": "The last line calls the `_write_to_file` that we declared to write the updated `cache_data` dictionary back to the cache file(`cache_file`).\n```python\n_write_to_file(cache_data, cache_file)\n```",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "2a1661b1-7f85-4412-bf5f-76059292e2ee"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0850a88f-b69e-4391-bfb8-f6454ad639d0",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 6,
+                    "startColumn": 5,
+                    "endLineNumber": 6,
+                    "endColumn": 43
+                },
+                {
+                    "type": "pointer",
+                    "filename": "file_2.py",
+                    "startLineNumber": 7,
+                    "startColumn": 1,
+                    "endLineNumber": 7,
+                    "endColumn": 34
+                }
+            ]
+        },
+        "2a1661b1-7f85-4412-bf5f-76059292e2ee": {
+            "id": "2a1661b1-7f85-4412-bf5f-76059292e2ee",
+            "source": "I see, thank you!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "19e02749-cf0c-4883-8e3d-dae177abba90"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7f3dce1c-1f4e-456d-8c56-097f8f7ede74"
+        },
+        "f296a423-2329-4408-bb18-5174c3e15a75": {
+            "id": "f296a423-2329-4408-bb18-5174c3e15a75",
+            "source": "You're welcome. \n>\nIn the next chapter, we'll dive deeper into the concept of the unique identifier (the key) and URL. Stay tuned!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "ccc459a4-8722-4ff1-a2af-f1d16d913c8c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2e1c8205-c70b-469a-8c27-7f522e572fb2"
+        },
+        "294c4de5-da07-4b9e-8d5c-c24758ed04a7": {
+            "id": "294c4de5-da07-4b9e-8d5c-c24758ed04a7",
+            "source": "Welcome back! In the last chapter, we wrote two functions to process the cache file directly.\n>\nNow, let's use them to store retrieved data.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "d80e1f69-854e-4f72-9c27-2e4a60e4d979"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a1d13a33-8572-4e90-a667-1ddc0e2d559e",
+            "fileDiff": {
+                "added": [
+                    "file_2.py"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.py": [
+                        [
+                            -1,
+                            17
+                        ],
+                        [
+                            1,
+                            "# ...(Same as the previous code, see `file_2.py`)"
+                        ]
+                    ],
+                    "file_2.py": [
+                        [
+                            1,
+                            "import requests\nimport json\nimport time\n\nCACHE_FNAME = \"cache.json\"\n\ndef _write_to_file(cache, fname):\n    with open(fname, 'w') as outfile:\n        outfile.write(json.dumps(cache, indent=2))\n\ndef _read_from_file(fname):\n    try:\n        with open(fname, 'r') as infile:\n            res = infile.read()\n            return json.loads(res)\n    except:\n        return {}"
+                        ]
+                    ]
+                }
+            }
+        },
+        "3f45dc62-76a0-47c4-a6f7-6c2d0bdfc888": {
+            "id": "3f45dc62-76a0-47c4-a6f7-6c2d0bdfc888",
+            "source": "Do you want me to explain it in detail?\n",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "53f15443-3c08-49b3-b01e-68cd6eb30fc0",
+                "5e797951-5680-457c-b7f1-e505766b9fe1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3658ae6b-309b-4c22-92d5-867272a81d8d",
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.py",
+                    "startLineNumber": 3,
+                    "startColumn": 54,
+                    "endLineNumber": 3,
+                    "endColumn": 64
+                }
+            ]
+        },
+        "8e280f49-1c89-4fdd-ab0a-9e11de15227d": {
+            "id": "8e280f49-1c89-4fdd-ab0a-9e11de15227d",
+            "source": "So we use `_read_from_file` to convert the cache into a Python dictionary, add the retrieved data to it, and then convert it back to a JSON file using `_write_to_file`.",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "0e9e3ef7-3811-4c82-ad3c-ea1ca2e9771c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "53f15443-3c08-49b3-b01e-68cd6eb30fc0"
+        },
+        "19e02749-cf0c-4883-8e3d-dae177abba90": {
+            "id": "19e02749-cf0c-4883-8e3d-dae177abba90",
+            "source": "You're welcome. Now you may explain it confidently.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "2a1661b1-7f85-4412-bf5f-76059292e2ee"
+        },
+        "ccc459a4-8722-4ff1-a2af-f1d16d913c8c": {
+            "id": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c",
+            "source": "## Quiz 1\n:::multiple-choice\nWhich function is responsible for adding data to the cache along with its expiration time?\n::option[`add_to_cache()`]{correct feedback=\"Correct!\"}\n::option[`_write_to_file()`]{feedback=\"Wrong!\"}\n::option[`clear_cache()`]{feedback=\"Wrong!\"}\n::option[`_read_from_file()`]{feedback=\"Wrong!\"}\n:::",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c-option-4",
+                    "type": "option"
+                }
+            ],
+            "childrenIds": [
+                "32214474-660b-4acf-9c00-67814fba0e9b"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f296a423-2329-4408-bb18-5174c3e15a75"
+        },
+        "32214474-660b-4acf-9c00-67814fba0e9b": {
+            "id": "32214474-660b-4acf-9c00-67814fba0e9b",
+            "source": "## Quiz 2\n:::multiple-choice\nWhat is the purpose of the `clear_cache()` function?\n::option[To remove all data from the cache file]{correct feedback=\"Correct!\"}\n::option[To read data from the cache file]{feedback=\"Wrong!\"}\n::option[To write data to the cache file]{feedback=\"Wrong!\"}\n::option[To add data to the cache file]{feedback=\"Wrong!\"}\n:::",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "32214474-660b-4acf-9c00-67814fba0e9b-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "32214474-660b-4acf-9c00-67814fba0e9b-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "32214474-660b-4acf-9c00-67814fba0e9b-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "32214474-660b-4acf-9c00-67814fba0e9b-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "32214474-660b-4acf-9c00-67814fba0e9b-option-4",
+                    "type": "option"
+                }
+            ],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "ccc459a4-8722-4ff1-a2af-f1d16d913c8c"
+        },
+        "a43f9a57-a652-41fa-be12-3ffa8f9ad5dc": {
+            "id": "a43f9a57-a652-41fa-be12-3ffa8f9ad5dc",
+            "source": "What does `expiration` do?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "3658ae6b-309b-4c22-92d5-867272a81d8d"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a3779137-b66e-44d8-b6aa-2b550be94662"
+        },
+        "3658ae6b-309b-4c22-92d5-867272a81d8d": {
+            "id": "3658ae6b-309b-4c22-92d5-867272a81d8d",
+            "source": "The **expiration time** specifies how long the data is considered valid in the cache. Once the expiration time has passed, the cached data is considered stale and should no longer be used.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "3f45dc62-76a0-47c4-a6f7-6c2d0bdfc888"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a43f9a57-a652-41fa-be12-3ffa8f9ad5dc"
+        },
+        "5b56f3fc-f5d7-4b3d-81ac-984fbc1d12b6": {
+            "id": "5b56f3fc-f5d7-4b3d-81ac-984fbc1d12b6",
+            "source": ">\n### 3.1 - The `add_to_cache` function ",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "a3779137-b66e-44d8-b6aa-2b550be94662"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d80e1f69-854e-4f72-9c27-2e4a60e4d979"
+        },
+        "59ecbd1a-b933-4dd9-a53c-4b5d176085de": {
+            "id": "59ecbd1a-b933-4dd9-a53c-4b5d176085de",
+            "source": ">\n### 3.2 - The `clear_cache` function",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "c795a240-622b-4552-b93b-e4f0b3db542b"
+            ],
+            "shortcutsTo": [],
+            "parentId": "53f48d67-358c-4841-9242-7b0736bba9a3"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "var(--vscode-charts-black)",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "32214474-660b-4acf-9c00-67814fba0e9b",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}

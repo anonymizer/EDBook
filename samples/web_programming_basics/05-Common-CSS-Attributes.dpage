@@ -1,0 +1,1547 @@
+{
+    "id": "d30c2c13-0809-48f4-af94-d323748378a6",
+    "cellsById": {
+        "5f090040-2e72-4b7d-9c6d-cad47c6454b1": {
+            "id": "5f090040-2e72-4b7d-9c6d-cad47c6454b1",
+            "source": "Hi, I've been learning about CSS attributes, and I came across some common ones like font, width, and height. Could you help me understand them better?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b2430b2b-0204-4d6a-9298-d5dc59f6c5b8"
+            ],
+            "shortcutsTo": [],
+            "parentId": false,
+            "isAIContent": false
+        },
+        "b2430b2b-0204-4d6a-9298-d5dc59f6c5b8": {
+            "id": "b2430b2b-0204-4d6a-9298-d5dc59f6c5b8",
+            "source": "Of course! Let's start with the font-related properties. One of the key properties to control font is the `font-family`. It allows you to set the typeface of an element's font. You can choose from various font families, and you can even import fonts from sources like Google Fonts.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "0adb48da-8e65-46f7-ad83-b295669d741c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "5f090040-2e72-4b7d-9c6d-cad47c6454b1",
+            "fileDiff": {
+                "added": [
+                    "file_1.css"
+                ],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.css": [
+                        [
+                            1,
+                            "p {\n  font-family: Arial, sans-serif;\n}\n"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 34
+                }
+            ]
+        },
+        "79e1b300-a011-436d-8896-6a85b93c37a8": {
+            "id": "79e1b300-a011-436d-8896-6a85b93c37a8",
+            "source": "Got it. So, how do I set the font size of an element?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "74160966-5ece-44f3-bf98-06fa55d32765"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0adb48da-8e65-46f7-ad83-b295669d741c"
+        },
+        "74160966-5ece-44f3-bf98-06fa55d32765": {
+            "id": "74160966-5ece-44f3-bf98-06fa55d32765",
+            "source": "The font-size property is used to set the size of the font. You can use different units like pixels, ems, or percentages. These units determine how big or small the text appears on the screen.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "a377a522-739f-4243-8c3d-9b16d0e80261"
+            ],
+            "shortcutsTo": [],
+            "parentId": "79e1b300-a011-436d-8896-6a85b93c37a8",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.css": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            1,
+                            "  font-size: 20px;\n"
+                        ],
+                        [
+                            0,
+                            2
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 19
+                }
+            ]
+        },
+        "a377a522-739f-4243-8c3d-9b16d0e80261": {
+            "id": "a377a522-739f-4243-8c3d-9b16d0e80261",
+            "source": "And what about the weight of the font? How can I make text bold?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "e2182d31-51aa-478e-a219-641d8638e135"
+            ],
+            "shortcutsTo": [],
+            "parentId": "74160966-5ece-44f3-bf98-06fa55d32765"
+        },
+        "e2182d31-51aa-478e-a219-641d8638e135": {
+            "id": "e2182d31-51aa-478e-a219-641d8638e135",
+            "source": "The `font-weight` property is used for that. You can set it to values like normal, bold, bolder, or even numeric values like 100. Depending on the typeface you're using, the available weights may vary. For instance, the bold value makes the text appear thicker and more prominent.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "2a4ceace-dbd4-4bda-81c7-203f36a37048"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a377a522-739f-4243-8c3d-9b16d0e80261",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_1.css": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            "  font-weight: bold;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_1.css",
+                    "startLineNumber": 4,
+                    "startColumn": 3,
+                    "endLineNumber": 4,
+                    "endColumn": 21
+                }
+            ]
+        },
+        "2a4ceace-dbd4-4bda-81c7-203f36a37048": {
+            "id": "2a4ceace-dbd4-4bda-81c7-203f36a37048",
+            "source": "What if I want to set the width and height of an element?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "ed499376-4382-4621-baef-2075736f25a1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e2182d31-51aa-478e-a219-641d8638e135"
+        },
+        "670e3eeb-05d6-472f-ae8a-b4c2aa26f7da": {
+            "id": "670e3eeb-05d6-472f-ae8a-b4c2aa26f7da",
+            "source": "Great question! The `width` and `height` properties control the horizontal and vertical dimensions of an element. \n>\nUnits of width and height are:\n\n- *auto* - Deafault valye calculated by the browser.\n- *length* - px, cs, etc(refer to the length section in MDN)\n- *%* - Define the length in percent of the element (container block)\n- *initial* - Sets the length to its default value\n- *inherit* - The length of height/width will be inherited from its parent element.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "f9232c74-dc9c-48c6-9ead-0ba48b43cc47"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ed499376-4382-4621-baef-2075736f25a1",
+            "fileDiff": {
+                "added": [
+                    "file_2.css"
+                ],
+                "removed": [
+                    "file_1.css"
+                ],
+                "codeDiffs": {
+                    "file_2.css": [
+                        [
+                            1,
+                            "div {\n  height: 300px;\n  width: 100px;\n}\n"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 3,
+                    "endColumn": 16
+                }
+            ]
+        },
+        "f9232c74-dc9c-48c6-9ead-0ba48b43cc47": {
+            "id": "f9232c74-dc9c-48c6-9ead-0ba48b43cc47",
+            "source": "I see. So, can I set a maximum or minimum width and height for an element?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "6f959ff1-39ec-4ea7-b13c-c10cf0ffe1b4"
+            ],
+            "shortcutsTo": [],
+            "parentId": "670e3eeb-05d6-472f-ae8a-b4c2aa26f7da"
+        },
+        "6f959ff1-39ec-4ea7-b13c-c10cf0ffe1b4": {
+            "id": "6f959ff1-39ec-4ea7-b13c-c10cf0ffe1b4",
+            "source": "Absolutely! The `max-width`, `min-width`, `max-height`, and `min-height` properties allow you to set constraints on how wide or tall an element can be. \n>\nFor instance, if you have a responsive design, setting a min-width can prevent the element from becoming too small on smaller screens.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "6b92d6c5-d70e-4e9d-a134-f87ca291eaec"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f9232c74-dc9c-48c6-9ead-0ba48b43cc47",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_2.css": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "  min-width: 400px;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_2.css",
+                    "startLineNumber": 3,
+                    "startColumn": 3,
+                    "endLineNumber": 3,
+                    "endColumn": 20
+                }
+            ]
+        },
+        "6b92d6c5-d70e-4e9d-a134-f87ca291eaec": {
+            "id": "6b92d6c5-d70e-4e9d-a134-f87ca291eaec",
+            "source": "I get it!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "48134faf-1fe0-4e32-9246-799df2fbf405"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6f959ff1-39ec-4ea7-b13c-c10cf0ffe1b4"
+        },
+        "1a212c37-2b07-4404-87fb-ad35b4e50d23": {
+            "id": "1a212c37-2b07-4404-87fb-ad35b4e50d23",
+            "source": "Great; now let's dive into text-related properties. One important property is text-decoration. It determines the decoration added to the text, such as underlining, overlining, or line-through.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "64b8f1eb-fce1-4d12-8c93-9bf7511528e1"
+            ],
+            "shortcutsTo": [],
+            "parentId": "48134faf-1fe0-4e32-9246-799df2fbf405",
+            "fileDiff": {
+                "added": [
+                    "file_3.css"
+                ],
+                "removed": [
+                    "file_2.css"
+                ],
+                "codeDiffs": {
+                    "file_3.css": [
+                        [
+                            1,
+                            "p {\n  text-decoration: underline;\n}"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_3.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 30
+                }
+            ]
+        },
+        "64b8f1eb-fce1-4d12-8c93-9bf7511528e1": {
+            "id": "64b8f1eb-fce1-4d12-8c93-9bf7511528e1",
+            "source": "So, how can I control the alignment of the text within an element?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "caca7ae1-468c-40f4-a092-21fe3337490b"
+            ],
+            "shortcutsTo": [],
+            "parentId": "1a212c37-2b07-4404-87fb-ad35b4e50d23"
+        },
+        "caca7ae1-468c-40f4-a092-21fe3337490b": {
+            "id": "caca7ae1-468c-40f4-a092-21fe3337490b",
+            "source": "The `text-align` property is used for that. It helps you position the text horizontally within an element. You have options like `center`, `left`, `right`, and `justify`.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "b84ea5c3-e029-4a23-9a76-d3140d43643a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "64b8f1eb-fce1-4d12-8c93-9bf7511528e1",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_3.css": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            "  text-align: center;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_3.css",
+                    "startLineNumber": 3,
+                    "startColumn": 3,
+                    "endLineNumber": 3,
+                    "endColumn": 22
+                }
+            ]
+        },
+        "b84ea5c3-e029-4a23-9a76-d3140d43643a": {
+            "id": "b84ea5c3-e029-4a23-9a76-d3140d43643a",
+            "source": "And what about changing the color of the text?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "f841b203-ad33-4843-86ac-b1fdc76d9e3c"
+            ],
+            "shortcutsTo": [],
+            "parentId": "caca7ae1-468c-40f4-a092-21fe3337490b"
+        },
+        "f841b203-ad33-4843-86ac-b1fdc76d9e3c": {
+            "id": "f841b203-ad33-4843-86ac-b1fdc76d9e3c",
+            "source": "The `color` property is used to set the color of the text. You can specify colors using different methods, like color names, hex codes, RGB, and HSL values. There's a wide variety of colors you can choose from.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "660c3025-cc8a-4b8d-b8a0-d56a796a6941"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b84ea5c3-e029-4a23-9a76-d3140d43643a",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_3.css": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            "  color: SteelBlue;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_3.css",
+                    "startLineNumber": 4,
+                    "startColumn": 3,
+                    "endLineNumber": 4,
+                    "endColumn": 20
+                }
+            ]
+        },
+        "660c3025-cc8a-4b8d-b8a0-d56a796a6941": {
+            "id": "660c3025-cc8a-4b8d-b8a0-d56a796a6941",
+            "source": "Awesome, thanks! What about borders? How can I style them?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "2d5435a4-ad2f-4a47-8974-b3b2f3dc1205"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f841b203-ad33-4843-86ac-b1fdc76d9e3c"
+        },
+        "16e7cd4f-6893-490f-8f9f-40f72c49c564": {
+            "id": "16e7cd4f-6893-490f-8f9f-40f72c49c564",
+            "source": "Borders can be styled using properties like `border-style`, `border-width`, and `border-color`. You can determine the style of the border line, its width, and its color. The `border-radius` property is interesting too – it allows you to round the corners of an element's border.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "17ac700c-3013-4f13-983a-6df2637c9749"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2d5435a4-ad2f-4a47-8974-b3b2f3dc1205",
+            "fileDiff": {
+                "added": [
+                    "file_4.css"
+                ],
+                "removed": [
+                    "file_3.css"
+                ],
+                "codeDiffs": {
+                    "file_4.css": [
+                        [
+                            1,
+                            ".box {\n    width: 200px;\n    height: 100px;\n    border-style: solid;\n    border-width: 2px;\n    border-color: red;\n    border-radius: 10px; /* Rounded corners */\n}"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_4.css",
+                    "startLineNumber": 4,
+                    "startColumn": 5,
+                    "endLineNumber": 7,
+                    "endColumn": 47
+                }
+            ]
+        },
+        "17ac700c-3013-4f13-983a-6df2637c9749": {
+            "id": "17ac700c-3013-4f13-983a-6df2637c9749",
+            "source": "That sounds useful. And can I set a shorthand for border properties?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "e6fa2602-4107-4140-9e7c-e804197a9533"
+            ],
+            "shortcutsTo": [],
+            "parentId": "16e7cd4f-6893-490f-8f9f-40f72c49c564"
+        },
+        "e6fa2602-4107-4140-9e7c-e804197a9533": {
+            "id": "e6fa2602-4107-4140-9e7c-e804197a9533",
+            "source": "Absolutely! You can use the `border` shorthand property to set all the individual border properties at once. It's a convenient way to define the border's width, style, and color in a single declaration.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "2b995768-12a2-4ef0-b16a-679509be3033"
+            ],
+            "shortcutsTo": [],
+            "parentId": "17ac700c-3013-4f13-983a-6df2637c9749",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_4.css": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            -1,
+                            3
+                        ],
+                        [
+                            1,
+                            "    border: 2px solid red; /* Border style, width, and color */;\n"
+                        ],
+                        [
+                            0,
+                            2
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_4.css",
+                    "startLineNumber": 4,
+                    "startColumn": 5,
+                    "endLineNumber": 4,
+                    "endColumn": 65
+                }
+            ]
+        },
+        "fac184b3-9270-43ba-bcea-2ffa521cde31": {
+            "id": "fac184b3-9270-43ba-bcea-2ffa521cde31",
+            "source": "Great. Now, onto backgrounds. How can I change an element's background color?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "acc23ea3-5136-497d-9186-f2dda3be910f"
+            ],
+            "shortcutsTo": [],
+            "parentId": "a4415c45-7eee-4be6-9988-912e4064bbbb"
+        },
+        "92fc0f08-5380-4c0b-8e82-3bdfcfa5feba": {
+            "id": "92fc0f08-5380-4c0b-8e82-3bdfcfa5feba",
+            "source": "The `background-color` property is what you're looking for. It's used to set the background color of an element. You can use color names, HEX codes, RGB, and HSL values to define the background color.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "25e71d4e-8f83-4a1e-b579-3b4689088468"
+            ],
+            "shortcutsTo": [],
+            "parentId": "acc23ea3-5136-497d-9186-f2dda3be910f",
+            "fileDiff": {
+                "added": [
+                    "file_5.css"
+                ],
+                "removed": [
+                    "file_4.css"
+                ],
+                "codeDiffs": {
+                    "file_5.css": [
+                        [
+                            1,
+                            "body {\n  background-color: red;\n}"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 25
+                }
+            ]
+        },
+        "25e71d4e-8f83-4a1e-b579-3b4689088468": {
+            "id": "25e71d4e-8f83-4a1e-b579-3b4689088468",
+            "source": "What if I want to use an image as a background?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "2b4a4ef4-b4dd-45b7-b3ab-792b4489326f"
+            ],
+            "shortcutsTo": [],
+            "parentId": "92fc0f08-5380-4c0b-8e82-3bdfcfa5feba"
+        },
+        "0adb48da-8e65-46f7-ad83-b295669d741c": {
+            "id": "0adb48da-8e65-46f7-ad83-b295669d741c",
+            "source": "## Font",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "79e1b300-a011-436d-8896-6a85b93c37a8"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b2430b2b-0204-4d6a-9298-d5dc59f6c5b8",
+            "isAIContent": false
+        },
+        "ed499376-4382-4621-baef-2075736f25a1": {
+            "id": "ed499376-4382-4621-baef-2075736f25a1",
+            "source": "## Width and Height",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "670e3eeb-05d6-472f-ae8a-b4c2aa26f7da"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2a4ceace-dbd4-4bda-81c7-203f36a37048",
+            "isAIContent": false
+        },
+        "48134faf-1fe0-4e32-9246-799df2fbf405": {
+            "id": "48134faf-1fe0-4e32-9246-799df2fbf405",
+            "source": "## Text",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "1a212c37-2b07-4404-87fb-ad35b4e50d23"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6b92d6c5-d70e-4e9d-a134-f87ca291eaec",
+            "isAIContent": false
+        },
+        "2d5435a4-ad2f-4a47-8974-b3b2f3dc1205": {
+            "id": "2d5435a4-ad2f-4a47-8974-b3b2f3dc1205",
+            "source": "## Border",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "16e7cd4f-6893-490f-8f9f-40f72c49c564"
+            ],
+            "shortcutsTo": [],
+            "parentId": "660c3025-cc8a-4b8d-b8a0-d56a796a6941",
+            "isAIContent": false
+        },
+        "acc23ea3-5136-497d-9186-f2dda3be910f": {
+            "id": "acc23ea3-5136-497d-9186-f2dda3be910f",
+            "source": "## Background",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "92fc0f08-5380-4c0b-8e82-3bdfcfa5feba"
+            ],
+            "shortcutsTo": [],
+            "parentId": "fac184b3-9270-43ba-bcea-2ffa521cde31",
+            "isAIContent": false
+        },
+        "2b4a4ef4-b4dd-45b7-b3ab-792b4489326f": {
+            "id": "2b4a4ef4-b4dd-45b7-b3ab-792b4489326f",
+            "source": "You can use the `background-image` property to insert an image as a background. Keep in mind that by default, the image may repeat itself to cover the whole background. Make sure to consider text readability when using background images.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "67123c99-1714-41d9-823c-6e6e81fdec57"
+            ],
+            "shortcutsTo": [],
+            "parentId": "25e71d4e-8f83-4a1e-b579-3b4689088468",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_5.css": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            1,
+                            "  background-image: url(\"pattern.png\");\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 40
+                }
+            ]
+        },
+        "67123c99-1714-41d9-823c-6e6e81fdec57": {
+            "id": "67123c99-1714-41d9-823c-6e6e81fdec57",
+            "source": "That's important to remember. How can I control how the background image repeats?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "f7e311e4-37e1-4536-99cb-e9131a24c0c0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2b4a4ef4-b4dd-45b7-b3ab-792b4489326f"
+        },
+        "f7e311e4-37e1-4536-99cb-e9131a24c0c0": {
+            "id": "f7e311e4-37e1-4536-99cb-e9131a24c0c0",
+            "source": "The `background-repeat` property lets you control how the background image repeats itself. You have options like `repeat-x`, `repeat-y`, and `no-repeat`.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "9482725b-2b00-4664-bded-a350c0a419ae"
+            ],
+            "shortcutsTo": [],
+            "parentId": "67123c99-1714-41d9-823c-6e6e81fdec57",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_5.css": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            "  background-repeat: no-repeat;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.css",
+                    "startLineNumber": 3,
+                    "startColumn": 3,
+                    "endLineNumber": 3,
+                    "endColumn": 32
+                }
+            ]
+        },
+        "9482725b-2b00-4664-bded-a350c0a419ae": {
+            "id": "9482725b-2b00-4664-bded-a350c0a419ae",
+            "source": "Can I position the background image too?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "def50d9d-3167-470c-b44d-c7a5f1d8a754"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f7e311e4-37e1-4536-99cb-e9131a24c0c0"
+        },
+        "def50d9d-3167-470c-b44d-c7a5f1d8a754": {
+            "id": "def50d9d-3167-470c-b44d-c7a5f1d8a754",
+            "source": "Absolutely! The `background-position` property allows you to set the initial position of the background image. You can use keywords, percentage values, or length values to determine where the image starts.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "696ced49-1717-4779-a663-071ed039a4c3"
+            ],
+            "shortcutsTo": [],
+            "parentId": "9482725b-2b00-4664-bded-a350c0a419ae",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_5.css": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            "  background-position: center;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.css",
+                    "startLineNumber": 4,
+                    "startColumn": 3,
+                    "endLineNumber": 4,
+                    "endColumn": 31
+                }
+            ]
+        },
+        "696ced49-1717-4779-a663-071ed039a4c3": {
+            "id": "696ced49-1717-4779-a663-071ed039a4c3",
+            "source": "What's the purpose of the `background-attachment` property?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "67140773-3642-42d3-9a21-8d1df077945e"
+            ],
+            "shortcutsTo": [],
+            "parentId": "def50d9d-3167-470c-b44d-c7a5f1d8a754"
+        },
+        "67140773-3642-42d3-9a21-8d1df077945e": {
+            "id": "67140773-3642-42d3-9a21-8d1df077945e",
+            "source": "The `background-attachment` property controls whether the background image scrolls with the content or remains fixed as the content is scrolled. You can set it to `scroll` or `fixed`.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "7de26edc-1395-4fce-9101-eb01c9d3b79f"
+            ],
+            "shortcutsTo": [],
+            "parentId": "696ced49-1717-4779-a663-071ed039a4c3",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_5.css": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            "  background-attachment: scroll;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_5.css",
+                    "startLineNumber": 5,
+                    "startColumn": 3,
+                    "endLineNumber": 5,
+                    "endColumn": 33
+                }
+            ]
+        },
+        "7de26edc-1395-4fce-9101-eb01c9d3b79f": {
+            "id": "7de26edc-1395-4fce-9101-eb01c9d3b79f",
+            "source": "How does a shorthand for `background` work?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "4dcd995f-0142-4e98-9c08-d386671170e9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "67140773-3642-42d3-9a21-8d1df077945e"
+        },
+        "4dcd995f-0142-4e98-9c08-d386671170e9": {
+            "id": "4dcd995f-0142-4e98-9c08-d386671170e9",
+            "source": "The background shorthand property in CSS allows you to set multiple background-related properties in a single declaration. It's a convenient way to define the background appearance of an element without having to write separate lines of code for each property.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "ed64d0fd-0a84-40da-a0d2-31738a5d27e2"
+            ],
+            "shortcutsTo": [],
+            "parentId": "7de26edc-1395-4fce-9101-eb01c9d3b79f",
+            "fileDiff": {
+                "added": [
+                    "file_6.css"
+                ],
+                "removed": [
+                    "file_5.css"
+                ],
+                "codeDiffs": {
+                    "file_6.css": [
+                        [
+                            1,
+                            "div {\n  background: url(\"background.jpg\") no-repeat center/cover red;\n}\n"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_6.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 64
+                }
+            ]
+        },
+        "9d43f95d-9223-4f7a-b2d2-2451534f1077": {
+            "id": "9d43f95d-9223-4f7a-b2d2-2451534f1077",
+            "source": "Got it! And what's the `visibility` property used for?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "af9078b4-160a-4043-a63b-07f1476ee244"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ed64d0fd-0a84-40da-a0d2-31738a5d27e2"
+        },
+        "0285bc65-2c44-498c-b8c6-2bb760ad9f91": {
+            "id": "0285bc65-2c44-498c-b8c6-2bb760ad9f91",
+            "source": "The `visibility` property determines whether an element is visible or hidden. You have two options: `visible` and `hidden`. When an element is set to `hidden,` it's still there in the layout, but it won't be displayed on the screen.\n\n",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "1db4dc8d-3059-4e77-977d-26706b1b3a56"
+            ],
+            "shortcutsTo": [],
+            "parentId": "af9078b4-160a-4043-a63b-07f1476ee244",
+            "fileDiff": {
+                "added": [
+                    "file_7.css"
+                ],
+                "removed": [
+                    "file_6.css"
+                ],
+                "codeDiffs": {
+                    "file_7.css": [
+                        [
+                            1,
+                            "div{\n  visibility: visible;\n}"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_7.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 23
+                }
+            ]
+        },
+        "1db4dc8d-3059-4e77-977d-26706b1b3a56": {
+            "id": "1db4dc8d-3059-4e77-977d-26706b1b3a56",
+            "source": "That makes sense. How can I adjust margins and paddings around elements?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "4f8bad30-2284-49fa-aca6-1992b1e93733"
+            ],
+            "shortcutsTo": [],
+            "parentId": "0285bc65-2c44-498c-b8c6-2bb760ad9f91"
+        },
+        "929dd2f5-eb9b-4b3c-9a43-d43258fe3aed": {
+            "id": "929dd2f5-eb9b-4b3c-9a43-d43258fe3aed",
+            "source": "Great question! The CSS margin properties control the space around elements, while the padding properties determine the space within an element's defined borders. You can set different heights for each side of the margin and padding. \n- *margin-top / padding-top*\n- *margin-right / padding-right*\n- *margin-bottom / padding-bottom*\n- *margin-left / padding-left*\n>\nUnits of margin and padding:\n>\n- *auto* - Deafault valye calculated by the browser.\n- *length* - px, cs, etc(refer to the length section in MDN)\n- *%* - Define the length in percent of the element (container block)\n- *initial* - Sets the length to its default value\n- *inherit* - The length of height/width will be inherited from its parent element",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "f9fb705a-3fe0-46e9-849c-62fdb8885629"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4f8bad30-2284-49fa-aca6-1992b1e93733",
+            "fileDiff": {
+                "added": [
+                    "file_8.css"
+                ],
+                "removed": [
+                    "file_7.css"
+                ],
+                "codeDiffs": {
+                    "file_8.css": [
+                        [
+                            1,
+                            "div {\n  margin-top: 100px;\n  margin-right: 50px;\n  margin-bottom: 100px;\n  margin-left: 50px;\n}"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_8.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 5,
+                    "endColumn": 21
+                }
+            ]
+        },
+        "f9fb705a-3fe0-46e9-849c-62fdb8885629": {
+            "id": "f9fb705a-3fe0-46e9-849c-62fdb8885629",
+            "source": "I see. Is there a way to use a shorthand for this?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b8234abe-a749-44fd-8d1b-8db0bb313cd0"
+            ],
+            "shortcutsTo": [],
+            "parentId": "929dd2f5-eb9b-4b3c-9a43-d43258fe3aed"
+        },
+        "b8234abe-a749-44fd-8d1b-8db0bb313cd0": {
+            "id": "b8234abe-a749-44fd-8d1b-8db0bb313cd0",
+            "source": "Absolutely! You can use the shorthand property for margins, which allows you to specify the values for the top, right, bottom, and left margins in a single line. \n>\nSimilarly, there's a shorthand property for padding as well. Just remember the order: `top`, `right`, `bottom`, and `left`.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "cbbb3ab1-bbfa-425c-9f7f-e7dd6960e27a"
+            ],
+            "shortcutsTo": [],
+            "parentId": "f9fb705a-3fe0-46e9-849c-62fdb8885629",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_8.css": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            -1,
+                            4
+                        ],
+                        [
+                            1,
+                            "  /* top(25px), right(50px), bottom(75px) and left(100px) */\n  margin: 25px 50px 75px 100px;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_8.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 3,
+                    "endColumn": 32
+                }
+            ]
+        },
+        "cbbb3ab1-bbfa-425c-9f7f-e7dd6960e27a": {
+            "id": "cbbb3ab1-bbfa-425c-9f7f-e7dd6960e27a",
+            "source": "Alright, that's handy! I've seen terms like `block` and `inline` elements. What's the difference?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "09373529-3204-4ba1-90cb-091d7f9d4005"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b8234abe-a749-44fd-8d1b-8db0bb313cd0"
+        },
+        "4b99765e-ab7c-4537-8341-eaba65d4f9bb": {
+            "id": "4b99765e-ab7c-4537-8341-eaba65d4f9bb",
+            "source": "Good question! **Block-level** elements start on a new line and take up the full width of their parent container. You can set their width and height, and they can have margins and padding. \n>\n### Example:\n>\n:::edit-code\n::language[html]\n::environment[html]\n```\n<html>\n<head>\n<style>\n.paragraph_{\n  height: 100px;\n  width: 100px;\n  background: red;\n  color: white;\n}\n\n</style>\n</head>\n<body>\n\n<h2>Block Level Elements</h2>\n<p class=\"paragraph_\">P1</p>\n<p class=\"paragraph_\">P2</p>\n<p class=\"paragraph_\">P3</p>\n\n</body>\n</html>\n```\n:::",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [
+                {
+                    "id": "4b99765e-ab7c-4537-8341-eaba65d4f9bb-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "childrenIds": [
+                "c780b7fd-5893-4638-85b1-9851891bd7ec"
+            ],
+            "shortcutsTo": [],
+            "parentId": "09373529-3204-4ba1-90cb-091d7f9d4005"
+        },
+        "ac5f0cd6-5036-40c0-9b32-b2c39b6d9102": {
+            "id": "ac5f0cd6-5036-40c0-9b32-b2c39b6d9102",
+            "source": "Great! Then, how can I center text, images, and elements?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "d3ae1302-2aa8-4a1e-b0a1-8e5d9733db13"
+            ],
+            "shortcutsTo": [],
+            "parentId": "c780b7fd-5893-4638-85b1-9851891bd7ec"
+        },
+        "96493ae7-6845-405c-a2f2-396b481ae978": {
+            "id": "96493ae7-6845-405c-a2f2-396b481ae978",
+            "source": "Centering content is important for design. For text, you can use the `text-align: center;` property. \n\n",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "3921f61c-8e2f-489b-90a5-864552ca52b3"
+            ],
+            "shortcutsTo": [],
+            "parentId": "d3ae1302-2aa8-4a1e-b0a1-8e5d9733db13",
+            "fileDiff": {
+                "added": [
+                    "file_9.css"
+                ],
+                "removed": [
+                    "file_8.css"
+                ],
+                "codeDiffs": {
+                    "file_9.css": [
+                        [
+                            1,
+                            ".center {\n  text-align: center;\n}"
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_9.css",
+                    "startLineNumber": 2,
+                    "startColumn": 3,
+                    "endLineNumber": 2,
+                    "endColumn": 22
+                }
+            ]
+        },
+        "af9078b4-160a-4043-a63b-07f1476ee244": {
+            "id": "af9078b4-160a-4043-a63b-07f1476ee244",
+            "source": "## Visibility",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "0285bc65-2c44-498c-b8c6-2bb760ad9f91"
+            ],
+            "shortcutsTo": [],
+            "parentId": "9d43f95d-9223-4f7a-b2d2-2451534f1077"
+        },
+        "4f8bad30-2284-49fa-aca6-1992b1e93733": {
+            "id": "4f8bad30-2284-49fa-aca6-1992b1e93733",
+            "source": "# CSS Layout\n## Margin and Padding",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "929dd2f5-eb9b-4b3c-9a43-d43258fe3aed"
+            ],
+            "shortcutsTo": [],
+            "parentId": "1db4dc8d-3059-4e77-977d-26706b1b3a56",
+            "isAIContent": false
+        },
+        "09373529-3204-4ba1-90cb-091d7f9d4005": {
+            "id": "09373529-3204-4ba1-90cb-091d7f9d4005",
+            "source": "## Inline VS Block",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "4b99765e-ab7c-4537-8341-eaba65d4f9bb"
+            ],
+            "shortcutsTo": [],
+            "parentId": "cbbb3ab1-bbfa-425c-9f7f-e7dd6960e27a",
+            "isAIContent": false
+        },
+        "c780b7fd-5893-4638-85b1-9851891bd7ec": {
+            "id": "c780b7fd-5893-4638-85b1-9851891bd7ec",
+            "source": "On the other hand, **inline** elements *don't start on a new line*, and they *only take up as much space as they need*. They can't have top-bottom margin or width properties.\n>\n### Example:\n>\n:::edit-code\n::language[html]\n::environment[html]\n```\n<html>\n<head>\n<style>\n.paragraph{\n  /*height and width are not working in inline*/\n  height: 100px;\n  width: 100px;\n  background: red;\n  color: white;\n  display:inline;\n}\n\n</style>\n</head>\n<body>\n\n<h2>Block Level Elements</h2>\n<p class=\"paragraph\">P1</p>\n<p class=\"paragraph\">P2</p>\n<p class=\"paragraph\">P3</p>\n\n</body>\n</html>\n```\n:::",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [
+                {
+                    "id": "c780b7fd-5893-4638-85b1-9851891bd7ec-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "childrenIds": [
+                "ac5f0cd6-5036-40c0-9b32-b2c39b6d9102"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4b99765e-ab7c-4537-8341-eaba65d4f9bb"
+        },
+        "d3ae1302-2aa8-4a1e-b0a1-8e5d9733db13": {
+            "id": "d3ae1302-2aa8-4a1e-b0a1-8e5d9733db13",
+            "source": "## Alignments\n### Center align text",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "96493ae7-6845-405c-a2f2-396b481ae978"
+            ],
+            "shortcutsTo": [],
+            "parentId": "ac5f0cd6-5036-40c0-9b32-b2c39b6d9102"
+        },
+        "3921f61c-8e2f-489b-90a5-864552ca52b3": {
+            "id": "3921f61c-8e2f-489b-90a5-864552ca52b3",
+            "source": "I got it, then is there a way to center images, too?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "b77e1b8f-76d2-403e-a54c-8cbd84cb9b43"
+            ],
+            "shortcutsTo": [],
+            "parentId": "96493ae7-6845-405c-a2f2-396b481ae978",
+            "isAIContent": false
+        },
+        "eb08a8f1-ff9e-4b3c-9d72-04474b21c361": {
+            "id": "eb08a8f1-ff9e-4b3c-9d72-04474b21c361",
+            "source": "For centering images, you can set their `left` and `right margins` to `auto` and make them `block` elements.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "44e3cfa4-49a0-4b53-9fe2-cf0acae4ba7b"
+            ],
+            "shortcutsTo": [],
+            "parentId": "b77e1b8f-76d2-403e-a54c-8cbd84cb9b43",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_9.css": [
+                        [
+                            -1,
+                            2
+                        ],
+                        [
+                            1,
+                            "img {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_9.css",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 5,
+                    "endColumn": 2
+                }
+            ]
+        },
+        "b77e1b8f-76d2-403e-a54c-8cbd84cb9b43": {
+            "id": "b77e1b8f-76d2-403e-a54c-8cbd84cb9b43",
+            "source": "### Center align Image",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "eb08a8f1-ff9e-4b3c-9d72-04474b21c361"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3921f61c-8e2f-489b-90a5-864552ca52b3"
+        },
+        "44e3cfa4-49a0-4b53-9fe2-cf0acae4ba7b": {
+            "id": "44e3cfa4-49a0-4b53-9fe2-cf0acae4ba7b",
+            "source": "Okay, then what about other elements?",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "3f37eef8-73a2-4156-b4e4-3baf98b953f9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "eb08a8f1-ff9e-4b3c-9d72-04474b21c361",
+            "isAIContent": false
+        },
+        "3f37eef8-73a2-4156-b4e4-3baf98b953f9": {
+            "id": "3f37eef8-73a2-4156-b4e4-3baf98b953f9",
+            "source": "### Center align Elements",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [],
+            "childrenIds": [
+                "4788041d-4db8-46f2-b824-f2a9666be0b9"
+            ],
+            "shortcutsTo": [],
+            "parentId": "44e3cfa4-49a0-4b53-9fe2-cf0acae4ba7b",
+            "isAIContent": false
+        },
+        "4788041d-4db8-46f2-b824-f2a9666be0b9": {
+            "id": "4788041d-4db8-46f2-b824-f2a9666be0b9",
+            "source": "To center other elements, such as divs, set their `margin` to `auto`.",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "6480e4e7-b4b4-498d-8f8e-d32d80f7cb38"
+            ],
+            "shortcutsTo": [],
+            "parentId": "3f37eef8-73a2-4156-b4e4-3baf98b953f9",
+            "fileDiff": {
+                "added": [],
+                "removed": [],
+                "codeDiffs": {
+                    "file_9.css": [
+                        [
+                            -1,
+                            4
+                        ],
+                        [
+                            1,
+                            ".center {\n  margin: auto;\n  width: 50%;\n  border: 3px solid steelblue;\n  text-align: center;\n"
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            "editorPointers": [
+                {
+                    "type": "pointer",
+                    "filename": "file_9.css",
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 6,
+                    "endColumn": 2
+                }
+            ]
+        },
+        "6480e4e7-b4b4-498d-8f8e-d32d80f7cb38": {
+            "id": "6480e4e7-b4b4-498d-8f8e-d32d80f7cb38",
+            "source": "Great! Thank you!",
+            "type": "message",
+            "senderId": "user",
+            "directives": [],
+            "childrenIds": [
+                "465fd14a-937a-4bc6-8a64-b6fc5f8007d6"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4788041d-4db8-46f2-b824-f2a9666be0b9",
+            "isAIContent": false
+        },
+        "465fd14a-937a-4bc6-8a64-b6fc5f8007d6": {
+            "id": "465fd14a-937a-4bc6-8a64-b6fc5f8007d6",
+            "source": "Any time!",
+            "type": "message",
+            "senderId": "instructor",
+            "directives": [],
+            "childrenIds": [
+                "64a4997a-4fea-4d3c-91b4-8fe8640334c4"
+            ],
+            "shortcutsTo": [],
+            "parentId": "6480e4e7-b4b4-498d-8f8e-d32d80f7cb38",
+            "isAIContent": false
+        },
+        "64a4997a-4fea-4d3c-91b4-8fe8640334c4": {
+            "id": "64a4997a-4fea-4d3c-91b4-8fe8640334c4",
+            "source": "## Quiz\n\n:::multiple-choice\nWhat CSS property determines the position of the text within an element?\n::option[`text-decoration`]{feedback=\"Not quite.\"}\n::option[`text-align`]{correct feedback=\"Great!\"}\n::option[`color`]{feedback=\"Not quite\"}\n::option[`text-color`]{feedback=\"Not quite!\"}\n:::",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "64a4997a-4fea-4d3c-91b4-8fe8640334c4-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "64a4997a-4fea-4d3c-91b4-8fe8640334c4-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "64a4997a-4fea-4d3c-91b4-8fe8640334c4-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "64a4997a-4fea-4d3c-91b4-8fe8640334c4-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "64a4997a-4fea-4d3c-91b4-8fe8640334c4-option-4",
+                    "type": "option"
+                }
+            ],
+            "childrenIds": [
+                "1ec3e697-7e46-40d8-9bcc-91d9aab15a29"
+            ],
+            "shortcutsTo": [],
+            "parentId": "465fd14a-937a-4bc6-8a64-b6fc5f8007d6"
+        },
+        "1ec3e697-7e46-40d8-9bcc-91d9aab15a29": {
+            "id": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29",
+            "source": "## Quiz\n\n:::multiple-choice\nWhich of the following is a valid way to represent colors in CSS?\n::option[Colorful words]{feedback=\"Not quite.\"}\n::option[HEX color codes]{correct feedback=\"Great!\"}\n::option[Roman numberals]{feedback=\"Not quite\"}\n::option[ASCII art]{feedback=\"Not quite!\"}\n:::",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29-option-4",
+                    "type": "option"
+                }
+            ],
+            "childrenIds": [],
+            "shortcutsTo": [],
+            "parentId": "64a4997a-4fea-4d3c-91b4-8fe8640334c4"
+        },
+        "2b995768-12a2-4ef0-b16a-679509be3033": {
+            "id": "2b995768-12a2-4ef0-b16a-679509be3033",
+            "source": "## Quiz\n\n:::multiple-choice\nWhich CSS property determines the style of an element's border line?\n::option[`border-style`]{correct feedback=\"Great!\"}\n::option[`border-width`]{feedback=\"Not quite.\"}\n::option[`border-color`]{feedback=\"Not quite\"}\n::option[`border-radius`]{feedback=\"Not quite!\"}\n:::",
+            "type": "message",
+            "senderId": "nobody",
+            "directives": [
+                {
+                    "id": "2b995768-12a2-4ef0-b16a-679509be3033-multiple-choice-1",
+                    "type": "multiple-choice"
+                },
+                {
+                    "id": "2b995768-12a2-4ef0-b16a-679509be3033-option-1",
+                    "type": "option"
+                },
+                {
+                    "id": "2b995768-12a2-4ef0-b16a-679509be3033-option-2",
+                    "type": "option"
+                },
+                {
+                    "id": "2b995768-12a2-4ef0-b16a-679509be3033-option-3",
+                    "type": "option"
+                },
+                {
+                    "id": "2b995768-12a2-4ef0-b16a-679509be3033-option-4",
+                    "type": "option"
+                }
+            ],
+            "childrenIds": [
+                "a4415c45-7eee-4be6-9988-912e4064bbbb"
+            ],
+            "shortcutsTo": [],
+            "parentId": "e6fa2602-4107-4140-9e7c-e804197a9533"
+        },
+        "a4415c45-7eee-4be6-9988-912e4064bbbb": {
+            "id": "a4415c45-7eee-4be6-9988-912e4064bbbb",
+            "source": "## Quiz\n\nCreate a CSS rule to give an element whose id is `my-box`, a border with a width of 2 pixels, a solid line style, and a color of DarkSlateGray. Make sure to use a shortcut command when writing codes.\n:::edit-code\n::language[css]\n::environment[css]\n```\n```\n```\n```\n```\n#my-box {\n    border: 2px solid DarkSlateGray;\n}\n```\n:::",
+            "type": "message",
+            "senderId": "user",
+            "directives": [
+                {
+                    "id": "a4415c45-7eee-4be6-9988-912e4064bbbb-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "childrenIds": [
+                "fac184b3-9270-43ba-bcea-2ffa521cde31"
+            ],
+            "shortcutsTo": [],
+            "parentId": "2b995768-12a2-4ef0-b16a-679509be3033"
+        },
+        "ed64d0fd-0a84-40da-a0d2-31738a5d27e2": {
+            "id": "ed64d0fd-0a84-40da-a0d2-31738a5d27e2",
+            "source": "## Quiz\n\nWrite CSS code to apply a background image to the `<body>` element using the image \"background.jpg\" and set it to not repeat. Also, make sure the background image is fixed in place.\n:::edit-code\n::language[css]\n::environment[css]\n```\n```\n```\n```\n```\nbody {\n    background-image: url(\"background.jpg\");\n    background-repeat: no-repeat;\n    background-attachment: fixed;\n}\n```\n:::",
+            "type": "message",
+            "senderId": "user",
+            "directives": [
+                {
+                    "id": "ed64d0fd-0a84-40da-a0d2-31738a5d27e2-edit-code-1",
+                    "type": "edit-code"
+                }
+            ],
+            "childrenIds": [
+                "9d43f95d-9223-4f7a-b2d2-2451534f1077"
+            ],
+            "shortcutsTo": [],
+            "parentId": "4dcd995f-0142-4e98-9c08-d386671170e9"
+        }
+    },
+    "participants": {
+        "user": {
+            "id": "user",
+            "name": "Student",
+            "color": "var(--vscode-charts-blue)",
+            "description": ""
+        },
+        "instructor": {
+            "id": "instructor",
+            "name": "Instructor",
+            "color": "var(--vscode-charts-red)",
+            "description": ""
+        },
+        "nobody": {
+            "id": "nobody",
+            "name": "Nobody",
+            "color": "var(--vscode-charts-black)",
+            "description": ""
+        }
+    },
+    "userState": {
+        "visibleCellIds": [],
+        "highlightedCellIds": [],
+        "cellStates": {},
+        "selectedCellId": false
+    },
+    "media": {},
+    "terminalCellId": "1ec3e697-7e46-40d8-9bcc-91d9aab15a29",
+    "dbookformat": 4,
+    "dbookformat_minor": 0
+}
